@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>posts on Zach Stoebner</title>
+    <link>/posts/</link>
+    <description>Recent content in posts on Zach Stoebner</description>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <language>en-US</language>
+    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Mon, 28 Jun 2021 06:59:13 UT</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>intro</title>
+      <link>/posts/intro/</link>
+      <pubDate>Sun, 27 Jun 2021 19:18:39 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/posts/intro/</guid>
+      <description>Introductory post!</description>
+      <content:encoded><![CDATA[Introductory post!
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

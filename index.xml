@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>Zach Stoebner</title>
+    <link>/</link>
+    <description>Recent content on Zach Stoebner</description>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <language>en-US</language>
+    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Mon, 28 Jun 2021 06:59:13 UT</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 28 Jun 2021 04:08:00 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/projects/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>posts</title>
+      <link>/posts/</link>
+      <pubDate>Mon, 28 Jun 2021 04:07:53 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/posts/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>about me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/about/</guid>
+      <description>Hi, I&amp;rsquo;m Zach! I&amp;rsquo;m a grad student researcher at Vanderbilt University in Nashville, TN. I currently work in VISE MedICL applying ML to medical and neuroscientific data &amp;ndash; mainly brain MRI, endoscopic feeds, fMRI, and EEG. I&amp;rsquo;m also intersted in dimensionality reduction, control theory, optimization, and robotics. I am always open to new research opportunities, especially those that align with my interests.
+Check out my projects to see what I&amp;rsquo;m working on!</description>
+      <content:encoded><![CDATA[Hi, I&amp;rsquo;m Zach! I&amp;rsquo;m a grad student researcher at Vanderbilt University in Nashville, TN. I currently work in VISE MedICL applying ML to medical and neuroscientific data &amp;ndash; mainly brain MRI, endoscopic feeds, fMRI, and EEG. I&amp;rsquo;m also intersted in dimensionality reduction, control theory, optimization, and robotics. I am always open to new research opportunities, especially those that align with my interests.
+Check out my projects to see what I&amp;rsquo;m working on!
+ I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, with a minor in applied math. I expect to complete my masters in computer science from Vandy in May 2022.
+ Outside of work, I enjoy exercise, poetry, books, games, and friends.
+ You can contact me at zachary.a.stoebner@vanderbilt.edu.
+GitHub LinkedIn
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
