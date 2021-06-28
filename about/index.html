@@ -20,13 +20,12 @@
     <meta property="og:title" content="about me" />
 <meta property="og:description" content="Who even am I?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/about/" /><meta property="og:image" content="/about/images/profile.jpeg"/><meta property="article:section" content="" />
+<meta property="og:url" content="/about/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2021-06-27T19:24:19-05:00" />
 <meta property="article:modified_time" content="2021-06-27T19:24:19-05:00" />
 
 
-    <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/about/images/profile.jpeg"/>
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="about me"/>
 <meta name="twitter:description" content="Who even am I?"/>
 
@@ -157,6 +156,28 @@ a[itemprop="url"]:hover {
 .hack .help-block {
   color: #e0e0e0;
 }
+
+ul.thumbnail.grid li a:hover figure {
+  filter: initial;
+}
+ul.thumbnail.grid li a figure {
+  position: relative;
+  line-height: 0;
+  margin-bottom: 8px;
+}
+ul.thumbnail.grid li a:hover figure::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(0,0,0,0.1) 0,
+    rgba(0,0,0,0.3) 100%
+  );
+}
 </style>
         
 
@@ -220,15 +241,18 @@ a[itemprop="url"]:hover {
   <header>
     <h1>about me</h1>
   </header>
-  <p><img src="images/profile.jpeg" alt="legends say that the stache is commensurate to my wisdom" style="width:200px;" /></p>
-<p>Hi, I&rsquo;m Zach! I&rsquo;m a grad student researcher at Vanderbilt University in Nashville, TN. I currently work in <a href="https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/">VISE MedICL</a> applying ML to medical and neuroscientific data &ndash; mainly brain MRI, endoscopic feeds, fMRI, and EEG. I&rsquo;m also intersted in dimensionality reduction, control theory, optimization, and robotics. I am always open to new research opportunities, especially those that align with my interests.</p>
+  <figure>
+<img src="image/fun_and_flirty.jpeg" alt="legends say that the stache is commensurate to my wisdom" style="height:500px width:200px;" /> 
+<figcaption>Hi, I'm Zach!</figcaption>
+</figure>
+<p>I do science and solve problems at Vanderbilt University in Nashville, TN. I&rsquo;m currently a graduate student researcher in <a href="https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/">VISE MedICL</a> applying ML to medical and neuroscientific data &ndash; mainly brain MRI, endoscopic feeds, fMRI, and EEG. I&rsquo;m also interested in dimensionality reduction, control theory, optimization, and robotics.</p>
 <p>Check out my projects to see what I&rsquo;m working on!</p>
 <hr>
-<p>I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, with a minor in applied math. I expect to complete my masters in computer science from Vandy in May 2022.</p>
+<p>I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my masters in computer science from Vandy in May 2022. My hometown is Austin, TX.</p>
 <hr>
-<p>Outside of work, I enjoy exercise, poetry, books, games, and friends.</p>
+<p>Outside of research, I enjoy heavy weights, friendship, hendiadys, esports, kombucha, haiku,  cucumber cocktails, and shirtless runs through your neighborhood. Occasionally, I take a good photo.</p>
 <hr>
-<p>You can contact me at <a href="mailto:zachary.a.stoebner@vanderbilt.edu">zachary.a.stoebner@vanderbilt.edu</a>.</p>
+<p>I am always open to new opportunities, especially those that align with my interests. You can contact me at <a href="mailto:zachary.a.stoebner@vanderbilt.edu">zachary.a.stoebner@vanderbilt.edu</a>.</p>
 <p><a href="https://github.com/zstoebs">GitHub</a>
 <a href="https://www.linkedin.com/in/zstoebs/">LinkedIn</a></p>
 

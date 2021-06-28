@@ -158,6 +158,28 @@ a[itemprop="url"]:hover {
 .hack .help-block {
   color: #e0e0e0;
 }
+
+ul.thumbnail.grid li a:hover figure {
+  filter: initial;
+}
+ul.thumbnail.grid li a figure {
+  position: relative;
+  line-height: 0;
+  margin-bottom: 8px;
+}
+ul.thumbnail.grid li a:hover figure::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(0,0,0,0.1) 0,
+    rgba(0,0,0,0.3) 100%
+  );
+}
 </style>
         
 
@@ -232,6 +254,19 @@ a[itemprop="url"]:hover {
     <h1 itemprop="name">
       <a href="/posts/intro/">intro</a>
     </h1>
+    
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>1 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-06-27T14:18:39-05:00">27 Jun, 2021</time>
+
+</p>
     
     
       <blockquote itemprop="headline">This text is displayed in search result listings.</blockquote>

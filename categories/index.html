@@ -158,6 +158,28 @@ a[itemprop="url"]:hover {
 .hack .help-block {
   color: #e0e0e0;
 }
+
+ul.thumbnail.grid li a:hover figure {
+  filter: initial;
+}
+ul.thumbnail.grid li a figure {
+  position: relative;
+  line-height: 0;
+  margin-bottom: 8px;
+}
+ul.thumbnail.grid li a:hover figure::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(0,0,0,0.1) 0,
+    rgba(0,0,0,0.3) 100%
+  );
+}
 </style>
         
 
