@@ -8,17 +8,29 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 28 Jun 2021 19:49:36 UT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jun 2021 05:03:08 UT</lastBuildDate>
     <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Neural Dimensionality Reduction</title>
+      <title>Dimensionality Reduction on Neural Data</title>
       <link>/projects/neural_dim/</link>
       <pubDate>Mon, 28 Jun 2021 01:58:15 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/projects/neural_dim/</guid>
-      <description>In this project &amp;hellip; TODO</description>
-      <content:encoded><![CDATA[In this project &amp;hellip; TODO
-]]></content:encoded>
+      <description>Motivation Contents  PCA applied to a waveform to cell type problem An autoencoder applied to a waveform to cell type problem  Links GitHub repo
+The dataset and article Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.” can be found on the author&amp;rsquo;s GitHub repo.
+References: Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recordings. Nat Neurosci 17, 1500–1509 (2014). https://doi.org/10.1038/nn.3776
+Paninski L, Cunningham JP.</description>
+      <content:encoded><![CDATA[Motivation Contents  PCA applied to a waveform to cell type problem An autoencoder applied to a waveform to cell type problem  Links GitHub repo
+The dataset and article Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.” can be found on the author&amp;rsquo;s GitHub repo.
+References: Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recordings. Nat Neurosci 17, 1500–1509 (2014). https://doi.org/10.1038/nn.3776
+Paninski L, Cunningham JP. Neural data science: accelerating the experiment-analysis- theory cycle in large-scale neuroscience. Curr Opin Neurobiol. 2018 Jun;50:232-241. doi: 10.1016/j.conb.2018.04.007. PMID: 29738986.
+Wu, Tong et al. “Deep Compressive Autoencoder for Action Potential Compression in Large-Scale Neural Recording.” Journal of Neural Engineering 15.6 (2018): n. pag. Journal of Neural Engineering. Web.
+Ladjal, Saïd, Alasdair Newson, and Chi Hieu Pham. “A PCA-like Autoencoder.” arXiv 2 Apr. 2019: n. pag. Print.
+Scree and cumulative explained variance plots 
+Matplotlib 3D scatter plot
+Keras autoencoder guide
+Hyperparameter grid search for Keras:
+ https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/ https://stackoverflow.com/questions/49823192/autoencoder-gridsearch-hyperparameter-tuning-keras https://towardsdatascience.com/autoencoders-for-the-compression-of-stock-market-data-28e8c1a2da3e  ]]></content:encoded>
     </item>
   </channel>
 </rss>
