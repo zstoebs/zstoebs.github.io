@@ -313,12 +313,7 @@ ul.thumbnail.grid li a:hover figure::after {
   <ul>
     <li><a href="#motivation">Motivation</a></li>
     <li><a href="#content">Content</a></li>
-    <li><a href="#method">Method</a>
-      <ul>
-        <li><a href="#dataset">Dataset</a></li>
-        <li><a href="#classification">Classification</a></li>
-      </ul>
-    </li>
+    <li><a href="#method">Method</a></li>
     <li><a href="#results">Results</a></li>
     <li><a href="#future">Future</a></li>
     <li><a href="#references">References</a></li>
@@ -342,14 +337,14 @@ ul.thumbnail.grid li a:hover figure::after {
 <p><a href="https://en.wikipedia.org/wiki/Autoencoder">Autoencoders</a> (AEs) are a deep neural network (DNN) that learns to encode examples in a dataset to a lower dimensional latent vector and then decode the latent vector back to the original example. Usually, AEs learn to project examples to a manifold, i.e., they are <a href="https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction">non-linear DR methods</a>.</p>
 <p>Essentially, this project compares linear vs. non-linear DR.</p>
 <h1 id="method">Method</h1>
-<h2 id="dataset">Dataset</h2>
-<p>The <a href="https://zenodo.org/record/2949959#.X6tuDC9h3RY">dataset</a> and article <a href="http://elifesciences.org/content/4/e12559v1">Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.”</a> can be found on the <a href="https://github.com/sofroniewn/tactile-coding">author&rsquo;s GitHub repo</a>. Of the 16,000 recorded neurons, approx. 30 neurons were recorded for each of 13 subjects. Each recording was comprised of 53 voltage measurements. Overall, the dataset is composed of 302 waveforms. Unavoidably, the dataset is unbalanced; regular spikers comprise 247 of the examples while intermediate spikers only make up 4 examples.</p>
+<p><strong>Dataset</strong>
+The <a href="https://zenodo.org/record/2949959#.X6tuDC9h3RY">dataset</a> and article <a href="http://elifesciences.org/content/4/e12559v1">Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.”</a> can be found on the <a href="https://github.com/sofroniewn/tactile-coding">author&rsquo;s GitHub repo</a>. Of the 16,000 recorded neurons, approx. 30 neurons were recorded for each of 13 subjects. Each recording was comprised of 53 voltage measurements. Overall, the dataset is composed of 302 waveforms. Unavoidably, the dataset is unbalanced; regular spikers comprise 247 of the examples while intermediate spikers only make up 4 examples.</p>
 <figure>
 <img src="image/waveforms.jpg" alt="waveform summaries" style="height:400px;" /> 
 <figcaption><i>Figure 1. Summary of the waveforms with mean waveform (left) and waveform distributions by cell type (right). Note that the mean waveform is essentially the tightly bounded waveform distribution for regular spikers, which dominate the dataset.</i></figcaption>
 </figure>
-<h2 id="classification">Classification</h2>
-<p>To compare and contrast the baseline, PCA, and autoencoding, I implemented a KNN classifier that uses Euclidean distance and majority vote for classification. To find the best number of neighbors given the dataset, I ran it through a standard hyperparameter search using cross-validation and a stratified split of the dataset to mitigate unbalanced classes. Once a good k-value was found, I evaluated the model on the test set, as well as a reclassification of the training set for debugging purposes.</p>
+<p><strong>Classification</strong>
+To compare and contrast the baseline, PCA, and autoencoding, I implemented a KNN classifier that uses Euclidean distance and majority vote for classification. To find the best number of neighbors given the dataset, I ran it through a standard hyperparameter search using cross-validation and a stratified split of the dataset to mitigate unbalanced classes. Once a good k-value was found, I evaluated the model on the test set, as well as a reclassification of the training set for debugging purposes.</p>
 <h1 id="results">Results</h1>
 <p>The experiments for PCA and autoencoding had the same structure: 1. find the best reduced dimensionality, 2. reduce the dataset, and 3. test with KNN.</p>
 <figure>
