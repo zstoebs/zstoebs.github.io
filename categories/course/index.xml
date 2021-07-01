@@ -1,15 +1,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>projects on Zach Stoebner</title>
-    <link>/projects/</link>
-    <description>Recent content in projects on Zach Stoebner</description>
+    <title>course on Zach Stoebner</title>
+    <link>/categories/course/</link>
+    <description>Recent content in course on Zach Stoebner</description>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
     <lastBuildDate>Thu, 01 Jul 2021 21:41:04 UT</lastBuildDate>
-    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dimensionality Reduction on Neural Data</title>
       <link>/projects/neural_dim/</link>

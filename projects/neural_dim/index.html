@@ -11,23 +11,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimensionality Reduction on Neural Data | Zach Stoebner</title>
-    <meta name="description" content="Exploring PCA vs. autoencoder dimensionality reduction in a classification task.">
-    <meta name="keywords" content="">
+    <meta name="description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities.">
+    <meta name="keywords" content="course, ">
     
     
     
     
     <meta property="og:title" content="Dimensionality Reduction on Neural Data" />
-<meta property="og:description" content="Exploring PCA vs. autoencoder dimensionality reduction in a classification task." />
+<meta property="og:description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/projects/neural_dim/" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="/projects/neural_dim/" /><meta property="og:image" content="/projects/neural_dim/image/header.jpeg"/><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2021-06-27T20:58:15-05:00" />
 <meta property="article:modified_time" content="2021-06-27T20:58:15-05:00" />
 
 
-    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/projects/neural_dim/image/header.jpeg"/>
 <meta name="twitter:title" content="Dimensionality Reduction on Neural Data"/>
-<meta name="twitter:description" content="Exploring PCA vs. autoencoder dimensionality reduction in a classification task."/>
+<meta name="twitter:description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities."/>
 
     
 
@@ -238,24 +239,156 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </header>
     <main>
-  <header>
-    <h1>Dimensionality Reduction on Neural Data</h1>
-  </header>
-  <h1 id="motivation">Motivation</h1>
-<h1 id="contents">Contents</h1>
-<ul>
-<li>PCA applied to a waveform to cell type problem</li>
-<li>An autoencoder applied to a waveform to cell type problem</li>
-</ul>
-<h1 id="links">Links</h1>
-<p><a href="https://github.com/zstoebs/neural_dim_reduction">GitHub repo</a></p>
-<p>The <a href="https://zenodo.org/record/2949959#.X6tuDC9h3RY">dataset</a> and article <a href="http://elifesciences.org/content/4/e12559v1">Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.”</a> can be found on the <a href="https://github.com/sofroniewn/tactile-coding">author&rsquo;s GitHub repo</a>.</p>
-<h1 id="references">References:</h1>
+  
+    
+      <style>{{ -}}.hack header figure[itemtype*=ImageObject]{position:relative}.hack header figure[itemtype*=ImageObject] figcaption{position:absolute;bottom:0;right:0;text-align:right;padding:15px;font-style:oblique;font-size:smaller;mix-blend-mode:soft-light}.hack header figure[itemtype*=ImageObject] [itemprop=headline]{font-weight:700}</style>
+    
+  
+  <article itemscope itemtype="https://schema.org/BlogPosting">
+    <meta itemprop="name" content="Dimensionality Reduction on Neural Data">
+<meta itemprop="description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities."><meta itemprop="datePublished" content="2021-06-27T20:58:15-05:00" />
+<meta itemprop="dateModified" content="2021-06-27T20:58:15-05:00" />
+<meta itemprop="wordCount" content="834"><meta itemprop="image" content="/projects/neural_dim/image/header.jpeg">
+<meta itemprop="keywords" content="" />
+    <header>
+      <h1 itemprop="headline name">Dimensionality Reduction on Neural Data</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>4 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-06-27T20:58:15-05:00">27 Jun, 2021</time>
+
+
+      </p>
+      
+        <blockquote itemprop="description">Exploring PCA vs. autoencoder as dimensionality reduction modalities.</blockquote>
+      
+      
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <figure class="ratio-container" aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
+    <link itemprop="contentUrl" href="/projects/neural_dim/image/header.jpeg">
+    <meta itemprop="encodingFormat" content="image/jpeg">
+    <meta itemprop="name" content="header thumbnail">
+    
+    
+    
+    
+    
+    <img
+      itemprop="thumbnailUrl"
+      alt="header thumbnail"
+      class="lazyload blur-up"
+      src="/projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_600x338_fill_q60_box_center.jpeg"
+      srcset="/projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_300x169_fill_q20_box_center.jpeg"
+      data-srcset="/projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_300x169_fill_q20_box_center.jpeg 300w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_600x338_fill_q60_box_center.jpeg 600w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_900x506_fill_q70_box_center.jpeg 900w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_1200x675_fill_q80_box_center.jpeg 1200w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_1600x900_fill_q90_box_center.jpeg 1600w"
+      data-sizes="auto"
+    >
+    
+  </figure>
+
+
+    </header>
+    
+  <details>
+    <summary>Table of Contents</summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#motivation">Motivation</a></li>
+    <li><a href="#content">Content</a></li>
+    <li><a href="#method">Method</a>
+      <ul>
+        <li><a href="#dataset">Dataset</a></li>
+        <li><a href="#classification">Classification</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#future">Future</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </details>
+
+
+    <div itemprop="articleBody">
+      <p><a href="https://github.com/zstoebs/neural_dim_reduction">GitHub</a></p>
+<h1 id="motivation">Motivation</h1>
+<p>As I began learning about ML, I became fascinated by <a href="https://machinelearningmastery.com/dimensionality-reduction-for-machine-learning/">dimensionality reduction </a> (DR) methods. For those that don&rsquo;t know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy.</p>
+<h1 id="content">Content</h1>
+<p>I used this project to put fingers to keyboard and learn through implementation. I explored two avenues, applying</p>
+<ol>
+<li>PCA</li>
+<li>An autoencoder</li>
+</ol>
+<p>to a waveform-to-cell type classification problem.</p>
+<p><a href="https://en.wikipedia.org/wiki/Principal_component_analysis">PCA</a> is the OG DR method. It decomposes the covariance matrix of the dataset to discover components that explain the most variance of the dataset. Then, the dataset is projected onto these components, which often times could .</p>
+<p><a href="https://en.wikipedia.org/wiki/Autoencoder">Autoencoders</a> (AEs) are a deep neural network (DNN) that learns to encode examples in a dataset to a lower dimensional latent vector and then decode the latent vector back to the original example. Usually, AEs learn to project examples to a manifold, i.e., they are <a href="https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction">non-linear DR methods</a>.</p>
+<p>Essentially, this project compares linear vs. non-linear DR.</p>
+<h1 id="method">Method</h1>
+<h2 id="dataset">Dataset</h2>
+<p>The <a href="https://zenodo.org/record/2949959#.X6tuDC9h3RY">dataset</a> and article <a href="http://elifesciences.org/content/4/e12559v1">Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.”</a> can be found on the <a href="https://github.com/sofroniewn/tactile-coding">author&rsquo;s GitHub repo</a>. Of the 16,000 recorded neurons, approx. 30 neurons were recorded for each of 13 subjects. Each recording was comprised of 53 voltage measurements. Overall, the dataset is composed of 302 waveforms. Unavoidably, the dataset is unbalanced; regular spikers comprise 247 of the examples while intermediate spikers only make up 4 examples.</p>
+<figure>
+<img src="image/waveforms.jpg" alt="waveform summaries" style="height:400px;" /> 
+<figcaption><i>Figure 1. Summary of the waveforms with mean waveform (left) and waveform distributions by cell type (right). Note that the mean waveform is essentially the tightly bounded waveform distribution for regular spikers, which dominate the dataset.</i></figcaption>
+</figure>
+<h2 id="classification">Classification</h2>
+<p>To compare and contrast the baseline, PCA, and autoencoding, I implemented a KNN classifier that uses Euclidean distance and majority vote for classification. To find the best number of neighbors given the dataset, I ran it through a standard hyperparameter search using cross-validation and a stratified split of the dataset to mitigate unbalanced classes. Once a good k-value was found, I evaluated the model on the test set, as well as a reclassification of the training set for debugging purposes.</p>
+<h1 id="results">Results</h1>
+<p>The experiments for PCA and autoencoding had the same structure: 1. find the best reduced dimensionality, 2. reduce the dataset, and 3. test with KNN.</p>
+<figure>
+<img src="image/variance.jpg" alt="PCA variance summaries" style="height:400px;" /> 
+<figcaption><i>Figure 2. Scree plot (left) and cumulative explained variance of the first N components (right) from PCA applied to the waveforms.</i></figcaption>
+</figure>
+<figure>
+<img src="image/table1.jpeg" alt="baseline results table" style="height:400px;" /> 
+<figcaption><i>Table 1. Baseline results for a KNN fit on 53-dimensional waveform feature vectors.</i></figcaption>
+</figure>
+<figure>
+<img src="image/table2.jpeg" alt="PCA results table" style="height:400px;" /> 
+<figcaption><i>Table 2. PCA results for a KNN fit on 3- dimensional waveform components.</i></figcaption>
+</figure>
+<figure>
+<img src="image/dim_red_cells.png" alt="PCA results projection" style="height:400px;" /> 
+<figcaption><i>Figure 3. 3D spatial distribution of the waveform principal components from PCA.</i></figcaption>
+</figure>
+<figure>
+<img src="image/table3.jpeg" alt="AE results table" style="height:400px;" /> 
+<figcaption><i>Table 3. Autoencoding results for a KNN fit on 3-dimensional waveform components.</i></figcaption>
+</figure>
+<figure>
+<img src="image/encoded_cells.png" alt="AE results projection" style="height:400px;" /> 
+<figcaption><i>Figure 4. 3D spatial distribution of the encodings from the bottleneck layer of the autoencoder.</i></figcaption>
+</figure>
+<p>For both PCA and autoencoding, the accuracy is only slightly worse than that of the baseline. For PCA, the test accuracy is exactly the same for the 3 seeds while for the autoencoder it is only slightly worse. On the other hand, for the debug accuracy, PCA performs worse than the baseline while the autoencoder performs better. Given that trend, it might suggest that the autoencoder is somewhat overfitting the dataset, diminishing its generalizability. However, the test accuracy suggests that it is not significantly detrimental. All in all, dimensionality reduction still yields data suitable for high performance, even with information loss.</p>
+<h1 id="future">Future</h1>
+<p>PCA is a fixed method but AEs are newer and more flexible. A whole study could be done just exploring AE architectures that yield the best projection for this classification task, not to mention other relevant tasks. Of course, other non-DNN non-linear DR methods could be applied to this dataset, which would be particularly interesting for the classification of waveform to subject. Perhaps one of those methods or an AE would be able to adequately separate these classes, which were not easily separable by PCA when I tried.</p>
+<figure>
+<img src="image/dim_red_subjs.png" alt="PCA subjs results projection" style="height:400px;" /> 
+<figcaption><i>Figure 5. 3D spatial distribution of the waveform principal components from PCA for each subject. PCA could not separate these overlapping classes very well,.</i></figcaption>
+</figure>
+<h1 id="references">References</h1>
 <p>Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recordings. Nat Neurosci 17, 1500–1509 (2014). <a href="https://doi.org/10.1038/nn.3776">https://doi.org/10.1038/nn.3776</a></p>
 <p>Paninski L, Cunningham JP. Neural data science: accelerating the experiment-analysis- theory cycle in large-scale neuroscience. Curr Opin Neurobiol. 2018 Jun;50:232-241. doi: 10.1016/j.conb.2018.04.007. PMID: 29738986.</p>
 <p>Wu, Tong et al. “Deep Compressive Autoencoder for Action Potential Compression in Large-Scale Neural Recording.” Journal of Neural Engineering 15.6 (2018): n. pag. Journal of Neural Engineering. Web.</p>
 <p>Ladjal, Saïd, Alasdair Newson, and Chi Hieu Pham. “A PCA-like Autoencoder.” arXiv 2 Apr. 2019: n. pag. Print.</p>
-<p><a href="https://jmausolf.github.io/code/pca_in_python/">Scree and cumulative explained variance plots </a></p>
+<p><a href="https://jmausolf.github.io/code/pca_in_python/">Scree and cumulative explained variance plots</a></p>
 <p><a href="https://stackabuse.com/seaborn-scatter-plot-tutorial-and-examples/">Matplotlib 3D scatter plot</a></p>
 <p><a href="https://blog.keras.io/building-autoencoders-in-keras.html">Keras autoencoder guide</a></p>
 <p>Hyperparameter grid search for Keras:</p>
@@ -265,6 +398,33 @@ ul.thumbnail.grid li a:hover figure::after {
 <li><a href="https://towardsdatascience.com/autoencoders-for-the-compression-of-stock-market-data-28e8c1a2da3e">https://towardsdatascience.com/autoencoders-for-the-compression-of-stock-market-data-28e8c1a2da3e</a></li>
 </ul>
 
+    </div>
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author">Zach Stoebner</span>
+    
+  
+  <time itemprop="datePublished" datetime="2021-06-27T20:58:15-05:00">
+    27 Jun, 2021
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/course/">course</a></span>
+  
+  
+  using <span itemprop="wordCount">834</span> words.
+</p>
+
+      
+
+
+
+
+    </footer>
+  </article>
 </main>
     <footer>
   <small class="muted">
