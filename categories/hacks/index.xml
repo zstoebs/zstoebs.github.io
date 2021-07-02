@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>posts on Zach Stoebner</title>
-    <link>/posts/</link>
-    <description>Recent content in posts on Zach Stoebner</description>
+    <title>hacks on Zach Stoebner</title>
+    <link>/categories/hacks/</link>
+    <description>Recent content in hacks on Zach Stoebner</description>
     <image>
-      <title>posts on Zach Stoebner</title>
-      <link>/posts/</link>
+      <title>hacks on Zach Stoebner</title>
+      <link>/categories/hacks/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
@@ -14,7 +14,7 @@
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
     <lastBuildDate>Fri, 02 Jul 2021 04:09:47 UT</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/hacks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Fast Inverse Square Root</title>
       <link>/posts/fast-inv-sqrt/</link>
@@ -34,18 +34,6 @@ The reason for casting the floating point y to a long should be fairly obvious; 
 Part 3 The third step is a little esoteric but not as technical as the second step. As with everything on computers, the numbers computed prior to this step are just an approximation. Due to all of the assumptions previously made (e.g. that the halving above isn’t floored for an odd number, that our chosen mu is accurate, etc.), we need to correct by some amount. Cue the Newton Iteration, which computes the error of x from a root for the function y. For this problem, the function is f(y) = 1/y^2 - x which rearranges to y = 1/sqrt(x) when y is a root (e.g. f(y) = 0). We need to compute x_new = x - f(x)/f’(x). Breaking down the derivative of a function: the derivative is described by the tangent line and where it intercepts the x-axis, composing the triangle below:
  A useful reference for a function derivative.  Since the ratio of the shifts times the shift in x equals the shift in y, the shift in x can be solved for as the shift in y divided by the ratio which ends up as: f(x)/f’(x). The actual implementation details of this aren’t made clear by the video, nor is the function derivative computed and I’m quite uncertain about which variable we take the derivative from, x or y. Nonetheless, it results in a static expression without any division operators required.
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>blog intro &amp; intentions</title>
-      <link>/posts/intro/</link>
-      <pubDate>Sun, 27 Jun 2021 19:18:39 UT</pubDate>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/posts/intro/</guid>
-      <description>Welcome!</description>
-      <category domain="/categories/intro">Intro</category>
-      <content:encoded><![CDATA[ Catiator: A Gladiator meme ... but different  Welcome!
-To inaugurate this blog, here are my intentions:
- To collect and structure what I learn and ideate To hopefully help and entertain weary travelers and passersby  ]]></content:encoded>
     </item>
   </channel>
 </rss>

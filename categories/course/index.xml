@@ -4,21 +4,26 @@
     <title>course on Zach Stoebner</title>
     <link>/categories/course/</link>
     <description>Recent content in course on Zach Stoebner</description>
+    <image>
+      <title>course on Zach Stoebner</title>
+      <link>/categories/course/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 01 Jul 2021 21:54:30 UT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jul 2021 04:09:47 UT</lastBuildDate>
     <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dimensionality Reduction on Neural Data</title>
-      <link>/projects/neural_dim/</link>
+      <link>/projects/neural-dim/</link>
       <pubDate>Mon, 28 Jun 2021 01:58:15 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/neural_dim/</guid>
+      <guid>/projects/neural-dim/</guid>
       <description>As I began learning about ML, I became fascinated by dimensionality reduction methods. For those that don&amp;rsquo;t know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy.</description>
       <category domain="/categories/course">Course</category>
-      <content:encoded><![CDATA[GitHub
+      <content:encoded><![CDATA[ A shallow autoencoder&#39;s projection of 53-dimensional vectors to 3 dimensions.  GitHub
 Motivation As I began learning about ML, I became fascinated by dimensionality reduction  (DR) methods. For those that don&amp;rsquo;t know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy.
 Content I used this project to put fingers to keyboard and learn through implementation. I explored two avenues, applying
  PCA An autoencoder  to a waveform-to-cell type classification problem.

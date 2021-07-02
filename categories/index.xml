@@ -4,17 +4,62 @@
     <title>Categories on Zach Stoebner</title>
     <link>/categories/</link>
     <description>Recent content in Categories on Zach Stoebner</description>
+    <image>
+      <title>Categories on Zach Stoebner</title>
+      <link>/categories/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 01 Jul 2021 21:54:30 UT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jul 2021 04:09:47 UT</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hacks</title>
+      <link>/categories/hacks/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/hacks/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>math</title>
+      <link>/categories/math/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/math/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>programming</title>
+      <link>/categories/programming/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/programming/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>personal</title>
+      <link>/categories/personal/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/personal/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>course</title>
       <link>/categories/course/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/course/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>intro</title>
+      <link>/categories/intro/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/intro/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

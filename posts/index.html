@@ -11,8 +11,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>posts | Zach Stoebner</title>
-    <meta name="description" content="List of my posts">
-    <meta name="keywords" content="course, ">
+    <meta name="description" content="Check out my blog posts!">
+    <meta name="keywords" content="course, hacks, intro, math, personal, programming, ">
     
     
     
@@ -20,16 +20,20 @@
       <meta name="robots" content="noindex">
     
     <meta property="og:title" content="posts" />
-<meta property="og:description" content="List of my posts" />
+<meta property="og:description" content="Check out my blog posts!" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/posts/" />
+<meta property="og:url" content="/posts/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
 
-    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
+
 <meta name="twitter:title" content="posts"/>
-<meta name="twitter:description" content="List of my posts"/>
+<meta name="twitter:description" content="Check out my blog posts!"/>
 
     
+
+  <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
 
 
 
@@ -249,17 +253,57 @@ ul.thumbnail.grid li a:hover figure::after {
 
 
 
-<article itemprop="citation" itemscope itemtype="https://schema.org/Thing" id="intro">
+<article itemprop="citation" itemscope itemtype="https://schema.org/blog" id="the-fast-inverse-square-root">
   <header>
     <h1 itemprop="name">
-      <a href="/posts/intro/">intro</a>
+      <a href="/posts/fast-inv-sqrt/">The Fast Inverse Square Root</a>
     </h1>
     
     
-      <blockquote itemprop="headline">This text is displayed in search result listings.</blockquote>
+      <blockquote itemprop="headline">Imagine being so perspicacious.</blockquote>
     
   </header>
-  <div itemprop="">Introductory post!</div>
+  <div itemprop=""><pre><code>float Q_rsqrt( float number ) {
+    long i;
+    float x2, y;
+    const float threehalfs = 1.5F;
+    
+    x2 = number * 0.5F;
+    y = number;
+    i = * ( long * ) &amp;y; // part 1
+    i = 0x5f3759df - ( i &gt;&gt; 1 ); // part 2
+    y = * ( float * ) &amp;i;
+    y = y * ( threehalfs - ( x2 * y * y ) ); // part 3
+}
+</code></pre></div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-07-01T22:46:27-05:00">
+  <meta itemprop="dateModified" content="2021-07-01T22:46:27-05:00">
+  
+</article>
+
+  <nav class="readmore">
+    <a itemprop="url" href="/posts/fast-inv-sqrt/">Read More&nbsp;&raquo;</a>
+  </nav>
+
+
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/blog" id="blog-intro--intentions">
+  <header>
+    <h1 itemprop="name">
+      <a href="/posts/intro/">blog intro &amp; intentions</a>
+    </h1>
+    
+    
+      <blockquote itemprop="headline">Briefly outlining my intentions for blog posts.</blockquote>
+    
+  </header>
+  <div itemprop="">Welcome!</div>
   <meta itemprop="inLanguage" content="en-US">
   <meta itemprop="datePublished" content="2021-06-27T14:18:39-05:00">
   <meta itemprop="dateModified" content="2021-06-27T14:18:39-05:00">

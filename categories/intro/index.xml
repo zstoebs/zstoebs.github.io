@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>Zach Stoebner</title>
-    <link>/</link>
-    <description>Recent content on Zach Stoebner</description>
+    <title>intro on Zach Stoebner</title>
+    <link>/categories/intro/</link>
+    <description>Recent content in intro on Zach Stoebner</description>
     <image>
-      <title>Zach Stoebner</title>
-      <link>/</link>
+      <title>intro on Zach Stoebner</title>
+      <link>/categories/intro/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
@@ -14,25 +14,7 @@
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
     <lastBuildDate>Fri, 02 Jul 2021 04:09:47 UT</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>projects</title>
-      <link>/projects/</link>
-      <pubDate>Mon, 28 Jun 2021 04:08:00 UT</pubDate>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>posts</title>
-      <link>/posts/</link>
-      <pubDate>Mon, 28 Jun 2021 04:07:53 UT</pubDate>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/posts/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
+    <atom:link href="/categories/intro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
       <link>/about/</link>
@@ -50,6 +32,18 @@ Check out my projects to see what I&amp;rsquo;m working on!
  I am always open to new opportunities, especially those that align with my interests. You can contact me at zachary.a.stoebner@vanderbilt.edu.
 GitHub LinkedIn goodreads
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>blog intro &amp; intentions</title>
+      <link>/posts/intro/</link>
+      <pubDate>Sun, 27 Jun 2021 19:18:39 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/posts/intro/</guid>
+      <description>Welcome!</description>
+      <category domain="/categories/intro">Intro</category>
+      <content:encoded><![CDATA[ Catiator: A Gladiator meme ... but different  Welcome!
+To inaugurate this blog, here are my intentions:
+ To collect and structure what I learn and ideate To hopefully help and entertain weary travelers and passersby  ]]></content:encoded>
     </item>
   </channel>
 </rss>
