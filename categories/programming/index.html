@@ -11,14 +11,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>programming | Zach Stoebner</title>
-    <meta name="description" content="My personal website">
-    <meta name="keywords" content="course, hacks, intro, math, personal, programming, ">
+    <meta name="description" content="Zach Stoebner&#39;s portfolio website">
+    <meta name="keywords" content="course, cps, haiku, intro, machine learning, math, neuroscience, personal, poetry, programming, quadcopter, renga, robotics, senryu, tanka, ">
     
     
     
     
     <meta property="og:title" content="programming" />
-<meta property="og:description" content="My personal website" />
+<meta property="og:description" content="Zach Stoebner&#39;s portfolio website" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/categories/programming/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
@@ -27,7 +27,7 @@
 <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
 <meta name="twitter:title" content="programming"/>
-<meta name="twitter:description" content="My personal website"/>
+<meta name="twitter:description" content="Zach Stoebner&#39;s portfolio website"/>
 
     
 
@@ -230,7 +230,7 @@ ul.thumbnail.grid li a:hover figure::after {
     
       
       
-        <a itemprop="url" href="/posts/">posts</a>
+        <a itemprop="url" href="/notes/">notes</a>
       
     
   </nav>
@@ -251,38 +251,22 @@ ul.thumbnail.grid li a:hover figure::after {
 
 
 
-<article itemprop="citation" itemscope itemtype="https://schema.org/blog" id="the-fast-inverse-square-root">
+<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="fast-inverse-square-root">
   <header>
     <h1 itemprop="name">
-      <a href="/posts/fast-inv-sqrt/">The Fast Inverse Square Root</a>
+      :: <a href="/notes/fast-inv-sqrt/">fast inverse square root</a>
     </h1>
     
     
-      <blockquote itemprop="headline">Imagine being so perspicacious.</blockquote>
+      <blockquote itemprop="headline">An awe-inspiring C exploit imo.</blockquote>
     
   </header>
-  <div itemprop=""><pre><code>float Q_rsqrt( float number ) {
-    long i;
-    float x2, y;
-    const float threehalfs = 1.5F;
-    
-    x2 = number * 0.5F;
-    y = number;
-    i = * ( long * ) &amp;y; // part 1
-    i = 0x5f3759df - ( i &gt;&gt; 1 ); // part 2
-    y = * ( float * ) &amp;i;
-    y = y * ( threehalfs - ( x2 * y * y ) ); // part 3
-}
-</code></pre></div>
+  <div itemprop="">I found it on <a href="https://www.youtube.com/watch?v=p8u_k2LIZyo">YouTube</a> and, as my friend Nolan reminded me the other night, this algorithm is not new. The <a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root">fast inverse square root</a> shook the nerd world with its implementation in Quake III (1999).</div>
   <meta itemprop="inLanguage" content="en-US">
   <meta itemprop="datePublished" content="2021-07-01T22:46:27-05:00">
   <meta itemprop="dateModified" content="2021-07-01T22:46:27-05:00">
   
 </article>
-
-  <nav class="readmore">
-    <a itemprop="url" href="/posts/fast-inv-sqrt/">Read More&nbsp;&raquo;</a>
-  </nav>
 
 
   

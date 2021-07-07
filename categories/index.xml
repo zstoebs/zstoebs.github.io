@@ -13,13 +13,77 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 04:09:47 UT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jul 2021 19:57:55 UT</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hacks</title>
-      <link>/categories/hacks/</link>
+      <title>haiku</title>
+      <link>/categories/haiku/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/categories/hacks/</guid>
+      <guid>/categories/haiku/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>poetry</title>
+      <link>/categories/poetry/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/poetry/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>renga</title>
+      <link>/categories/renga/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/renga/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>senryu</title>
+      <link>/categories/senryu/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/senryu/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>tanka</title>
+      <link>/categories/tanka/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/tanka/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>course</title>
+      <link>/categories/course/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/course/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>CPS</title>
+      <link>/categories/cps/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/cps/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>quadcopter</title>
+      <link>/categories/quadcopter/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/quadcopter/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>robotics</title>
+      <link>/categories/robotics/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/robotics/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -48,10 +112,18 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>course</title>
-      <link>/categories/course/</link>
+      <title>machine learning</title>
+      <link>/categories/machine-learning/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/categories/course/</guid>
+      <guid>/categories/machine-learning/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>neuroscience</title>
+      <link>/categories/neuroscience/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/neuroscience/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

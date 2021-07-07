@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-07-01T22:46:27-05:00</lastmod>
+    <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/categories/hacks/</loc>
+    <loc>/categories/haiku/</loc>
+    <lastmod>2021-07-05T16:54:04-05:00</lastmod>
+  </url><url>
+    <loc>/notes/haiku-senryu/</loc>
+    <lastmod>2021-07-05T16:54:04-05:00</lastmod>
+  </url><url>
+    <loc>/categories/poetry/</loc>
+    <lastmod>2021-07-05T16:54:04-05:00</lastmod>
+  </url><url>
+    <loc>/categories/renga/</loc>
+    <lastmod>2021-07-05T16:54:04-05:00</lastmod>
+  </url><url>
+    <loc>/categories/senryu/</loc>
+    <lastmod>2021-07-05T16:54:04-05:00</lastmod>
+  </url><url>
+    <loc>/categories/tanka/</loc>
+    <lastmod>2021-07-05T16:54:04-05:00</lastmod>
+  </url><url>
+    <loc>/categories/course/</loc>
+    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
+  </url><url>
+    <loc>/categories/cps/</loc>
+    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
+  </url><url>
+    <loc>/projects/tello-slam/</loc>
+    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
+  </url><url>
+    <loc>/categories/quadcopter/</loc>
+    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
+  </url><url>
+    <loc>/categories/robotics/</loc>
+    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
+  </url><url>
+    <loc>/notes/fast-inv-sqrt/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
     <loc>/categories/math/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
     <loc>/categories/programming/</loc>
-    <lastmod>2021-07-01T22:46:27-05:00</lastmod>
-  </url><url>
-    <loc>/posts/fast-inv-sqrt/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
     <loc>/categories/personal/</loc>
@@ -29,13 +59,16 @@
     <loc>/projects/</loc>
     <lastmod>2021-06-27T23:08:00-05:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>/notes/</loc>
     <lastmod>2021-06-27T23:07:53-05:00</lastmod>
   </url><url>
-    <loc>/categories/course/</loc>
+    <loc>/projects/neural-dim/</loc>
     <lastmod>2021-06-27T20:58:15-05:00</lastmod>
   </url><url>
-    <loc>/projects/neural-dim/</loc>
+    <loc>/categories/machine-learning/</loc>
+    <lastmod>2021-06-27T20:58:15-05:00</lastmod>
+  </url><url>
+    <loc>/categories/neuroscience/</loc>
     <lastmod>2021-06-27T20:58:15-05:00</lastmod>
   </url><url>
     <loc>/about/</loc>
@@ -44,7 +77,7 @@
     <loc>/categories/intro/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
-    <loc>/posts/intro/</loc>
+    <loc>/notes/intro/</loc>
     <lastmod>2021-06-27T14:18:39-05:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
