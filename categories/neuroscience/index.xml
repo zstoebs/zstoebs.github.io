@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 07 Jul 2021 19:57:55 UT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jul 2021 21:35:19 UT</lastBuildDate>
     <atom:link href="/categories/neuroscience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dimensionality reduction on neural data</title>
@@ -26,6 +26,8 @@
       <category domain="/categories/neuroscience">Neuroscience</category>
       <category domain="/categories/machine-learning">Machine Learning</category>
       <content:encoded><![CDATA[ A shallow autoencoder&#39;s projection of 53-dimensional vectors to 3 dimensions.  tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
+Links GitHub
+Paper
 Motivation As I began learning about ML and statistical ML in particular, I became fascinated by dimensionality reduction  (DR) methods. For those that don&amp;rsquo;t know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy.
 Content I used this project to put fingers to keyboard and learn through implementation. I explored two avenues, applying
  PCA An autoencoder  to a waveform-to-cell type classification problem.
@@ -37,9 +39,7 @@ Method Dataset The dataset and article Sofroniew, Nicholas James et al. “Neura
 Results The experiments for PCA and autoencoding had the same structure: 1. find the best reduced dimensionality, 2. reduce the dataset, and 3. test with KNN.
  Figure 2. Scree plot (left) and cumulative explained variance of the first N components (right) from PCA applied to the waveforms.   Table 1. Baseline results for a KNN fit on 53-dimensional waveform feature vectors.   Table 2. PCA results for a KNN fit on 3- dimensional waveform components.   Figure 3. 3D spatial distribution of the waveform principal components from PCA.   Table 3. Autoencoding results for a KNN fit on 3-dimensional waveform components.   Figure 4. 3D spatial distribution of the encodings from the bottleneck layer of the autoencoder.  For both PCA and autoencoding, the accuracy is only slightly worse than that of the baseline. For PCA, the test accuracy is exactly the same for the 3 seeds while for the autoencoder it is only slightly worse. On the other hand, for the debug accuracy, PCA performs worse than the baseline while the autoencoder performs better. Given that trend, it might suggest that the autoencoder is somewhat overfitting the dataset, diminishing its generalizability. However, the test accuracy suggests that it is not significantly detrimental. All in all, dimensionality reduction still yields data suitable for high performance, even with information loss.
 Future PCA is a fixed method but AEs are newer and more flexible. A whole study could be done just exploring AE architectures that yield the best projection for this classification task, not to mention other relevant tasks. Of course, other non-DNN non-linear DR methods could be applied to this dataset, which would be particularly interesting for the classification of waveform to subject. Perhaps one of those methods or an AE would be able to adequately separate these classes, which were not easily separable by PCA when I tried.
- Figure 5. 3D spatial distribution of the waveform principal components from PCA for each subject. PCA could not separate these overlapping classes very well,.  Links GitHub
-Paper
-References Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recordings. Nat Neurosci 17, 1500–1509 (2014). https://doi.org/10.1038/nn.3776
+ Figure 5. 3D spatial distribution of the waveform principal components from PCA for each subject. PCA could not separate these overlapping classes very well,.  References Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recordings. Nat Neurosci 17, 1500–1509 (2014). https://doi.org/10.1038/nn.3776
 Paninski L, Cunningham JP. Neural data science: accelerating the experiment-analysis- theory cycle in large-scale neuroscience. Curr Opin Neurobiol. 2018 Jun;50:232-241. doi: 10.1016/j.conb.2018.04.007. PMID: 29738986.
 Wu, Tong et al. “Deep Compressive Autoencoder for Action Potential Compression in Large-Scale Neural Recording.” Journal of Neural Engineering 15.6 (2018): n. pag. Journal of Neural Engineering. Web.
 Ladjal, Saïd, Alasdair Newson, and Chi Hieu Pham. “A PCA-like Autoencoder.” arXiv 2 Apr. 2019: n. pag. Print.
