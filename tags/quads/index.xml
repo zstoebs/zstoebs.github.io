@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 16:02:36 UT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 17:25:43 UT</lastBuildDate>
     <atom:link href="/tags/quads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>

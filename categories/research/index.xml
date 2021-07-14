@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>research on Zach Stoebner</title>
+    <link>/categories/research/</link>
+    <description>Recent content in research on Zach Stoebner</description>
+    <image>
+      <title>research on Zach Stoebner</title>
+      <link>/categories/research/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <language>en-US</language>
+    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Wed, 14 Jul 2021 17:25:43 UT</lastBuildDate>
+    <atom:link href="/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cortical surface analysis for Huntington&#39;s disease using linear-mixed models</title>
+      <link>/projects/cortical-surface-analysis/</link>
+      <pubDate>Wed, 14 Jul 2021 15:38:19 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/projects/cortical-surface-analysis/</guid>
+      <description></description>
+      <category domain="/categories/research">Research</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+  </channel>
+</rss>
