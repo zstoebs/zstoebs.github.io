@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>course on Zach Stoebner</title>
-    <link>/categories/course/</link>
-    <description>Recent content in course on Zach Stoebner</description>
+    <title>ml on Zach Stoebner</title>
+    <link>/tags/ml/</link>
+    <description>Recent content in ml on Zach Stoebner</description>
     <image>
-      <title>course on Zach Stoebner</title>
-      <link>/categories/course/</link>
+      <title>ml on Zach Stoebner</title>
+      <link>/tags/ml/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
@@ -14,7 +14,7 @@
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
     <lastBuildDate>Wed, 14 Jul 2021 16:02:36 UT</lastBuildDate>
-    <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>visualizing temporal graph networks</title>
       <link>/projects/tgn-viz/</link>

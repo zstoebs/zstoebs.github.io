@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>GNN on Zach Stoebner</title>
+    <title>gnn on Zach Stoebner</title>
     <link>/tags/gnn/</link>
-    <description>Recent content in GNN on Zach Stoebner</description>
+    <description>Recent content in gnn on Zach Stoebner</description>
     <image>
-      <title>GNN on Zach Stoebner</title>
+      <title>gnn on Zach Stoebner</title>
       <link>/tags/gnn/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 06:00:46 UT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 16:02:36 UT</lastBuildDate>
     <atom:link href="/tags/gnn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>visualizing temporal graph networks</title>
@@ -21,9 +21,9 @@
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/projects/tgn-viz/</guid>
-      <description>Visualizing the resulting link prediction graph of a temporal graph network on a Wikipedia dataset.</description>
+      <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset.</description>
       <category domain="/categories/course">Course</category>
-      <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph of a temporal graph network on a Wikipedia dataset.
+      <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset.
 Usage  Clone the repo. cd viz/ python server.py Open the project notebook in Chrome. Safari will likely not work with the server.  Tips:
  If the view cells aren&amp;rsquo;t rendered, run the server endpoint cells. It&amp;rsquo;s a big, complex viz so it may take a while to compute the full graph to a point where you can interact with the views.  Links Observable
 GitHub

@@ -13,10 +13,10 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 06:00:46 UT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 16:02:36 UT</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GNN</title>
+      <title>gnn</title>
       <link>/tags/gnn/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/gnn/</guid>
@@ -24,10 +24,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>machine learning</title>
-      <link>/tags/machine-learning/</link>
+      <title>ml</title>
+      <link>/tags/ml/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/machine-learning/</guid>
+      <guid>/tags/ml/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -72,7 +72,7 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>CPS</title>
+      <title>cps</title>
       <link>/tags/cps/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/cps/</guid>
@@ -80,10 +80,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>quadcopter</title>
-      <link>/tags/quadcopter/</link>
+      <title>quads</title>
+      <link>/tags/quads/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/quadcopter/</guid>
+      <guid>/tags/quads/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -112,10 +112,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>neuroscience</title>
-      <link>/tags/neuroscience/</link>
+      <title>neuro</title>
+      <link>/tags/neuro/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/neuroscience/</guid>
+      <guid>/tags/neuro/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

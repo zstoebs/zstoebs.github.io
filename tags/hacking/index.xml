@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 06:00:46 UT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 16:02:36 UT</lastBuildDate>
     <atom:link href="/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fast inverse square root</title>
@@ -22,8 +22,7 @@
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/notes/fast-inv-sqrt/</guid>
       <description>I found it on YouTube and, as my friend Nolan reminded me the other night, this algorithm is not new. The fast inverse square root shook the nerd world with its implementation in Quake III (1999).</description>
-      <category domain="/categories/math">Math</category>
-      <category domain="/categories/programming">Programming</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[float Q_rsqrt( float number ) { long i; float x2, y; const float threehalfs = 1.5F; x2 = number * 0.5F; y = number; i = * ( long * ) &amp;amp;y; // part 1 i = 0x5f3759df - ( i &amp;gt;&amp;gt; 1 ); // part 2 y = * ( float * ) &amp;amp;i; y = y * ( threehalfs - ( x2 * y * y ) ); // part 3 } I found it on YouTube and, as my friend Nolan reminded me the other night, this algorithm is not new. The fast inverse square root shook the nerd world with its implementation in Quake III (1999).
 Notice that it doesn’t use any division operator which is naturally slow on a digital computer; this algorithm speeds up computation of the inverse square root by 3x compared to conventional division and square root operations. The reason for writing it in C is evident in the first part, although these tricks also have analogs in often in other languages such as C&#43;&#43;, Python, etc. and is thus implemented in those languages as well.
 Part 1 It uses tricks inherent in the language to cast the address of float (aka a float pointer) to a long pointer. The importance of using a long is evinced in the second part because it allows for quick division by 2. Since standard binary numbers, unlike floats, are not disjointed numbers in base 2, a single right bit shift performs floor halving.

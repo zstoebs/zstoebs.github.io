@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>quadcopter on Zach Stoebner</title>
-    <link>/tags/quadcopter/</link>
-    <description>Recent content in quadcopter on Zach Stoebner</description>
+    <title>quads on Zach Stoebner</title>
+    <link>/tags/quads/</link>
+    <description>Recent content in quads on Zach Stoebner</description>
     <image>
-      <title>quadcopter on Zach Stoebner</title>
-      <link>/tags/quadcopter/</link>
+      <title>quads on Zach Stoebner</title>
+      <link>/tags/quads/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 06:00:46 UT</lastBuildDate>
-    <atom:link href="/tags/quadcopter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 16:02:36 UT</lastBuildDate>
+    <atom:link href="/tags/quads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
       <link>/projects/tello-slam/</link>
@@ -82,9 +82,9 @@ Electrical Tape: https://amzn.to/2ls4Niv
 Spacer Kit: https://amzn.to/2NTIyeY
 Drill and Drill Bits: https://amzn.to/2SQrZBK
 Lessons Building a drone is easy, getting it to fly is hard. Soldering, plugging, and fixing hardware to the frame is like legos. Flashing the flight OS onto the Raspberry Pi &#43; Navio2 flight controller is no problem. Finding a functioning ground control software from this century = yikes. Then you just have to pray that it&amp;rsquo;s compatible with your flight controller.
-On a side note, this drone is deceptively big. Although I&amp;rsquo;m not an expert aerospace engineer, I deduce that getting big things to fly is much more of hassle than for small things, especially if you live in an apartment in the city.
+On a side note, this drone is deceptively big. Although I&amp;rsquo;m not an expert aerospace engineer, I deduce that getting big things to fly is much more of a hassle than for small things, especially if you live in an apartment in the city.
 One super fun takeaway: learning how components connect to the whole quad, how they communicate with each other, and how a full-fledged cyberphysical system can come together was extremely rewarding.
-Future Off and on, I may try to get this quad flying. However, it will likely remain a trophy of my first foray into quads, and also a testament to my initial learning curve. As I&amp;rsquo;ve hinted at many times, I soon intend to follow a smaller, cheaper build. Most importantly, I&amp;rsquo;m excited to take what I learned here and apply broadly it to other hardware projects.
+Future Off and on, I may try to get this quad flying. However, it will likely remain a trophy of my first foray into quads, and also a testament to my initial learning curve. As I&amp;rsquo;ve hinted at many times, I soon intend to follow a smaller, cheaper build. Most importantly, I&amp;rsquo;m excited to take what I learned here and apply it broadly to other hardware projects.
 References  Caleb Bergquist, instructor of the long lost Udemy course Joshua Bardwell https://ardupilot.org/copter/docs/common-navio2-overview.html  ]]></content:encoded>
     </item>
   </channel>
