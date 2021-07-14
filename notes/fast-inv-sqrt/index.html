@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fast inverse square root | Zach Stoebner</title>
     <meta name="description" content="An awe-inspiring C exploit imo.">
-    <meta name="keywords" content="course, cps, haiku, intro, machine learning, math, neuroscience, personal, poetry, programming, quadcopter, renga, robotics, senryu, tanka, ">
+    <meta name="keywords" content="C, hacking">
     
     
     
@@ -232,6 +232,11 @@ ul.thumbnail.grid li a:hover figure::after {
         <a itemprop="url" class="active" href="/notes/">notes</a>
       
     
+      
+      
+        <a itemprop="url" href="/categories/">categories</a>
+      
+    
   </nav>
 
 
@@ -241,10 +246,56 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </header>
     <main>
-  <header>
-    <h1>fast inverse square root</h1>
-  </header>
-  <pre><code>float Q_rsqrt( float number ) {
+  
+    
+      <style>{{ -}}.hack header figure[itemtype*=ImageObject]{position:relative}.hack header figure[itemtype*=ImageObject] figcaption{position:absolute;bottom:0;right:0;text-align:right;padding:15px;font-style:oblique;font-size:smaller;mix-blend-mode:soft-light}.hack header figure[itemtype*=ImageObject] [itemprop=headline]{font-weight:700}</style>
+    
+  
+  <article itemscope itemtype="https://schema.org/BlogPosting">
+    <meta itemprop="name" content="fast inverse square root">
+<meta itemprop="description" content="An awe-inspiring C exploit imo."><meta itemprop="datePublished" content="2021-07-01T22:46:27-05:00" />
+<meta itemprop="dateModified" content="2021-07-01T22:46:27-05:00" />
+<meta itemprop="wordCount" content="880"><meta itemprop="image" content="/notes/fast-inv-sqrt/image/deriv.jpg">
+<meta itemprop="keywords" content="C,hacking," />
+    <header>
+      <h1 itemprop="headline name">fast inverse square root</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-01T22:46:27-05:00">1 Jul, 2021</time>
+
+
+      </p>
+      
+        <blockquote itemprop="description">An awe-inspiring C exploit imo.</blockquote>
+      
+      
+
+
+
+    </header>
+    
+  <details>
+    <summary>Table of Contents</summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#part-1">Part 1</a></li>
+    <li><a href="#part-2">Part 2</a></li>
+    <li><a href="#part-3">Part 3</a></li>
+  </ul>
+</nav>
+  </details>
+
+
+    <div itemprop="articleBody">
+      <pre><code>float Q_rsqrt( float number ) {
     long i;
     float x2, y;
     const float threehalfs = 1.5F;
@@ -272,6 +323,35 @@ ul.thumbnail.grid li a:hover figure::after {
 </figure>
 <p>Since the ratio of the shifts times the shift in x equals the shift in y, the shift in x can be solved for as the shift in y divided by the ratio which ends up as: <code>f(x)/f’(x)</code>. The actual implementation details of this aren’t made clear by the video, nor is the function derivative computed and I’m quite uncertain about which variable we take the derivative from, x or y. Nonetheless, it results in a static expression without any division operators required.</p>
 
+    </div>
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author">Zach Stoebner</span>
+    
+  
+  <time itemprop="datePublished" datetime="2021-07-01T22:46:27-05:00">
+    1 Jul, 2021
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/math/">math</a> and <a href="/categories/programming/">programming</a></span>
+  
+  
+    and tagged <a rel="tag" href="/tags/c/">C</a> and <a rel="tag" href="/tags/hacking/">hacking</a>
+  
+  using <span itemprop="wordCount">880</span> words.
+</p>
+
+      
+
+
+
+
+    </footer>
+  </article>
 </main>
     <footer>
   <small class="muted">

@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>face following and vSLAM for a Tello quadcopter | Zach Stoebner</title>
     <meta name="description" content="Tello can do hard things.">
-    <meta name="keywords" content="course, cps, haiku, intro, machine learning, math, neuroscience, personal, poetry, programming, quadcopter, renga, robotics, senryu, tanka, ">
+    <meta name="keywords" content="quadcopter, robotics, CPS">
     
     
     
@@ -232,6 +232,11 @@ ul.thumbnail.grid li a:hover figure::after {
         <a itemprop="url" href="/notes/">notes</a>
       
     
+      
+      
+        <a itemprop="url" href="/categories/">categories</a>
+      
+    
   </nav>
 
 
@@ -241,10 +246,75 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </header>
     <main>
-  <header>
-    <h1>face following and vSLAM for a Tello quadcopter</h1>
-  </header>
-  <p><strong>tl;dr</strong> Implementation of face detection / following and vSLAM on a <a href="https://www.ryzerobotics.com/tello">Ryze Tello</a> using its <a href="https://www.mathworks.com/hardware-support/tello-drone-matlab.html">MATLAB toolkit</a>.</p>
+  
+    
+      <style>{{ -}}.hack header figure[itemtype*=ImageObject]{position:relative}.hack header figure[itemtype*=ImageObject] figcaption{position:absolute;bottom:0;right:0;text-align:right;padding:15px;font-style:oblique;font-size:smaller;mix-blend-mode:soft-light}.hack header figure[itemtype*=ImageObject] [itemprop=headline]{font-weight:700}</style>
+    
+  
+  <article itemscope itemtype="https://schema.org/BlogPosting">
+    <meta itemprop="name" content="face following and vSLAM for a Tello quadcopter">
+<meta itemprop="description" content="Tello can do hard things."><meta itemprop="datePublished" content="2021-07-02T11:46:28-05:00" />
+<meta itemprop="dateModified" content="2021-07-02T11:46:28-05:00" />
+<meta itemprop="wordCount" content="1470"><meta itemprop="image" content="/projects/tello-slam/image/header.jpg">
+<meta itemprop="keywords" content="quadcopter,robotics,CPS," />
+    <header>
+      <h1 itemprop="headline name">face following and vSLAM for a Tello quadcopter</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>7 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-02T11:46:28-05:00">2 Jul, 2021</time>
+
+
+      </p>
+      
+        <blockquote itemprop="description">Tello can do hard things.</blockquote>
+      
+      
+
+
+
+    </header>
+    
+  <details>
+    <summary>Table of Contents</summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#motivation">Motivation</a></li>
+    <li><a href="#contents">Contents</a></li>
+    <li><a href="#method">Method</a>
+      <ul>
+        <li><a href="#face-following">Face Following</a></li>
+        <li><a href="#vslam">vSLAM</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a>
+      <ul>
+        <li><a href="#face-following-1">Face Following</a></li>
+        <li><a href="#vslam-1">vSLAM</a></li>
+      </ul>
+    </li>
+    <li><a href="#future">Future</a></li>
+    <li><a href="#references">References</a>
+      <ul>
+        <li><a href="#papers">Papers</a></li>
+        <li><a href="#code">Code</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </details>
+
+
+    <div itemprop="articleBody">
+      <p><strong>tl;dr</strong> Implementation of face detection / following and vSLAM on a <a href="https://www.ryzerobotics.com/tello">Ryze Tello</a> using its <a href="https://www.mathworks.com/hardware-support/tello-drone-matlab.html">MATLAB toolkit</a>.</p>
 <h1 id="links">Links</h1>
 <p><a href="https://github.com/zstoebs/tello_detection_SLAM">GitHub</a></p>
 <p><a href="/doc/eece6356_paper.pdf">Paper</a></p>
@@ -348,6 +418,35 @@ simultaneous localization and mapping: Toward the robust-perception age,” IEEE
 <li><a href="https://github.com/dji-sdk/Tello-Python">TelloPython</a></li>
 </ul>
 
+    </div>
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author">Zach Stoebner</span>
+    
+  
+  <time itemprop="datePublished" datetime="2021-07-02T11:46:28-05:00">
+    2 Jul, 2021
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/course/">course</a></span>
+  
+  
+    and tagged <a rel="tag" href="/tags/cps/">CPS</a>, <a rel="tag" href="/tags/quadcopter/">quadcopter</a> and <a rel="tag" href="/tags/robotics/">robotics</a>
+  
+  using <span itemprop="wordCount">1470</span> words.
+</p>
+
+      
+
+
+
+
+    </footer>
+  </article>
 </main>
     <footer>
   <small class="muted">

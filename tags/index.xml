@@ -13,7 +13,111 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 07 Jul 2021 21:35:19 UT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 06:00:46 UT</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GNN</title>
+      <link>/tags/gnn/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/gnn/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>machine learning</title>
+      <link>/tags/machine-learning/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>viz</title>
+      <link>/tags/viz/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/viz/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>haiku</title>
+      <link>/tags/haiku/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/haiku/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>renga</title>
+      <link>/tags/renga/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/renga/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>senryu</title>
+      <link>/tags/senryu/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/senryu/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>tanka</title>
+      <link>/tags/tanka/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/tanka/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>CPS</title>
+      <link>/tags/cps/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/cps/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>quadcopter</title>
+      <link>/tags/quadcopter/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/quadcopter/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>robotics</title>
+      <link>/tags/robotics/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/robotics/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>C</title>
+      <link>/tags/c/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/c/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>hacking</title>
+      <link>/tags/hacking/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/hacking/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>neuroscience</title>
+      <link>/tags/neuroscience/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/neuroscience/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
   </channel>
 </rss>

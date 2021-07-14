@@ -1,0 +1,91 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>CPS on Zach Stoebner</title>
+    <link>/tags/cps/</link>
+    <description>Recent content in CPS on Zach Stoebner</description>
+    <image>
+      <title>CPS on Zach Stoebner</title>
+      <link>/tags/cps/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <language>en-US</language>
+    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Wed, 14 Jul 2021 06:00:46 UT</lastBuildDate>
+    <atom:link href="/tags/cps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>face following and vSLAM for a Tello quadcopter</title>
+      <link>/projects/tello-slam/</link>
+      <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/projects/tello-slam/</guid>
+      <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
+      <category domain="/categories/course">Course</category>
+      <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
+Links GitHub
+Paper
+Motivation Following my quad build experience, I set the intention of continuing to work with and learn more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection &amp;amp; following and SLAM. Face detection &amp;amp; following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image&amp;rsquo;s center. vSLAM on the other hand is more interesting in my opinion. For those that don&amp;rsquo;t know: simultaneous localization &amp;amp; mapping (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it.
+Contents  main.m: control flow script to demonstrate each of these on the Tello. follow.m: face detection and following algorithm that returns the movement vector required to center the drone on the detected face, if there is one. vslam.m: implements vSLAM using the drone&amp;rsquo;s pinhole camera given a predetermined movement sequence that should be cycled a handful of times.  Method Face Following Algorithm:
+ Pass the frame to the object detector and retrieve a bounding box location(s) for the detected object. Draw boxes around all of the detected images. Use the closest bounding box’s width and center coordinates to compute the relative axis change as a percentage of the max. Based on some threshold percentage and some minimum movement distance, set the axes distances and return them to be used in a move command.    Fig 1. Face following schematic. An image is passed to the cascade object detector. The detector draws a bounding box around the face. The centering vector from the current center to the center of the bounding box is computed. The UAV moves in the direction of the centering vector while maintaining a safe, specified distance.  vSLAM This vSLAM implementation breaks down into three key parts: map initialization, tracking and local mapping.
+Starting with map initialization, the steps are as follows:
+ Track the ORB features on the first image to load the pre-points, then track a second image. Match the ORB feature correspondences between the two images. If enough matches are made (100), compute the homography and fundamental matrices so that the correct geometric transform is applied based on which results in the least error for the relative camera pose. If insufficient matches are made, then the loop restarts on a new image. Manually, the loop has a maximum of 5 iterations to find a matched image until an error is thrown. If a match is not made in 5 iterations, it may imply that the Tello has weak connection and low light and needs to be reset. Triangulate the 3D locations of the matched features in the new map.  For tracking:
+ Move the drone according to the modulus of the current move index by the length of the move sequence. If the Tello loses connection and throws an error, loop back to see if connection is regained, changing no indices except a break iteration countdown of 10. Throw the error if the break countdown expires. Extract ORB features from the frame and match with the latest keyframe. If the new frame is not a keyframe, continue the loop. Estimate the camera pose with Perspective-n-Point [10] in order to project the features to the current frames perspective and correct using some bundle adjustments[8]. This step, although esoteric, is important for the fast computation of that ORB-SLAM offers compared to the competition. Determine if the current frame is a key frame given the criteria. If so, the process continues to local mapping. Else, the loop iterates, and the above steps are redone for the next frame. Additionally, this step also speeds up the process; instead of evaluating all of the features in every frame for mapping, only a select few that are substantially different are filtered for usage.  The local mapping steps are as follows:
+ Add the new keyframe to the set. Compare the keyframes features against all the other keyframe features, looking for unmatched points that occur in at least 3 other keyframes. Bundle adjust the pose based on the adjacent keyframes’ poses.   Fig 2. Visual ORB-SLAM schematic. The process starts by initializing the map with two initial frames from the camera. During the initialization the UAV jiggles up and down to snapshot slightly different pairs of images with different feature extractions but still with some matches. If the map initializes, then the program proceeds to the main loop where it first tracks the features on a new frame. If the frame is a keyframe, then the new features are updated into the map. If the frame is not a keyframe, then the loop continues. At the start of each loop iteration, the UAV executes the next move in the sequence.  Results Face Following   Fig 3. Examples of when my face is detected. Looking at the Tello (left) and not looking at the Tello (right). Nonetheless, it still detects my face and doesn’t pick up much noise, even in low light.     Fig 4. Example of face misclassification. These misclassifications typically occur when there is no face in view of the camera. Otherwise, they are rare and not noticeable during a face following run.   Face following was easy to implement. The ony hindrance was the occasional misclassification confusing the Tello, causing it to align with that &amp;ldquo;face&amp;rdquo;. You can see from these face detection frames that a bounding box computed. From here, the distance to the target can be inferred from the area of the bounding box and the alignment offset can be inferred from the bounding box center&amp;rsquo;s distance from the frame&amp;rsquo;s center.
+vSLAM   Fig 5. Example of a map initialization feature match. Typically, the map initialized and I could get a sense of where the features were.     Fig 6. Examples of good (left) and average (right) feature extraction. Often times, the good initial feature extractions really set the momentum for how the rest of the main loop would turn out. Notice that the busier nearby area with more edges acquires more features.     Fig 7. Examples of map plots and estimated trajectories and camera pose. Both of the movement sequences were left and right images and that the number on the camera indicates that there were 10 keyframes in this vSLAM run.  vSLAM was a much harder task to get right. One crux of the system was the speed at which the Tello captured frames; for vSLAM to work well, frames need to be captured in quick succession, with very slight movements. Precisely moving the Tello proved to be very challenging with the MATLAB toolkit, plus an indoor environment where the Tello&amp;rsquo;s own gusts from its propellers reflected off of hard surfaces would significantly alter its course. Regardless, the system was still able to generate a point cloud and update location within the map.
+Future  Streamline main.m with user input to guide the program and improve the functionality of vslam.m as best I can for Tello. Implement general object detection alongside the face detection pipeline. Add autonomous movement based on point cloud &amp;ndash;&amp;gt; remove need for a predetermined path. The implementations here are stepping stones to some more intelligent autonomous UAV behavior. I have the idea that I&amp;rsquo;ll implemennt path planning on a Tello as well. Once I have that, I may integrate these three features into a Tello hide-n-seek project.  References Papers P. Viola and M. Jones, “Rapid Object Detection using a Boosted Cascade of Simple Features,” 2001 Comput. Vis. Pattern Recognit., 2001.
+E. Rublee, V. Rabaud, K. Konolige, and G. Bradski, “ORB: An efficient alternative to SIFT or SURF,” Proc. IEEE Int. Conf. Comput. Vis., pp. 2564–2571, 2011, doi: 10.1109/ICCV.2011.6126544.
+C. Cadena et al., “Past, present, and future of simultaneous localization and mapping: Toward the robust-perception age,” IEEE Trans. Robot., vol. 32, no. 6, pp. 1309–1332, 2016, doi: 10.1109/TRO.2016.2624754.
+R. Mur-Artal, J. M. M. Montiel, and J. D. Tardos, “ORB-SLAM: A Versatile and Accurate Monocular SLAM System,” IEEE Trans. Robot., vol. 31, no. 5, pp. 1147–1163, 2015, doi: 10.1109/TRO.2015.2463671.
+B. Williams and I. Reid, “On combining visual SLAM and visual odometry,” Proc. - IEEE Int. Conf. Robot. Autom., pp. 3494–3500, 2010, doi: 10.1109/ROBOT.2010.5509248.
+Code  The vslam.m code is modified from the vSLAM Matlab example.  References from my first exposure to quad programming and face detection:
+ TelloTV TelloPython  ]]></content:encoded>
+    </item>
+    <item>
+      <title>quadcopter build</title>
+      <link>/projects/quad-build/</link>
+      <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/projects/quad-build/</guid>
+      <description>A life-changing introduction to quadcopters and robotics in which I learned a lot about the ecosystem and constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!</description>
+      <category domain="/categories/personal">Personal</category>
+      <content:encoded><![CDATA[ My fully built quadcopter on the ground, not flying... yet.  tl;dr A life-changing introduction to quadcopters and robotics in which I learned a lot about the ecosystem and constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!
+Motivation As much as I like software, I also like hardware. I quickly realized that pure computer science wasn&amp;rsquo;t going to expose me to much hardware so I took it upon myself in summer 2020 &amp;ndash; mid-quarantine &amp;ndash; to teach myself. At the time, I was stumbling down a rabbit hole and obsessing over quadcopters, yet I had never laid my hands on one. To me at the time, building a quad from parts was as good a place to start as any.
+Cost To make the journey as painless as possible, I followed a build from a $15 Udemy course that was apparently not a moneymaker because it is no longer listed. The build that I followed was not current; the drone industry moves fast and parts will shift in and out of compatibility. You can find potentially better, much cheaper, sufficiently thorough builds on YouTube. The community is dedicated so up-to-date build guides are very likely.
+If you don&amp;rsquo;t need tools, then this build is approx $500. Again, there are budget drone builds, that are current and probably more satisfying &amp;ndash; don&amp;rsquo;t reinvent the wheel. Or, you could buy a $100 Tello and program the hell out of it.
+Part List Disclaimer: some of these parts may no longer be available.
+Raspberry Pi: https://amzn.to/2mrd72g
+NAVIO Kit (Need Power module, wires and GPS): https://store.emlid.com/product/navio2/?wpam_id=3
+ESCs 4 PACK: https://amzn.to/2kTweBt
+Motors 4 PACK: https://amzn.to/2ltKilA
+RC Controller: https://amzn.to/2n05Zdq
+Frame: https://amzn.to/2mSmNCW
+Props: https://amzn.to/2my3w9C
+Battery: https://amzn.to/2kSlzHe
+Battery Charger: https://amzn.to/2kXA1hi
+Telemetry: https://amzn.to/2myfH6l
+LiPo Fire-proof Case: https://amzn.to/2lsRu1i
+PPM Encoder: https://amzn.to/2n1hjWR
+Micro SD Card: https://amzn.to/2lvcJiS
+Micro SD to USB: https://amzn.to/2n09yQQ
+Battery Connector: https://amzn.to/2ltOP7A or https://amzn.to/2n0a3KI
+GPS Mount: https://amzn.to/2luGOiz
+Velcro Straps: https://amzn.to/2lsloTe
+Scotch Mounting Tape: https://amzn.to/2mSsdxM
+Zip Ties: https://amzn.to/2lveUTA
+Additional tools if needed:
+Soldering Iron Kit: https://amzn.to/2kZklKw
+Helping Hands: https://amzn.to/2lvfxwq
+Allen Wrench: https://amzn.to/2mVFfus
+Electrical Tape: https://amzn.to/2ls4Niv
+Spacer Kit: https://amzn.to/2NTIyeY
+Drill and Drill Bits: https://amzn.to/2SQrZBK
+Lessons Building a drone is easy, getting it to fly is hard. Soldering, plugging, and fixing hardware to the frame is like legos. Flashing the flight OS onto the Raspberry Pi &#43; Navio2 flight controller is no problem. Finding a functioning ground control software from this century = yikes. Then you just have to pray that it&amp;rsquo;s compatible with your flight controller.
+On a side note, this drone is deceptively big. Although I&amp;rsquo;m not an expert aerospace engineer, I deduce that getting big things to fly is much more of hassle than for small things, especially if you live in an apartment in the city.
+One super fun takeaway: learning how components connect to the whole quad, how they communicate with each other, and how a full-fledged cyberphysical system can come together was extremely rewarding.
+Future Off and on, I may try to get this quad flying. However, it will likely remain a trophy of my first foray into quads, and also a testament to my initial learning curve. As I&amp;rsquo;ve hinted at many times, I soon intend to follow a smaller, cheaper build. Most importantly, I&amp;rsquo;m excited to take what I learned here and apply broadly it to other hardware projects.
+References  Caleb Bergquist, instructor of the long lost Udemy course Joshua Bardwell https://ardupilot.org/copter/docs/common-navio2-overview.html  ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
