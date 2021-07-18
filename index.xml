@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 18 Jul 2021 05:48:32 UT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jul 2021 06:15:09 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>projects</title>
@@ -30,8 +30,8 @@
       <pubDate>Mon, 28 Jun 2021 04:07:53 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/notes/</guid>
-      <description> Categories poetry algo  </description>
-      <content:encoded><![CDATA[ Categories poetry algo  ]]></content:encoded>
+      <description> Categories poetry algo about  </description>
+      <content:encoded><![CDATA[ Categories poetry algo about  ]]></content:encoded>
     </item>
     <item>
       <title>about me</title>
@@ -43,7 +43,7 @@
 Check out my projects to see what I&amp;rsquo;m working on!
 GitHub LinkedIn goodreads
 </description>
-      <category domain="/categories/intro">Intro</category>
+      <category domain="/categories/about">About</category>
       <content:encoded><![CDATA[ Hi, I&#39;m Zach!  I love science and solving problems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University applying ML to medical and neuroscientific data &amp;ndash; mainly brain MRI, endoscopic feeds, fMRI, and EEG. I&amp;rsquo;m also interested in dimensionality reduction, cyberphysical systems, control theory, optimization, and robotics.
 Check out my projects to see what I&amp;rsquo;m working on!
 GitHub LinkedIn goodreads

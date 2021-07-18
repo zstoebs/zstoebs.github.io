@@ -8,10 +8,16 @@
     <loc>/projects/cortical-surface-analysis/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
+    <loc>/tags/matlab/</loc>
+    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
+  </url><url>
     <loc>/tags/ml/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/tags/neuro/</loc>
+    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
+  </url><url>
+    <loc>/tags/r/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/categories/research/</loc>
@@ -39,6 +45,12 @@
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
     <loc>/tags/gnn/</loc>
+    <lastmod>2021-07-09T13:28:40-05:00</lastmod>
+  </url><url>
+    <loc>/tags/html/</loc>
+    <lastmod>2021-07-09T13:28:40-05:00</lastmod>
+  </url><url>
+    <loc>/tags/js/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
     <loc>/projects/tgn-viz/</loc>
@@ -80,10 +92,10 @@
     <loc>/tags/c/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
-    <loc>/notes/fast-inv-sqrt/</loc>
+    <loc>/tags/hacking/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
-    <loc>/tags/hacking/</loc>
+    <loc>/notes/fast-inv-sqrt/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
     <loc>/categories/personal/</loc>
@@ -104,10 +116,13 @@
     <loc>/projects/neural-dim/</loc>
     <lastmod>2021-06-27T20:58:15-05:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-06-27T20:58:15-05:00</lastmod>
+  </url><url>
+    <loc>/categories/about/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
-    <loc>/categories/intro/</loc>
+    <loc>/about/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
     <loc>/notes/intro/</loc>
