@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 17:25:43 UT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jul 2021 04:54:48 UT</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>research</title>
@@ -24,18 +24,18 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>course</title>
-      <link>/categories/course/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/categories/course/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
       <title>poetry</title>
       <link>/categories/poetry/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/poetry/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>course</title>
+      <link>/categories/course/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/course/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
