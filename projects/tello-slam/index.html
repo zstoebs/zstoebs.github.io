@@ -250,7 +250,7 @@ ul.thumbnail.grid li a:hover figure::after {
     <meta itemprop="name" content="face following and vSLAM for a Tello quadcopter">
 <meta itemprop="description" content="Tello can do hard things."><meta itemprop="datePublished" content="2021-07-02T11:46:28-05:00" />
 <meta itemprop="dateModified" content="2021-07-02T11:46:28-05:00" />
-<meta itemprop="wordCount" content="1470"><meta itemprop="image" content="/projects/tello-slam/image/header.jpg">
+<meta itemprop="wordCount" content="1467"><meta itemprop="image" content="/projects/tello-slam/image/header.jpg">
 <meta itemprop="keywords" content="quads,robotics,cps,ml,matlab," />
     <header>
       <h1 itemprop="headline name">face following and vSLAM for a Tello quadcopter</h1>
@@ -314,7 +314,7 @@ ul.thumbnail.grid li a:hover figure::after {
 <p><a href="https://github.com/zstoebs/tello_detection_SLAM">GitHub</a></p>
 <p><a href="/doc/eece6356_paper.pdf">Paper</a></p>
 <h1 id="motivation">Motivation</h1>
-<p>Following my <a href="https://zstoebs.github.io/projects/quad-build/">quad build</a> experience, I set the intention of continuing to work with and learn more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection &amp; following and SLAM. Face detection &amp; following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image&rsquo;s center. vSLAM on the other hand is more interesting in my opinion. For those that don&rsquo;t know: <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">simultaneous localization &amp; mapping</a> (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it.</p>
+<p>Following my <a href="https://zstoebs.github.io/projects/quad-build/">quad build</a> experience, I set the intention to continue working with and learning more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection &amp; following and SLAM. Face detection &amp; following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image&rsquo;s center. vSLAM on the other hand is more interesting in my opinion. For those that don&rsquo;t know: <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">simultaneous localization &amp; mapping</a> (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it.</p>
 <h1 id="contents">Contents</h1>
 <ul>
 <li>main.m: control flow script to demonstrate each of these on the Tello.</li>
@@ -375,7 +375,7 @@ ul.thumbnail.grid li a:hover figure::after {
 <figcaption> Fig 4. Example of face misclassification. These misclassifications typically occur when there is no face in view of the camera. Otherwise, they are rare and not noticeable during a face following run. </figcaption>
 </figure>
 <br>
-<p>Face following was easy to implement. The ony hindrance was the occasional misclassification confusing the Tello, causing it to align with that &ldquo;face&rdquo;. You can see from these face detection frames that a bounding box computed. From here, the distance to the target can be inferred from the area of the bounding box and the alignment offset can be inferred from the bounding box center&rsquo;s distance from the frame&rsquo;s center.</p>
+<p>Face following was easy to implement. The ony hindrance was the occasional misclassification confusing the Tello, causing it to align with that &ldquo;face&rdquo;. You can see from these face detection frames that a bounding box was computed. From here, the distance to the target can be inferred from the area of the bounding box and the alignment offset can be inferred from the bounding box center&rsquo;s distance from the frame&rsquo;s center.</p>
 <h2 id="vslam-1">vSLAM</h2>
 <figure>
 <img src="image/matches.png" alt="map initialization matches." /> 
@@ -392,7 +392,7 @@ ul.thumbnail.grid li a:hover figure::after {
 <figcaption> Fig 7. Examples of map plots and estimated trajectories and camera pose. Both of the movement sequences were left and right images and that the number on the camera indicates that there were 10 keyframes in this vSLAM run.</figcaption>
 </figure>
 <br>
-<p>vSLAM was a much harder task to get right. One crux of the system was the speed at which the Tello captured frames; for vSLAM to work well, frames need to be captured in quick succession, with very slight movements. Precisely moving the Tello proved to be very challenging with the MATLAB toolkit, plus an indoor environment where the Tello&rsquo;s own gusts from its propellers reflected off of hard surfaces would significantly alter its course. Regardless, the system was still able to generate a point cloud and update location within the map.</p>
+<p>vSLAM was a much harder task to get right. One crux of the system was the speed at which the Tello captured frames; for vSLAM to work well, frames need to be captured in quick succession, with very slight movements. Precisely moving the Tello proved to be very challenging with the MATLAB toolkit, plus an indoor environment where the Tello&rsquo;s own gusts reflecting off of hard surfaces would significantly alter its course. Regardless, the system was still able to generate a point cloud and update location within the map.</p>
 <h1 id="future">Future</h1>
 <ol>
 <li>Streamline main.m with user input to guide the program and improve the functionality of vslam.m as best I can for Tello.</li>
@@ -437,7 +437,7 @@ simultaneous localization and mapping: Toward the robust-perception age,” IEEE
   
     and tagged <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a>, <a rel="tag" href="/tags/ml/">ml</a>, <a rel="tag" href="/tags/quads/">quads</a> and <a rel="tag" href="/tags/robotics/">robotics</a>
   
-  using <span itemprop="wordCount">1470</span> words.
+  using <span itemprop="wordCount">1467</span> words.
 </p>
 
       
