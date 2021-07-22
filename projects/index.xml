@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 20 Jul 2021 18:55:06 UT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jul 2021 06:01:53 UT</lastBuildDate>
     <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cortical surface analysis for Huntington&#39;s disease using linear-mixed models</title>
@@ -67,6 +67,34 @@ CT  Fig 1. Omnibus test results for CT showing the regions of significant contra
 [34] D. Bates, M. Mächler, B. M. Bolker, and S. C. Walker, “Fitting linear mixed-effects models using lme4,” J. Stat. Softw., vol. 67, no. 1, 2015, doi: 10.18637/jss.v067.i01.
 [35] K. Worsley et al., “SurfStat: A Matlab toolbox for the statistical analysis of univariate and multivariate surface and volumetric data using linear mixed effects models and random field theory,” Neuroimage, vol. 47, p. S102, 2009, doi: 10.1016/s1053-8119(09)70882-1.
 [36] X. Han et al., “Reliability of MRI-derived measurements of human cerebral cortical thickness: The effects of field strength, scanner upgrade and manufacturer,” Neuroimage, vol. 32, no. 1, pp. 180–194, 2006, doi: 10.1016/j.neuroimage.2006.02.051.
+]]></content:encoded>
+    </item>
+    <item>
+      <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
+      <link>/projects/this-site/</link>
+      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/projects/this-site/</guid>
+      <description>From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
+      <category domain="/categories/personal">Personal</category>
+      <content:encoded><![CDATA[tl;dr From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
+Links Site source
+Generated source
+How to Host Hosting Hugo
+Steps to host a Hugo After Dark site on GitHub pages:
+ Download the quick start code locally from the After Dark website. Run hugo to generate website files in public/. Host the generated files in public/ on the GitHub pages repo, i.e., a repo named [your username].github.io. Host the source files in the parent directory in a separate repo, with public/ ignored.   These are the files at the highest level, mainly Markdown files, that Hugo uses to build the static site.  Create a GitHub action or workflow in the source file repo. (optional)   Modifying source files and then pushing to source repo will trigger a rebuild and push of the public/ repo. Hugo offers a copy&amp;amp;paste workflow for this purpose in the docs.  Steps 3-4, in particular, are not clear on the Hugo docs for GitHub hosting. Fortunately, of the only two other people that I found online that specifically host After Dark on Github, one of them wrote an enlightening note that clarified the distinction between the two different directories. Hope that saves you some time!
+How to After Dark Hugo After Dark
+Most Hugo sites are run by themes, which define the site&amp;rsquo;s style, layout, and sometimes useful theme-specific shortcodes and advanced automatic features. However, not all themes are created equal and some will require a more advanced knowledge of Hugo to function. Thankfully, After Dark is one of the good ones if you&amp;rsquo;re a web novice.
+What to Know  shortcodes: In Hugo, shortcodes are akin to functions that you can put in your Markdown files to improve them in some way, such as info blocks, buttons, and optimized images. list page vs. single page: after trial &amp;amp; error, I recommend creating directories for each single page and use _index.md to correspond to (non-leaf) list page directories, aka &amp;ldquo;sections&amp;rdquo;, and index.md for (leaf) single pages, aka &amp;ldquo;posts&amp;rdquo;. tip: for After Dark&amp;rsquo;s automatic features to kick in, you need content &amp;ndash; at least two posts in a section.  With After Dark, you technically only have to spend time in the parent directory writing in Markdown or slightly tweaking the config. However, since After Dark handles many neat features automatically, it can be too rigid and After Dark also requires some debugging. If you want to be all-powerful you need to understand Hugo &amp;hellip; and at least be able to read HTML and edit at the right place.
+Bend To My Will! Disclaimer: Some of these workarounds may not be truly necessary and could simply be my misunderstanding the After Dark docs. Nonetheless, they work for me.
+ Copy the /themes/after-dark/layouts/post/ directory to the parent directory&amp;rsquo;s /layouts/ folder. In the parent directory&amp;rsquo;s /layouts/ folder, create a _default/ directory and copy the single.html file from the post/ into _default/.  This overrides the default single.html for After Dark which, if you compare it to this new one, is rudimentary and doesn&amp;rsquo;t incorporate some of the interesting After Dark features. To me so far, it seems After Dark has a bug in it&amp;rsquo;s default handling of single-page, post-type content from schemas. I definitely suggest overriding the default layout files because it seems to solve the problem.
+ Duplicate and rename the post/ directory from the above hack to the type of post for each section, e.g., project/ and note/ corresponding to the projects/ and notes/ section in my content.  This creates schemas for each section. No need to edit the HTML because After Dark&amp;rsquo;s post schema has the necessary components. This step doesn&amp;rsquo;t cause much change to section list / single page structure. Any post that specifies this schema in its front matter will apply the appropriate layout; this is preemptively useful if you plan to heavily customize specific sections.
+Supposedly, if you want to have a featured list of posts for each section displayed at the top of section lsit pages and the bottom of a section&amp;rsquo;s single pages, then you need these schemas. Then, you need to add the correct blocks for each section to the config. However, I still have yet to get After Dark&amp;rsquo;s featured lists to work. 
+ Copy a list.html file from each of the schemas and paste into _default/. Rename them to the name of the section that the schema corresponds to, e.g., projects.html and notes.html.  I used this to hack the _index.md files for each section. Hugo natively won&amp;rsquo;t display any content in _index.md files which reside in non-leaf directories, but will index.md which are leaf directories being the post-content of the site. However, you can override this by adding {{ .Content }} into the above HTML files below the header block. I hacked this to add alert blocks with the categories the following list of posts fall into; that way, readers can quicky jump to the taxonomy page for the content that they&amp;rsquo;re interested in.
+ Partially copy the /themes/after-dark/layouts/partials/ directory, taking page-summary.html, toc-maybe.html, and post/meta.html. Modify page-summary.html by deleting lines 30 and 32.  Since the overridden default layouts call these, it&amp;rsquo;s easier to put them here and keep the relative paths. Randomly, there is a conditional block preventing the display of post metadata unless type = &amp;quot;post&amp;quot; in the front matter. To my knowledge, this doesn&amp;rsquo;t occur elsewhere in other After Dark source files and removing it immediately allowed for post metadata in listings.
+References Cedric LeRoy
+Sam Bateman
+Mike Dane&amp;rsquo;s Hugo tutorial vids
 ]]></content:encoded>
     </item>
     <item>
