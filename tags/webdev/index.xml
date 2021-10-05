@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 22 Jul 2021 17:32:36 UT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Oct 2021 02:05:29 UT</lastBuildDate>
     <atom:link href="/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
@@ -23,9 +23,10 @@
       <guid>/projects/this-site/</guid>
       <description>From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
       <category domain="/categories/personal">Personal</category>
-      <content:encoded><![CDATA[tl;dr From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
+      <content:encoded><![CDATA[tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
 Links Site source
 Generated source
+Here justifies my perfect website build.
 How to Host Hosting Hugo
 Steps to host a Hugo After Dark site on GitHub pages:
  Download the quick start code locally from the After Dark website. Run hugo to generate website files in public/. Host the generated files in public/ on the GitHub pages repo, i.e., a repo named [your username].github.io. Host the source files in the parent directory in a separate repo, with public/ ignored.  These are the files at the highest level, mainly Markdown files, that Hugo uses to build the static site.   Create a GitHub action or workflow in the source file repo. (optional)  Modifying source files and then pushing to source repo will trigger a rebuild and push of the public/ repo. Hugo offers a copy&amp;amp;paste workflow for this purpose in the docs.    Steps 3-4, in particular, are not clear on the Hugo docs for GitHub hosting. Fortunately, of the only two other people that I found online that specifically host After Dark on Github, one of them wrote an enlightening note that clarified the distinction between the two different directories. Hope that saves you some time!

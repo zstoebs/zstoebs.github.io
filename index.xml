@@ -13,16 +13,25 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 22 Jul 2021 17:32:36 UT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Oct 2021 02:05:29 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kū</title>
+      <link>/k%C5%AB/</link>
+      <pubDate>Wed, 29 Sep 2021 22:16:11 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/k%C5%AB/</guid>
+      <description>If you read a modern haiku anthology, then you might find they preface the poems with &amp;lsquo;kū&amp;rsquo;.</description>
+      <content:encoded><![CDATA[ haiku senryū  ]]></content:encoded>
+    </item>
     <item>
       <title>projects</title>
       <link>/projects/</link>
       <pubDate>Mon, 28 Jun 2021 04:08:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/projects/</guid>
-      <description> Categories research course personal  </description>
-      <content:encoded><![CDATA[ Categories research course personal  ]]></content:encoded>
+      <description> research course personal  </description>
+      <content:encoded><![CDATA[ research course personal  ]]></content:encoded>
     </item>
     <item>
       <title>notes</title>
@@ -30,8 +39,8 @@
       <pubDate>Mon, 28 Jun 2021 04:07:53 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/notes/</guid>
-      <description> Categories poetry algo about  </description>
-      <content:encoded><![CDATA[ Categories poetry algo about  ]]></content:encoded>
+      <description> poetry algo me  </description>
+      <content:encoded><![CDATA[ poetry algo me  ]]></content:encoded>
     </item>
     <item>
       <title>about me</title>
@@ -39,13 +48,13 @@
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
-      <description> Hi, I&#39;m Zach!  I love leveraging machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML to medical and neuroscientific data &amp;ndash; mainly brain MRI for neurological diseases and endoscopic video feeds for nephrolithotomy. Generally, my interests are ML &amp;amp; neuroscience, CPS &amp;amp; robotics, and optimization &amp;amp; control theory.
-Check out my projects to see what I&amp;rsquo;m working on!
+      <description> Hi, I&#39;m Zach!  I love leveraging machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML to medical and neuroscientific data. Generally, my interests are ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control theory.
+Check out my projects to see what I&amp;rsquo;m working on and notes to see what I&amp;rsquo;m thinking about!
 GitHub LinkedIn Goodreads
 </description>
-      <category domain="/categories/about">About</category>
-      <content:encoded><![CDATA[ Hi, I&#39;m Zach!  I love leveraging machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML to medical and neuroscientific data &amp;ndash; mainly brain MRI for neurological diseases and endoscopic video feeds for nephrolithotomy. Generally, my interests are ML &amp;amp; neuroscience, CPS &amp;amp; robotics, and optimization &amp;amp; control theory.
-Check out my projects to see what I&amp;rsquo;m working on!
+      <category domain="/categories/me">Me</category>
+      <content:encoded><![CDATA[ Hi, I&#39;m Zach!  I love leveraging machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML to medical and neuroscientific data. Generally, my interests are ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control theory.
+Check out my projects to see what I&amp;rsquo;m working on and notes to see what I&amp;rsquo;m thinking about!
 GitHub LinkedIn Goodreads
  I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my masters in computer science from Vandy in May 2022.
 During undergrad, I was a mentor in the VUSE Design Studio. I have had the privilege to assist with courses on discrete structures, operating systems, and deep learning.
