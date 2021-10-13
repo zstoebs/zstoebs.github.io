@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 05 Oct 2021 02:27:10 UT</lastBuildDate>
+    <lastBuildDate>Wed, 13 Oct 2021 21:36:42 UT</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>matlab</title>
@@ -144,10 +144,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>senryu</title>
-      <link>/tags/senryu/</link>
+      <title>senryū</title>
+      <link>/tags/senry%C5%AB/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/senryu/</guid>
+      <guid>/tags/senry%C5%AB/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -196,6 +196,14 @@
       <link>/tags/python/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/python/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>portuguese</title>
+      <link>/tags/portuguese/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/portuguese/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

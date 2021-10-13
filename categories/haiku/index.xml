@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>haiku on Zach Stoebner</title>
+    <link>/categories/haiku/</link>
+    <description>Recent content in haiku on Zach Stoebner</description>
+    <image>
+      <title>haiku on Zach Stoebner</title>
+      <link>/categories/haiku/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <language>en-US</language>
+    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Wed, 13 Oct 2021 21:36:42 UT</lastBuildDate>
+    <atom:link href="/categories/haiku/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kū português</title>
+      <link>/ku/portugues/</link>
+      <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/ku/portugues/</guid>
+      <description>dia quente, raro -- surpreedente em Cascais que não atrevem nadar  rare, hot day -- surprising in Cascais that they don&#39;t dare swim   champô aguado passo do pente pelo cabelo e chove bate a janela  watery shampoo comb passes through hair and rain batters the window   ondas do Tejo relaxam-me nas costas -- ventos até inverno  waves of the Tejo relax me on my back -- winds to winter   ventos frios acima : metais bem empregados atrás da faixa amarela  cold winds above : well-employed metals behind the yellow line   fumo aqui escrito no prédio : nuvens em tudo  smoke here written on the building : clouds everywhere   bebo do tinto enquanto olho ao branco -- Camões vacia  I drink from red while looking at white -- empty Camões   porém ao ver o pássaro procura na telha cinzas  but upon seeing the bird search on grey tiles   táxi busca gajo  taxi pick up guy   café tenho de o derrotar -- a primavera já  coffee I have to defeat it -- spring now   medusa azul nade à casa inverno vem  blue jellyfish may swim home winter comes   Press play below for the &#34;</description>
+      <category domain="/categories/haiku">Haiku</category>
+      <category domain="/categories/senryu">Senryu</category>
+      <category domain="/categories/poetry">Poetry</category>
+      <content:encoded><![CDATA[
+dia quente, raro -- surpreedente em Cascais que não atrevem nadar  rare, hot day -- surprising in Cascais that they don&#39;t dare swim   champô aguado passo do pente pelo cabelo e chove bate a janela  watery shampoo comb passes through hair and rain batters the window   ondas do Tejo relaxam-me nas costas -- ventos até inverno  waves of the Tejo relax me on my back -- winds to winter   ventos frios acima : metais bem empregados atrás da faixa amarela  cold winds above : well-employed metals behind the yellow line   fumo aqui escrito no prédio : nuvens em tudo  smoke here written on the building : clouds everywhere   bebo do tinto enquanto olho ao branco -- Camões vacia  I drink from red while looking at white -- empty Camões   porém ao ver o pássaro procura na telha cinzas  but upon seeing the bird search on grey tiles   táxi busca gajo  taxi pick up guy   café tenho de o derrotar -- a primavera já  coffee I have to defeat it -- spring now   medusa azul nade à casa inverno vem  blue jellyfish may swim home winter comes   Press play below for the &#34;medusa azul&#34; gif!  
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
