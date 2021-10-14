@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>tanka on Zach Stoebner</title>
+    <link>/categories/tanka/</link>
+    <description>Recent content in tanka on Zach Stoebner</description>
+    <image>
+      <title>tanka on Zach Stoebner</title>
+      <link>/categories/tanka/</link>
+      <url>https://source.unsplash.com/collection/983219/2000x1322</url>
+    </image>
+    <ttl>1440</ttl>
+    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <language>en-US</language>
+    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Thu, 14 Oct 2021 01:00:14 UT</lastBuildDate>
+    <atom:link href="/categories/tanka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fall-winter 2018</title>
+      <link>/ku/fall-winter-2018/</link>
+      <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/ku/fall-winter-2018/</guid>
+      <description>season of the dog</description>
+      <category domain="/categories/haiku">Haiku</category>
+      <category domain="/categories/senryu">Senryu</category>
+      <category domain="/categories/tanka">Tanka</category>
+      <content:encoded><![CDATA[fall to her autumn means outside ball is everything grey room fits dying leaves, not how he feels winter before happened two fraternal hounds &amp;ndash; dry yard grass no order in time&amp;rsquo;s quanta next does not exist ]]></content:encoded>
+    </item>
+    <item>
+      <title>spring-summer 2018</title>
+      <link>/ku/spring-summer-2018/</link>
+      <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/ku/spring-summer-2018/</guid>
+      <description>first-year at Vandy, early in my relationship with Parker</description>
+      <category domain="/categories/tanka">Tanka</category>
+      <content:encoded><![CDATA[spring fatalidade -- pelo pecado puro e decepção verde  fatality -- by the pure sin and green deception   urbano crescimento -- humano cidades construídos em cima de outras  urban development -- human cities built on others   summer window beams &amp;ndash; eggs rest on rice caving in My chest crumbles with anxiety Waiting to board their flight ]]></content:encoded>
+    </item>
+  </channel>
+</rss>

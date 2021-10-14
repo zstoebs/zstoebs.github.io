@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+  </url><url>
+    <loc>/categories/haiku/</loc>
+    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+  </url><url>
+    <loc>/categories/senryu/</loc>
+    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+  </url><url>
+    <loc>/tags/spring/</loc>
+    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+  </url><url>
+    <loc>/ku/spring-summer-2020/</loc>
+    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+  </url><url>
+    <loc>/tags/summer/</loc>
+    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+  </url><url>
     <loc>/ku/</loc>
     <lastmod>2021-09-29T17:16:11-05:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>/projects/cortical-surface-analysis/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
-    <loc>/projects/cortical-surface-analysis/</loc>
+    <loc>/tags/fall/</loc>
+    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
+  </url><url>
+    <loc>/ku/fall-winter-2019/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/tags/matlab/</loc>
@@ -26,7 +50,7 @@
     <loc>/categories/research/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/tags/winter/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/tags/hendiadys/</loc>
@@ -74,6 +98,9 @@
     <loc>/tags/gnn/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
+    <loc>/ku/spring-summer-2019/</loc>
+    <lastmod>2021-07-09T13:28:40-05:00</lastmod>
+  </url><url>
     <loc>/projects/tgn-viz/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
@@ -98,10 +125,16 @@
     <loc>/projects/tello-slam/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
+    <loc>/ku/fall-winter-2018/</loc>
+    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
+  </url><url>
     <loc>/tags/quads/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/tags/robotics/</loc>
+    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
+  </url><url>
+    <loc>/categories/tanka/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/categories/algo/</loc>
@@ -117,6 +150,9 @@
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
     <loc>/projects/quad-build/</loc>
+    <lastmod>2021-07-01T16:57:10-05:00</lastmod>
+  </url><url>
+    <loc>/ku/spring-summer-2018/</loc>
     <lastmod>2021-07-01T16:57:10-05:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -137,9 +173,6 @@
     <loc>/about/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
-    <loc>/categories/haiku/</loc>
-    <lastmod>2021-06-27T19:24:19-05:00</lastmod>
-  </url><url>
     <loc>/ku/portugues/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
@@ -147,9 +180,6 @@
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
     <loc>/tags/portuguese/</loc>
-    <lastmod>2021-06-27T19:24:19-05:00</lastmod>
-  </url><url>
-    <loc>/categories/senryu/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
     <loc>/notes/intro/</loc>

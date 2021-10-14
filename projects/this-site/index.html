@@ -255,7 +255,7 @@ ul.thumbnail.grid li a:hover figure::after {
     <meta itemprop="name" content="how to host a Hugo After Dark site on GitHub Pages: a saga">
 <meta itemprop="description" content="¡¡host fast, pretty website 4 free!! for real, not kidding."><meta itemprop="datePublished" content="2021-07-09T23:36:07-05:00" />
 <meta itemprop="dateModified" content="2021-07-09T23:36:07-05:00" />
-<meta itemprop="wordCount" content="960"><meta itemprop="image" content="/projects/this-site/image/thomas-jensen-QABDpFYhNpk-unsplash.jpg">
+<meta itemprop="wordCount" content="974"><meta itemprop="image" content="/projects/this-site/image/thomas-jensen-QABDpFYhNpk-unsplash.jpg">
 <meta itemprop="keywords" content="webdev,html,hugo,js," />
     <header>
       <h1 itemprop="headline name">how to host a Hugo After Dark site on GitHub Pages: a saga</h1>
@@ -346,11 +346,11 @@ ul.thumbnail.grid li a:hover figure::after {
 <li>Duplicate and rename the <code>post/</code> directory from the above hack to the type of post for each section, e.g., <code>project/</code> and <code>note/</code> corresponding to the <code>projects/</code> and <code>notes/</code> section in my content.</li>
 </ul>
 <p><i>This creates schemas for each section. No need to edit the HTML because After Dark&rsquo;s post schema has the necessary components. This step doesn&rsquo;t cause much change to section list / single page structure. Any post that specifies this schema in its front matter will apply the appropriate layout; this is preemptively useful if you plan to heavily customize specific sections.</p>
-<p>Supposedly, if you want to have a featured list of posts for each section displayed at the top of section lsit pages and the bottom of a section&rsquo;s single pages, then you need these schemas. Then, you need to add the correct <a href="https://after-dark.habd.as/feature/featured-posts/">blocks</a> for each section to the config. However, I still have yet to get After Dark&rsquo;s featured lists to work. </i></p>
+<p>Supposedly, if you want to have a featured list of posts for each section displayed at the top of section lsit pages and the bottom of a section&rsquo;s single pages, then you need these schemas. Then, you need to add the correct <a href="https://after-dark.habd.as/feature/featured-posts/">blocks</a> for each section to the config. <s>However, I still have yet to get After Dark&rsquo;s featured lists to work.</s> Featured lists begin to work once you have multiple posts with similar tags. </i></p>
 <ul>
 <li>Copy a <code>list.html</code> file from each of the schemas and paste into <code>_default/</code>. Rename them to the name of the section that the schema corresponds to, e.g., <code>projects.html</code> and <code>notes.html</code>.</li>
 </ul>
-<p><i>I used this to hack the <code>_index.md</code> files for each section. Hugo natively won&rsquo;t display any content in <code>_index.md</code> files which reside in non-leaf directories, but will <code>index.md</code> which are leaf directories being the post-content of the site. However, you can override this by adding <code>{{ .Content }}</code> into the above HTML files below the header block. I hacked this to add alert blocks with the categories the following list of posts fall into; that way, readers can quicky jump to the <a href="https://after-dark.habd.as/feature/taxonomy-pages/">taxonomy page</a> for the content that they&rsquo;re interested in.</i></p>
+<p><i>I used this to hack the <code>_index.md</code> files for each section. Hugo natively won&rsquo;t display any content in <code>_index.md</code> files which reside in non-leaf directories, but will for <code>index.md</code> which are leaf directories being the post-content of the site. However, you can override this by adding <code>{{ .Content }}</code> into the above HTML files below the header block. I hacked this to add alert blocks with the categories the following list of posts fall into; that way, readers can quicky jump to the <a href="https://after-dark.habd.as/feature/taxonomy-pages/">taxonomy page</a> for the content that they&rsquo;re interested in.</i></p>
 <ul>
 <li>Partially copy the <code>/themes/after-dark/layouts/partials/</code> directory, taking <code>page-summary.html</code>, <code>toc-maybe.html</code>, and <code>post/meta.html</code>. Modify <code>page-summary.html</code> by deleting lines 30 and 32.</li>
 </ul>
@@ -379,7 +379,7 @@ ul.thumbnail.grid li a:hover figure::after {
   
     and tagged <a rel="tag" href="/tags/html/">html</a>, <a rel="tag" href="/tags/hugo/">hugo</a>, <a rel="tag" href="/tags/js/">js</a> and <a rel="tag" href="/tags/webdev/">webdev</a>
   
-  using <span itemprop="wordCount">960</span> words.
+  using <span itemprop="wordCount">974</span> words.
 </p>
 
       
