@@ -2,25 +2,25 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>kū on Zach Stoebner</title>
-    <link>/ku/</link>
+    <link>/kus/</link>
     <description>Recent content in kū on Zach Stoebner</description>
     <image>
       <title>kū on Zach Stoebner</title>
-      <link>/ku/</link>
+      <link>/kus/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 14 Oct 2021 04:49:33 UT</lastBuildDate>
-    <atom:link href="/ku/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Oct 2021 22:10:50 UT</lastBuildDate>
+    <atom:link href="/kus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>spring-summer 2021</title>
-      <link>/ku/spring-summer-2021/</link>
+      <link>/kus/spring-summer-2021/</link>
       <pubDate>Thu, 14 Oct 2021 04:07:42 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/spring-summer-2021/</guid>
+      <guid>/kus/spring-summer-2021/</guid>
       <description>end of undergrad and feeling like the end is in sight</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -29,10 +29,10 @@
     </item>
     <item>
       <title>winter 2020-2021</title>
-      <link>/ku/winter-2020-2021/</link>
+      <link>/kus/winter-2020-2021/</link>
       <pubDate>Thu, 14 Oct 2021 03:49:45 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/winter-2020-2021/</guid>
+      <guid>/kus/winter-2020-2021/</guid>
       <description>really in my thoughts here</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -41,10 +41,10 @@
     </item>
     <item>
       <title>fall-2020</title>
-      <link>/ku/fall-2020/</link>
+      <link>/kus/fall-2020/</link>
       <pubDate>Sun, 15 Aug 2021 03:24:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/fall-2020/</guid>
+      <guid>/kus/fall-2020/</guid>
       <description>we were alive, but really we were dead</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -52,21 +52,21 @@
     </item>
     <item>
       <title>spring-summer 2020 **BEST PHOTOS IMHO**</title>
-      <link>/ku/spring-summer-2020/</link>
+      <link>/kus/spring-summer-2020/</link>
       <pubDate>Sat, 14 Aug 2021 00:05:50 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/spring-summer-2020/</guid>
+      <guid>/kus/spring-summer-2020/</guid>
       <description>trip to Portland into Pandemia</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
-      <content:encoded><![CDATA[spring gods falling from the sky &amp;ndash; water rushes spring mother : carried bags of groceries her sun babies my spirit animal found his heavenly rest : the spring robin the green samurai &amp;ndash; approaches me with light and his stone summer equivocation : to some I’m “weird,” or even “cool” those words mean nothing ]]></content:encoded>
+      <content:encoded><![CDATA[spring gods falling from the sky &amp;ndash; water rushes spring mother : carried bags of groceries her sun babies my spirit animal found his heavenly rest : the spring robin the green samurai &amp;ndash; nears me with day light and his stone summer equivocation : to some I’m “weird,” or even “cool” those words mean nothing ]]></content:encoded>
     </item>
     <item>
       <title>fall-winter 2019</title>
-      <link>/ku/fall-winter-2019/</link>
+      <link>/kus/fall-winter-2019/</link>
       <pubDate>Wed, 14 Jul 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/fall-winter-2019/</guid>
+      <guid>/kus/fall-winter-2019/</guid>
       <description>not many here</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -74,10 +74,10 @@
     </item>
     <item>
       <title>spring-summer 2019</title>
-      <link>/ku/spring-summer-2019/</link>
+      <link>/kus/spring-summer-2019/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/spring-summer-2019/</guid>
+      <guid>/kus/spring-summer-2019/</guid>
       <description>a year into in my relationship with Parker</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -85,10 +85,10 @@
     </item>
     <item>
       <title>fall-winter 2018</title>
-      <link>/ku/fall-winter-2018/</link>
+      <link>/kus/fall-winter-2018/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/fall-winter-2018/</guid>
+      <guid>/kus/fall-winter-2018/</guid>
       <description>season of the puppy dawg</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -97,25 +97,25 @@
     </item>
     <item>
       <title>spring-summer 2018</title>
-      <link>/ku/spring-summer-2018/</link>
+      <link>/kus/spring-summer-2018/</link>
       <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/spring-summer-2018/</guid>
+      <guid>/kus/spring-summer-2018/</guid>
       <description>first-year at Vandy, early in my relationship with Parker</description>
       <category domain="/categories/tanka">Tanka</category>
-      <content:encoded><![CDATA[spring fatalidade -- pelo pecado puro e decepção verde  fatality -- by the pure sin and green deception   urbano crescimento -- humano cidades construídos em cima de outras  urban development -- human cities built on others   summer window beams &amp;ndash; eggs rest on rice caving in My chest crumbles with anxiety Waiting to board their flight ]]></content:encoded>
+      <content:encoded><![CDATA[spring fatalidade -- pelo pecado puro e decepção verde  fatality -- by the pure sin and green deception    urbano crescimento -- humano cidades construídos em cima de outras  urban development -- human cities built on others    summer window beams &amp;ndash; eggs rest on rice caving in My chest crumbles with anxiety Waiting to board their flight ]]></content:encoded>
     </item>
     <item>
       <title>kū português</title>
-      <link>/ku/portugues/</link>
+      <link>/kus/portugues/</link>
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/portugues/</guid>
+      <guid>/kus/portugues/</guid>
       <description>seja alfacinha quem for</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
       <content:encoded><![CDATA[
-dia quente, raro -- surpreedente em Cascais que não atrevem nadar  rare, hot day -- surprising in Cascais that they don&#39;t dare swim   champô aguado passo do pente pelo cabelo e chove bate a janela  watery shampoo comb passes through hair and rain batters the window   ondas do Tejo relaxam-me nas costas -- ventos até inverno  waves of the Tejo relax me on my back -- winds to winter   ventos frios acima : metais bem empregados atrás da faixa amarela  cold winds above : well-employed metals behind the yellow line   fumo aqui escrito no prédio : nuvens em tudo  smoke here written on the building : clouds everywhere   bebo do tinto enquanto olho ao branco -- Camões vacia  I drink from red while looking at white -- empty Camões   porém ao ver o pássaro procura na telha cinzas  but upon seeing the bird search on grey tiles   táxi busca gajo  taxi pick up guy   café tenho de o derrotar -- a primavera já  coffee I have to defeat it -- spring now   medusa azul nade à casa inverno vem  blue jellyfish may swim home winter comes   Press play below for the &#34;medusa azul&#34; gif!  
+dia quente, raro -- surpreedente em Cascais que não atrevem nadar  rare, hot day -- surprising in Cascais that they don&#39;t dare swim    champô aguado passo do pente pelo cabelo e chove bate a janela  watery shampoo comb passes through hair and rain batters the window    ondas do Tejo relaxam-me nas costas -- ventos até inverno  waves of the Tejo relax me on my back -- winds to winter    ventos frios acima : metais bem empregados atrás da faixa amarela  cold winds above : well-employed metals behind the yellow line    fumo aqui escrito no prédio : nuvens em tudo  smoke here written on the building : clouds everywhere    bebo do tinto enquanto olho ao branco -- Camões vacia  I drink from red while looking at white -- empty Camões    porém ao ver o pássaro procura na telha cinzas  but upon seeing the bird search on grey tiles    táxi busca gajo  taxi pick up guy    café tenho de o derrotar -- a primavera já  coffee I have to defeat it -- spring now    medusa azul nade à casa inverno vem  blue jellyfish may swim home winter comes    Press play below for the &#34;medusa azul&#34; gif!  
 ]]></content:encoded>
     </item>
   </channel>

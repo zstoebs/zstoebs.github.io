@@ -13,14 +13,14 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 14 Oct 2021 04:49:33 UT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Oct 2021 22:10:50 UT</lastBuildDate>
     <atom:link href="/tags/fall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fall-2020</title>
-      <link>/ku/fall-2020/</link>
+      <link>/kus/fall-2020/</link>
       <pubDate>Sun, 15 Aug 2021 03:24:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/fall-2020/</guid>
+      <guid>/kus/fall-2020/</guid>
       <description>we were alive, but really we were dead</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -28,10 +28,10 @@
     </item>
     <item>
       <title>fall-winter 2019</title>
-      <link>/ku/fall-winter-2019/</link>
+      <link>/kus/fall-winter-2019/</link>
       <pubDate>Wed, 14 Jul 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/fall-winter-2019/</guid>
+      <guid>/kus/fall-winter-2019/</guid>
       <description>not many here</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -39,10 +39,10 @@
     </item>
     <item>
       <title>fall-winter 2018</title>
-      <link>/ku/fall-winter-2018/</link>
+      <link>/kus/fall-winter-2018/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/fall-winter-2018/</guid>
+      <guid>/kus/fall-winter-2018/</guid>
       <description>season of the puppy dawg</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>

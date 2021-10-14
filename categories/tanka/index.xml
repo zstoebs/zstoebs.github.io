@@ -13,14 +13,14 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 14 Oct 2021 04:49:33 UT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Oct 2021 22:10:50 UT</lastBuildDate>
     <atom:link href="/categories/tanka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>spring-summer 2021</title>
-      <link>/ku/spring-summer-2021/</link>
+      <link>/kus/spring-summer-2021/</link>
       <pubDate>Thu, 14 Oct 2021 04:07:42 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/spring-summer-2021/</guid>
+      <guid>/kus/spring-summer-2021/</guid>
       <description>end of undergrad and feeling like the end is in sight</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -29,10 +29,10 @@
     </item>
     <item>
       <title>winter 2020-2021</title>
-      <link>/ku/winter-2020-2021/</link>
+      <link>/kus/winter-2020-2021/</link>
       <pubDate>Thu, 14 Oct 2021 03:49:45 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/winter-2020-2021/</guid>
+      <guid>/kus/winter-2020-2021/</guid>
       <description>really in my thoughts here</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -41,10 +41,10 @@
     </item>
     <item>
       <title>fall-winter 2018</title>
-      <link>/ku/fall-winter-2018/</link>
+      <link>/kus/fall-winter-2018/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/fall-winter-2018/</guid>
+      <guid>/kus/fall-winter-2018/</guid>
       <description>season of the puppy dawg</description>
       <category domain="/categories/haiku">Haiku</category>
       <category domain="/categories/senryu">Senryu</category>
@@ -53,13 +53,13 @@
     </item>
     <item>
       <title>spring-summer 2018</title>
-      <link>/ku/spring-summer-2018/</link>
+      <link>/kus/spring-summer-2018/</link>
       <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/ku/spring-summer-2018/</guid>
+      <guid>/kus/spring-summer-2018/</guid>
       <description>first-year at Vandy, early in my relationship with Parker</description>
       <category domain="/categories/tanka">Tanka</category>
-      <content:encoded><![CDATA[spring fatalidade -- pelo pecado puro e decepção verde  fatality -- by the pure sin and green deception   urbano crescimento -- humano cidades construídos em cima de outras  urban development -- human cities built on others   summer window beams &amp;ndash; eggs rest on rice caving in My chest crumbles with anxiety Waiting to board their flight ]]></content:encoded>
+      <content:encoded><![CDATA[spring fatalidade -- pelo pecado puro e decepção verde  fatality -- by the pure sin and green deception    urbano crescimento -- humano cidades construídos em cima de outras  urban development -- human cities built on others    summer window beams &amp;ndash; eggs rest on rice caving in My chest crumbles with anxiety Waiting to board their flight ]]></content:encoded>
     </item>
   </channel>
 </rss>
