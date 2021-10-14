@@ -3,33 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
     <loc>/categories/haiku/</loc>
-    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
     <loc>/categories/senryu/</loc>
-    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
     <loc>/tags/spring/</loc>
-    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
-    <loc>/ku/spring-summer-2020/</loc>
-    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+    <loc>/ku/spring-summer-2021/</loc>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
     <loc>/tags/summer/</loc>
-    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2021-10-13T19:05:50-05:00</lastmod>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
+  </url><url>
+    <loc>/categories/tanka/</loc>
+    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
+  </url><url>
+    <loc>/tags/winter/</loc>
+    <lastmod>2021-10-13T22:49:45-05:00</lastmod>
+  </url><url>
+    <loc>/ku/winter-2020-2021/</loc>
+    <lastmod>2021-10-13T22:49:45-05:00</lastmod>
   </url><url>
     <loc>/ku/</loc>
     <lastmod>2021-09-29T17:16:11-05:00</lastmod>
   </url><url>
-    <loc>/projects/cortical-surface-analysis/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
     <loc>/tags/fall/</loc>
+    <lastmod>2021-08-14T22:24:00-05:00</lastmod>
+  </url><url>
+    <loc>/ku/fall-2020/</loc>
+    <lastmod>2021-08-14T22:24:00-05:00</lastmod>
+  </url><url>
+    <loc>/ku/spring-summer-2020/</loc>
+    <lastmod>2021-08-13T19:05:50-05:00</lastmod>
+  </url><url>
+    <loc>/projects/cortical-surface-analysis/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/ku/fall-winter-2019/</loc>
@@ -48,9 +63,6 @@
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/categories/research/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/tags/winter/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/tags/hendiadys/</loc>
@@ -132,9 +144,6 @@
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/tags/robotics/</loc>
-    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
-  </url><url>
-    <loc>/categories/tanka/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/categories/algo/</loc>

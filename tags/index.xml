@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 14 Oct 2021 03:20:13 UT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Oct 2021 04:49:33 UT</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>spring</title>
@@ -28,6 +28,14 @@
       <link>/tags/summer/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/summer/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>winter</title>
+      <link>/tags/winter/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/winter/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -68,14 +76,6 @@
       <link>/tags/r/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/r/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>winter</title>
-      <link>/tags/winter/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/winter/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
