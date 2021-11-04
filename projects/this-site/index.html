@@ -283,7 +283,7 @@ if (!doNotTrack) {
     <meta itemprop="name" content="how to host a Hugo After Dark site on GitHub Pages: a saga">
 <meta itemprop="description" content="¡¡host fast, pretty website 4 free!! for real, not kidding."><meta itemprop="datePublished" content="2021-07-09T23:36:07-05:00" />
 <meta itemprop="dateModified" content="2021-07-09T23:36:07-05:00" />
-<meta itemprop="wordCount" content="974"><meta itemprop="image" content="/projects/this-site/image/thomas-jensen-QABDpFYhNpk-unsplash.jpg">
+<meta itemprop="wordCount" content="1065"><meta itemprop="image" content="/projects/this-site/image/thomas-jensen-QABDpFYhNpk-unsplash.jpg">
 <meta itemprop="keywords" content="webdev,html,hugo,js," />
     <header>
       <h1 itemprop="headline name">how to host a Hugo After Dark site on GitHub Pages: a saga</h1>
@@ -383,6 +383,10 @@ if (!doNotTrack) {
 <li>Partially copy the <code>/themes/after-dark/layouts/partials/</code> directory, taking <code>page-summary.html</code>, <code>toc-maybe.html</code>, and <code>post/meta.html</code>. Modify <code>page-summary.html</code> by deleting lines 30 and 32.</li>
 </ul>
 <p><i>Since the overridden default layouts call these, it&rsquo;s easier to put them here and keep the relative paths. Randomly, there is a conditional block preventing the display of post metadata unless <code>type = &quot;post&quot;</code> in the front matter. To my knowledge, this doesn&rsquo;t occur elsewhere in other After Dark source files and removing it immediately allowed for post metadata in listings.</i></p>
+<ul>
+<li>Copy <code>/themes/after-dark/layouts/_default/baseof.html</code> into <code>/layouts/_default/</code> and add <code>{{ template &quot;_internal/google_analytics.html&quot; . }}</code> and <code>{{ template &quot;_internal/google_analytics_async.html&quot; . }}</code> into the <code>&lt;head&gt;</code> block. In config.toml, add the line <code>googleAnalytics = &lt;YOUR_TRACKING_STREAM_ID&gt;</code>.</li>
+</ul>
+<p><i>I started reading about SEO because I want this site to be ranked as the top search result under my name. According to this <a href="https://www.elsevier.com/connect/creating-a-simple-and-effective-academic-personal-website">academic personal website  tutorial</a>, Google Analytics categorizes the best keywords for achieving your SEO goals. Naturally, I am also interested in my site&rsquo;s analytics so I linked up the site using Hugo&rsquo;s Google Analytics templates, following <a href="https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/">this procedure</a>.</i></p>
 <h1 id="references">References</h1>
 <p><a href="https://cedricleroy.github.io">Cedric LeRoy</a></p>
 <p><a href="https://bateman.io">Sam Bateman</a></p>
@@ -407,7 +411,7 @@ if (!doNotTrack) {
   
     and tagged <a rel="tag" href="/tags/html/">html</a>, <a rel="tag" href="/tags/hugo/">hugo</a>, <a rel="tag" href="/tags/js/">js</a> and <a rel="tag" href="/tags/webdev/">webdev</a>
   
-  using <span itemprop="wordCount">974</span> words.
+  using <span itemprop="wordCount">1065</span> words.
 </p>
 
       

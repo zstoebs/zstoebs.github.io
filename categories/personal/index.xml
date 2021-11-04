@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 04 Nov 2021 05:32:29 UT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Nov 2021 06:28:39 UT</lastBuildDate>
     <atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
@@ -39,6 +39,7 @@ Bend To My Will! Disclaimer: Some of these workarounds may not be truly necessar
 Supposedly, if you want to have a featured list of posts for each section displayed at the top of section lsit pages and the bottom of a section&amp;rsquo;s single pages, then you need these schemas. Then, you need to add the correct blocks for each section to the config. However, I still have yet to get After Dark&amp;rsquo;s featured lists to work. Featured lists begin to work once you have multiple posts with similar tags. 
  Copy a list.html file from each of the schemas and paste into _default/. Rename them to the name of the section that the schema corresponds to, e.g., projects.html and notes.html.  I used this to hack the _index.md files for each section. Hugo natively won&amp;rsquo;t display any content in _index.md files which reside in non-leaf directories, but will for index.md which are leaf directories being the post-content of the site. However, you can override this by adding {{ .Content }} into the above HTML files below the header block. I hacked this to add alert blocks with the categories the following list of posts fall into; that way, readers can quicky jump to the taxonomy page for the content that they&amp;rsquo;re interested in.
  Partially copy the /themes/after-dark/layouts/partials/ directory, taking page-summary.html, toc-maybe.html, and post/meta.html. Modify page-summary.html by deleting lines 30 and 32.  Since the overridden default layouts call these, it&amp;rsquo;s easier to put them here and keep the relative paths. Randomly, there is a conditional block preventing the display of post metadata unless type = &amp;quot;post&amp;quot; in the front matter. To my knowledge, this doesn&amp;rsquo;t occur elsewhere in other After Dark source files and removing it immediately allowed for post metadata in listings.
+ Copy /themes/after-dark/layouts/_default/baseof.html into /layouts/_default/ and add {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} and {{ template &amp;quot;_internal/google_analytics_async.html&amp;quot; . }} into the &amp;lt;head&amp;gt; block. In config.toml, add the line googleAnalytics = &amp;lt;YOUR_TRACKING_STREAM_ID&amp;gt;.  I started reading about SEO because I want this site to be ranked as the top search result under my name. According to this academic personal website tutorial, Google Analytics categorizes the best keywords for achieving your SEO goals. Naturally, I am also interested in my site&amp;rsquo;s analytics so I linked up the site using Hugo&amp;rsquo;s Google Analytics templates, following this procedure.
 References Cedric LeRoy
 Sam Bateman
 Mike Dane&amp;rsquo;s Hugo tutorial vids
