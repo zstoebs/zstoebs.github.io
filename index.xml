@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 05 Nov 2021 03:48:10 UT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Nov 2021 04:51:12 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>kū</title>
@@ -48,19 +48,19 @@
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
-      <description> Hi, I&#39;m Zach!  I leverage machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML for medical and neuroscientific data. Generally, my interests are ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control theory.
+      <description> Hi, I&#39;m Zach!  I leverage machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML for medical and neuroscientific data. Generally, I&amp;rsquo;m curious about ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control theory.
 Check out my projects to see what I&amp;rsquo;m working on, notes to see what I&amp;rsquo;m thinking about, and kū to see what I&amp;rsquo;m seeing!
 CV GitHub LinkedIn Goodreads
 </description>
       <category domain="/categories/me">Me</category>
-      <content:encoded><![CDATA[ Hi, I&#39;m Zach!  I leverage machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML for medical and neuroscientific data. Generally, my interests are ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control theory.
+      <content:encoded><![CDATA[ Hi, I&#39;m Zach!  I leverage machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML for medical and neuroscientific data. Generally, I&amp;rsquo;m curious about ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control theory.
 Check out my projects to see what I&amp;rsquo;m working on, notes to see what I&amp;rsquo;m thinking about, and kū to see what I&amp;rsquo;m seeing!
 CV GitHub LinkedIn Goodreads
- I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my masters in computer science from Vandy in May 2022.
+ I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my M.S. in computer science, also at Vandy, in May 2022. Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests.
 During undergrad, I was a mentor in the VUSE Design Studio. I have had the privilege to assist with courses on discrete structures, operating systems, deep learning, and currently AI.
- Outside of research, I enjoy heavy weights, friendship, haiku &amp;amp; senryu, hendiadys, esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a haiku or senryu to pair with it. I especially like to take shameless photoshoots of my cats, Amie and Chaussure (Sir for short).
+ Beyond research, I enjoy heavy weights, friendship, haiku &amp;amp; senryu, hendiadys, esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a kū to pair with it. I especially like to take shameless photoshoots of my cats, Amie and Chaussure.
 I am a Lusophone &amp;gt; Hispanophone &amp;gt; Francophone. I self-studied Portuguese throughout high school, then I took a crucial gap year of emotional and linguistic growth in Lisbon, Portugal.
-My hometown is Austin, TX.
+My hometown is Austin, TX, and I hope one day I can live there again as a scientist guiding the future of tech.
  I am always open to new opportunities, especially those that align with my interests. You can contact me at zachary.a.stoebner@vanderbilt.edu.
 ]]></content:encoded>
     </item>
