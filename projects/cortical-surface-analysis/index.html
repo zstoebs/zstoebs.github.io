@@ -49,8 +49,8 @@ if (!doNotTrack) {
 <meta property="og:description" content="Noobs think linear regression is easy... try LMMs." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/projects/cortical-surface-analysis/" /><meta property="og:image" content="/projects/cortical-surface-analysis/image/lgi.png"/><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2021-07-14T10:38:19-05:00" />
-<meta property="article:modified_time" content="2021-07-14T10:38:19-05:00" />
+<meta property="article:published_time" content="2021-09-14T10:38:19-05:00" />
+<meta property="article:modified_time" content="2021-09-14T10:38:19-05:00" />
 
 
     <meta name="twitter:card" content="summary_large_image"/>
@@ -281,9 +281,9 @@ ul.thumbnail.grid li a:hover figure::after {
   
   <article itemscope itemtype="https://schema.org/BlogPosting">
     <meta itemprop="name" content="cortical surface analysis for Huntington&#39;s disease using linear-mixed models">
-<meta itemprop="description" content="Noobs think linear regression is easy... try LMMs."><meta itemprop="datePublished" content="2021-07-14T10:38:19-05:00" />
-<meta itemprop="dateModified" content="2021-07-14T10:38:19-05:00" />
-<meta itemprop="wordCount" content="1688"><meta itemprop="image" content="/projects/cortical-surface-analysis/image/lgi.png">
+<meta itemprop="description" content="Noobs think linear regression is easy... try LMMs."><meta itemprop="datePublished" content="2021-09-14T10:38:19-05:00" />
+<meta itemprop="dateModified" content="2021-09-14T10:38:19-05:00" />
+<meta itemprop="wordCount" content="1731"><meta itemprop="image" content="/projects/cortical-surface-analysis/image/lgi.png">
 <meta itemprop="keywords" content="ml,neuro,matlab,R," />
     <header>
       <h1 itemprop="headline name">cortical surface analysis for Huntington&#39;s disease using linear-mixed models</h1>
@@ -292,12 +292,12 @@ ul.thumbnail.grid li a:hover figure::after {
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
 </svg>
-<span>8 minute read</span>
+<span>9 minute read</span>
 <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
 
-  Published: <time datetime="2021-07-14T10:38:19-05:00">14 Jul, 2021</time>
+  Published: <time datetime="2021-09-14T10:38:19-05:00">14 Sep, 2021</time>
 
 
       </p>
@@ -325,6 +325,7 @@ ul.thumbnail.grid li a:hover figure::after {
         <li><a href="#summary">Summary</a></li>
       </ul>
     </li>
+    <li><a href="#takeaways">Takeaways</a></li>
     <li><a href="#references">References</a></li>
   </ul>
 </nav>
@@ -332,11 +333,10 @@ ul.thumbnail.grid li a:hover figure::after {
 
 
     <div itemprop="articleBody">
-      <p><strong>tl;dr</strong> My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &ndash; let&rsquo;s make them more accessible!</p>
+      <p><strong>tl;dr</strong> Although it will be published after <a href="/projects/stone-anno">StoneAnno</a>, this shape analysis is my first completed research project and technically my first first-authorship, <strong>going for submission at <i>Brain</i></strong>. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. <strong>We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</strong> Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &ndash; let&rsquo;s make them more accessible!</p>
 <h1 id="links">Links</h1>
-<p><strong>We are in the process of submitting our manuscript. As soon as it&rsquo;s published, I will link it here.</strong></p>
+<p><strong>We are in the process of submitting our manuscript at <i>Brain</i>. As soon as it&rsquo;s published, I will link it here. At that time, I expect to release the code as well.</strong></p>
 <h1 id="background">Background</h1>
-<p>My first complete research project, a main takeaway was learning the scientific process in action and, most importantly, learning to work with more experienced researchers. I wrote the code and performed all of the analysis that produced our results. However, I did not develop the awesome acquisition method that generated our LGI data nor the statistical theory behind the analysis. Throughout the project, I have relied heavily on the expertise of my co-authors &ndash; all of whom have PhDs whereas I was an undergrad until recently. This first journey in research has been inspiring and indelible and I am beyond grateful for it!</p>
 <p><a href="https://stats.idre.ucla.edu/other/mult-pkg/introduction-to-linear-mixed-models/">LMMs</a></p>
 <p><a href="http://cda.psych.uiuc.edu/web_407_spring_2014/random_field_theory.pdf">random field theory</a></p>
 <p><a href="https://github.com/ilwoolyu/LocalGyrificationIndex">LGI acquisition method</a></p>
@@ -367,6 +367,8 @@ ul.thumbnail.grid li a:hover figure::after {
 <img src="image/summary.jpg" alt="summary of results" /> 
 <figcaption> Table 1. Summary of Regions with Significant Changes Per Feature. The percentage of the structure with significant changes are reported, in terms of the number of vertices. Regions are color-coded according to cooccurrence in the three features. Red = regional changes were detected by all three features. Yellow = regional changes were detected by two of the features. Blue = regional changes were detected by one of the features. </figcaption>
 </figure>
+<h1 id="takeaways">Takeaways</h1>
+<p>A main takeaway was learning the scientific process in action and, most importantly, learning to work with more experienced researchers. I wrote the code and performed all of the analysis that produced our results. However, I did not develop the awesome acquisition method that generated our LGI data nor the statistical theory behind the analysis. Throughout the project, I have relied heavily on the expertise of my co-authors &ndash; all of whom have PhDs whereas I was an undergrad until recently. This first journey in research has been inspiring and indelible. I am beyond grateful for it!</p>
 <h1 id="references">References</h1>
 <p>[1]    F. O. Walker, “Huntington’s disease,” Lancet, vol. 369, no. 9557, pp. 218–228, 2007, doi: 10.1016/S0140-6736(07)60111-1.</p>
 <p>[2]    J. D. Long et al., “Genetic Modification of Huntington Disease Acts Early in the Prediagnosis Phase,” Am. J. Hum. Genet., vol. 103, no. 3, pp. 349–357, 2018, doi: 10.1016/j.ajhg.2018.07.017.</p>
@@ -415,8 +417,8 @@ ul.thumbnail.grid li a:hover figure::after {
       by <span itemprop="author">Zach Stoebner</span>
     
   
-  <time itemprop="datePublished" datetime="2021-07-14T10:38:19-05:00">
-    14 Jul, 2021
+  <time itemprop="datePublished" datetime="2021-09-14T10:38:19-05:00">
+    14 Sep, 2021
   </time>
   
     in <span itemprop="articleSection"><a href="/categories/research/">research</a></span>
@@ -424,7 +426,7 @@ ul.thumbnail.grid li a:hover figure::after {
   
     and tagged <a rel="tag" href="/tags/matlab/">matlab</a>, <a rel="tag" href="/tags/ml/">ml</a>, <a rel="tag" href="/tags/neuro/">neuro</a> and <a rel="tag" href="/tags/r/">R</a>
   
-  using <span itemprop="wordCount">1688</span> words.
+  using <span itemprop="wordCount">1731</span> words.
 </p>
 
       

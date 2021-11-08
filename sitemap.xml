@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
+  </url><url>
+    <loc>/tags/ml/</loc>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
+  </url><url>
+    <loc>/categories/research/</loc>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
+  </url><url>
+    <loc>/tags/segmentation/</loc>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
+  </url><url>
+    <loc>/projects/stone-anno/</loc>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
+  </url><url>
+    <loc>/tags/vision/</loc>
+    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
     <loc>/categories/haiku/</loc>
     <lastmod>2021-10-13T23:07:42-05:00</lastmod>
@@ -20,9 +41,6 @@
     <loc>/tags/summer/</loc>
     <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
-  </url><url>
     <loc>/categories/tanka/</loc>
     <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
@@ -35,6 +53,18 @@
     <loc>/kus/</loc>
     <lastmod>2021-09-29T17:16:11-05:00</lastmod>
   </url><url>
+    <loc>/projects/cortical-surface-analysis/</loc>
+    <lastmod>2021-09-14T10:38:19-05:00</lastmod>
+  </url><url>
+    <loc>/tags/matlab/</loc>
+    <lastmod>2021-09-14T10:38:19-05:00</lastmod>
+  </url><url>
+    <loc>/tags/neuro/</loc>
+    <lastmod>2021-09-14T10:38:19-05:00</lastmod>
+  </url><url>
+    <loc>/tags/r/</loc>
+    <lastmod>2021-09-14T10:38:19-05:00</lastmod>
+  </url><url>
     <loc>/tags/fall/</loc>
     <lastmod>2021-08-14T22:24:00-05:00</lastmod>
   </url><url>
@@ -44,25 +74,7 @@
     <loc>/kus/spring-summer-2020/</loc>
     <lastmod>2021-08-13T19:05:50-05:00</lastmod>
   </url><url>
-    <loc>/projects/cortical-surface-analysis/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
     <loc>/kus/fall-winter-2019/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/tags/matlab/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/tags/ml/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/tags/neuro/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/tags/r/</loc>
-    <lastmod>2021-07-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/categories/research/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/tags/hendiadys/</loc>
@@ -174,9 +186,6 @@
     <lastmod>2021-06-27T23:07:53-05:00</lastmod>
   </url><url>
     <loc>/projects/neural-dim/</loc>
-    <lastmod>2021-06-27T20:58:15-05:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
     <lastmod>2021-06-27T20:58:15-05:00</lastmod>
   </url><url>
     <loc>/about/</loc>

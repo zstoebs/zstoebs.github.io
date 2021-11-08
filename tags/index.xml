@@ -13,8 +13,40 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 08 Nov 2021 02:31:51 UT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Nov 2021 17:57:21 UT</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ml</title>
+      <link>/tags/ml/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/ml/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/python/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>segmentation</title>
+      <link>/tags/segmentation/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/segmentation/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>vision</title>
+      <link>/tags/vision/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/vision/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>spring</title>
       <link>/tags/spring/</link>
@@ -40,26 +72,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>fall</title>
-      <link>/tags/fall/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/fall/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
       <title>matlab</title>
       <link>/tags/matlab/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/matlab/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>ml</title>
-      <link>/tags/ml/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/ml/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -76,6 +92,14 @@
       <link>/tags/r/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/r/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>fall</title>
+      <link>/tags/fall/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/fall/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -220,14 +244,6 @@
       <link>/tags/hacking/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/hacking/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/python/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

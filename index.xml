@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>Zach Stoebner</title>
+    <title>Zach Stoebner | ml • neuro • kū on Zach Stoebner</title>
     <link>/</link>
-    <description>Recent content on Zach Stoebner</description>
+    <description>Recent content in Zach Stoebner | ml • neuro • kū on Zach Stoebner</description>
     <image>
-      <title>Zach Stoebner</title>
+      <title>Zach Stoebner | ml • neuro • kū on Zach Stoebner</title>
       <link>/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 08 Nov 2021 02:31:51 UT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Nov 2021 17:57:21 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>kū</title>
@@ -62,7 +62,7 @@ During undergrad, I was a mentor in the VUSE Design Studio. I have had the privi
 I am a Lusophone &amp;gt; Hispanophone &amp;gt; Francophone. I self-studied Portuguese throughout high school, then I took a crucial gap year of emotional and linguistic growth in Lisbon, Portugal.
 My hometown is Austin, TX, and I hope one day I can live there again as a scientist guiding the future of tech.
  I am always open to new opportunities, especially those that align with my interests. You can contact me at zachary.a.stoebner@vanderbilt.edu.
-]]></content:encoded>
+ ]]></content:encoded>
     </item>
   </channel>
 </rss>
