@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 08 Nov 2021 17:57:21 UT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Nov 2021 22:28:53 UT</lastBuildDate>
     <atom:link href="/tags/quads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
@@ -48,7 +48,7 @@ Code  The vslam.m code is modified from the vSLAM Matlab example.  References fr
       <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/projects/quad-build/</guid>
-      <description>A life-changing introduction to quadcopters and robotics in which I learned a lot about the ecosystem and constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!</description>
+      <description>A life-changing introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!</description>
       <category domain="/categories/personal">Personal</category>
       <content:encoded><![CDATA[ My fully built quadcopter on the ground, not flying... yet.  tl;dr A life-changing introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!
 Motivation As much as I like software, I also like hardware. I quickly realized that pure computer science wasn&amp;rsquo;t going to expose me to much hardware so I took it upon myself in summer 2020 &amp;ndash; mid-quarantine &amp;ndash; to teach myself. At the time, I was stumbling down a rabbit hole and obsessing over quadcopters, yet I had never laid my hands on one. To me at the time, building a quad from parts was as good a place to start as any.
