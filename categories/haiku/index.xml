@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>haiku on Zach Stoebner</title>
+    <title>haiku on Zach Stoebner | ml • neuro • kū</title>
     <link>/categories/haiku/</link>
-    <description>Recent content in haiku on Zach Stoebner</description>
+    <description>Recent content in haiku on Zach Stoebner | ml • neuro • kū</description>
     <image>
-      <title>haiku on Zach Stoebner</title>
+      <title>haiku on Zach Stoebner | ml • neuro • kū</title>
       <link>/categories/haiku/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 08 Nov 2021 22:49:42 UT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Nov 2021 17:08:59 UT</lastBuildDate>
     <atom:link href="/categories/haiku/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>spring-summer 2021</title>

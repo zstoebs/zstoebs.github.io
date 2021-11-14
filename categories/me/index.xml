@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>me on Zach Stoebner</title>
+    <title>me on Zach Stoebner | ml • neuro • kū</title>
     <link>/categories/me/</link>
-    <description>Recent content in me on Zach Stoebner</description>
+    <description>Recent content in me on Zach Stoebner | ml • neuro • kū</description>
     <image>
-      <title>me on Zach Stoebner</title>
+      <title>me on Zach Stoebner | ml • neuro • kū</title>
       <link>/categories/me/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 08 Nov 2021 22:49:42 UT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Nov 2021 17:08:59 UT</lastBuildDate>
     <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -29,7 +29,7 @@ CV GitHub LinkedIn Goodreads
       <content:encoded><![CDATA[ Hi, I&#39;m Zach!  I leverage machine learning to solve challenging problems in neuroscience, computer vision, &amp;amp; intelligent systems. I&amp;rsquo;m currently a graduate student researcher in VISE MedICL at Vanderbilt University investigating applied ML for medical and neuroscientific data. Generally, I&amp;rsquo;m curious about ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control theory.
 Check out my projects to see what I&amp;rsquo;m working on, notes to see what I&amp;rsquo;m thinking about, and kū to see what I&amp;rsquo;m seeing!
 CV GitHub LinkedIn Goodreads
- I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my M.S. in computer science, also at Vandy, in May 2022. Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at &#43;15125477486 or zachary.a.stoebner@vanderbilt.edu if you would like to work with me!
+ I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my M.S. in computer science, also at Vandy, in May 2022. Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at &#43;15125477486 or zachary.a.stoebner@vanderbilt.edu if you would like to work together!
 During undergrad, I was a mentor in the VUSE Design Studio. I have had the privilege to assist with courses on discrete structures, operating systems, deep learning, and currently AI.
  Beyond research, I enjoy heavy weights, friendship, haiku &amp;amp; senryu, hendiadys, esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a kū to pair with it. I especially like to take shameless photoshoots of my cats, Amie and Chaussure.
 I am a Lusophone &amp;gt; Hispanophone &amp;gt; Francophone. I self-studied Portuguese throughout high school, then I took a crucial gap year of emotional and linguistic growth in Lisbon, Portugal.
