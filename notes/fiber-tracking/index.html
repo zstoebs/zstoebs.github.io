@@ -344,6 +344,22 @@ ul.thumbnail.grid li a:hover figure::after {
 
     </header>
     
+  <details>
+    <summary>Table of Contents</summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#diffusion-tensor-imaging">Diffusion Tensor Imaging</a>
+      <ul>
+        <li><a href="#principal-eigenvector">Principal Eigenvector</a></li>
+        <li><a href="#fractional-anisotropy">Fractional Anisotropy</a></li>
+      </ul>
+    </li>
+    <li><a href="#tractography">Tractography</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </details>
+
 
     <div itemprop="articleBody">
       <p><strong>tl;dr</strong> After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. A stack of open-source softwares that can be used to implement diffusion tensor tractography are <a href="https://www.slicer.org">3D Slicer</a>, <a href="https://itk.org">ITK</a> for C++, and <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-SNAP</a>.</p>
