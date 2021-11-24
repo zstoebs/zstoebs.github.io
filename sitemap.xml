@@ -3,21 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/algo/</loc>
-    <lastmod>2021-11-16T13:50:49-06:00</lastmod>
-  </url><url>
-    <loc>/tags/c&#43;&#43;/</loc>
-    <lastmod>2021-11-16T13:50:49-06:00</lastmod>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
+  </url><url>
+    <loc>/tags/control/</loc>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
+  </url><url>
+    <loc>/tags/cps/</loc>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
+  </url><url>
+    <loc>/notes/lcp/</loc>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
+  </url><url>
+    <loc>/tags/optimization/</loc>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
+  </url><url>
+    <loc>/tags/robotics/</loc>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
+  </url><url>
+    <loc>/tags/c&#43;&#43;/</loc>
     <lastmod>2021-11-16T13:50:49-06:00</lastmod>
   </url><url>
     <loc>/tags/neuro/</loc>
     <lastmod>2021-11-16T13:50:49-06:00</lastmod>
   </url><url>
     <loc>/notes/fiber-tracking/</loc>
-    <lastmod>2021-11-16T13:50:49-06:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-11-16T13:50:49-06:00</lastmod>
   </url><url>
     <loc>/tags/ml/</loc>
@@ -128,9 +143,6 @@
     <loc>/categories/course/</loc>
     <lastmod>2021-07-09T13:51:01-05:00</lastmod>
   </url><url>
-    <loc>/tags/cps/</loc>
-    <lastmod>2021-07-09T13:51:01-05:00</lastmod>
-  </url><url>
     <loc>/projects/vae-segnet-verif/</loc>
     <lastmod>2021-07-09T13:51:01-05:00</lastmod>
   </url><url>
@@ -161,9 +173,6 @@
     <loc>/tags/tanka/</loc>
     <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/tags/control/</loc>
-    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
-  </url><url>
     <loc>/projects/tello-slam/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
@@ -171,9 +180,6 @@
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/tags/quads/</loc>
-    <lastmod>2021-07-02T11:46:28-05:00</lastmod>
-  </url><url>
-    <loc>/tags/robotics/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/tags/c/</loc>

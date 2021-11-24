@@ -13,8 +13,44 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 18 Nov 2021 00:11:04 UT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Nov 2021 19:07:08 UT</lastBuildDate>
     <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on linear complementarity problems</title>
+      <link>/notes/lcp/</link>
+      <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/notes/lcp/</guid>
+      <description>This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</description>
+      <category domain="/categories/algo">Algo</category>
+      <content:encoded><![CDATA[tl;dr This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.
+Background Programming A mathematical program is an optimization (min, max) over an objective function and constraints. A linear progam (LP) is such a progam where the objective function and the constraints are all linear.
+ The general LP formulation.  Aside: The terms &amp;lsquo;argmin&amp;rsquo; and &amp;lsquo;argmax&amp;rsquo; are special terminology for returning the optimizing value of the argument, instead of the optimal value of the function.
+Complementarity A complementarity condition is a special kind required for solving linear complementarity problems (LCPs), as the name suggests. The non-negative vectors x and y are complements if one or both of the values at corresponding indices are 0.
+ The definition of complementarity.  Complementarity is a condition that results in transforming a program into an LCP. Generally, it is not a constraint defined in the programs of the game.
+Games &amp;amp; Equilibria Intuitively, games are multiple programs that relate to each other. An equilibrium is a simultaneous joint solution that solves all optimization problems in a game.
+In Nash games, it is assumed that the opponent will always play their optimal move so the player will hence always play their optimal move. A Nash equilibrium is the best that each player can do without deviating from their predefined strategy, i.e., a matrix of costs for each of the player&amp;rsquo;s moves against each of the opponent&amp;rsquo;s moves. Therefore, solving such games is the same as finding the Nash equilibria.
+Aside: John Nash proved that in every finite game all players can arrive at an optimal outcome.
+Linear Complementarity Problem An LCP is defined as:
+ The general form of an LCP.  LCPs are important for solving programs because they can be analytically and algorithmically solved. Therefore, any programs that can be transformed into an LCP can be solved by solving the LCP; for Nash games, solutions to the LCP are thus the Nash equilibria.
+Karush-Kuhn-Tucker Conditions The Karush-Kuhn-Tucker (KKT) conditions are a set of first-order conditions using a program&amp;rsquo;s objective function and constraints set that must be satisfied by any optima. For the general form of a program:
+ The general form of a mathematical program.  The KKT conditions are defined as:
+ The KKT conditions for a general program.  The KKT conditions of the programs in a Nash game can be composed into an LCP. Solutions to the LCP satisfy the KKT conditions and are therefore Nash equilibria and solutions to the game.
+For the linear program above, the KKT conditions are:
+ The KKT conditions for a linear program.  which can then be composed into a function of the following form:
+ The KKT conditions as a function for an LCP.  Complementarity conditions can then be enforced over this function of KKT conditions to form an LCP. Voilà!
+Other programs, e.g., quadratic programs (QPs), can also be massaged into LCPs by stacking their KKT conditions in this way. Some problems can be massaged into complementarity problems, but not necessarily LCPs. Amusingly, the solutions to those problems are often approximated by solving LCPs.
+Lemke&amp;rsquo;s Method Lemke&amp;rsquo;s method is a pivoting algorithm for computationally finding solutions to LCPs. The rearranged equation above can be organized into a tableau of the form:
+ The tableau to solve the LCP via Lemke&#39;s method.  You may already see that essentially finding solutions to the LCP is solving a system of equations. However, since the tableau is a wide matrix, the system is underdetermined so there are infinitely many solutions, i.e., they lie in a conic region defined by complementary pairs of columns in the tableau, or no solution, i.e., if q is not contained in any complementary cone, then there is no solution to the LCP.
+For n variables in the z vector, there are necessarily 2n columns in the tableau with the n slack variables for w. Because of the stacked KKT conditions in the function, there are n rows. This suggests that any n of the variables, defined by their corresponding columns, can form a basis B to define the conic region containing a feasible solution. The decomposition of the system into basis and non-basis parts &#43; the rearrangement to solve for the basis variables is:
+ The decomposition of an undetermined system into basis and non-basis components.  However, these matrices can be enormous in practice and inverting a matrix is very computationally expensive. Thankfully, iteratively pivoting the tableau is one way to accomplish what inversion does without ever needing to invert a giant matrix. The high-level steps are:
+ Use a minimum ratio test to determine the exiting variable from the basis. Row-reduce the tableau along the pivot column that corresponds to the entering variable at the row index of the exiting variable s.t. the pivot column is now one-hot at that row index. Replace the exiting variable with the entering variable at its index in the basis vector. The next entering variable is the complementary variable to the exiting variable, i.e., w_i -&amp;gt; z_i.  Exiting conditions for the algorithm typically include: the values in the pivot columns are out of bound, i.e., z_i &amp;lt; 0, or the initial entering variable z_0 leaves the basis. At the end of the algorithm, the values in the column corresponding to q will be the values of the basis variables, and their complements will be 0. There are a number of modifications and tricks on top of this basic scaffolding that have been developed to handle variant complementarity problems. For discussion of each variant of Lemke&amp;rsquo;s method and their implementation details, I suggest reading Chapter 2 of the Murty textbook linked below.
+Other Complementarity Problems &amp;amp; Applications LCPs are in fact a very specific formulation of complementarity problems and generalizations exist, e.g., nonlinear (NCP), linear mixed (LMCP), and mixed (MCP) complementarity problems, which have looser constraints. However, these problems often can not be analytically solved like LCPs, so their solutions are approximated by LCPs.
+Solving multi-agent games underlies many practical applications, ranging from hot topics, such as autonomous driving and reinforcement learning, to age-old games, such as tag, and motion planning, i.e., approximating MCPs with the PATH solver.
+  A simulation of a tag game. Converting a QP to an LCP and solving via Lemke&#39;s method are the crux of generating trajectories for each agent to optimally play the game.  References Murty. &amp;ldquo;LINEAR COMPLEMENTARITY, LINEAR AND NONLINEAR PROGRAMMING.&amp;rdquo; 1997.
+GAMS PATH Solver
+]]></content:encoded>
+    </item>
     <item>
       <title>on fiber tracking</title>
       <link>/notes/fiber-tracking/</link>

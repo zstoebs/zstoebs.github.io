@@ -13,10 +13,10 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 18 Nov 2021 00:11:04 UT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Nov 2021 19:07:08 UT</lastBuildDate>
     <atom:link href="/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cortical surface analysis for Huntington&#39;s disease using linear-mixed models</title>
+      <title>cortical surface analysis in Huntington&#39;s disease using linear-mixed models</title>
       <link>/projects/cortical-surface-analysis/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
