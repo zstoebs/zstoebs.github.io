@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>optimization on Zach Stoebner | ml • neuro • kū</title>
-    <link>/tags/optimization/</link>
-    <description>Recent content in optimization on Zach Stoebner | ml • neuro • kū</description>
+    <title>opt on Zach Stoebner | ml • neuro • kū</title>
+    <link>/tags/opt/</link>
+    <description>Recent content in opt on Zach Stoebner | ml • neuro • kū</description>
     <image>
-      <title>optimization on Zach Stoebner | ml • neuro • kū</title>
-      <link>/tags/optimization/</link>
+      <title>opt on Zach Stoebner | ml • neuro • kū</title>
+      <link>/tags/opt/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 24 Nov 2021 22:00:33 UT</lastBuildDate>
-    <atom:link href="/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Dec 2021 21:05:58 UT</lastBuildDate>
+    <atom:link href="/tags/opt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on linear complementarity problems</title>
       <link>/notes/lcp/</link>
