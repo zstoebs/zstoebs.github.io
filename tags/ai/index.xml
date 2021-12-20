@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>projects on Zach Stoebner | ml • neuro • kū</title>
-    <link>/projects/</link>
-    <description>Recent content in projects on Zach Stoebner | ml • neuro • kū</description>
+    <title>ai on Zach Stoebner | ml • neuro • kū</title>
+    <link>/tags/ai/</link>
+    <description>Recent content in ai on Zach Stoebner | ml • neuro • kū</description>
     <image>
-      <title>projects on Zach Stoebner | ml • neuro • kū</title>
-      <link>/projects/</link>
+      <title>ai on Zach Stoebner | ml • neuro • kū</title>
+      <link>/tags/ai/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
@@ -14,7 +14,72 @@
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
     <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
-    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on linear complementarity problems</title>
+      <link>/notes/lcp/</link>
+      <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/notes/lcp/</guid>
+      <description>This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</description>
+      <category domain="/categories/algo">Algo</category>
+      <content:encoded><![CDATA[tl;dr This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.
+Background Programming A mathematical program is an optimization (min, max) over an objective function and constraints. A linear program (LP) is one where the objective function and the constraints are all linear.
+ The general LP formulation.  Aside: The terms &amp;lsquo;argmin&amp;rsquo; and &amp;lsquo;argmax&amp;rsquo; are special terminology for returning the optimizing value of the argument, instead of the optimal value of the function.
+Complementarity A complementarity condition is a special kind of constraint required for solving linear complementarity problems (LCPs), as the name suggests. The non-negative vectors x and y are complements if one or both of the values at corresponding indices are 0.
+ The definition of complementarity.  Complementarity results from a program&amp;rsquo;s transformation into an LCP. Generally, it is not a constraint defined in the programs of the game.
+Games &amp;amp; Equilibria Intuitively, games are multiple programs that relate to each other. An equilibrium is a simultaneous joint solution that solves all optimization problems in a game.
+In Nash games, it is assumed that the opponent will always play their optimal move, so the player should always play their optimal move. A Nash equilibrium is a best player&amp;rsquo;s best move without deviating from their predefined strategy, i.e., a matrix of costs for each of the player&amp;rsquo;s moves against each of the opponent&amp;rsquo;s moves. Solving Nash games is the same as finding the Nash equilibria.
+Aside: John Nash proved that in every finite game all players can arrive at an optimal outcome.
+Linear Complementarity Problem An LCP is defined as:
+ The general form of an LCP.  LCPs are important and useful, for both mathematical and computer, programming because they can be analytically and algorithmically solved. Therefore, any programs that can be transformed into an LCP can be solved through the LCP; for Nash games, solutions to the LCP are thus the Nash equilibria.
+Karush-Kuhn-Tucker Conditions The Karush-Kuhn-Tucker (KKT) conditions are a set of first-order conditions using a program&amp;rsquo;s objective function and constraints that must be satisfied by any optima. For the general form of a program:
+ The general form of a mathematical program.  The KKT conditions are defined as:
+ The KKT conditions for a general program.  The KKT conditions of the programs in a Nash game can be composed into an LCP. Solutions to the LCP satisfy the KKT conditions and are therefore Nash equilibria and solutions to the game.
+For the linear program above, the KKT conditions are:
+ The KKT conditions for a linear program.  which can then be composed into a function of the following form:
+ The KKT conditions as a function for an LCP.  Complementarity conditions can then be enforced over this function of KKT conditions to form an LCP. Voilà!
+Other programs, e.g., quadratic programs (QPs), can also be massaged into LCPs by stacking their KKT conditions in this way. Some problems can be massaged into complementarity problems, but not necessarily LCPs. Amusingly, the solutions to those problems are often approximated by solving LCPs.
+Lemke&amp;rsquo;s Method Lemke&amp;rsquo;s method is a pivoting algorithm for computationally finding solutions to LCPs. The rearranged equation above can be organized into a tableau of the form:
+ The tableau to solve the LCP via Lemke&#39;s method.  You may already see that essentially finding solutions to the LCP is solving a system of equations. However, since the tableau is a wide matrix, the system is underdetermined so there are infinitely many solutions, i.e., they lie in a conic region defined by complementary pairs of columns in the tableau, or no solutions, i.e., if q is not contained in any complementary cone.
+For n variables in the z vector, there are necessarily 2n columns in the tableau with the n slack variables for w. Because of the stacked KKT conditions in the function, there are n rows. This suggests that any n of the variables, defined by their corresponding columns, can form a basis B to define the conic region containing a feasible solution. The decomposition of the system into basis and non-basis parts:
+ The decomposition of an undetermined system into basis and non-basis components.  Since B is a basis of linearly independent columns, it can be inverted and the basis variables can technically determined that way. However, these matrices can be enormous in practice and inverting a matrix is very computationally expensive. Thankfully, iteratively pivoting the tableau is one way to accomplish the same goal without ever needing to invert a giant matrix. The high-level steps are:
+ Use a minimum ratio test to determine the exiting variable from the basis. Row-reduce the tableau along the pivot column that corresponds to the entering variable at the row index of the exiting variable s.t. the pivot column is now one-hot at that row index. Replace the exiting variable with the entering variable at its index in the basis vector. The next entering variable is the complementary variable to the exiting variable, i.e., w_i -&amp;gt; z_i.  Stop conditions for the algorithm typically include: the values in the pivot columns are out of bounds, i.e., z_i &amp;lt; 0, or the initial entering variable z_0 leaves the basis. At the end of the algorithm, the values in the column corresponding to q will be the values of the basis variables in the final basis, and their complements will be 0. There are a number of modifications and tricks on top of this basic scaffolding that have been developed to handle variant complementarity problems. For discussion of each variant of Lemke&amp;rsquo;s method and their implementation details, I suggest reading Chapter 2 of the Murty textbook.
+Other Complementarity Problems &amp;amp; Applications LCPs are in fact a very specific formulation of complementarity problems and generalizations exist, e.g., nonlinear (NCP), linear mixed (LMCP), and mixed (MCP) complementarity problems, which have looser constraints than an LCP. However, these problems typically cannot be analytically solved like LCPs, but can be approximated by LCPs.
+Solving games underlies many practical applications, ranging from hot topics, such as autonomous driving and reinforcement learning, to age-old games, i.e., tag, motion planning, i.e., approximating MCPs with the PATH solver, and physics simulations.
+  A simulation of a tag game. Converting a QP to an LCP and solving via Lemke&#39;s method are the crux of generating trajectories for each agent to optimally play the game.  References Murty. &amp;ldquo;LINEAR COMPLEMENTARITY, LINEAR AND NONLINEAR PROGRAMMING.&amp;rdquo; 1997.
+Cottle, Pang, Stone. &amp;ldquo;The Linear Complementarity Problem.&amp;rdquo; 2008
+Dirkse, Steven &amp;amp; Ferris, Michael. (1995). The path solver: a nommonotone stabilization scheme for mixed complementarity problems. Optimization Methods &amp;amp; Software - OPTIM METHOD SOFTW. 5. 123-156. 10.1080/10556789508805606.
+GAMS PATH Solver
+Nisan et al. &amp;ldquo;Algorithmic Game Theory.&amp;rdquo; 2007
+Enzenhofer. &amp;ldquo;Numerical Solution of Mixed Linear Complementarity Problems in Multibody Dynamics with Contact.&amp;rdquo; 2018
+Nocedal &amp;amp; Wright. &amp;ldquo;Numerical Optimization.&amp;rdquo; 2006.
+Ralph. &amp;ldquo;Global Convergence of Damped Newton&amp;rsquo;s Method for Nonsmooth Equations via the Path Search.&amp;rdquo; 1990.
+]]></content:encoded>
+    </item>
+    <item>
+      <title>on fiber tracking</title>
+      <link>/notes/fiber-tracking/</link>
+      <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/notes/fiber-tracking/</guid>
+      <description>After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.</description>
+      <category domain="/categories/algo">Algo</category>
+      <content:encoded><![CDATA[tl;dr After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. A stack of open-source softwares that can be used to implement diffusion tensor tractography are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.
+The diffusion tensor image used to generate all figures is publically available as sample data, DTIBrain, via 3D Slicer.
+Diffusion Tensor Imaging In a diffusion tensor image (DTI), each voxel is represented by a symmetric tensor with 6 distinct values for the speed of water diffusion, corresponding to the directions from the center of the cubic voxel to each of its faces. Without obstruction, water diffusion is uniform on average in every direction; however, in spaces that alter diffusion, the values in each of these directions are anisotropic. Anisotropic diffusion gives rise to a principal axis of diffusion where some forward and backwards direction have greater values than the rest. Hence, the tensor at the voxel can be visualized as an ellipsoid – the elastic deformation of the cube along the principal axis.
+ Sagittal slice of a DTI. 3D Slicer visualizes DTI well with a color orientation scheme, where red means that the principal eigenvector is along the left-right axis, blue means its along the inferior-superior axis, and green means its along the anterior-posterior axis. Intermediate colors means that its along a linear combination of these basis vectors.  Principal Eigenvector The major eigenvector from each diffusion tensor gives the forward direction of the principal axis; the negation of the major eigenvector is the backwards direction. Precomputing this vector image, with one vector at each voxel, yields a map that can be used to route the line propagation algorithm through the brain&amp;rsquo;s tracts. ITK defines a DiffusionTensor3D type that can set as the pixel type for an image; the type also defines a function for computing its eigendecomposition, which can be called when the pixel is accessed by an iterator.
+ Sagittal slice of the principal eigenvector image of the DTI. Although it&#39;s noisy, you can see that there is still structure to it that makes sense, i.e., in the corpus callosum and the brain stem.  Fractional Anisotropy Fractional anisotropy (FA) is a scalar value computed from the eigenvalues of the diffusion tensor to quantify the amount of anisotropic diffusion at a voxel in the DTI [3]. A high value insinuates that water diffuses along a single axis, which would correspond to water flowing through a tract. FA for a 3x3 diffusion tensor is computed as follows:
+ The formula to compute the scalar FA value, which is solely based on the eigenvalues, where the capped lambda is the mean of the eigenvalues.  When performing tractography, an FA value that is too low implies that water diffusion is largely isotropic, e.g., in grey matter, where there are no tracts. Hence, a minimum FA can be set and used as a stopping condition at a given voxel. ITK&amp;rsquo;s DiffusionTensor3D type defines a function to compute the FA value of the tensor and can be accessed in the same way as the eigendecomposition function.
+ Sagittal slice of the FA image of the DTI. The FA image looks strikingly similar to a structural MRI.  Tractography With the directional values, a line can be propagated from a seed voxel along the 3D vector field to reconstruct a 3D tract down the two directions of the principal axis [1]. By propagating a line from a seed, or from many seeds, a rudimentary tractography map of a DTI can be computed. Although line propagation is intuitive and relatively lightweight, it is worth noting that other fiber tracking techniques exist that are both more robust and more intensive [2].
+The stopping conditions:
+ Current iteration is greater than the max number of iterations chosen by the user. The candidate voxel is outside of the image. The FA at the candidate voxel is below the minimum FA acceptable chosen by the user. The candidate voxel has already been visited.  If no stopping condition was met, then the current voxel was visited, meaning:
+ The candidate voxel in the tractography image was set to a non-negative integer. The eigenvector at the candidate voxel was extracted, multiplied by some step size ∆ chosen by the user, added and subtracted from the candidate voxel’s index, and then pushed to the back of the list. Finally, the candidate voxel was popped from the front of the list and the iteration was incremented.  For this task, line propagation can be implemented both iteratively or recursively because it is isomorphic to search algorithms, i.e., breadth-first and depth-first search. Switching between the two is pretty straightforward as the function definitions should not be very different. That said, the recursive algorithm is likely less bloated and more effective computationally, but might be much slower if you&amp;rsquo;re using ITK in Python rather than C&#43;&#43;.
+ Views of a tractography image generated by a single seed (top) and multiple seeds from a segmentation image (bottom) for ∆ = 0.9, minimum FA at 0.1, and the maximum number of iterations at 10000. The orientation of the views is given on the top. As expected, multi-seed input generated a much more extensive tractography map.  References [1] Mori S, van Zijl PC. Fiber tracking: principles and strategies - a technical review. NMR Biomed. 2002 Nov-Dec;15(7-8):468-80. https://doi.org/10.1002/nbm.781. PMID: 12489096.
+[2] Kleiser R, Staempfli P, Valavanis A, Boesiger P, Kollias S. Impact of fMRI- guided advanced DTI fiber tracking techniques on their clinical applica- tions in patients with brain tumors. Neuroradiology. 2010 Jan;52(1):37-46. https://doi.org/10.1007/s00234-009-0539-2. Epub 2009 May 29. PMID: 19479248.
+[3] Basser PJ, Pierpaoli C. Microstructural and physiological features of tissues eluci- dated by quantitative-diffusion-tensor MRI. J Magn Reson B. 1996 Jun;111(3):209- 19. https://doi.org/10.1006/jmrb.1996.0086. PMID: 8661285.
+]]></content:encoded>
+    </item>
     <item>
       <title>segmentation of kidney stones in endoscopic video feeds</title>
       <link>/projects/stone-anno/</link>
@@ -92,36 +157,6 @@ References [1] F. O. Walker, “Huntington’s disease,” Lancet, vol. 369, no.
 [34] D. Bates, M. Mächler, B. M. Bolker, and S. C. Walker, “Fitting linear mixed-effects models using lme4,” J. Stat. Softw., vol. 67, no. 1, 2015, doi: 10.18637/jss.v067.i01.
 [35] K. Worsley et al., “SurfStat: A Matlab toolbox for the statistical analysis of univariate and multivariate surface and volumetric data using linear mixed effects models and random field theory,” Neuroimage, vol. 47, p. S102, 2009, doi: 10.1016/s1053-8119(09)70882-1.
 [36] X. Han et al., “Reliability of MRI-derived measurements of human cerebral cortical thickness: The effects of field strength, scanner upgrade and manufacturer,” Neuroimage, vol. 32, no. 1, pp. 180–194, 2006, doi: 10.1016/j.neuroimage.2006.02.051.
-]]></content:encoded>
-    </item>
-    <item>
-      <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
-      <link>/projects/github-after-dark/</link>
-      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/github-after-dark/</guid>
-      <description>From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
-      <category domain="/categories/personal">Personal</category>
-      <content:encoded><![CDATA[tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
-Links Site source
-Generated source
-This site justifies my perfect website build.
-How to Host Hosting Hugo
-Steps to host a Hugo After Dark site on GitHub pages:
- Download the quick start code locally from the After Dark website. Run hugo to generate website files in public/. Host the generated files in public/ on the GitHub pages repo, i.e., a repo named [your username].github.io. Host the source files in the parent directory in a separate repo, with public/ ignored.  These are the files at the highest level, mainly Markdown files, that Hugo uses to build the static site.   Create a GitHub action or workflow in the source file repo. (optional)  Modifying source files and then pushing to source repo will trigger a rebuild and push of the public/ repo. Hugo offers a copy&amp;amp;paste workflow for this purpose in the docs.    Steps 3-4, in particular, are not clear on the Hugo docs for GitHub hosting. Fortunately, of the only two other people that I found online that specifically host After Dark on Github, one of them wrote an enlightening note that clarified the distinction between the two different directories. Hope that saves you some time!
-How to After Dark Hugo After Dark
-Most Hugo sites are run by themes, which define the site&amp;rsquo;s style, layout, and sometimes useful theme-specific shortcodes and advanced automatic features. However, not all themes are created equal and some will require a more advanced knowledge of Hugo to function. Thankfully, After Dark is one of the good ones if you&amp;rsquo;re a web novice.
-What to Know  shortcodes: In Hugo, shortcodes are akin to functions that you can put in your Markdown files to improve them in some way, such as info blocks, buttons, and optimized images. list page vs. single page: after trial &amp;amp; error, I recommend creating directories for each single page and use _index.md to correspond to (non-leaf) list page directories, aka &amp;ldquo;sections&amp;rdquo;, and index.md for (leaf) single pages, aka &amp;ldquo;posts&amp;rdquo;. tip: for After Dark&amp;rsquo;s automatic features to kick in, you need content &amp;ndash; at least two posts in a section.  With After Dark, you technically only have to spend time in the parent directory writing in Markdown or slightly tweaking the config. However, since After Dark handles many neat features automatically, it can be too rigid and After Dark also requires some debugging. If you want to be all-powerful you need to understand Hugo &amp;hellip; and at least be able to read HTML and edit at the right place.
-Bend To My Will! Disclaimer: Some of these workarounds may not be truly necessary and could simply be my misunderstanding the After Dark docs. Nonetheless, they work for me.
- Copy the /themes/after-dark/layouts/post/ directory to the parent directory&amp;rsquo;s /layouts/ folder. In the parent directory&amp;rsquo;s /layouts/ folder, create a _default/ directory and copy the single.html file from the post/ into _default/.  This overrides the default single.html for After Dark which, if you compare it to this new one, is rudimentary and doesn&amp;rsquo;t incorporate some of the interesting After Dark features. To me so far, it seems After Dark has a bug in it&amp;rsquo;s default handling of single-page, post-type content from schemas. I definitely suggest overriding the default layout files because it seems to solve the problem.
- Duplicate and rename the post/ directory from the above hack to the type of post for each section, e.g., project/ and note/ corresponding to the projects/ and notes/ section in my content.  This creates schemas for each section. No need to edit the HTML because After Dark&amp;rsquo;s post schema has the necessary components. This step doesn&amp;rsquo;t cause much change to section list / single page structure. Any post that specifies this schema in its front matter will apply the appropriate layout; this is preemptively useful if you plan to heavily customize specific sections.
-Supposedly, if you want to have a featured list of posts for each section displayed at the top of section lsit pages and the bottom of a section&amp;rsquo;s single pages, then you need these schemas. Then, you need to add the correct blocks for each section to the config. However, I still have yet to get After Dark&amp;rsquo;s featured lists to work. Featured lists begin to work once you have multiple posts with similar tags. 
- Copy a list.html file from each of the schemas and paste into _default/. Rename them to the name of the section that the schema corresponds to, e.g., projects.html and notes.html.  I used this to hack the _index.md files for each section. Hugo natively won&amp;rsquo;t display any content in _index.md files which reside in non-leaf directories, but will for index.md which are leaf directories being the post-content of the site. However, you can override this by adding {{ .Content }} into the above HTML files below the header block. I hacked this to add alert blocks with the categories the following list of posts fall into; that way, readers can quicky jump to the taxonomy page for the content that they&amp;rsquo;re interested in.
- Partially copy the /themes/after-dark/layouts/partials/ directory, taking page-summary.html, toc-maybe.html, and post/meta.html. Modify page-summary.html by deleting lines 30 and 32.  Since the overridden default layouts call these, it&amp;rsquo;s easier to put them here and keep the relative paths. Randomly, there is a conditional block preventing the display of post metadata unless type = &amp;quot;post&amp;quot; in the front matter. To my knowledge, this doesn&amp;rsquo;t occur elsewhere in other After Dark source files and removing it immediately allowed for post metadata in listings.
- Copy /themes/after-dark/layouts/_default/baseof.html into /layouts/_default/ and add {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} and {{ template &amp;quot;_internal/google_analytics_async.html&amp;quot; . }} into the &amp;lt;head&amp;gt; block. In config.toml, add the line googleAnalytics = &amp;lt;YOUR_MEASUREMENT_ID&amp;gt;.  I started reading about SEO because I want this site to be ranked as the top search result under my name. According to this academic personal website tutorial, Google Analytics categorizes the best keywords for achieving your SEO goals. Naturally, I am also interested in my site&amp;rsquo;s analytics so I linked up the site using Hugo&amp;rsquo;s Google Analytics templates, following this procedure.
-References Cedric LeRoy
-Sam Bateman
-Mike Dane&amp;rsquo;s Hugo tutorial vids
 ]]></content:encoded>
     </item>
     <item>
@@ -209,52 +244,6 @@ R. Mur-Artal, J. M. M. Montiel, and J. D. Tardos, “ORB-SLAM: A Versatile and A
 B. Williams and I. Reid, “On combining visual SLAM and visual odometry,” Proc. - IEEE Int. Conf. Robot. Autom., pp. 3494–3500, 2010, doi: 10.1109/ROBOT.2010.5509248.
 Code  The vslam.m code is modified from the vSLAM Matlab example.  References from my first exposure to quad programming and face detection:
  TelloTV TelloPython  ]]></content:encoded>
-    </item>
-    <item>
-      <title>learning about quadcopters by building one</title>
-      <link>/projects/quad-build/</link>
-      <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/quad-build/</guid>
-      <description>My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!</description>
-      <category domain="/categories/personal">Personal</category>
-      <content:encoded><![CDATA[ My fully built quadcopter on the ground, not flying... yet.  tl;dr My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!
-Motivation As much as I like software, I also like hardware. I quickly realized that pure computer science wasn&amp;rsquo;t going to expose me to much hardware so I took it upon myself in summer 2020 &amp;ndash; mid-quarantine &amp;ndash; to teach myself. At the time, I was stumbling down a rabbit hole and obsessing over quadcopters, yet I had never laid my hands on one. To me at the time, building a quad from parts was as good a place to start as any.
-Cost To make the journey as painless as possible, I followed a build from a $15 Udemy course that was apparently not a moneymaker because it is no longer listed. The build that I followed was not current; the drone industry moves fast and parts will shift in and out of compatibility. You can find potentially better, much cheaper, sufficiently thorough builds on YouTube. The community is dedicated so up-to-date build guides are very likely.
-If you don&amp;rsquo;t need tools, then this build is approx $500. Again, there are budget drone builds, that are current and probably more satisfying &amp;ndash; don&amp;rsquo;t reinvent the wheel. Or, you could buy a $100 Tello and program the hell out of it.
-Part List Disclaimer: some of these parts may no longer be available.
-Raspberry Pi: https://amzn.to/2mrd72g
-NAVIO Kit (Need Power module, wires and GPS): https://store.emlid.com/product/navio2/?wpam_id=3
-ESCs 4 PACK: https://amzn.to/2kTweBt
-Motors 4 PACK: https://amzn.to/2ltKilA
-RC Controller: https://amzn.to/2n05Zdq
-Frame: https://amzn.to/2mSmNCW
-Props: https://amzn.to/2my3w9C
-Battery: https://amzn.to/2kSlzHe
-Battery Charger: https://amzn.to/2kXA1hi
-Telemetry: https://amzn.to/2myfH6l
-LiPo Fire-proof Case: https://amzn.to/2lsRu1i
-PPM Encoder: https://amzn.to/2n1hjWR
-Micro SD Card: https://amzn.to/2lvcJiS
-Micro SD to USB: https://amzn.to/2n09yQQ
-Battery Connector: https://amzn.to/2ltOP7A or https://amzn.to/2n0a3KI
-GPS Mount: https://amzn.to/2luGOiz
-Velcro Straps: https://amzn.to/2lsloTe
-Scotch Mounting Tape: https://amzn.to/2mSsdxM
-Zip Ties: https://amzn.to/2lveUTA
-Additional tools if needed:
-Soldering Iron Kit: https://amzn.to/2kZklKw
-Helping Hands: https://amzn.to/2lvfxwq
-Allen Wrench: https://amzn.to/2mVFfus
-Electrical Tape: https://amzn.to/2ls4Niv
-Spacer Kit: https://amzn.to/2NTIyeY
-Drill and Drill Bits: https://amzn.to/2SQrZBK
-Lessons Building a drone is easy, getting it to fly is hard. Soldering, plugging, and fixing hardware to the frame is like legos. Flashing the flight OS onto the Raspberry Pi &#43; Navio2 flight controller is no problem. Finding a functioning ground control software from this century = yikes. Then you just have to pray that it&amp;rsquo;s compatible with your flight controller.
-On a side note, this drone is deceptively big. Although I&amp;rsquo;m not an expert aerospace engineer, I deduce that getting big things to fly is much more of a hassle than for small things, especially if you live in an apartment in the city.
-One super fun takeaway: learning how components connect to the whole quad, how they communicate with each other, and how a full-fledged cyberphysical system can come together was extremely rewarding.
-Large quad with exposed wires and point ends = the ultimate cat chew-toy
-Future Off and on, I may try to get this quad flying. However, it will likely remain a trophy of my first foray into quads, and also a testament to my initial learning curve. As I&amp;rsquo;ve hinted at many times, I soon intend to follow a smaller, cheaper build. Most importantly, I&amp;rsquo;m excited to take what I learned here and apply it broadly to other hardware projects.
-References  Caleb Bergquist, instructor of the long lost Udemy course Joshua Bardwell https://ardupilot.org/copter/docs/common-navio2-overview.html  ]]></content:encoded>
     </item>
     <item>
       <title>dimensionality reduction on neural data</title>

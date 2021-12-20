@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 04 Dec 2021 21:05:58 UT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
     <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>verification of a VAE &amp; SegNet using NNV</title>
@@ -24,8 +24,8 @@
       <description>Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</description>
       <category domain="/categories/course">Course</category>
       <content:encoded><![CDATA[ Lower bound and upper bound attacks on a generated image from a VAE.  tl;dr Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.
-Links Github
-Paper
+Links repo
+report
 Motivation After many face palms and harrowing all-nighters, I learned that achieving reliable performance, for even a task as simple-sounding as face following, is a true feat worthy of ascension from padawan to knight. Even though teams of engineers can concoct relatively high-performing models, I&amp;rsquo;ve learned from first-hand experience, as many others have, that even at the highest level ML messes up&amp;hellip; a lot.
 For computer vision in particular, neural networks [NNs] tend to mess up when images are perturbed in some way, e.g., a brightness attack or a deformation, which may be imperceptible to the human eye. Read about optical adversarial attacks against road sign classifiers and defeating deepfake detectors. Subtle intensity differences between images frequently confounds analysis in image-based learning and applications; for example, I also research methods for harmonization of longitudinal MRI datasets using GANs to correct these minute differences. As I was learning about formal methods and automated verification, I wondered whether NNs can be verified for robustness against attacks and, in turn, also verify the performance of generator networks, such as autoencoders, in generating utile images. As a learning experience, this exploratory project is a classic case of &amp;ldquo;know thy enemy&amp;rdquo;.
 Content  train_segnet.m: trains a SegNet on MNIST train_VAE.m: trains a VAE on MNIST verify_segnet.m: attempts verification of SegNet given perturbed or unperturbed input verify_VAE.m: attempts verification of VAE given perturbed or unperturbed input  Other files are ported or modified from MATLAB&amp;rsquo;s VAE demo.
@@ -83,8 +83,8 @@ Scax&amp;rsquo;s Force-Directed Graph with Zooming
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
       <category domain="/categories/course">Course</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
-Links GitHub
-Paper
+Links repo
+report
 Motivation Following my quad build experience, I set the intention to continue working with and learning more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection &amp;amp; following and SLAM. Face detection &amp;amp; following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image&amp;rsquo;s center. vSLAM on the other hand is more interesting in my opinion. For those that don&amp;rsquo;t know: simultaneous localization &amp;amp; mapping (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it.
 Contents  main.m: control flow script to demonstrate each of these on the Tello. follow.m: face detection and following algorithm that returns the movement vector required to center the drone on the detected face, if there is one. vslam.m: implements vSLAM using the drone&amp;rsquo;s pinhole camera given a predetermined movement sequence that should be cycled a handful of times.  Method Face Following Algorithm:
  Pass the frame to the object detector and retrieve a bounding box location(s) for the detected object. Draw boxes around all of the detected images. Use the closest bounding box’s width and center coordinates to compute the relative axis change as a percentage of the max. Based on some threshold percentage and some minimum movement distance, set the axes distances and return them to be used in a move command.    Fig 1. Face following schematic. An image is passed to the cascade object detector. The detector draws a bounding box around the face. The centering vector from the current center to the center of the bounding box is computed. The UAV moves in the direction of the centering vector while maintaining a safe, specified distance.  vSLAM This vSLAM implementation breaks down into three key parts: map initialization, tracking and local mapping.
@@ -110,8 +110,8 @@ Code  The vslam.m code is modified from the vSLAM Matlab example.  References fr
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
       <category domain="/categories/course">Course</category>
       <content:encoded><![CDATA[ A shallow autoencoder&#39;s projection of 53-dimensional vectors to 3 dimensions.  tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
-Links GitHub
-Paper
+Links repo
+report
 Motivation As I began learning about ML and statistical ML in particular, I became fascinated by dimensionality reduction  (DR) methods. For those that don&amp;rsquo;t know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy.
 Content I used this project to put fingers to keyboard and learn through implementation. I explored two avenues, applying
  PCA An autoencoder  to a waveform-to-cell type classification problem.

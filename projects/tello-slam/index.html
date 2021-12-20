@@ -40,7 +40,7 @@ if (!doNotTrack) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>face following and vSLAM for a Tello quadcopter | Zach Stoebner | ml • neuro • kū</title>
     <meta name="description" content="Tello can do hard things.">
-    <meta name="keywords" content="quads, robotics, cps, ml, matlab, control">
+    <meta name="keywords" content="quads, robotics, cps, ml, matlab, control, ai">
     
     
     
@@ -284,7 +284,7 @@ ul.thumbnail.grid li a:hover figure::after {
 <meta itemprop="description" content="Tello can do hard things."><meta itemprop="datePublished" content="2021-07-02T11:46:28-05:00" />
 <meta itemprop="dateModified" content="2021-07-02T11:46:28-05:00" />
 <meta itemprop="wordCount" content="1467"><meta itemprop="image" content="/projects/tello-slam/image/header.jpg">
-<meta itemprop="keywords" content="quads,robotics,cps,ml,matlab,control," />
+<meta itemprop="keywords" content="quads,robotics,cps,ml,matlab,control,ai," />
     <header>
       <h1 itemprop="headline name">face following and vSLAM for a Tello quadcopter</h1>
       <p class="muted">
@@ -344,8 +344,8 @@ ul.thumbnail.grid li a:hover figure::after {
     <div itemprop="articleBody">
       <p><strong>tl;dr</strong> Implementation of face detection / following and vSLAM on a <a href="https://www.ryzerobotics.com/tello">Ryze Tello</a> using its <a href="https://www.mathworks.com/hardware-support/tello-drone-matlab.html">MATLAB toolkit</a>.</p>
 <h1 id="links">Links</h1>
-<p><a href="https://github.com/zstoebs/tello_detection_SLAM">GitHub</a></p>
-<p><a href="/doc/eece6356_paper.pdf">Paper</a></p>
+<p><a href="https://github.com/zstoebs/tello_detection_SLAM">repo</a></p>
+<p><a href="/doc/eece6356_paper.pdf">report</a></p>
 <h1 id="motivation">Motivation</h1>
 <p>Following my <a href="/projects/quad-build/">quad build</a> experience, I set the intention to continue working with and learning more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection &amp; following and SLAM. Face detection &amp; following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image&rsquo;s center. vSLAM on the other hand is more interesting in my opinion. For those that don&rsquo;t know: <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">simultaneous localization &amp; mapping</a> (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it.</p>
 <h1 id="contents">Contents</h1>
@@ -468,7 +468,7 @@ simultaneous localization and mapping: Toward the robust-perception age,” IEEE
     in <span itemprop="articleSection"><a href="/categories/course/">course</a></span>
   
   
-    and tagged <a rel="tag" href="/tags/control/">control</a>, <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a>, <a rel="tag" href="/tags/ml/">ml</a>, <a rel="tag" href="/tags/quads/">quads</a> and <a rel="tag" href="/tags/robotics/">robotics</a>
+    and tagged <a rel="tag" href="/tags/ai/">ai</a>, <a rel="tag" href="/tags/control/">control</a>, <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a>, <a rel="tag" href="/tags/ml/">ml</a>, <a rel="tag" href="/tags/quads/">quads</a> and <a rel="tag" href="/tags/robotics/">robotics</a>
   
   using <span itemprop="wordCount">1467</span> words.
 </p>

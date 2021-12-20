@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 04 Dec 2021 21:05:58 UT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
     <atom:link href="/tags/control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on linear complementarity problems</title>
@@ -49,6 +49,7 @@ Other Complementarity Problems &amp;amp; Applications LCPs are in fact a very sp
 Solving games underlies many practical applications, ranging from hot topics, such as autonomous driving and reinforcement learning, to age-old games, i.e., tag, motion planning, i.e., approximating MCPs with the PATH solver, and physics simulations.
   A simulation of a tag game. Converting a QP to an LCP and solving via Lemke&#39;s method are the crux of generating trajectories for each agent to optimally play the game.  References Murty. &amp;ldquo;LINEAR COMPLEMENTARITY, LINEAR AND NONLINEAR PROGRAMMING.&amp;rdquo; 1997.
 Cottle, Pang, Stone. &amp;ldquo;The Linear Complementarity Problem.&amp;rdquo; 2008
+Dirkse, Steven &amp;amp; Ferris, Michael. (1995). The path solver: a nommonotone stabilization scheme for mixed complementarity problems. Optimization Methods &amp;amp; Software - OPTIM METHOD SOFTW. 5. 123-156. 10.1080/10556789508805606.
 GAMS PATH Solver
 Nisan et al. &amp;ldquo;Algorithmic Game Theory.&amp;rdquo; 2007
 Enzenhofer. &amp;ldquo;Numerical Solution of Mixed Linear Complementarity Problems in Multibody Dynamics with Contact.&amp;rdquo; 2018
@@ -65,8 +66,8 @@ Ralph. &amp;ldquo;Global Convergence of Damped Newton&amp;rsquo;s Method for Non
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
       <category domain="/categories/course">Course</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
-Links GitHub
-Paper
+Links repo
+report
 Motivation Following my quad build experience, I set the intention to continue working with and learning more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection &amp;amp; following and SLAM. Face detection &amp;amp; following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image&amp;rsquo;s center. vSLAM on the other hand is more interesting in my opinion. For those that don&amp;rsquo;t know: simultaneous localization &amp;amp; mapping (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it.
 Contents  main.m: control flow script to demonstrate each of these on the Tello. follow.m: face detection and following algorithm that returns the movement vector required to center the drone on the detected face, if there is one. vslam.m: implements vSLAM using the drone&amp;rsquo;s pinhole camera given a predetermined movement sequence that should be cycled a handful of times.  Method Face Following Algorithm:
  Pass the frame to the object detector and retrieve a bounding box location(s) for the detected object. Draw boxes around all of the detected images. Use the closest bounding box’s width and center coordinates to compute the relative axis change as a percentage of the max. Based on some threshold percentage and some minimum movement distance, set the axes distances and return them to be used in a move command.    Fig 1. Face following schematic. An image is passed to the cascade object detector. The detector draws a bounding box around the face. The centering vector from the current center to the center of the bounding box is computed. The UAV moves in the direction of the centering vector while maintaining a safe, specified distance.  vSLAM This vSLAM implementation breaks down into three key parts: map initialization, tracking and local mapping.

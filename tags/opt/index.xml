@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 04 Dec 2021 21:05:58 UT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
     <atom:link href="/tags/opt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on linear complementarity problems</title>
@@ -49,6 +49,7 @@ Other Complementarity Problems &amp;amp; Applications LCPs are in fact a very sp
 Solving games underlies many practical applications, ranging from hot topics, such as autonomous driving and reinforcement learning, to age-old games, i.e., tag, motion planning, i.e., approximating MCPs with the PATH solver, and physics simulations.
   A simulation of a tag game. Converting a QP to an LCP and solving via Lemke&#39;s method are the crux of generating trajectories for each agent to optimally play the game.  References Murty. &amp;ldquo;LINEAR COMPLEMENTARITY, LINEAR AND NONLINEAR PROGRAMMING.&amp;rdquo; 1997.
 Cottle, Pang, Stone. &amp;ldquo;The Linear Complementarity Problem.&amp;rdquo; 2008
+Dirkse, Steven &amp;amp; Ferris, Michael. (1995). The path solver: a nommonotone stabilization scheme for mixed complementarity problems. Optimization Methods &amp;amp; Software - OPTIM METHOD SOFTW. 5. 123-156. 10.1080/10556789508805606.
 GAMS PATH Solver
 Nisan et al. &amp;ldquo;Algorithmic Game Theory.&amp;rdquo; 2007
 Enzenhofer. &amp;ldquo;Numerical Solution of Mixed Linear Complementarity Problems in Multibody Dynamics with Contact.&amp;rdquo; 2018

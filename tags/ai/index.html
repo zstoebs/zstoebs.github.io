@@ -38,24 +38,24 @@ if (!doNotTrack) {
     <meta name="generator" content="After Dark Hugo">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zach Stoebner | ml • neuro • kū</title>
-    <meta name="description" content="Zach Stoebner = scientist &#43; engineer &#43; poet. A personal website to share my work and thoughts on machine learning, neuroscience, haiku &#43; senryu.">
+    <title>ai | Zach Stoebner | ml • neuro • kū</title>
+    <meta name="description" content="Zach Stoebner&#39;s personal portfolio website">
     <meta name="keywords" content="algo, course, haiku, me, personal, poetry, research, senryu, tanka, ">
     
     
     
     
-    <meta property="og:title" content="Zach Stoebner | ml • neuro • kū" />
-<meta property="og:description" content="Zach Stoebner = scientist &#43; engineer &#43; poet. A personal website to share my work and thoughts on machine learning, neuroscience, haiku &#43; senryu." />
+    <meta property="og:title" content="ai" />
+<meta property="og:description" content="Zach Stoebner&#39;s personal portfolio website" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
+<meta property="og:url" content="/tags/ai/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
 
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
-<meta name="twitter:title" content="Zach Stoebner | ml • neuro • kū"/>
-<meta name="twitter:description" content="Zach Stoebner = scientist &#43; engineer &#43; poet. A personal website to share my work and thoughts on machine learning, neuroscience, haiku &#43; senryu."/>
+<meta name="twitter:title" content="ai"/>
+<meta name="twitter:description" content="Zach Stoebner&#39;s personal portfolio website"/>
 
     
 
@@ -65,12 +65,6 @@ if (!doNotTrack) {
 
 
     
-
-    
-      
-
-
-
 
     
     
@@ -122,9 +116,9 @@ fetchInject(["/js/lazysizes.min.js"]);
 
 
     
-      <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Zach Stoebner | ml • neuro • kū">
+      <link rel="alternate" type="application/rss+xml" href="/tags/ai/index.xml" title="Zach Stoebner | ml • neuro • kū">
     
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/tags/ai/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -249,7 +243,7 @@ ul.thumbnail.grid li a:hover figure::after {
     
       
       
-        <a itemprop="url" class="active" href="/">home</a>
+        <a itemprop="url" href="/">home</a>
       
     
       
@@ -282,697 +276,303 @@ ul.thumbnail.grid li a:hover figure::after {
 </header>
     <main>
   <header>
-    <h1 itemprop="name">Zach Stoebner | ml • neuro • kū</h1>
+    <h1>ai</h1>
   </header>
   
-  
     
-      
-        <style>{{ -}}ul.thumbnail.grid{margin:10px -10px}ul.thumbnail.grid li{padding:10px;margin-bottom:10px}ul.thumbnail.grid li h2{margin-bottom:1rem}ul.thumbnail.grid li a:hover figure{filter:brightness(1.1)}ul.thumbnail.grid li a figure>img{border-radius:2px}.hack ul.thumbnail.grid li h2::before{content:initial}.hack ul.thumbnail.grid li::after{content:initial}.standard ul.thumbnail.grid{padding-left:0;list-style-type:none;display:flex}</style>
-      
-    
-    
-      <section>
-        
-        
-        
-        
-          
 
 
 
 
-<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="about-me">
+<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-linear-complementarity-problems">
   <header>
     <h1 itemprop="name">
-      :: <a href="/about/">about me</a>
+      :: <a href="/notes/lcp/">on linear complementarity problems</a>
     </h1>
       <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
 </svg>
-<span>2 minute read</span>
+<span>6 minute read</span>
 <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
 </svg>
 
-  Published: <time datetime="2021-06-27T19:24:19-05:00">27 Jun, 2021</time>
+  Published: <time datetime="2021-11-24T11:06:11-06:00">24 Nov, 2021</time>
 
 </p>
     
-      <blockquote itemprop="headline">Legends say that the stache grows commensurately with my wisdom.</blockquote>
+      <blockquote itemprop="headline">Solving systems of equations is the most important.</blockquote>
     
   </header>
-  <div itemprop=""><figure>
-<img src="image/fun_and_flirty.jpeg" alt="Zach Stoebner, fun and flirty, at a bar in Nashville, TN" style="height:500px;width:250px;" /> 
-<figcaption>Hi, I'm Zach!</figcaption>
-</figure>
-<p>I leverage machine learning to solve challenging problems in neuroscience, computer vision, and autonomous systems. I&rsquo;m currently a graduate student researcher in <a href="https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/">VISE MedICL</a> at <a href="https://www.vanderbilt.edu">Vanderbilt University</a> investigating applied ML for medical and neuroscientific data. Generally, I&rsquo;m curious about <a href="/tags/ai">AI</a>/<a href="/tags/ml">ML</a> &amp; <a href="/tags/neuro">neuroscience</a>, <a href="/tags/cps">intelligent systems</a> &amp; <a href="/tags/robotics">robotics</a>, and <a href="/tags/opt">optimization</a> &amp; <a href="/tags/control">control</a>.</p>
-<p>Check out my <a href="/projects/">projects</a> to see what I&rsquo;m working on, <a href="/notes/">notes</a> to see what I&rsquo;m thinking about, and <a href="/kus/">kū</a> to see what I&rsquo;m seeing!</p>
-<p><a href="/doc/CV.pdf">CV</a>
-<a href="https://github.com/zstoebs">GitHub</a>
-<a href="https://www.linkedin.com/in/zstoebs/">LinkedIn</a>
-<a href="https://www.goodreads.com/user/show/99553326-zachary-stoebner">Goodreads</a></p>
-<p><strong>Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at <a href="tel:+15125477486">+1(512)547-7486</a> or <a href="mailto:zachary.a.stoebner@vanderbilt.edu">zachary.a.stoebner@vanderbilt.edu</a> if you would like to work together!</strong></p></div>
+  <div itemprop="">This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</div>
   <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-06-27T19:24:19-05:00">
-  <meta itemprop="dateModified" content="2021-06-27T19:24:19-05:00">
+  <meta itemprop="datePublished" content="2021-11-24T11:06:11-06:00">
+  <meta itemprop="dateModified" content="2021-11-24T11:06:11-06:00">
   
 </article>
 
-  <nav class="readmore">
-    <a itemprop="url" href="/about/">Read More&nbsp;&raquo;</a>
-  </nav>
 
-
-        
-        
-      </section>
-    
-      <section>
-        
-        
-        
-        
-          <header>
-            <h1 itemprop="name">
-              :: <a href="/projects/">recent projects</a>
-            </h1>
-            <blockquote itemprop="description">Notice me, senpai.</blockquote>
-          </header>
-          <ul class="thumbnail grid" itemscope itemtype="https://schema.org/ItemList">
-  <meta itemprop="itemListOrder" content="Unordered">
-  <meta itemprop="name" content="">
-  <meta itemprop="numberOfItems" content="3">
-  
-  
   
     
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-fiber-tracking">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/notes/fiber-tracking/">on fiber tracking</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-11-16T13:50:49-06:00">16 Nov, 2021</time>
+
+</p>
     
+      <blockquote itemprop="headline">Take a little swim through your brain canals!</blockquote>
     
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/project">
-      <a itemprop="url" href="/projects/stone-anno/">
-        
-
-
-
-
+  </header>
+  <div itemprop="">After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are <a href="https://www.slicer.org">3D Slicer</a>, <a href="https://itk.org">ITK</a> for C++, and <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-SNAP</a>.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-11-16T13:50:49-06:00">
+  <meta itemprop="dateModified" content="2021-11-16T13:50:49-06:00">
+  
+</article>
 
 
   
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="segmentation-of-kidney-stones-in-endoscopic-video-feeds">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/stone-anno/">segmentation of kidney stones in endoscopic video feeds</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-11-07T20:39:01-06:00">7 Nov, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">Really good fast way to color inside the lines of a kidney stone.</blockquote>
+    
+  </header>
+  <div itemprop="">StoneAnno is my first published first-authorship paper, <strong>presenting at SPIE 2022</strong>. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves <strong>&gt;0.9 Dice score</strong>, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an <strong>R21 grant</strong> in October 2021.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-11-07T20:39:01-06:00">
+  <meta itemprop="dateModified" content="2021-11-07T20:39:01-06:00">
   
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/projects/stone-anno/image/thumb.jpg">
-      <meta itemprop="encodingFormat" content="image/jpeg">
-      <meta itemprop="name" content="thumbnail">
-      
-        <meta itemprop="headline" content="unet&#43;&#43; example heatmap output for kidney stone segmentation">
-      
-      
-      
-      
-      
-      
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="thumbnail"
-        class="lazyload blur-up"
-        src="/projects/stone-anno/image/thumb_huac9d66cbf5137dc9a9faf774788ccdd1_42462_400x400_fill_q75_box_smart1.jpg"
-        data-src="/projects/stone-anno/image/thumb_huac9d66cbf5137dc9a9faf774788ccdd1_42462_800x800_fill_q75_box_center.jpg"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">segmentation of kidney stones in endoscopic video feeds</h2>
-      </a>
-      <small itemprop="description">
-        Really good fast way to color inside the lines of a kidney stone.
-        
-      </small>
-    </li>
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/project">
-      <a itemprop="url" href="/projects/cortical-surface-analysis/">
-        
-
-
-
-
+</article>
 
 
   
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="cortical-surface-analysis-in-huntingtons-disease-using-linear-mixed-models">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/cortical-surface-analysis/">cortical surface analysis in Huntington&#39;s disease using linear-mixed models</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>9 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-09-14T10:38:19-05:00">14 Sep, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">Noobs think linear regression is easy... try LMMs.</blockquote>
+    
+  </header>
+  <div itemprop="">Although it will be published after <a href="/projects/stone-anno">StoneAnno</a>, this shape analysis is my first completed research project and technically my first first-authorship, <strong>going for submission at <i>Brain</i></strong>. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-09-14T10:38:19-05:00">
+  <meta itemprop="dateModified" content="2021-09-14T10:38:19-05:00">
   
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/projects/cortical-surface-analysis/image/lgi.png">
-      <meta itemprop="encodingFormat" content="image/png">
-      <meta itemprop="name" content="thumbnail">
-      
-        <meta itemprop="headline" content="LGI omnibus results show strong correlation in the insula">
-      
-      
-      
-      
-      
-      
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="thumbnail"
-        class="lazyload blur-up"
-        src="/projects/cortical-surface-analysis/image/lgi_huee2c53aa9b9defe1700980a738e0bf42_564361_400x400_fill_box_smart1_2.png"
-        data-src="/projects/cortical-surface-analysis/image/lgi_huee2c53aa9b9defe1700980a738e0bf42_564361_800x800_fill_box_center_2.png"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">cortical surface analysis in Huntington&#39;s disease using linear-mixed models</h2>
-      </a>
-      <small itemprop="description">
-        Noobs think linear regression is easy... try LMMs.
-        
-      </small>
-    </li>
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/project">
-      <a itemprop="url" href="/projects/github-after-dark/">
-        
-
-
-
-
+</article>
 
 
   
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="verification-of-a-vae--segnet-using-nnv">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/vae-segnet-verif/">verification of a VAE &amp; SegNet using NNV</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>6 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-09T13:51:01-05:00">9 Jul, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh</blockquote>
+    
+  </header>
+  <div itemprop="">Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-07-09T13:51:01-05:00">
+  <meta itemprop="dateModified" content="2021-07-09T13:51:01-05:00">
   
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/projects/github-after-dark/image/thomas-jensen-QABDpFYhNpk-unsplash.jpg">
-      <meta itemprop="encodingFormat" content="image/jpeg">
-      <meta itemprop="name" content="thumbnail">
-      
-        <meta itemprop="headline" content="hugo code">
-      
-      
-        <meta itemprop="creator" content="Thomas Jensen">
-      
-      
-        <link itemprop="sameAs" href="https://unsplash.com/photos/QABDpFYhNpk">
-      
-      
-        <link itemprop="license" href="https://unsplash.com/license">
-      
-      
-      
-      
-        <meta itemprop="description" content="Hugo template code">
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="Hugo template code"
-        class="lazyload blur-up"
-        src="/projects/github-after-dark/image/thomas-jensen-QABDpFYhNpk-unsplash_hu97a2d4874146b3ccdb62adcfcb7a9d64_2898640_400x400_fill_q75_box_smart1.jpg"
-        data-src="/projects/github-after-dark/image/thomas-jensen-QABDpFYhNpk-unsplash_hu97a2d4874146b3ccdb62adcfcb7a9d64_2898640_800x800_fill_q75_box_center.jpg"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">how to host a Hugo After Dark site on GitHub Pages: a saga</h2>
-      </a>
-      <small itemprop="description">
-        ¡¡host fast, pretty website 4 free!! for real, not kidding.
-        
-      </small>
-    </li>
-  
-</ul>
-
-        
-        
-          <nav class="readmore">
-            <a itemprop="url" href="/projects/">
-              View more projects
-            </a>
-          </nav>
-        
-      </section>
-    
-      <section>
-        
-        
-        
-        
-          <header>
-            <h1 itemprop="name">
-              :: <a href="/notes/">recent notes</a>
-            </h1>
-            <blockquote itemprop="description">O que j&#39;aprendí avec el não-sei-quê.</blockquote>
-          </header>
-          <ul class="thumbnail grid" itemscope itemtype="https://schema.org/ItemList">
-  <meta itemprop="itemListOrder" content="Unordered">
-  <meta itemprop="name" content="">
-  <meta itemprop="numberOfItems" content="3">
-  
-  
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/note">
-      <a itemprop="url" href="/notes/lcp/">
-        
-
-
-
-
+</article>
 
 
   
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="visualizing-temporal-graph-networks">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/tgn-viz/">visualizing temporal graph networks</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-09T13:28:40-05:00">9 Jul, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">me, 6 months ago: data viz is a dedicated research field??, me, now: thank gawd for data viz researchers...</blockquote>
+    
+  </header>
+  <div itemprop="">Visualizing the resulting <a href="https://observablehq.com/@zstoebs/cs-8395-project">link prediction graph</a> from a <a href="https://arxiv.org/pdf/2006.10637.pdf">temporal graph network</a> on a <a href="https://snap.stanford.edu/jodie/">Wikipedia dataset</a> using Observable and d3.js.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-07-09T13:28:40-05:00">
+  <meta itemprop="dateModified" content="2021-07-09T13:28:40-05:00">
   
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/notes/lcp/image/thumb.png">
-      <meta itemprop="encodingFormat" content="image/png">
-      <meta itemprop="name" content="thumbnail">
-      
-        <meta itemprop="headline" content="image/thumb.png">
-      
-      
-      
-      
-      
-      
-      
-        <meta itemprop="description" content="path computed with the PATH solver algorithm by approximating the solutions to linear mixed complementarity problems with linear complementarity problems">
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="path computed with the PATH solver algorithm by approximating the solutions to linear mixed complementarity problems with linear complementarity problems"
-        class="lazyload blur-up"
-        src="/notes/lcp/image/thumb_hufb087cdfa96bc57d4ffc54f9b6554a58_49497_400x400_fill_box_smart1_2.png"
-        data-src="/notes/lcp/image/thumb_hufb087cdfa96bc57d4ffc54f9b6554a58_49497_800x800_fill_box_center_2.png"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">on linear complementarity problems</h2>
-      </a>
-      <small itemprop="description">
-        Solving systems of equations is the most important.
-        
-      </small>
-    </li>
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/note">
-      <a itemprop="url" href="/notes/fiber-tracking/">
-        
-
-
-
-
+</article>
 
 
   
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="face-following-and-vslam-for-a-tello-quadcopter">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/tello-slam/">face following and vSLAM for a Tello quadcopter</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>7 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-02T11:46:28-05:00">2 Jul, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">Tello can do hard things.</blockquote>
+    
+  </header>
+  <div itemprop="">Implementation of face detection / following and vSLAM on a <a href="https://www.ryzerobotics.com/tello">Ryze Tello</a> using its <a href="https://www.mathworks.com/hardware-support/tello-drone-matlab.html">MATLAB toolkit</a>.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-07-02T11:46:28-05:00">
+  <meta itemprop="dateModified" content="2021-07-02T11:46:28-05:00">
   
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/notes/fiber-tracking/image/dti_axial.png">
-      <meta itemprop="encodingFormat" content="image/png">
-      <meta itemprop="name" content="header thumbnail">
-      
-        <meta itemprop="headline" content="image/dti_axial.png">
-      
-      
-      
-      
-      
-      
-      
-        <meta itemprop="description" content="axial slice of a diffusion tensor image">
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="axial slice of a diffusion tensor image"
-        class="lazyload blur-up"
-        src="/notes/fiber-tracking/image/dti_axial_hu0446e351cfc8954609eea1e8fcd7c3d8_253147_400x400_fill_box_smart1_2.png"
-        data-src="/notes/fiber-tracking/image/dti_axial_hu0446e351cfc8954609eea1e8fcd7c3d8_253147_800x800_fill_box_center_2.png"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">on fiber tracking</h2>
-      </a>
-      <small itemprop="description">
-        Take a little swim through your brain canals!
-        
-      </small>
-    </li>
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/note">
-      <a itemprop="url" href="/notes/hendiadys/">
-        
-
-
-
-
+</article>
 
 
   
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="dimensionality-reduction-on-neural-data">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/neural-dim/">dimensionality reduction on neural data</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-06-27T20:58:15-05:00">27 Jun, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">PCA vs. autoencoder: the ultimate dimensionality reduction showdown</blockquote>
+    
+  </header>
+  <div itemprop="">I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-06-27T20:58:15-05:00">
+  <meta itemprop="dateModified" content="2021-06-27T20:58:15-05:00">
   
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/notes/hendiadys/image/hamlet.jpg">
-      <meta itemprop="encodingFormat" content="image/jpeg">
-      <meta itemprop="name" content="thumbnail">
-      
-        <meta itemprop="headline" content="Laurence Olivier in a scence from Hamlet">
-      
-      
-      
-        <link itemprop="sameAs" href="https://www.britannica.com/topic/Hamlet-fictional-character#/media/1/253483/11365">
-      
-      
-      
-      
-      
-        <meta itemprop="description" content="Laurence Olivier in a scence from Hamlet">
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="Laurence Olivier in a scence from Hamlet"
-        class="lazyload blur-up"
-        src="/notes/hendiadys/image/hamlet_huc8813ab30dbbf05dacdb01038ef20e55_8575_400x400_fill_q75_box_smart1.jpg"
-        data-src="/notes/hendiadys/image/hamlet_huc8813ab30dbbf05dacdb01038ef20e55_8575_800x800_fill_q75_box_center.jpg"
-      >
-    </figure>
-  
+</article>
 
 
-        <h2 itemprop="name">on hendiadys</h2>
-      </a>
-      <small itemprop="description">
-        1 &#43; 1 ≠ 2, existential me circa 1600
-        
-      </small>
-    </li>
-  
-</ul>
-
-        
-        
-          <nav class="readmore">
-            <a itemprop="url" href="/notes/">
-              View more notes
-            </a>
-          </nav>
-        
-      </section>
-    
-      <section>
-        
-        
-        
-        
-          <header>
-            <h1 itemprop="name">
-              :: <a href="/kus/">recent kū</a>
-            </h1>
-            <blockquote itemprop="description">kū = hai(k)u &#43; senry(ū)</blockquote>
-          </header>
-          <ul class="thumbnail grid" itemscope itemtype="https://schema.org/ItemList">
-  <meta itemprop="itemListOrder" content="Unordered">
-  <meta itemprop="name" content="">
-  <meta itemprop="numberOfItems" content="3">
-  
-  
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/ku">
-      <a itemprop="url" href="/kus/spring-summer-2021/">
-        
-
-
-
-
-
-
-  
-  
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/kus/spring-summer-2021/image/sir.JPG">
-      <meta itemprop="encodingFormat" content="image/jpeg">
-      <meta itemprop="name" content="header thumbnail">
-      
-        <meta itemprop="headline" content="image/sir.JPG">
-      
-      
-      
-      
-      
-      
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="header thumbnail"
-        class="lazyload blur-up"
-        src="/kus/spring-summer-2021/image/sir_hue9f2b73400e7031f9dfb7a47f51b17a4_2705473_400x400_fill_q75_box_smart1.JPG"
-        data-src="/kus/spring-summer-2021/image/sir_hue9f2b73400e7031f9dfb7a47f51b17a4_2705473_800x800_fill_q75_box_center.JPG"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">spring-summer 2021</h2>
-      </a>
-      <small itemprop="description">
-        kū and tanka from spring-summer 2021
-        
-      </small>
-    </li>
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/ku">
-      <a itemprop="url" href="/kus/winter-2020-2021/">
-        
-
-
-
-
-
-
-  
-  
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/kus/winter-2020-2021/image/dark.JPG">
-      <meta itemprop="encodingFormat" content="image/jpeg">
-      <meta itemprop="name" content="header thumbnail">
-      
-        <meta itemprop="headline" content="image/dark.JPG">
-      
-      
-      
-      
-      
-      
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="header thumbnail"
-        class="lazyload blur-up"
-        src="/kus/winter-2020-2021/image/dark_hue9f2b73400e7031f9dfb7a47f51b17a4_2209825_400x400_fill_q75_box_smart1.JPG"
-        data-src="/kus/winter-2020-2021/image/dark_hue9f2b73400e7031f9dfb7a47f51b17a4_2209825_800x800_fill_q75_box_center.JPG"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">winter 2020-2021</h2>
-      </a>
-      <small itemprop="description">
-        kū and tanka from winter 2020-2021
-        
-      </small>
-    </li>
-  
-    
-    
-    
-    <li class="cell" itemprop="itemListElement" itemscope itemtype="https://schema.org/ku">
-      <a itemprop="url" href="/kus/fall-2020/">
-        
-
-
-
-
-
-
-  
-  
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <figure aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-      <link itemprop="contentUrl" href="/kus/fall-2020/image/sunset.JPG">
-      <meta itemprop="encodingFormat" content="image/jpeg">
-      <meta itemprop="name" content="header thumbnail">
-      
-        <meta itemprop="headline" content="image/sunset.JPG">
-      
-      
-      
-      
-      
-      
-      
-      <img
-        itemprop="thumbnailUrl"
-        alt="header thumbnail"
-        class="lazyload blur-up"
-        src="/kus/fall-2020/image/sunset_hue9f2b73400e7031f9dfb7a47f51b17a4_2020432_400x400_fill_q75_box_smart1.JPG"
-        data-src="/kus/fall-2020/image/sunset_hue9f2b73400e7031f9dfb7a47f51b17a4_2020432_800x800_fill_q75_box_center.JPG"
-      >
-    </figure>
-  
-
-
-        <h2 itemprop="name">fall-2020</h2>
-      </a>
-      <small itemprop="description">
-        kū from fall 2020
-        
-      </small>
-    </li>
-  
-</ul>
-
-        
-        
-          <nav class="readmore">
-            <a itemprop="url" href="/kus/">
-              View more kū
-            </a>
-          </nav>
-        
-      </section>
-    
-  
   
 </main>
     <footer>
+  <p><nav>
   
+  
+    <span>Page 1 of 1</span>
+  
+  
+</nav>
+</p>
   <small class="muted">
     
   
-    
-      Copyright &copy; 2021 Zach Stoebner.
-      
-        Licensed under <a  target="_blank" rel="external noopener license" href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
-      
-    
+    Copyright &copy; Zachary Stoebner. Licensed under <a target="_blank" rel="external noopener license" href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND-4.0</a>.
   
 
 

@@ -40,7 +40,7 @@ if (!doNotTrack) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>verification of a VAE &amp; SegNet using NNV | Zach Stoebner | ml • neuro • kū</title>
     <meta name="description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh">
-    <meta name="keywords" content="ml, cps, matlab">
+    <meta name="keywords" content="ml, cps, matlab, ai">
     
     
     
@@ -284,7 +284,7 @@ ul.thumbnail.grid li a:hover figure::after {
 <meta itemprop="description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh"><meta itemprop="datePublished" content="2021-07-09T13:51:01-05:00" />
 <meta itemprop="dateModified" content="2021-07-09T13:51:01-05:00" />
 <meta itemprop="wordCount" content="1233"><meta itemprop="image" content="/projects/vae-segnet-verif/image/header.png">
-<meta itemprop="keywords" content="ml,cps,matlab," />
+<meta itemprop="keywords" content="ml,cps,matlab,ai," />
     <header>
       <h1 itemprop="headline name">verification of a VAE &amp; SegNet using NNV</h1>
       <p class="muted">
@@ -333,8 +333,8 @@ ul.thumbnail.grid li a:hover figure::after {
 </figure>
 <p><strong>tl;dr</strong> Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</p>
 <h1 id="links">Links</h1>
-<p><a href="https://github.com/zstoebs/vae_segnet_verification">Github</a></p>
-<p><a href="/doc/stoebner_cs6315_report.pdf">Paper</a></p>
+<p><a href="https://github.com/zstoebs/vae_segnet_verification">repo</a></p>
+<p><a href="/doc/stoebner_cs6315_report.pdf">report</a></p>
 <h1 id="motivation">Motivation</h1>
 <p>After many face palms and harrowing all-nighters, I learned that achieving reliable performance, for even a task as simple-sounding as face following, is a true feat worthy of ascension from padawan to knight. Even though teams of engineers can concoct relatively high-performing models, I&rsquo;ve learned from first-hand experience, as many others have, that even at the highest level ML messes up&hellip; a lot.</p>
 <p>For computer vision in particular, neural networks [NNs] tend to mess up when images are perturbed in some way, e.g., a brightness attack or a deformation, which may be imperceptible to the human eye. Read about <a href="https://www.unite.ai/optical-adversarial-attack-can-change-the-meaning-of-road-signs/">optical adversarial attacks against road sign classifiers</a> and <a href="https://www.sciencedaily.com/releases/2021/02/210208161927.htm">defeating deepfake detectors</a>. Subtle intensity differences between images frequently confounds analysis in image-based learning and applications; for example, I also research methods for  harmonization of longitudinal MRI datasets using GANs to correct these minute differences. As I was learning about formal methods and automated verification, I wondered whether NNs can be verified for robustness against attacks and, in turn, also verify the performance of generator networks, such as autoencoders, in generating utile images. As a learning experience, this exploratory project is a classic case of &ldquo;know thy enemy&rdquo;.</p>
@@ -402,7 +402,7 @@ ul.thumbnail.grid li a:hover figure::after {
     in <span itemprop="articleSection"><a href="/categories/course/">course</a></span>
   
   
-    and tagged <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a> and <a rel="tag" href="/tags/ml/">ml</a>
+    and tagged <a rel="tag" href="/tags/ai/">ai</a>, <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a> and <a rel="tag" href="/tags/ml/">ml</a>
   
   using <span itemprop="wordCount">1233</span> words.
 </p>
@@ -423,11 +423,11 @@ ul.thumbnail.grid li a:hover figure::after {
             <li><a href="/projects/tgn-viz/">visualizing temporal graph networks</a>
             <time class="muted" datetime="5M">5 minutes</time>
           
-            <li><a href="/projects/quad-build/">learning about quadcopters by building one</a>
-            <time class="muted" datetime="3M">3 minutes</time>
-          
             <li><a href="/projects/neural-dim/">dimensionality reduction on neural data</a>
             <time class="muted" datetime="5M">5 minutes</time>
+          
+            <li><a href="/projects/quad-build/">learning about quadcopters by building one</a>
+            <time class="muted" datetime="3M">3 minutes</time>
           
         </ul>
       
