@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Dec 2021 19:55:49 UT</lastBuildDate>
     <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>verification of a VAE &amp; SegNet using NNV</title>
@@ -23,6 +23,7 @@
       <guid>/projects/vae-segnet-verif/</guid>
       <description>Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</description>
       <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Lower bound and upper bound attacks on a generated image from a VAE.  tl;dr Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.
 Links repo
 report
@@ -55,6 +56,7 @@ H. D. Tran et al., â€œStar-based reachability analysis of deep neural networks,â
       <guid>/projects/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
       <category domain="/categories/course">Course</category>
+      <category domain="/categories/team">Team</category>
       <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.
 Usage  Clone the repo. cd viz/ python server.py Open the project notebook in Chrome. Safari will likely not work with the server.  Tips:
  If the view cells aren&amp;rsquo;t rendered, run the server endpoint cells. It&amp;rsquo;s a big, complex viz so it may take a while to compute the full graph to a point where you can interact with the views.  Links Observable
@@ -82,6 +84,7 @@ Scax&amp;rsquo;s Force-Directed Graph with Zooming
       <guid>/projects/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
       <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
 Links repo
 report
@@ -109,6 +112,7 @@ Code  The vslam.m code is modified from the vSLAM Matlab example.  References fr
       <guid>/projects/neural-dim/</guid>
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
       <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ A shallow autoencoder&#39;s projection of 53-dimensional vectors to 3 dimensions.  tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
 Links repo
 report

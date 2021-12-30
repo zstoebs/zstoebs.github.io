@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Dec 2021 19:55:49 UT</lastBuildDate>
     <atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cortical surface analysis in Huntington&#39;s disease using linear-mixed models</title>
@@ -77,6 +77,7 @@ References [1] F. O. Walker, “Huntington’s disease,” Lancet, vol. 369, no.
       <guid>/projects/neural-dim/</guid>
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
       <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ A shallow autoencoder&#39;s projection of 53-dimensional vectors to 3 dimensions.  tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
 Links repo
 report

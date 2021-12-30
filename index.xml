@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Dec 2021 19:55:49 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>kū</title>
@@ -21,8 +21,10 @@
       <pubDate>Wed, 29 Sep 2021 22:16:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/kus/</guid>
-      <description>haiku senryū-- README Featured kū português spring-summer 2020 spring-summer 2019 All kū photos were taken by me with (mostly) a Canon EOS REBEL XS.  </description>
-      <content:encoded><![CDATA[haiku senryū-- README Featured kū português spring-summer 2020 spring-summer 2019 All kū photos were taken by me with (mostly) a Canon EOS REBEL XS.  ]]></content:encoded>
+      <description>hai(k)u &#43; senry(ū)
+haiku senryū-- Featured kū português spring-summer 2020 spring-summer 2019 All kū photos were taken by me with (mostly) a Canon EOS REBEL XS.  </description>
+      <content:encoded><![CDATA[hai(k)u &#43; senry(ū)
+haiku senryū-- Featured kū português spring-summer 2020 spring-summer 2019 All kū photos were taken by me with (mostly) a Canon EOS REBEL XS.  ]]></content:encoded>
     </item>
     <item>
       <title>projects</title>
@@ -30,8 +32,8 @@
       <pubDate>Mon, 28 Jun 2021 04:08:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/projects/</guid>
-      <description> research course personal  </description>
-      <content:encoded><![CDATA[ research course personal  ]]></content:encoded>
+      <description> research = first-author abstracts and results, under permissive policies course = solo or team, proposed and completed independently personal = the fruit of my own ambitions  </description>
+      <content:encoded><![CDATA[ research = first-author abstracts and results, under permissive policies course = solo or team, proposed and completed independently personal = the fruit of my own ambitions  ]]></content:encoded>
     </item>
     <item>
       <title>notes</title>

@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 20 Dec 2021 22:21:31 UT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Dec 2021 19:55:49 UT</lastBuildDate>
     <atom:link href="/tags/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
@@ -53,6 +53,7 @@ Mike Dane&amp;rsquo;s Hugo tutorial vids
       <guid>/projects/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
       <category domain="/categories/course">Course</category>
+      <category domain="/categories/team">Team</category>
       <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.
 Usage  Clone the repo. cd viz/ python server.py Open the project notebook in Chrome. Safari will likely not work with the server.  Tips:
  If the view cells aren&amp;rsquo;t rendered, run the server endpoint cells. It&amp;rsquo;s a big, complex viz so it may take a while to compute the full graph to a point where you can interact with the views.  Links Observable
