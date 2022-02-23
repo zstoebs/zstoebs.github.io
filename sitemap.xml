@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
+  </url><url>
+    <loc>/tags/fall/</loc>
+    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
+  </url><url>
+    <loc>/kus/fall-2021/</loc>
+    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
+  </url><url>
+    <loc>/categories/haiku/</loc>
+    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
+  </url><url>
+    <loc>/categories/senryu/</loc>
+    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
+  </url><url>
+    <loc>/tags/winter/</loc>
+    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
+  </url><url>
     <loc>/tags/ai/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/categories/algo/</loc>
-    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/tags/control/</loc>
@@ -24,9 +42,6 @@
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/tags/robotics/</loc>
-    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/tags/c&#43;&#43;/</loc>
@@ -56,12 +71,6 @@
     <loc>/tags/vision/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
-    <loc>/categories/haiku/</loc>
-    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
-  </url><url>
-    <loc>/categories/senryu/</loc>
-    <lastmod>2021-10-13T23:07:42-05:00</lastmod>
-  </url><url>
     <loc>/tags/spring/</loc>
     <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
@@ -73,9 +82,6 @@
   </url><url>
     <loc>/categories/tanka/</loc>
     <lastmod>2021-10-13T23:07:42-05:00</lastmod>
-  </url><url>
-    <loc>/tags/winter/</loc>
-    <lastmod>2021-10-13T22:49:45-05:00</lastmod>
   </url><url>
     <loc>/kus/winter-2020-2021/</loc>
     <lastmod>2021-10-13T22:49:45-05:00</lastmod>
@@ -94,9 +100,6 @@
   </url><url>
     <loc>/tags/stats/</loc>
     <lastmod>2021-09-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/tags/fall/</loc>
-    <lastmod>2021-08-14T22:24:00-05:00</lastmod>
   </url><url>
     <loc>/kus/fall-2020/</loc>
     <lastmod>2021-08-14T22:24:00-05:00</lastmod>
