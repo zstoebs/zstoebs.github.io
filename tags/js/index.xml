@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 21 Mar 2022 07:57:47 UT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Mar 2022 17:03:03 UT</lastBuildDate>
     <atom:link href="/tags/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
@@ -21,16 +21,16 @@
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/projects/github-after-dark/</guid>
-      <description>From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
+      <description>From knowing very little about webdev to a very small amount more, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
       <category domain="/categories/personal">Personal</category>
-      <content:encoded><![CDATA[tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
+      <content:encoded><![CDATA[ Perhaps the greatest mystery of our time, After Dark and its creater, Josh Habdas, have been seemingly yeeted from the Internet. Perhaps one day the prodigal son will return with his fatted cow... but until then I have slashed through now dead links.  tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
 Links Site source
 Generated source
 This site justifies my perfect website build.
 How to Host Hosting Hugo
 Steps to host a Hugo After Dark site on GitHub pages:
  Download the quick start code locally from the After Dark website. Run hugo to generate website files in public/. Host the generated files in public/ on the GitHub pages repo, i.e., a repo named [your username].github.io. Host the source files in the parent directory in a separate repo, with public/ ignored.  These are the files at the highest level, mainly Markdown files, that Hugo uses to build the static site.   Create a GitHub action or workflow in the source file repo. (optional)  Modifying source files and then pushing to source repo will trigger a rebuild and push of the public/ repo. Hugo offers a copy&amp;amp;paste workflow for this purpose in the docs.    Steps 3-4, in particular, are not clear on the Hugo docs for GitHub hosting. Fortunately, of the only two other people that I found online that specifically host After Dark on Github, one of them wrote an enlightening note that clarified the distinction between the two different directories. Hope that saves you some time!
-How to After Dark Hugo After Dark
+How to After Dark After Dark
 Most Hugo sites are run by themes, which define the site&amp;rsquo;s style, layout, and sometimes useful theme-specific shortcodes and advanced automatic features. However, not all themes are created equal and some will require a more advanced knowledge of Hugo to function. Thankfully, After Dark is one of the good ones if you&amp;rsquo;re a web novice.
 What to Know  shortcodes: In Hugo, shortcodes are akin to functions that you can put in your Markdown files to improve them in some way, such as info blocks, buttons, and optimized images. list page vs. single page: after trial &amp;amp; error, I recommend creating directories for each single page and use _index.md to correspond to (non-leaf) list page directories, aka &amp;ldquo;sections&amp;rdquo;, and index.md for (leaf) single pages, aka &amp;ldquo;posts&amp;rdquo;. tip: for After Dark&amp;rsquo;s automatic features to kick in, you need content &amp;ndash; at least two posts in a section.  With After Dark, you technically only have to spend time in the parent directory writing in Markdown or slightly tweaking the config. However, since After Dark handles many neat features automatically, it can be too rigid and After Dark also requires some debugging. If you want to be all-powerful you need to understand Hugo &amp;hellip; and at least be able to read HTML and edit at the right place.
 Bend To My Will! Disclaimer: Some of these workarounds may not be truly necessary and could simply be my misunderstanding the After Dark docs. Nonetheless, they work for me.
