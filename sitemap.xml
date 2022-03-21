@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2022-03-01T17:55:47-06:00</lastmod>
+    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
+  </url><url>
+    <loc>/categories/haiku/</loc>
+    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
+  </url><url>
+    <loc>/categories/senryu/</loc>
+    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
+  </url><url>
+    <loc>/tags/winter/</loc>
+    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
+  </url><url>
+    <loc>/kus/winter-2021-2022/</loc>
+    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
   </url><url>
     <loc>/categories/me/</loc>
     <lastmod>2022-03-01T17:55:47-06:00</lastmod>
@@ -15,18 +30,6 @@
     <lastmod>2022-02-23T12:17:56-06:00</lastmod>
   </url><url>
     <loc>/kus/fall-2021/</loc>
-    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
-  </url><url>
-    <loc>/categories/haiku/</loc>
-    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
-  </url><url>
-    <loc>/categories/senryu/</loc>
-    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
-  </url><url>
-    <loc>/tags/winter/</loc>
     <lastmod>2022-02-23T12:17:56-06:00</lastmod>
   </url><url>
     <loc>/tags/ai/</loc>
