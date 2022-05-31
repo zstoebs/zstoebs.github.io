@@ -2,16 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/ai/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/tags/control/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/categories/course/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/projects/csfmri-ts/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/tags/opt/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/categories/solo/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/tags/stats/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
     <loc>/categories/haiku/</loc>
     <lastmod>2022-03-19T23:36:13-05:00</lastmod>
   </url><url>
     <loc>/categories/senryu/</loc>
-    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-03-19T23:36:13-05:00</lastmod>
   </url><url>
     <loc>/tags/winter/</loc>
@@ -32,22 +56,13 @@
     <loc>/kus/fall-2021/</loc>
     <lastmod>2022-02-23T12:17:56-06:00</lastmod>
   </url><url>
-    <loc>/tags/ai/</loc>
-    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
-  </url><url>
     <loc>/categories/algo/</loc>
-    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
-  </url><url>
-    <loc>/tags/control/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/tags/cps/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/notes/lcp/</loc>
-    <lastmod>2021-11-24T11:06:11-06:00</lastmod>
-  </url><url>
-    <loc>/tags/opt/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
     <loc>/tags/robotics/</loc>
@@ -63,9 +78,6 @@
     <lastmod>2021-11-16T13:50:49-06:00</lastmod>
   </url><url>
     <loc>/tags/ml/</loc>
-    <lastmod>2021-11-07T20:39:01-06:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
     <loc>/categories/research/</loc>
@@ -105,9 +117,6 @@
     <lastmod>2021-09-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/tags/r/</loc>
-    <lastmod>2021-09-14T10:38:19-05:00</lastmod>
-  </url><url>
-    <loc>/tags/stats/</loc>
     <lastmod>2021-09-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/kus/fall-2020/</loc>
@@ -157,12 +166,6 @@
   </url><url>
     <loc>/tags/webdev/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
-  </url><url>
-    <loc>/categories/course/</loc>
-    <lastmod>2021-07-09T13:51:01-05:00</lastmod>
-  </url><url>
-    <loc>/categories/solo/</loc>
-    <lastmod>2021-07-09T13:51:01-05:00</lastmod>
   </url><url>
     <loc>/projects/vae-segnet-verif/</loc>
     <lastmod>2021-07-09T13:51:01-05:00</lastmod>

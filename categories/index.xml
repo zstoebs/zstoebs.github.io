@@ -13,8 +13,24 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 10 May 2022 18:24:28 UT</lastBuildDate>
+    <lastBuildDate>Tue, 31 May 2022 22:09:32 UT</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>course</title>
+      <link>/categories/course/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/course/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>solo</title>
+      <link>/categories/solo/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/solo/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>haiku</title>
       <link>/categories/haiku/</link>
@@ -84,22 +100,6 @@
       <link>/categories/personal/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/personal/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>course</title>
-      <link>/categories/course/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/categories/course/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>solo</title>
-      <link>/categories/solo/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/categories/solo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
