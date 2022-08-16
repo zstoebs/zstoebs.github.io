@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 14 Aug 2022 02:15:31 UT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2022 01:52:51 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>kū</title>
@@ -48,14 +48,14 @@
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
-      <description> Hi, I&#39;m Zach!  My research spans image &amp;amp; signal processing, deep learning, and machine perception to solve challenging problems in autonomous systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control.
-I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin on a Cockrell Engineering Fellowship working with Prof. Jon Tamir in the Computational Sensing and Imaging Lab.
+      <description> Hi, I&#39;m Zach!  I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin on a Cockrell Engineering Fellowship working with Prof. Jon Tamir in the Computational Sensing and Imaging Lab.
+My research spans image &amp;amp; signal processing, deep learning, and machine perception to solve challenging problems in autonomous systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control.
 Check out my projects to see what I&amp;rsquo;m working on, notes to see what I&amp;rsquo;m thinking about, and kū to see what I&amp;rsquo;m seeing!
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
-      <content:encoded><![CDATA[ Hi, I&#39;m Zach!  My research spans image &amp;amp; signal processing, deep learning, and machine perception to solve challenging problems in autonomous systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control.
-I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin on a Cockrell Engineering Fellowship working with Prof. Jon Tamir in the Computational Sensing and Imaging Lab.
+      <content:encoded><![CDATA[ Hi, I&#39;m Zach!  I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin on a Cockrell Engineering Fellowship working with Prof. Jon Tamir in the Computational Sensing and Imaging Lab.
+My research spans image &amp;amp; signal processing, deep learning, and machine perception to solve challenging problems in autonomous systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, intelligent systems &amp;amp; robotics, and optimization &amp;amp; control.
 Check out my projects to see what I&amp;rsquo;m working on, notes to see what I&amp;rsquo;m thinking about, and kū to see what I&amp;rsquo;m seeing!
 CV GitHub LinkedIn Scholar
  I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz and my thesis was on a deep learning-enabled automatic segmentation system for surgical endoscopy.
