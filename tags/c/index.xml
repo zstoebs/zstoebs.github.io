@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.81.0)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 01 Sep 2022 22:44:18 UT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 05:21:29 UT</lastBuildDate>
     <atom:link href="/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on fast inverse square root</title>
@@ -30,7 +30,7 @@ Part 2 This part is the real meat of the trickery in this clever solution. The s
 Now that the background is setup, we can continue calculating 1/sqrt(x), or actually 1/sqrt(y) in this case. With the rearrangements above, it becomes much easier to calculate the logarithm of a floating point number. So log(1/sqrt(y)) = log(y^(-1/2)) = -(1/2)*log(y) . So if we want to solve for some G s.t. G = 1/sqrt(y) where log(G) = -(1/2)log(y), we can substitute in the above rearranged logarithm formula for a floating point number and solve for the bit representation for G which ends up as: M_G &#43; 2^23*E_G = (3/2)*2^23*(127 - mu) - (1/2)*(M_y &#43; 2^23*E_y). Hence, the first term is that bizarre hexadecimal number and the dexter term is the subtracted single rightshift to halve the number.
 The reason for casting the floating point y to a long should be fairly obvious; we need the hard-coded bit representation of y to be treated as such, not as a floating point number which has different arithmetic operators.
 Part 3 The third step is a little esoteric but not as technical as the second step. As with everything on computers, the numbers computed prior to this step are just an approximation. Due to all of the assumptions previously made (e.g. that the halving above isn’t floored for an odd number, that our chosen mu is accurate, etc.), we need to correct by some amount. Cue the Newton Iteration, which computes the error of x from a root for the function y. For this problem, the function is f(y) = 1/y^2 - x which rearranges to y = 1/sqrt(x) when y is a root (e.g. f(y) = 0). We need to compute x_new = x - f(x)/f’(x). Breaking down the derivative of a function: the derivative is described by the tangent line and where it intercepts the x-axis, composing the triangle below:
- A useful reference for a function derivative.  Since the ratio of the shifts times the shift in x equals the shift in y, the shift in x can be solved for as the shift in y divided by the ratio which ends up as: f(x)/f’(x). The actual implementation details of this aren’t made clear by the video, nor is the function derivative computed and I’m quite uncertain about which variable we take the derivative from, x or y. Nonetheless, it results in a static expression without any division operators required.
+A useful reference for a function derivative. Since the ratio of the shifts times the shift in x equals the shift in y, the shift in x can be solved for as the shift in y divided by the ratio which ends up as: f(x)/f’(x). The actual implementation details of this aren’t made clear by the video, nor is the function derivative computed and I’m quite uncertain about which variable we take the derivative from, x or y. Nonetheless, it results in a static expression without any division operators required.
 ]]></content:encoded>
     </item>
   </channel>
