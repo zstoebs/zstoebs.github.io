@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 21 Sep 2022 05:08:23 UT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Sep 2022 18:53:28 UT</lastBuildDate>
     <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on my life</title>
@@ -35,13 +35,13 @@ Core Under no circumstances will I suffer religious zealotry, homophobia, or big
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
       <description> Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin on a Cockrell Engineering Fellowship working with Prof. Jon Tamir in the Computational Sensing and Imaging Lab.
-My research spans deep learning, sensing &amp;amp; imaging, and signal processing. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
+My research spans deep learning, sensing &amp;amp; imaging, and computer vision. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my projects to see what I&amp;rsquo;m working on, notes to see what I&amp;rsquo;m thinking about, and kū to see what I&amp;rsquo;m seeing!
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin on a Cockrell Engineering Fellowship working with Prof. Jon Tamir in the Computational Sensing and Imaging Lab.
-My research spans deep learning, sensing &amp;amp; imaging, and signal processing. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
+My research spans deep learning, sensing &amp;amp; imaging, and computer vision. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; neuroscience, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my projects to see what I&amp;rsquo;m working on, notes to see what I&amp;rsquo;m thinking about, and kū to see what I&amp;rsquo;m seeing!
 CV GitHub LinkedIn Scholar
 I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz and my thesis was on a deep learning-enabled automatic segmentation system for surgical endoscopy.
