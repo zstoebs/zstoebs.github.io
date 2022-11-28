@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 27 Oct 2022 17:43:08 UT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Nov 2022 20:19:59 UT</lastBuildDate>
     <atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>exploring compressed sensing fMRI time series</title>
@@ -156,7 +156,8 @@ References [1] Minaee, S., Boykov, Y. Y., Porikli, F., Plaza, A. J., Kehtarnavaz
       <description>Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, submitted to Brain. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</description>
       <category domain="/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, published in Human Brain Mapping. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula. Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &amp;ndash; let&amp;rsquo;s make them more accessible!
-Citation 10.1002/hbm.26125
+Citation Stoebner, Zachary A., et al. &amp;ldquo;Comprehensive shape analysis of the cortex in Huntington&amp;rsquo;s disease.&amp;rdquo; Human Brain Mapping (2022).
+https://doi.org/10.1002/hbm.26125
 Background LMMs
 random field theory
 LGI acquisition method
