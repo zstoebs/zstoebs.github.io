@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>Categories on Zach Stoebner | ml • neuro • kū</title>
+    <title>Categories on Zach Stoebner | ml • vision • kū</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Zach Stoebner | ml • neuro • kū</description>
+    <description>Recent content in Categories on Zach Stoebner | ml • vision • kū</description>
     <image>
-      <title>Categories on Zach Stoebner | ml • neuro • kū</title>
+      <title>Categories on Zach Stoebner | ml • vision • kū</title>
       <link>/categories/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 28 Nov 2022 20:19:59 UT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jun 2023 23:12:27 UT</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>haiku</title>
@@ -52,14 +52,6 @@
       <link>/categories/solo/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/solo/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>me</title>
-      <link>/categories/me/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/categories/me/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -108,6 +100,14 @@
       <link>/categories/team/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/team/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>me</title>
+      <link>/categories/me/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/categories/me/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

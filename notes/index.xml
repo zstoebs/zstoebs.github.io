@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>notes on Zach Stoebner | ml • neuro • kū</title>
+    <title>notes on Zach Stoebner | ml • vision • kū</title>
     <link>/notes/</link>
-    <description>Recent content in notes on Zach Stoebner | ml • neuro • kū</description>
+    <description>Recent content in notes on Zach Stoebner | ml • vision • kū</description>
     <image>
-      <title>notes on Zach Stoebner | ml • neuro • kū</title>
+      <title>notes on Zach Stoebner | ml • vision • kū</title>
       <link>/notes/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,21 +13,8 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 28 Nov 2022 20:19:59 UT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jun 2023 23:12:27 UT</lastBuildDate>
     <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>on my life</title>
-      <link>/notes/life/</link>
-      <pubDate>Tue, 01 Mar 2022 23:55:47 UT</pubDate>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/life/</guid>
-      <description>My guide to effective brand management &amp;ndash; the tenets, epiphanies, and fruits of my efforts &amp;ndash; a reflection of tasteful pride and confidence &amp;ndash; a learning policy optimized over 24 years.</description>
-      <category domain="/categories/me">Me</category>
-      <content:encoded><![CDATA[tl;dr My guide to effective brand management &amp;ndash; the tenets, epiphanies, and fruits of my efforts &amp;ndash; a reflection of tasteful pride and confidence &amp;ndash; a learning policy optimized over 24 years.
-Morning Routine I&amp;rsquo;m not much of a morning person so I have to warm my brain up with a few bitesized games. Otherwise, it&amp;rsquo;s a slow process getting out of bed and motivating myself for the day. My ride-or-dies:
-Chess.com Daily Puzzle NYT Daily Hard Sudoku Tenets I&amp;rsquo;m consistently optimizing, little by little. Serendipitously, I started thinking about some of these ideas as a kid. Although steadfast adherence helps me endure sometimes, I am updating and reevaluating because things change and people can do hard things&amp;hellip; such as admitting that I am wrong or that a tenet that I lived my life by up until now may not be optimal anymore.
-Core Under no circumstances will I suffer religious zealotry, homophobia, or bigotry. Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than apathy, hate, vindictiveness, rigidity, and immutability. I am an experience- and purpose-oriented person, less of a results- and -appearance oriented person, yet I am cognizant that the latter is advantageous in some contexts. I have to love what I&amp;rsquo;m doing, even the small things. Science, engineering, and math are the most fulfilling and constant themes of my life. My family by birth is important to me, as is my chosen family. My physical fitness, diet, and mental health are intertwined and are core to who I am. In frustrating situations, stepping back mentally, and sometimes physically, helps me see the macro-perspective, to remind me of my reasons and to explore my best path forward. To build systems, I solve problems modularly and abstractly. For me, it all comes together with significantly less frustration if I have implemented a set of tools to instrument my objectives&amp;hellip; and makes the code more appealing. I am amused by bespoke code. ifykyk. Observations My lifestyle is healthy, yet improvable&amp;hellip; and non-negotiable. A workout &#43; music / podcast / audiobook is my critical grounding mechanism, centering meditation, and emotional balancer. I don&amp;rsquo;t have to work out every day. I like to eat chocolate and all macarons. The two genius food combos of our day: chocolate &#43; peanut butter and sea salt &#43; chocolate chips. Cutting and bulking cycles are not conducive to my mental well-being. I like to exercise consistently, maintain my diet, and feel physically healthy all year. Almond milk and plant protein feel better to my body than cow&amp;rsquo;s milk and whey protein. Some video games provide real value to my life as an adult and many were critical to my growth as a youth. I watch battle royales on Twitch like straight men watch sports. The lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me. Brand. Marketing. Is key. I love F1. Go Mercedes, go Hamilton! ]]></content:encoded>
-    </item>
     <item>
       <title>on linear complementarity problems</title>
       <link>/notes/lcp/</link>
