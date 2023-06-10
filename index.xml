@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 09 Jun 2023 23:12:27 UT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jun 2023 22:41:15 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>research</title>
@@ -21,10 +21,10 @@
       <pubDate>Fri, 09 Jun 2023 22:04:52 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/research/</guid>
-      <description>Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, “Comprehensive shape analysis of the cortex in Huntington’s disease”, Human Brain Mapping* (2022). DOI repo page
+      <description>Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, “Comprehensive shape analysis of the cortex in Huntington’s disease”, Human Brain Mapping (2023). DOI repo page
 Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, “Segmentation of kidney stones in endoscopic video feeds”, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv page
 </description>
-      <content:encoded><![CDATA[Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, “Comprehensive shape analysis of the cortex in Huntington’s disease”, Human Brain Mapping* (2022). DOI repo page
+      <content:encoded><![CDATA[Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, “Comprehensive shape analysis of the cortex in Huntington’s disease”, Human Brain Mapping (2023). DOI repo page
 Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, “Segmentation of kidney stones in endoscopic video feeds”, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv page
 ]]></content:encoded>
     </item>
