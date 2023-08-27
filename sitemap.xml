@@ -38,7 +38,7 @@
     <loc>/categories/course/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/projects/csfmri-ts/</loc>
+    <loc>/notes/csfmri-ts/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
     <loc>/tags/opt/</loc>
@@ -95,7 +95,7 @@
     <loc>/tags/seg/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
-    <loc>/projects/stone-anno/</loc>
+    <loc>/notes/stone-anno/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
     <loc>/tags/vision/</loc>
@@ -110,7 +110,7 @@
     <loc>/kus/</loc>
     <lastmod>2021-09-29T17:16:11-05:00</lastmod>
   </url><url>
-    <loc>/projects/cortical-surface-analysis/</loc>
+    <loc>/notes/cortical-surface-analysis/</loc>
     <lastmod>2021-09-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/tags/matlab/</loc>
@@ -149,7 +149,7 @@
     <loc>/tags/hack/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/projects/github-after-dark/</loc>
+    <loc>/notes/github-after-dark/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
     <loc>/tags/html/</loc>
@@ -167,7 +167,7 @@
     <loc>/tags/webdev/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/projects/vae-segnet-verif/</loc>
+    <loc>/notes/vae-segnet-verif/</loc>
     <lastmod>2021-07-09T13:51:01-05:00</lastmod>
   </url><url>
     <loc>/tags/gnn/</loc>
@@ -179,7 +179,7 @@
     <loc>/categories/team/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
-    <loc>/projects/tgn-viz/</loc>
+    <loc>/notes/tgn-viz/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
     <loc>/tags/viz/</loc>
@@ -200,7 +200,7 @@
     <loc>/tags/tanka/</loc>
     <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/projects/tello-slam/</loc>
+    <loc>/notes/tello-slam/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/kus/fall-winter-2018/</loc>
@@ -215,7 +215,7 @@
     <loc>/notes/fast-inv-sqrt/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
-    <loc>/projects/quad-build/</loc>
+    <loc>/notes/quad-build/</loc>
     <lastmod>2021-07-01T16:57:10-05:00</lastmod>
   </url><url>
     <loc>/kus/spring-summer-2018/</loc>
@@ -224,13 +224,10 @@
     <loc>/</loc>
     <lastmod>2021-06-28T01:57:32-05:00</lastmod>
   </url><url>
-    <loc>/projects/</loc>
-    <lastmod>2021-06-27T23:08:00-05:00</lastmod>
-  </url><url>
     <loc>/notes/</loc>
     <lastmod>2021-06-27T23:07:53-05:00</lastmod>
   </url><url>
-    <loc>/projects/neural-dim/</loc>
+    <loc>/notes/neural-dim/</loc>
     <lastmod>2021-06-27T20:58:15-05:00</lastmod>
   </url><url>
     <loc>/about/</loc>

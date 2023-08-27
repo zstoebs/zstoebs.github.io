@@ -13,14 +13,14 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 10 Jun 2023 22:41:15 UT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Aug 2023 20:51:28 UT</lastBuildDate>
     <atom:link href="/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cortical surface analysis in Huntington&#39;s disease using linear-mixed models</title>
-      <link>/projects/cortical-surface-analysis/</link>
+      <link>/notes/cortical-surface-analysis/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/cortical-surface-analysis/</guid>
+      <guid>/notes/cortical-surface-analysis/</guid>
       <description>Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, submitted to Brain. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</description>
       <category domain="/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, published in Human Brain Mapping. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula. Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &amp;ndash; let&amp;rsquo;s make them more accessible!
@@ -76,10 +76,10 @@ Brown K. Encyclopedia of Language and Linguistics. Vol 1. Elsevier; 2005.
     </item>
     <item>
       <title>verification of a VAE &amp; SegNet using NNV</title>
-      <link>/projects/vae-segnet-verif/</link>
+      <link>/notes/vae-segnet-verif/</link>
       <pubDate>Fri, 09 Jul 2021 18:51:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/vae-segnet-verif/</guid>
+      <guid>/notes/vae-segnet-verif/</guid>
       <description>Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/solo">Solo</category>
@@ -109,10 +109,10 @@ H. D. Tran et al., â€œStar-based reachability analysis of deep neural networks,â
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>/projects/tello-slam/</link>
+      <link>/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/tello-slam/</guid>
+      <guid>/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/solo">Solo</category>

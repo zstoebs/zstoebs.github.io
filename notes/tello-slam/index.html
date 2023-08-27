@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-CLGDWRWCBJ', { 'anonymize_ip': false });
+}
+</script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CLGDWRWCBJ', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    
+
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; connect-src 'self' wss: data:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'">
+
+
+    <meta name="generator" content="After Dark Hugo">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>face following and vSLAM for a Tello quadcopter | Zach Stoebner | ml • vision • kū</title>
+    <meta name="description" content="Tello can do hard things.">
+    <meta name="keywords" content="quads, robotics, cps, ml, matlab, control, ai">
+    
+    
+    
+    
+    <meta property="og:title" content="face following and vSLAM for a Tello quadcopter" />
+<meta property="og:description" content="Tello can do hard things." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/notes/tello-slam/" /><meta property="og:image" content="/notes/tello-slam/image/header.jpg"/><meta property="article:section" content="notes" />
+<meta property="article:published_time" content="2021-07-02T11:46:28-05:00" />
+<meta property="article:modified_time" content="2021-07-02T11:46:28-05:00" />
+
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/notes/tello-slam/image/header.jpg"/>
+<meta name="twitter:title" content="face following and vSLAM for a Tello quadcopter"/>
+<meta name="twitter:description" content="Tello can do hard things."/>
+
+    
+
+
+
+  <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
+
+
+    
+
+    
+    
+  <meta name="referrer" content="same-origin">
+
+
+    
+    
+    <script integrity="sha512-2t0yyNrUdtn9WGIoBVxq5vtoJQYfoDQDbqRPpOb75f1hiL39DGLdJKDrGP60fBhXfrFeKyVhzWJvHvLgln/ElA==">/*! Fetch Inject v2.0.4 | Copyright (C) Josh Habdas <jhabdas@protonmail.com> (https://habd.as) | @license Zlib */
+var fetchInject=function(){"use strict";const e=function(e,t,r,n,o,c,i){c=t.createElement(r),i=t.getElementsByTagName(r)[0],c.appendChild(t.createTextNode(n.text)),c.onload=o(n),i?i.parentNode.insertBefore(c,i):t.head.appendChild(c)};return function(t,r){if(!arguments.length)return Promise.reject(new ReferenceError("Failed to execute 'fetchInject': 1 argument required but only 0 present."));if(arguments[0]&&arguments[0].constructor!==Array)return Promise.reject(new TypeError("Failed to execute 'fetchInject': argument 1 must be of type 'Array'."));if(arguments[1]&&arguments[1].constructor!==Promise)return Promise.reject(new TypeError("Failed to execute 'fetchInject': argument 2 must be of type 'Promise'."));const n=[],o=r?[].concat(r):[],c=[];return t.forEach(e=>o.push(window.fetch(e).then(e=>[e.clone().text(),e.blob()]).then(e=>Promise.all(e).then(e=>{n.push({text:e[0],blob:e[1]})})))),Promise.all(o).then(()=>(n.forEach(t=>{c.push({then:r=>{t.blob.type.includes("text/css")?e(window,document,"style",t,r):e(window,document,"script",t,r)}})}),Promise.all(c)))}}();
+</script>
+    <script integrity="sha512-2XlvnxweZhaHgBdCoOK0PoCUWiSfKibb&#43;RCRZNgqLdvbnx0ZH67FDGKQqmpqCerjMJbZFv6fsXgbmJOOA9K&#43;qA==">/*!
+ * Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+ *
+ * This file is part of After Dark.
+ *
+ * After Dark is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * After Dark is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+fetchInject(["/js/lazysizes.min.js"]);
+</script>
+    
+
+
+  
+    
+
+  <meta title="mod:fractal-forest" content="status:enabled">
+  
+    <script async src=/js/bpgdec8a.js integrity=sha384-8PG0go3BW8hLm63KbTxk/hNcehaoSbrAhKzsmy2Jhs/KY8QdiKKkjhdeyHY/Q/0I&#10;></script>
+  
+
+
+  
+  
+  
+  
+
+
+    
+    <link rel="canonical" href="/notes/tello-slam/">
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+    
+
+  
+  
+  
+  
+  
+  
+  
+    
+      
+        <style>html{font-size:12px}*{box-sizing:border-box;text-rendering:geometricPrecision}body{font-size:1rem;line-height:1.5rem;margin:0;font-family:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;word-wrap:break-word}h1,h2,h3,h4,h5,h6{line-height:1.3em}fieldset{border:none;padding:0;margin:0}pre{padding:2rem;margin:1.75rem 0;background-color:#fff;border:1px solid #ccc;overflow:auto}code[class*=language-],pre[class*=language-],pre code{font-weight:100;text-shadow:none;margin:1.75rem 0}a{cursor:pointer;color:#ff2e88;text-decoration:none;border-bottom:1px solid #ff2e88}a:hover{background-color:#ff2e88;color:#fff}.grid{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.grid.\-top{-ms-flex-align:start;align-items:flex-start}.grid.\-middle{-ms-flex-align:center;align-items:center}.grid.\-bottom{-ms-flex-align:end;align-items:flex-end}.grid.\-stretch{-ms-flex-align:stretch;align-items:stretch}.grid.\-baseline{-ms-flex-align:baseline;align-items:baseline}.grid.\-left{-ms-flex-pack:start;justify-content:flex-start}.grid.\-center{-ms-flex-pack:center;justify-content:center}.grid.\-right{-ms-flex-pack:end;justify-content:flex-end}.grid.\-between{-ms-flex-pack:justify;justify-content:space-between}.grid.\-around{-ms-flex-pack:distribute;justify-content:space-around}.cell{-ms-flex:1;flex:1;box-sizing:border-box}@media screen and (min-width:768px){.cell.\-1of12{-ms-flex:0 0 8.33333%;flex:0 0 8.33333%}.cell.\-2of12{-ms-flex:0 0 16.66667%;flex:0 0 16.66667%}.cell.\-3of12{-ms-flex:0 0 25%;flex:0 0 25%}.cell.\-4of12{-ms-flex:0 0 33.33333%;flex:0 0 33.33333%}.cell.\-5of12{-ms-flex:0 0 41.66667%;flex:0 0 41.66667%}.cell.\-6of12{-ms-flex:0 0 50%;flex:0 0 50%}.cell.\-7of12{-ms-flex:0 0 58.33333%;flex:0 0 58.33333%}.cell.\-8of12{-ms-flex:0 0 66.66667%;flex:0 0 66.66667%}.cell.\-9of12{-ms-flex:0 0 75%;flex:0 0 75%}.cell.\-10of12{-ms-flex:0 0 83.33333%;flex:0 0 83.33333%}.cell.\-11of12{-ms-flex:0 0 91.66667%;flex:0 0 91.66667%}}@media screen and (max-width:768px){.grid{-ms-flex-direction:column;flex-direction:column}.cell{-ms-flex:0 0 auto;flex:0 0 auto}}.hack,.hack blockquote,.hack code,.hack em,.hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6,.hack strong{font-size:1rem;font-style:normal;font-family:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif}.hack blockquote,.hack code,.hack em,.hack strong{line-height:20px}.hack blockquote,.hack code,.hack footer,.hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6,.hack header,.hack li,.hack ol,.hack p,.hack section,.hack ul{float:none;margin:0;padding:0}.hack blockquote,.hack h1,.hack ol,.hack p,.hack ul{margin-top:20px;margin-bottom:20px}.hack h1{position:relative;display:inline-block;display:table-cell;padding:20px 0 30px;margin:0;overflow:hidden}.hack h1:after{content:"====================================================================================================";position:absolute;bottom:10px;left:0}.hack h1+*{margin-top:0}.hack h2,.hack h3,.hack h4,.hack h5,.hack h6{position:relative;margin-bottom:1.75rem}.hack h2:before,.hack h3:before,.hack h4:before,.hack h5:before,.hack h6:before{display:inline}.hack h2:before{content:"## "}.hack h3:before{content:"### "}.hack h4:before{content:"#### "}.hack h5:before{content:"##### "}.hack h6:before{content:"###### "}.hack li{position:relative;display:block;padding-left:20px}.hack li:after{position:absolute;top:0;left:0}.hack ul>li:after{content:"-"}.hack ol{counter-reset:a}.hack ol>li:after{content:counter(a) ".";counter-increment:a}.hack ol li:nth-child(n+10):after{left:-7px}.hack blockquote{position:relative;padding-left:17px;padding-left:2ch;overflow:hidden}.hack blockquote:after{content:">\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>";white-space:pre;position:absolute;top:0;left:0;line-height:20px}.hack em:after,.hack em:before{content:"*";display:inline}.hack pre code:after,.hack pre code:before{content:""}.hack code{font-weight:700}.hack code:after,.hack code:before{content:"`";display:inline}.hack hr{position:relative;height:20px;overflow:hidden;border:0;margin:20px 0}.hack hr:after{content:"----------------------------------------------------------------------------------------------------";position:absolute;top:0;left:0;line-height:20px;width:100%;word-wrap:break-word}@-moz-document url-prefix(){.hack h1{display:block}}.hack-ones ol>li:after{content:"1."}p{margin:0 0 1.75rem}.container{max-width:70rem}.container,.container-fluid{margin:0 auto;padding:0 1rem}.inner{padding:1rem}.inner2x{padding:2rem}.pull-left{float:left}.pull-right{float:right}.progress-bar{height:8px;opacity:.8;background-color:#ccc;margin-top:12px}.progress-bar.progress-bar-show-percent{margin-top:38px}.progress-bar-filled{background-color:gray;height:100%;transition:width .3s ease;position:relative;width:0}.progress-bar-filled:before{content:"";border:6px solid transparent;border-top-color:gray;position:absolute;top:-12px;right:-6px}.progress-bar-filled:after{color:gray;content:attr(data-filled);display:block;font-size:12px;white-space:nowrap;position:absolute;border:6px solid transparent;top:-38px;right:0;-ms-transform:translateX(50%);transform:translateX(50%)}table{width:100%;border-collapse:collapse;margin:1.75rem 0;color:#778087}table td,table th{vertical-align:top;border:1px solid #ccc;line-height:15px;padding:10px}table thead th{font-size:10px}table tbody td:first-child{font-weight:700;color:#333}.form{width:30rem}.form-group{margin-bottom:1.75rem;overflow:auto}.form-group label{border-bottom:2px solid #ccc;color:#333;width:10rem;display:inline-block;height:38px;line-height:38px;padding:0;float:left;position:relative}.form-group.form-success label{color:#4caf50!important;border-color:#4caf50!important}.form-group.form-warning label{color:#ff9800!important;border-color:#ff9800!important}.form-group.form-error label{color:#f44336!important;border-color:#f44336!important}.form-control{outline:none;border:none;border-bottom:2px solid #ccc;padding:.5rem 0;width:20rem;height:38px;background-color:transparent}.form-control:focus{border-color:#555}.form-group.form-textarea label:after{position:absolute;content:"";width:2px;background-color:#fff;right:-2px;top:0;bottom:0}textarea.form-control{height:auto;resize:none;padding:1rem 0;border-bottom:2px solid #ccc;border-left:2px solid #ccc;padding:.5rem}select.form-control{border-radius:0;background-color:transparent;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}.help-block{color:#999;margin-top:.5rem}.form-actions{margin-bottom:1.75rem}.btn{display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;cursor:pointer;outline:none;padding:.65rem 2rem;font-size:1rem;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:relative;z-index:1}.btn:active{box-shadow:inset 0 1px 3px rgba(0,0,0,.12)}.btn.btn-ghost{border-color:#757575;color:#757575;background-color:transparent}.btn.btn-ghost:focus,.btn.btn-ghost:hover{border-color:#424242;color:#424242;z-index:2}.btn.btn-ghost:hover{background-color:transparent}.btn-block{width:100%;display:-ms-flexbox;display:flex}.btn-default{color:#fff;background-color:#e0e0e0;border:1px solid #e0e0e0;color:#333}.btn-default:focus:not(.btn-ghost),.btn-default:hover{background-color:#dcdcdc;border-color:#dcdcdc}.btn-success{color:#fff;background-color:#4caf50;border:1px solid #4caf50}.btn-success:focus:not(.btn-ghost),.btn-success:hover{background-color:#43a047;border-color:#43a047}.btn-success.btn-ghost{border-color:#4caf50;color:#4caf50}.btn-success.btn-ghost:focus,.btn-success.btn-ghost:hover{border-color:#388e3c;color:#388e3c;z-index:2}.btn-error{color:#fff;background-color:#f44336;border:1px solid #f44336}.btn-error:focus:not(.btn-ghost),.btn-error:hover{background-color:#e53935;border-color:#e53935}.btn-error.btn-ghost{border-color:#f44336;color:#f44336}.btn-error.btn-ghost:focus,.btn-error.btn-ghost:hover{border-color:#d32f2f;color:#d32f2f;z-index:2}.btn-warning{color:#fff;background-color:#ff9800;border:1px solid #ff9800}.btn-warning:focus:not(.btn-ghost),.btn-warning:hover{background-color:#fb8c00;border-color:#fb8c00}.btn-warning.btn-ghost{border-color:#ff9800;color:#ff9800}.btn-warning.btn-ghost:focus,.btn-warning.btn-ghost:hover{border-color:#f57c00;color:#f57c00;z-index:2}.btn-info{color:#fff;background-color:#00bcd4;border:1px solid #00bcd4}.btn-info:focus:not(.btn-ghost),.btn-info:hover{background-color:#00acc1;border-color:#00acc1}.btn-info.btn-ghost{border-color:#00bcd4;color:#00bcd4}.btn-info.btn-ghost:focus,.btn-info.btn-ghost:hover{border-color:#0097a7;color:#0097a7;z-index:2}.btn-primary{color:#fff;background-color:#2196f3;border:1px solid #2196f3}.btn-primary:focus:not(.btn-ghost),.btn-primary:hover{background-color:#1e88e5;border-color:#1e88e5}.btn-primary.btn-ghost{border-color:#2196f3;color:#2196f3}.btn-primary.btn-ghost:focus,.btn-primary.btn-ghost:hover{border-color:#1976d2;color:#1976d2;z-index:2}.btn-group{overflow:auto}.btn-group .btn{float:left}.btn-group .btn-ghost:not(:first-child){margin-left:-1px}.card{border:1px solid #ccc}.card .card-header{color:#333;text-align:center;background-color:#ddd;padding:.5rem 0}.alert{color:#ccc;padding:1rem;border:1px solid #ccc;margin-bottom:1.75rem}.alert-success{color:#4caf50;border-color:#4caf50}.alert-error{color:#f44336;border-color:#f44336}.alert-info{color:#00bcd4;border-color:#00bcd4}.alert-warning{color:#ff9800;border-color:#ff9800}.media:not(:last-child){margin-bottom:1.25rem}.media-left{padding-right:1rem}.media-left,.media-right{display:table-cell;vertical-align:top}.media-right{padding-left:1rem}.media-body{display:table-cell;vertical-align:top}.media-heading{font-size:1.16667rem;font-weight:700}.media-content{margin-top:.3rem}.avatarholder,.placeholder{background-color:#f0f0f0;text-align:center;color:#b9b9b9;font-size:1rem;border:1px solid #f0f0f0}.avatarholder{width:48px;height:48px;line-height:46px;font-size:2rem;background-size:cover;background-position:50%;background-repeat:no-repeat}.avatarholder.rounded{border-radius:33px}.loading{display:inline-block;content:"&nbsp;";height:20px;width:20px;margin:0 .5rem;animation:a .6s infinite linear;border:2px solid #e91e63;border-right-color:transparent;border-radius:50%}.btn .loading{margin-bottom:0;width:14px;height:14px}.btn div.loading{float:left}.alert .loading{margin-bottom:-5px}@keyframes a{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.menu{width:100%}.menu .menu-item{display:block;color:#616161;border-color:#616161}.menu .menu-item.active,.menu .menu-item:hover{color:#000;border-color:#000;background-color:transparent}@media screen and (max-width:768px){.form-group label{display:block;border-bottom:none;width:100%}.form-group.form-textarea label:after{display:none}.form-control{width:100%}textarea.form-control{border-left:none;padding:.5rem 0}pre::-webkit-scrollbar{height:3px}}@media screen and (max-width:480px){.form{width:100%}}.dark{color:#ccc}.dark,.dark pre{background-color:#000}.dark pre{padding:0;border:none}.dark pre code{color:#00bcd4}.dark h1 a,.dark h2 a,.dark h3 a,.dark h4 a,.dark h5 a{color:#ccc}.dark code,.dark strong{color:#fff}.dark code{font-weight:100}.dark table{color:#ccc}.dark table td,.dark table th{border-color:#444}.dark table tbody td:first-child{color:#fff}.dark .form-group label{color:#ccc;border-color:rgba(95,95,95,.78)}.dark .form-group.form-textarea label:after{background-color:#000}.dark .form-control{color:#ccc;border-color:rgba(95,95,95,.78)}.dark .form-control:focus{border-color:#ccc;color:#ccc}.dark textarea.form-control{color:#ccc}.dark .card{border-color:rgba(95,95,95,.78)}.dark .card .card-header{background-color:transparent;color:#ccc;border-bottom:1px solid rgba(95,95,95,.78)}.dark .btn.btn-ghost.btn-default{border-color:#ababab;color:#ababab}.dark .btn.btn-ghost.btn-default:focus,.dark .btn.btn-ghost.btn-default:hover{border-color:#9c9c9c;color:#9c9c9c;z-index:1}.dark .btn.btn-ghost.btn-default:focus,.dark .btn.btn-ghost.btn-default:hover{border-color:#e0e0e0;color:#e0e0e0}.dark .btn.btn-ghost.btn-primary:focus,.dark .btn.btn-ghost.btn-primary:hover{border-color:#64b5f6;color:#64b5f6}.dark .btn.btn-ghost.btn-success:focus,.dark .btn.btn-ghost.btn-success:hover{border-color:#81c784;color:#81c784}.dark .btn.btn-ghost.btn-info:focus,.dark .btn.btn-ghost.btn-info:hover{border-color:#4dd0e1;color:#4dd0e1}.dark .btn.btn-ghost.btn-error:focus,.dark .btn.btn-ghost.btn-error:hover{border-color:#e57373;color:#e57373}.dark .btn.btn-ghost.btn-warning:focus,.dark .btn.btn-ghost.btn-warning:hover{border-color:#ffb74d;color:#ffb74d}.dark .avatarholder,.dark .placeholder{background-color:transparent;border-color:#333}.dark .menu .menu-item{color:#ccc;border-color:rgba(95,95,95,.78)}.dark .menu .menu-item.active,.dark .menu .menu-item:hover{color:#fff;border-color:#ccc}/*!* Copyright (C) 2019 Josh Habdas <jhabdas@protonmail.com>
+*
+* This file is part of After Dark.
+*
+* After Dark is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* After Dark is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU Affero General Public License for more details.
+*
+* You should have received a copy of the GNU Affero General Public License
+* along with this program. If not, see <https://www.gnu.org/licenses/>.*/:root{--screen-size-small:30em}@keyframes intro{0%{opacity:0}100%{opacity:1}}.blur-up.lazyloading{filter:blur(5px);opacity:1;transition:opacity 1s,filter 1.5s}.blur-up.lazyload{opacity:0;filter:blur(10px)}.blur-up.lazyloaded{filter:blur(0);transition:filter 1s}.hack .readmore{margin-bottom:2.2em}.responsive-iframe,.ratio-container{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.responsive-iframe iframe,.ratio-container>*:not([itemprop=caption]){position:absolute;top:0;left:0;width:100%;height:100%}iframe{border:0}main,footer{animation:intro .3s both;animation-delay:.15s}header:first-of-type+details{margin:20px 0}footer time[datetime$=M]:before{content:"\2013\0020"}body>footer p.muted{margin-bottom:0}@media only screen and (max-width:768px){footer time[datetime$=M]{display:none}}blockquote cite{display:block}blockquote cite::before{content:"\2014\00A0"}:target{filter:brightness(1.2)}:disabled{cursor:not-allowed}.hack li ul{margin:0}.hack ol li{padding-left:27px}.main{padding:20px 10px}input.form-control{border-radius:0;background-color:transparent;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}input.form-control,textarea.form-control,select.form-control,.help-block{font-size:initial}@media only screen and (max-width:768px){.help-block{font-size:unset}}html{font-size:13px}.hack .form input,.hack .form textarea,.hack .form button,.hack .form label{font-size:1rem}.hack .alert .highlight:first-of-type .chroma,.hack .card .highlight:first-of-type .chroma,.hack .alert pre:first-of-type,.hack .alert p:first-of-type,.hack .card pre:first-of-type,.hack .card p:first-of-type{margin-top:unset}.hack .alert .highlight:last-of-type .chroma,.hack .card .highlight:last-of-type .chroma,.hack .alert pre:last-of-type,.hack .alert p:last-of-type,.hack .card pre:last-of-type,.hack .card p:last-of-type{margin-bottom:unset}.hack blockquote,.hack blockquote:after{line-height:1.5}.hack figure,.standard figure{margin:unset}.hack figure a{border-bottom:none}.hack figure a:hover{background-color:inherit}article header img{width:100%;border-radius:3px}table td,table th{line-height:inherit}table a{border-bottom:unset}img{max-width:100%}@media only screen and (min-width:768px){html{font-size:16px}.container{max-width:50rem}}@media only screen and (min-width:768px),(-ms-high-contrast:active),(-ms-high-contrast:none){html{margin-left:calc(100vw - 100%)}}/*!
+ * Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
+ *
+ * This file is part of After Dark.
+ *
+ * After Dark is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * After Dark is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+a[rel*="external"]::after {
+  content: " " url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20class='i-external'%20viewBox='0%200%2032%2032'%20width='14'%20height='14'%20fill='none'%20stroke='%23ff9800'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-width='9.38%'%3E%3Cpath%20d='M14%209%20L3%209%203%2029%2023%2029%2023%2018%20M18%204%20L28%204%2028%2014%20M28%204%20L14%2018'/%3E%3C/svg%3E");
+}
+nav a.active {
+  background-color: inherit;
+  color: #fff;
+}
+a[itemprop="url"] {
+  color: #ff9800;
+}
+a[itemprop="url"]:hover {
+  color: #fff;
+}
+.muted, .help-block {
+  opacity: 0.70;
+}
+.hack .muted,
+.hack .help-block {
+  color: #e0e0e0;
+}
+
+ul.thumbnail.grid li a:hover figure {
+  filter: initial;
+}
+ul.thumbnail.grid li a figure {
+  position: relative;
+  line-height: 0;
+  margin-bottom: 8px;
+}
+ul.thumbnail.grid li a:hover figure::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(0,0,0,0.1) 0,
+    rgba(0,0,0,0.3) 100%
+  );
+}
+</style>
+        
+
+
+  
+    <meta name="theme-color" content=#000>
+  
+
+
+      
+    
+  
+
+
+    
+    
+  </head>
+  
+  
+  
+  <body class="hack dark main container">
+    <header>
+  
+
+  
+    
+      
+      
+  <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
+    <meta itemprop="name" content="Main Menu">
+    
+      
+      
+        <a itemprop="url" href="/">about</a>
+      
+    
+      
+      
+        <a itemprop="url" href="/notes/">notes</a>
+      
+    
+      
+      
+        <a itemprop="url" href="/kus/">kū</a>
+      
+    
+  </nav>
+
+
+    
+  
+
+
+</header>
+    <main>
+  
+    
+      <style>{{ -}}.hack header figure[itemtype*=ImageObject]{position:relative}.hack header figure[itemtype*=ImageObject] figcaption{position:absolute;bottom:0;right:0;text-align:right;padding:15px;font-style:oblique;font-size:smaller;mix-blend-mode:soft-light}.hack header figure[itemtype*=ImageObject] [itemprop=headline]{font-weight:700}</style>
+    
+  
+  <article itemscope itemtype="https://schema.org/BlogPosting">
+    <meta itemprop="name" content="face following and vSLAM for a Tello quadcopter">
+<meta itemprop="description" content="Tello can do hard things."><meta itemprop="datePublished" content="2021-07-02T11:46:28-05:00" />
+<meta itemprop="dateModified" content="2021-07-02T11:46:28-05:00" />
+<meta itemprop="wordCount" content="1467"><meta itemprop="image" content="/notes/tello-slam/image/header.jpg">
+<meta itemprop="keywords" content="quads,robotics,cps,ml,matlab,control,ai," />
+    <header>
+      <h1 itemprop="headline name">face following and vSLAM for a Tello quadcopter</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>7 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-02T11:46:28-05:00">2 Jul, 2021</time>
+
+
+      </p>
+      
+        <blockquote itemprop="description">Tello can do hard things.</blockquote>
+      
+      
+
+
+
+    </header>
+    
+  <details>
+    <summary>Table of Contents</summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#motivation">Motivation</a></li>
+    <li><a href="#contents">Contents</a></li>
+    <li><a href="#method">Method</a>
+      <ul>
+        <li><a href="#face-following">Face Following</a></li>
+        <li><a href="#vslam">vSLAM</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a>
+      <ul>
+        <li><a href="#face-following-1">Face Following</a></li>
+        <li><a href="#vslam-1">vSLAM</a></li>
+      </ul>
+    </li>
+    <li><a href="#future">Future</a></li>
+    <li><a href="#references">References</a>
+      <ul>
+        <li><a href="#papers">Papers</a></li>
+        <li><a href="#code">Code</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </details>
+
+
+    <div itemprop="articleBody">
+      <p><strong>tl;dr</strong> Implementation of face detection / following and vSLAM on a <a href="https://www.ryzerobotics.com/tello">Ryze Tello</a> using its <a href="https://www.mathworks.com/hardware-support/tello-drone-matlab.html">MATLAB toolkit</a>.</p>
+<h1 id="links">Links</h1>
+<p><a href="https://github.com/zstoebs/tello_detection_SLAM">repo</a></p>
+<p><a href="/doc/eece6356_paper.pdf">report</a></p>
+<h1 id="motivation">Motivation</h1>
+<p>Following my <a href="/projects/quad-build/">quad build</a> experience, I set the intention to continue working with and learning more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection &amp; following and SLAM. Face detection &amp; following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image&rsquo;s center. vSLAM on the other hand is more interesting in my opinion. For those that don&rsquo;t know: <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">simultaneous localization &amp; mapping</a> (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it.</p>
+<h1 id="contents">Contents</h1>
+<ul>
+<li>main.m: control flow script to demonstrate each of these on the Tello.</li>
+<li>follow.m: face detection and following algorithm that returns the movement vector required to center the drone on the detected face, if there is one.</li>
+<li>vslam.m: implements vSLAM using the drone&rsquo;s pinhole camera given a predetermined movement sequence that should be cycled a handful of times.</li>
+</ul>
+<h1 id="method">Method</h1>
+<h2 id="face-following">Face Following</h2>
+<p>Algorithm:</p>
+<ol>
+<li>Pass the frame to the object detector and retrieve a bounding box location(s) for the detected object.</li>
+<li>Draw boxes around all of the detected images.</li>
+<li>Use the closest bounding box’s width and center coordinates to compute the relative axis change as a percentage of the max.</li>
+<li>Based on some threshold percentage and some minimum movement distance, set the axes distances and return them to be used in a move command.</li>
+</ol>
+<figure>
+<img src="image/face_follow.jpg" alt="face following schematic." /> 
+<figcaption> Fig 1. Face following schematic. An image is passed to the cascade object detector. The detector draws a bounding box around the face. The centering vector from the current center to the center of the bounding box is computed. The UAV moves in the direction of the centering vector while maintaining a safe, specified distance.</figcaption>
+</figure>
+<br>
+<h2 id="vslam">vSLAM</h2>
+<p>This vSLAM implementation breaks down into three key parts: map initialization, tracking and local mapping.</p>
+<p>Starting with map initialization, the steps are as follows:</p>
+<ol>
+<li>Track the ORB features on the first image to load the pre-points, then track a second image.</li>
+<li>Match the ORB feature correspondences between the two images.</li>
+<li>If enough matches are made (100), compute the homography and fundamental matrices so that the correct geometric transform is applied based on which results in the least error for the relative camera pose.</li>
+<li>If insufficient matches are made, then the loop restarts on a new image. Manually, the loop has a maximum of 5 iterations to find a matched image until an error is thrown. If a match is not made in 5 iterations, it may imply that the Tello has weak connection and low light and needs to be reset.</li>
+<li>Triangulate the 3D locations of the matched features in the new map.</li>
+</ol>
+<p>For tracking:</p>
+<ol>
+<li>Move the drone according to the modulus of the current move index by the length of the move sequence.</li>
+<li>If the Tello loses connection and throws an error, loop back to see if connection is regained, changing no indices except a break iteration countdown of 10. Throw the error if the break countdown expires.</li>
+<li>Extract ORB features from the frame and match with the latest keyframe. If the new frame is not a keyframe, continue the loop.</li>
+<li>Estimate the camera pose with Perspective-n-Point [10] in order to project the features to the current frames perspective and correct using some bundle adjustments[8]. This step, although esoteric, is important for the fast computation of that ORB-SLAM offers compared to the competition.</li>
+<li>Determine if the current frame is a key frame given the criteria. If so, the process continues to local mapping. Else, the loop iterates, and the above steps are redone for the next frame. Additionally, this step also speeds up the process; instead of evaluating all of the features in every frame for mapping, only a select few that are substantially different are filtered for usage.</li>
+</ol>
+<p>The local mapping steps are as follows:</p>
+<ol>
+<li>Add the new keyframe to the set.</li>
+<li>Compare the keyframes features against all the other keyframe features, looking for unmatched points that occur in at least 3 other keyframes.</li>
+<li>Bundle adjust the pose based on the adjacent keyframes’ poses.</li>
+</ol>
+<figure>
+<img src="image/header.jpg" alt="vSLAM schematic." /> 
+<figcaption>Fig 2. Visual ORB-SLAM schematic. The process starts by initializing the map with two initial frames from the camera. During the initialization the UAV jiggles up and down to snapshot slightly different pairs of images with different feature extractions but still with some matches. If the map initializes, then the program proceeds to the main loop where it first tracks the features on a new frame. If the frame is a keyframe, then the new features are updated into the map. If the frame is not a keyframe, then the loop continues. At the start of each loop iteration, the UAV executes the next move in the sequence.</figcaption>
+</figure>
+<h1 id="results">Results</h1>
+<h2 id="face-following-1">Face Following</h2>
+<figure>
+<img src="image/face_detect.jpg" alt="example face detect frame." /> 
+<figcaption> Fig 3. Examples of when my face is detected. Looking at the Tello (left) and not looking at the Tello (right). Nonetheless, it still detects my face and doesn’t pick up much noise, even in low light. </figcaption>
+</figure>
+<br>
+<figure>
+<img src="image/fake_face.png" alt="example face detect misclassification." /> 
+<figcaption> Fig 4. Example of face misclassification. These misclassifications typically occur when there is no face in view of the camera. Otherwise, they are rare and not noticeable during a face following run. </figcaption>
+</figure>
+<br>
+<p>Face following was easy to implement. The ony hindrance was the occasional misclassification confusing the Tello, causing it to align with that &ldquo;face&rdquo;. You can see from these face detection frames that a bounding box was computed. From here, the distance to the target can be inferred from the area of the bounding box and the alignment offset can be inferred from the bounding box center&rsquo;s distance from the frame&rsquo;s center.</p>
+<h2 id="vslam-1">vSLAM</h2>
+<figure>
+<img src="image/matches.png" alt="map initialization matches." /> 
+<figcaption> Fig 5. Example of a map initialization feature match. Typically, the map initialized and I could get a sense of where the features were. </figcaption>
+</figure>
+<br>
+<figure>
+<img src="image/feature_extract.jpg" alt="feature extraction." /> 
+<figcaption> Fig 6. Examples of good (left) and average (right) feature extraction. Often times, the good initial feature extractions really set the momentum for how the rest of the main loop would turn out. Notice that the busier nearby area with more edges acquires more features. </figcaption>
+</figure>
+<br>
+<figure>
+<img src="image/map_locate.jpg" alt="mapping and localization." /> 
+<figcaption> Fig 7. Examples of map plots and estimated trajectories and camera pose. Both of the movement sequences were left and right images and that the number on the camera indicates that there were 10 keyframes in this vSLAM run.</figcaption>
+</figure>
+<br>
+<p>vSLAM was a much harder task to get right. One crux of the system was the speed at which the Tello captured frames; for vSLAM to work well, frames need to be captured in quick succession, with very slight movements. Precisely moving the Tello proved to be very challenging with the MATLAB toolkit, plus an indoor environment where the Tello&rsquo;s own gusts reflecting off of hard surfaces would significantly alter its course. Regardless, the system was still able to generate a point cloud and update location within the map.</p>
+<h1 id="future">Future</h1>
+<ol>
+<li>Streamline main.m with user input to guide the program and improve the functionality of vslam.m as best I can for Tello.</li>
+<li>Implement general object detection alongside the face detection pipeline.</li>
+<li>Add autonomous movement based on point cloud &ndash;&gt; remove need for a predetermined path.</li>
+<li>The implementations here are stepping stones to some more intelligent autonomous UAV behavior. I have the idea that I&rsquo;ll implemennt path planning on a Tello as well. Once I have that, I may integrate these three features into a Tello hide-n-seek project.</li>
+</ol>
+<h1 id="references">References</h1>
+<h2 id="papers">Papers</h2>
+<p>P. Viola and M. Jones, “Rapid Object Detection using a Boosted Cascade of Simple Features,” 2001 Comput. Vis. Pattern Recognit., 2001.</p>
+<p>E. Rublee, V. Rabaud, K. Konolige, and G. Bradski, “ORB: An efficient alternative to SIFT or SURF,” Proc. IEEE Int. Conf. Comput. Vis., pp. 2564–2571, 2011, doi: 10.1109/ICCV.2011.6126544.</p>
+<p>C. Cadena et al., “Past, present, and future of
+simultaneous localization and mapping: Toward the robust-perception age,” IEEE Trans. Robot., vol. 32, no. 6, pp. 1309–1332, 2016, doi: 10.1109/TRO.2016.2624754.</p>
+<p>R. Mur-Artal, J. M. M. Montiel, and J. D. Tardos, “ORB-SLAM: A Versatile and Accurate Monocular SLAM System,” IEEE Trans. Robot., vol. 31, no. 5, pp. 1147–1163, 2015, doi: 10.1109/TRO.2015.2463671.</p>
+<p>B. Williams and I. Reid, “On combining visual SLAM and visual odometry,” Proc. - IEEE Int. Conf. Robot. Autom., pp. 3494–3500, 2010, doi: 10.1109/ROBOT.2010.5509248.</p>
+<h2 id="code">Code</h2>
+<ul>
+<li>The vslam.m code is modified from the <a href="https://www.mathworks.com/help/vision/ug/monocular-visual-simultaneous-localization-and-mapping.html">vSLAM Matlab example</a>.</li>
+</ul>
+<p>References from my first exposure to quad programming and face detection:</p>
+<ul>
+<li><a href="https://github.com/Jabrils/TelloTV">TelloTV</a></li>
+<li><a href="https://github.com/dji-sdk/Tello-Python">TelloPython</a></li>
+</ul>
+
+    </div>
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author">Zach Stoebner</span>
+    
+  
+  <time itemprop="datePublished" datetime="2021-07-02T11:46:28-05:00">
+    2 Jul, 2021
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/course/">course</a> and <a href="/categories/solo/">solo</a></span>
+  
+  
+    and tagged <a rel="tag" href="/tags/ai/">ai</a>, <a rel="tag" href="/tags/control/">control</a>, <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a>, <a rel="tag" href="/tags/ml/">ml</a>, <a rel="tag" href="/tags/quads/">quads</a> and <a rel="tag" href="/tags/robotics/">robotics</a>
+  
+  using <span itemprop="wordCount">1467</span> words.
+</p>
+
+      
+
+
+
+  
+    <aside>
+      <header>Related Content</header>
+      
+        <ul>
+          
+            <li><a href="/notes/quad-build/">learning about quadcopters by building one</a>
+            <time class="muted" datetime="3M">3 minutes</time>
+          
+            <li><a href="/notes/neural-dim/">dimensionality reduction on neural data</a>
+            <time class="muted" datetime="5M">5 minutes</time>
+          
+        </ul>
+      
+    </aside>
+  
+
+
+    </footer>
+  </article>
+</main>
+    <footer>
+  <small class="muted">
+    
+  
+    
+      Copyright &copy; 2021 Zach Stoebner.
+      
+        Licensed under <a  target="_blank" rel="external noopener license" href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
+      
+    
+  
+
+
+  </small>
+</footer>
+    
+    
+    
+      
+    
+  </body>
+</html>

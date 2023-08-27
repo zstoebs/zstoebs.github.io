@@ -13,14 +13,14 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 10 Jun 2023 22:41:15 UT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Aug 2023 20:51:28 UT</lastBuildDate>
     <atom:link href="/tags/gnn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>visualizing temporal graph networks</title>
-      <link>/projects/tgn-viz/</link>
+      <link>/notes/tgn-viz/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/tgn-viz/</guid>
+      <guid>/notes/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/team">Team</category>

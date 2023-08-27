@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 10 Jun 2023 22:41:15 UT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Aug 2023 20:51:28 UT</lastBuildDate>
     <atom:link href="/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on linear complementarity problems</title>
@@ -59,10 +59,10 @@ Ralph. &amp;ldquo;Global Convergence of Damped Newton&amp;rsquo;s Method for Non
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>/projects/tello-slam/</link>
+      <link>/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/tello-slam/</guid>
+      <guid>/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/solo">Solo</category>
@@ -87,10 +87,10 @@ TelloTV TelloPython ]]></content:encoded>
     </item>
     <item>
       <title>learning about quadcopters by building one</title>
-      <link>/projects/quad-build/</link>
+      <link>/notes/quad-build/</link>
       <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/quad-build/</guid>
+      <guid>/notes/quad-build/</guid>
       <description>My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!</description>
       <category domain="/categories/personal">Personal</category>
       <content:encoded><![CDATA[ My fully built quadcopter on the ground, not flying... yet. tl;dr My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!

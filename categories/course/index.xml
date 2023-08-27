@@ -13,14 +13,14 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 10 Jun 2023 22:41:15 UT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Aug 2023 20:51:28 UT</lastBuildDate>
     <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>exploring compressed sensing fMRI time series</title>
-      <link>/projects/csfmri-ts/</link>
+      <link>/notes/csfmri-ts/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/csfmri-ts/</guid>
+      <guid>/notes/csfmri-ts/</guid>
       <description>An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/solo">Solo</category>
@@ -45,10 +45,10 @@ Results Summary metrics of RMSE (left) and PSNR (right) voxel time series recove
     </item>
     <item>
       <title>verification of a VAE &amp; SegNet using NNV</title>
-      <link>/projects/vae-segnet-verif/</link>
+      <link>/notes/vae-segnet-verif/</link>
       <pubDate>Fri, 09 Jul 2021 18:51:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/vae-segnet-verif/</guid>
+      <guid>/notes/vae-segnet-verif/</guid>
       <description>Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/solo">Solo</category>
@@ -78,10 +78,10 @@ H. D. Tran et al., â€œStar-based reachability analysis of deep neural networks,â
     </item>
     <item>
       <title>visualizing temporal graph networks</title>
-      <link>/projects/tgn-viz/</link>
+      <link>/notes/tgn-viz/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/tgn-viz/</guid>
+      <guid>/notes/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/team">Team</category>
@@ -106,10 +106,10 @@ Scax&amp;rsquo;s Force-Directed Graph with Zooming
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>/projects/tello-slam/</link>
+      <link>/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/tello-slam/</guid>
+      <guid>/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/solo">Solo</category>
@@ -134,10 +134,10 @@ TelloTV TelloPython ]]></content:encoded>
     </item>
     <item>
       <title>dimensionality reduction on neural data</title>
-      <link>/projects/neural-dim/</link>
+      <link>/notes/neural-dim/</link>
       <pubDate>Mon, 28 Jun 2021 01:58:15 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/projects/neural-dim/</guid>
+      <guid>/notes/neural-dim/</guid>
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
       <category domain="/categories/course">Course</category>
       <category domain="/categories/solo">Solo</category>
