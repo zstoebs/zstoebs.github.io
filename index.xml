@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 27 Aug 2023 20:51:28 UT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2023 19:56:10 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>research</title>
@@ -21,11 +21,13 @@
       <pubDate>Fri, 09 Jun 2023 22:04:52 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/research/</guid>
-      <description>Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, “Comprehensive shape analysis of the cortex in Huntington’s disease”, Human Brain Mapping (2023). DOI repo page
-Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, “Segmentation of kidney stones in endoscopic video feeds”, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv page
+      <description>&amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zachary A. Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. In review at IEEE‑TDSC (2023). repo
+&amp;ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&amp;rdquo;, Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, Human Brain Mapping (2023). DOI repo note
+&amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 </description>
-      <content:encoded><![CDATA[Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, “Comprehensive shape analysis of the cortex in Huntington’s disease”, Human Brain Mapping (2023). DOI repo page
-Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, “Segmentation of kidney stones in endoscopic video feeds”, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv page
+      <content:encoded><![CDATA[&amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zachary A. Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. In review at IEEE‑TDSC (2023). repo
+&amp;ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&amp;rdquo;, Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, Human Brain Mapping (2023). DOI repo note
+&amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 ]]></content:encoded>
     </item>
     <item>
@@ -53,19 +55,19 @@ Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Og
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
       <description> Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Specifically, I&amp;rsquo;m interested in developing generative models to improve image reconstruction in complex imaging systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; probability, and intelligent systems &amp;amp; robotics.
+My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Specifically, I&amp;rsquo;m interested in learning neural implicits and generative models to improve image reconstruction in complex imaging systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; probability, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Specifically, I&amp;rsquo;m interested in developing generative models to improve image reconstruction in complex imaging systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; probability, and intelligent systems &amp;amp; robotics.
+My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Specifically, I&amp;rsquo;m interested in learning neural implicits and generative models to improve image reconstruction in complex imaging systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; probability, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz.
-I enjoy tennis, heavy weights, trail running, backpacking in the mountains, kū &amp;amp; photography, and hendiadys.
+I enjoy tennis, heavy weights, trail running, backpacking in the mountains, kū &amp;amp; tanka poetry and photography, and hendiadys.
 I am an Anglophone &amp;gt; Lusophone &amp;gt; Hispanophone &amp;gt; Francophone.
 My hometown is Austin, TX. I was born in Abilene, TX.
 ]]></content:encoded>
