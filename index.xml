@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>Zach Stoebner | ml • vision • kū</title>
+    <title>Zach Stoebner on Zach Stoebner | ml • vision • kū</title>
     <link>/</link>
-    <description>Recent content on Zach Stoebner | ml • vision • kū</description>
+    <description>Recent content in Zach Stoebner on Zach Stoebner | ml • vision • kū</description>
     <image>
-      <title>Zach Stoebner | ml • vision • kū</title>
+      <title>Zach Stoebner on Zach Stoebner | ml • vision • kū</title>
       <link>/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 27 Oct 2023 19:56:10 UT</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 01:26:52 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>research</title>
@@ -21,11 +21,11 @@
       <pubDate>Fri, 09 Jun 2023 22:04:52 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/research/</guid>
-      <description>&amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zachary A. Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. In review at IEEE‑TDSC (2023). repo
+      <description>&amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zach Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. IEEE‑TDSC (2023). DOI repo
 &amp;ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&amp;rdquo;, Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, Human Brain Mapping (2023). DOI repo note
 &amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 </description>
-      <content:encoded><![CDATA[&amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zachary A. Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. In review at IEEE‑TDSC (2023). repo
+      <content:encoded><![CDATA[&amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zach Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. IEEE‑TDSC (2023). DOI repo
 &amp;ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&amp;rdquo;, Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, Human Brain Mapping (2023). DOI repo note
 &amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 ]]></content:encoded>
@@ -36,8 +36,8 @@
       <pubDate>Wed, 29 Sep 2021 22:16:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/kus/</guid>
-      <description> kū is hai(k)u &#43; senry(ū) All kū photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera. </description>
-      <content:encoded><![CDATA[ kū is hai(k)u &#43; senry(ū) All kū photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera. ]]></content:encoded>
+      <description> kū is hai(k)u &#43; senry(ū) All photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera. </description>
+      <content:encoded><![CDATA[ kū is hai(k)u &#43; senry(ū) All photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera. ]]></content:encoded>
     </item>
     <item>
       <title>notes</title>
@@ -55,14 +55,14 @@
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
       <description> Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Specifically, I&amp;rsquo;m interested in learning neural implicits and generative models to improve image reconstruction in complex imaging systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; probability, and intelligent systems &amp;amp; robotics.
+My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Specifically, I&amp;rsquo;m interested in learning neural implicits and generative models to improve image reconstruction in complex imaging systems. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; probability, and intelligent systems &amp;amp; robotics.
+My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar

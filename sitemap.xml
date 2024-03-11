@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/categories/haiku/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/categories/senryu/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/tags/spring/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/kus/spring-summer-2023/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/tags/summer/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/categories/tanka/</loc>
+    <lastmod>2024-03-09T22:58:46-05:00</lastmod>
+  </url><url>
+    <loc>/tags/fall/</loc>
+    <lastmod>2024-01-14T10:38:19-05:00</lastmod>
+  </url><url>
+    <loc>/kus/fall-winter-2022-2023/</loc>
+    <lastmod>2024-01-14T10:38:19-05:00</lastmod>
+  </url><url>
+    <loc>/tags/winter/</loc>
+    <lastmod>2024-01-14T10:38:19-05:00</lastmod>
+  </url><url>
     <loc>/research/</loc>
     <lastmod>2023-06-09T17:04:52-05:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2022-09-20T22:58:46-05:00</lastmod>
-  </url><url>
-    <loc>/categories/haiku/</loc>
-    <lastmod>2022-09-20T22:58:46-05:00</lastmod>
-  </url><url>
-    <loc>/categories/senryu/</loc>
-    <lastmod>2022-09-20T22:58:46-05:00</lastmod>
-  </url><url>
-    <loc>/tags/spring/</loc>
-    <lastmod>2022-09-20T22:58:46-05:00</lastmod>
-  </url><url>
     <loc>/kus/spring-summer-2022/</loc>
-    <lastmod>2022-09-20T22:58:46-05:00</lastmod>
-  </url><url>
-    <loc>/tags/summer/</loc>
-    <lastmod>2022-09-20T22:58:46-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-09-20T22:58:46-05:00</lastmod>
-  </url><url>
-    <loc>/categories/tanka/</loc>
     <lastmod>2022-09-20T22:58:46-05:00</lastmod>
   </url><url>
     <loc>/tags/ai/</loc>
@@ -53,14 +65,8 @@
     <loc>/tags/stats/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/tags/winter/</loc>
-    <lastmod>2022-03-19T23:36:13-05:00</lastmod>
-  </url><url>
     <loc>/kus/winter-2021-2022/</loc>
     <lastmod>2022-03-19T23:36:13-05:00</lastmod>
-  </url><url>
-    <loc>/tags/fall/</loc>
-    <lastmod>2022-02-23T12:17:56-06:00</lastmod>
   </url><url>
     <loc>/kus/fall-2021/</loc>
     <lastmod>2022-02-23T12:17:56-06:00</lastmod>
@@ -125,7 +131,7 @@
     <loc>/kus/spring-summer-2020/</loc>
     <lastmod>2021-08-13T19:05:50-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-winter-2019/</loc>
+    <loc>/kus/fall-winter-2019-2020/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
     <loc>/categories/create/</loc>
@@ -203,7 +209,7 @@
     <loc>/notes/tello-slam/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-winter-2018/</loc>
+    <loc>/kus/fall-winter-2018-2019/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
     <loc>/tags/quads/</loc>
