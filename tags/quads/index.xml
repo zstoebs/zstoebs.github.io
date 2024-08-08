@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>quads on Zach Stoebner | ml • vision • kū</title>
+    <title>quads on Zach Stoebner | ECE PhD @ UT Austin</title>
     <link>/tags/quads/</link>
-    <description>Recent content in quads on Zach Stoebner | ml • vision • kū</description>
+    <description>Recent content in quads on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
-      <title>quads on Zach Stoebner | ml • vision • kū</title>
+      <title>quads on Zach Stoebner | ECE PhD @ UT Austin</title>
       <link>/tags/quads/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2024 03:42:17 UT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 18:08:17 UT</lastBuildDate>
     <atom:link href="/tags/quads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>

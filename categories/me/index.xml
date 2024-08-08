@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>me on Zach Stoebner | ml • vision • kū</title>
+    <title>me on Zach Stoebner | ECE PhD @ UT Austin</title>
     <link>/categories/me/</link>
-    <description>Recent content in me on Zach Stoebner | ml • vision • kū</description>
+    <description>Recent content in me on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
-      <title>me on Zach Stoebner | ml • vision • kū</title>
+      <title>me on Zach Stoebner | ECE PhD @ UT Austin</title>
       <link>/categories/me/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2024 03:42:17 UT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 18:08:17 UT</lastBuildDate>
     <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -22,19 +22,19 @@
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
       <description> Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
+My research interests span computational imaging &amp;amp; computer vision and machine learning &amp;amp; optimization. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&#39;m Zach! I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests are at the intersection of computer vision and signal processing working on inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
+My research interests span computational imaging &amp;amp; computer vision and machine learning &amp;amp; optimization. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz.
-I enjoy tennis, heavy weights, trail running, backpacking in the mountains, kū &amp;amp; tanka poetry and photography, and hendiadys.
+I enjoy tennis, heavy weights, trail running, climbing, backpacking in the mountains, kū &amp;amp; tanka poetry and photography, and hendiadys.
 I am an Anglophone &amp;gt; Lusophone &amp;gt; Hispanophone &amp;gt; Francophone.
 My hometown is Austin, TX. I was born in Abilene, TX.
 ]]></content:encoded>
