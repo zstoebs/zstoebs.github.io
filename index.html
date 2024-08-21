@@ -302,10 +302,23 @@ ul.thumbnail.grid li a:hover figure::after {
 </p>
     
   </header>
-  <div itemprop=""><figure>
-<img src="image/profile.jpeg" alt="Zach Stoebner, profile, at 5th&Broadway in Nashville, TN" style="height:500px;width:332px;" />
-<figcaption>Hi, I'm Zach!</figcaption>
-</figure>
+  <div itemprop=""><div id="random-image"></div>
+<script>
+
+// **when adding new images, run rename_images.py and paste output here**
+var images = ['1.jpeg', '10.jpeg', '11.jpeg', '12.jpeg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg', '6.jpeg', '7.jpeg', '8.jpeg', '9.jpeg', '13.jpeg', '14.jpeg', '15.jpeg', '16.jpeg', '17.jpeg', '18.jpeg'];  
+
+// Function to select and display a random image
+function displayRandomImage() {
+    var randomImage = images[Math.floor(Math.random() * images.length)];
+    var imgElement = `<img src="profiles/${randomImage}" alt="random image of Zach Stoebner" style="height:500px;max-width:100%;" >`;
+    document.getElementById("random-image").innerHTML = imgElement;
+}
+
+// Call the function to display the random image
+displayRandomImage();
+</script>
+<p>Hi, I&rsquo;m Zach.</p>
 <p>I&rsquo;m an <a href="https://www.ece.utexas.edu">Electrical &amp; Computer Engineering</a> PhD student at <a href="https://www.utexas.edu">UT Austin</a> working with <a href="https://users.ece.utexas.edu/~jtamir/">Prof. Jon Tamir</a> in the <a href="https://users.ece.utexas.edu/~jtamir/csilab.html">Computational Sensing &amp; Imaging Lab</a>.</p>
 <p>My research interests span <strong>computational imaging</strong> &amp; <strong>computer vision</strong> and <strong>machine learning</strong> &amp; <strong>optimization</strong>. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I&rsquo;m curious about <a href="/tags/ai">AI</a>/<a href="/tags/ml">ML</a> &amp; <a href="/tags/sigproc">signal processing</a>, <a href="/tags/opt">optimization</a> &amp; <a href="/tags/control">control</a>, and <a href="/tags/cps">intelligent systems</a> &amp; <a href="/tags/robotics">robotics</a>.</p>
 <p>Check out my <a href="/notes/">notes</a> to see what I&rsquo;m thinking about and <a href="/kus/">kū</a> to see what I&rsquo;m seeing!</p>
