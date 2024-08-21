@@ -13,8 +13,33 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 08 Aug 2024 18:08:17 UT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 17:32:29 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>news</title>
+      <link>/news/</link>
+      <pubDate>Sat, 03 Aug 2024 20:26:20 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/news/</guid>
+      <description> July 29, 2024: Asilomar 2024 accepted our paper INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction.
+December 25, 2023: IEEE-TDSC published our journal paper Reducing Malware Analysis Overhead with Coverings.
+October 15-21, 2023: I attended the i2i Workshop and participated in the MRI4All Hackathon on the reconstruction team, during which 4 teams worked on building an ultra-low-field MRI in a week.
+September 28, 2022: Human Brain Mapping accepted our paper Comprehensive shape analysis of the cortex in Huntington&amp;rsquo;s disease.
+August 25, 2022: I started my PhD at UT Austin with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab!
+July 15, 2022: I successfully defended my thesis A deep-learning enabled automatic segmentation system for surgical endoscopy for my MS in CS at Vanderbilt University.
+May 13, 2022: I graduated from Vanderbilt University with a BS in CS &amp;amp; Neuroscience, minoring in Applied Math.
+April 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in endoscopic video feeds.
+</description>
+      <content:encoded><![CDATA[ July 29, 2024: Asilomar 2024 accepted our paper INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction.
+December 25, 2023: IEEE-TDSC published our journal paper Reducing Malware Analysis Overhead with Coverings.
+October 15-21, 2023: I attended the i2i Workshop and participated in the MRI4All Hackathon on the reconstruction team, during which 4 teams worked on building an ultra-low-field MRI in a week.
+September 28, 2022: Human Brain Mapping accepted our paper Comprehensive shape analysis of the cortex in Huntington&amp;rsquo;s disease.
+August 25, 2022: I started my PhD at UT Austin with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab!
+July 15, 2022: I successfully defended my thesis A deep-learning enabled automatic segmentation system for surgical endoscopy for my MS in CS at Vanderbilt University.
+May 13, 2022: I graduated from Vanderbilt University with a BS in CS &amp;amp; Neuroscience, minoring in Applied Math.
+April 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in endoscopic video feeds.
+]]></content:encoded>
+    </item>
     <item>
       <title>research</title>
       <link>/research/</link>
@@ -66,7 +91,7 @@ My research interests span computational imaging &amp;amp; computer vision and m
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
-I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz.
+I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC and David Lu.
 I enjoy tennis, heavy weights, trail running, climbing, backpacking in the mountains, kū &amp;amp; tanka poetry and photography, and hendiadys.
 I am an Anglophone &amp;gt; Lusophone &amp;gt; Hispanophone &amp;gt; Francophone.
 My hometown is Austin, TX. I was born in Abilene, TX.
