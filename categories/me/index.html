@@ -293,7 +293,7 @@ var images = ['1.jpeg', '10.jpeg', '11.jpeg', '12.jpeg', '2.jpeg', '3.jpeg', '4.
 // Function to select and display a random image
 function displayRandomImage() {
     var randomImage = images[Math.floor(Math.random() * images.length)];
-    var imgElement = `<img src="profiles/${randomImage}" alt="random image of Zach Stoebner" style="height:500px;max-width:100%;" >`;
+    var imgElement = `<img src="/profiles/${randomImage}" alt="random image of Zach Stoebner" style="height:500px;max-width:100%;" >`;
     document.getElementById("random-image").innerHTML = imgElement;
 }
 
