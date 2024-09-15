@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Fri, 13 Sep 2024 17:15:17 UT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 02:12:06 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>news</title>
@@ -48,13 +48,15 @@ April 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in en
       <guid>/research/</guid>
       <description>in progress &amp;ldquo;Generalized system identification with implicit neural representations while jointly reconstructing the image in MRI&amp;rdquo;, Zachary A. Stoebner, Jonathan I. Tamir.
 &amp;ldquo;Preconditioned monotone operator learning for fast, memory-efficient, noise-robust compressed sensing MRI&amp;rdquo;, Zachary A. Stoebner, Jonathan I. Tamir.
-conference &amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
+conference &amp;ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&amp;rdquo;, Yamin Arefeen, Brett Levac, Zach Stoebner, Jonathan I Tamir. arXiv preprint arXiv:2406.13895 (2024). arXiv
+&amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 journal &amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zach Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. IEEE‑TDSC (2023). DOI repo
 &amp;ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&amp;rdquo;, Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, Human Brain Mapping (2023). DOI repo note
 </description>
       <content:encoded><![CDATA[in progress &amp;ldquo;Generalized system identification with implicit neural representations while jointly reconstructing the image in MRI&amp;rdquo;, Zachary A. Stoebner, Jonathan I. Tamir.
 &amp;ldquo;Preconditioned monotone operator learning for fast, memory-efficient, noise-robust compressed sensing MRI&amp;rdquo;, Zachary A. Stoebner, Jonathan I. Tamir.
-conference &amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
+conference &amp;ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&amp;rdquo;, Yamin Arefeen, Brett Levac, Zach Stoebner, Jonathan I Tamir. arXiv preprint arXiv:2406.13895 (2024). arXiv
+&amp;ldquo;Segmentation of kidney stones in endoscopic video feeds&amp;rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 journal &amp;ldquo;Reducing malware analysis overhead with coverings&amp;rdquo;, Michael Sandborn, Zach Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. IEEE‑TDSC (2023). DOI repo
 &amp;ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&amp;rdquo;, Zachary A. Stoebner, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, Human Brain Mapping (2023). DOI repo note
 ]]></content:encoded>
