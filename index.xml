@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 23 Oct 2024 01:01:21 UT</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2024 22:34:14 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>news</title>
@@ -21,7 +21,8 @@
       <pubDate>Sat, 03 Aug 2024 20:26:20 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/news/</guid>
-      <description> October 3, 2024: I presented a poster at the Oden SciML Workshop on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
+      <description> November 15, 2024: I presented a poster at the 6G@UT Student Research Showcase on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
+October 3, 2024: I presented a poster at the Oden SciML Workshop on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
 July 29, 2024: Asilomar 2024 accepted our paper INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction.
 December 25, 2023: IEEE-TDSC published our journal paper Reducing Malware Analysis Overhead with Coverings.
 October 15-21, 2023: I attended the i2i Workshop and participated in the MRI4All Hackathon on the reconstruction team, during which 4 teams worked on building an ultra-low-field MRI in a week.
@@ -31,7 +32,8 @@ July 15, 2022: I successfully defended my thesis A deep-learning enabled automat
 May 13, 2022: I graduated from Vanderbilt University with a BS in CS &amp;amp; Neuroscience, minoring in Applied Math.
 April 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in endoscopic video feeds.
 </description>
-      <content:encoded><![CDATA[ October 3, 2024: I presented a poster at the Oden SciML Workshop on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
+      <content:encoded><![CDATA[ November 15, 2024: I presented a poster at the 6G@UT Student Research Showcase on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
+October 3, 2024: I presented a poster at the Oden SciML Workshop on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
 July 29, 2024: Asilomar 2024 accepted our paper INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction.
 December 25, 2023: IEEE-TDSC published our journal paper Reducing Malware Analysis Overhead with Coverings.
 October 15-21, 2023: I attended the i2i Workshop and participated in the MRI4All Hackathon on the reconstruction team, during which 4 teams worked on building an ultra-low-field MRI in a week.
