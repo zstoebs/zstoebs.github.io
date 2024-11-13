@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sat, 09 Nov 2024 22:34:14 UT</lastBuildDate>
+    <lastBuildDate>Wed, 13 Nov 2024 18:57:41 UT</lastBuildDate>
     <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -23,7 +23,7 @@
       <guid>/about/</guid>
       <description> Hi, I&amp;rsquo;m Zach.
 I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests span computational imaging &amp;amp; computer vision and machine learning &amp;amp; optimization. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
+My research interests span computational imaging, computer vision, machine learning, and optimization. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
@@ -31,7 +31,7 @@ CV GitHub LinkedIn Scholar
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&amp;rsquo;m Zach.
 I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-My research interests span computational imaging &amp;amp; computer vision and machine learning &amp;amp; optimization. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
+My research interests span computational imaging, computer vision, machine learning, and optimization. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I&amp;rsquo;m curious about AI/ML &amp;amp; signal processing, optimization &amp;amp; control, and intelligent systems &amp;amp; robotics.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
