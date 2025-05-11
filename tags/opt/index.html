@@ -227,6 +227,20 @@ ul.thumbnail.grid li a:hover figure::after {
 
     
     
+    
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$','$']]                  
+        },
+        loader: {
+            load: ['ui/safe']
+        },
+    };
+</script>
+    
   </head>
   
   
@@ -269,6 +283,43 @@ ul.thumbnail.grid li a:hover figure::after {
   <header>
     <h1>opt</h1>
   </header>
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/Thing" id="on-preconditioning-for-iterative-optimization">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/notes/precon/">on preconditioning for iterative optimization</a>
+    </h1>
+      <p class="muted">
+  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+    <circle cx="16" cy="16" r="14" />
+    <path d="M16 8 L16 16 20 20" />
+  </svg>
+  <span>6 minute read</span>
+  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+  </svg>
+  
+  Published: <time datetime=" 2024-08-03T15:49:00-05:00">3 Aug, 2024</time>
+  
+
+</p>
+    
+      <blockquote itemprop="headline">overview, motivation, and examples of preconditioning iterative optimization</blockquote>
+    
+  </header>
+  <div itemprop="">Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2024-08-03T15:49:00-05:00">
+  <meta itemprop="dateModified" content="2024-08-03T15:49:00-05:00">
+  
+</article>
+
+
   
     
 

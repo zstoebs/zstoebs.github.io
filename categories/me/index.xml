@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 29 Jan 2025 18:40:22 UT</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 21:58:54 UT</lastBuildDate>
     <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -23,7 +23,7 @@
       <guid>/about/</guid>
       <description> Hi, I&amp;rsquo;m Zach.
 I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-I am working on provable learning methods for solving inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML, signal processing, optimization, control, intelligent systems, and robotics.
+I&amp;rsquo;m working on provable learning methods for solving inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
@@ -31,12 +31,12 @@ CV GitHub LinkedIn Scholar
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&amp;rsquo;m Zach.
 I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-I am working on provable learning methods for solving inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML, signal processing, optimization, control, intelligent systems, and robotics.
+I&amp;rsquo;m working on provable learning methods for solving inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
 I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
-I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC and David Lu.
-I enjoy tennis, heavy weights, trail running, climbing, backpacking in the mountains, kū &amp;amp; tanka poetry and photography, and hendiadys.
+I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC, David Lu, and Kilian Hett.
+I enjoy climbing, heavy weights, trail running, backpacking in the mountains, tennis, and kū &amp;amp; tanka poetry and photography.
 I am an Anglophone &amp;gt; Lusophone &amp;gt; Hispanophone &amp;gt; Francophone.
 My hometown is Austin, TX. I was born in Abilene, TX.
 ]]></content:encoded>

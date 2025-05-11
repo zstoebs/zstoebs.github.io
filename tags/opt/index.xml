@@ -13,8 +13,66 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 29 Jan 2025 18:40:22 UT</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 21:58:54 UT</lastBuildDate>
     <atom:link href="/tags/opt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on preconditioning for iterative optimization</title>
+      <link>/notes/precon/</link>
+      <pubDate>Sat, 03 Aug 2024 20:49:00 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/notes/precon/</guid>
+      <description>Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</description>
+      <content:encoded><![CDATA[Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.
+Newton method This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):
+A function is convex if $\forall x,y \in D(f)$:
+$$ f(y) \leq f(x) &#43; \partial f(x)^T (y-x) $$
+which implies every tangent line of $f$ is below the function. Therefore, if the tangent line intercepts the domain at $y$ then:
+$$ \partial f(x) = \frac{f(x) - 0}{x - y} \implies y = x - (\partial f(x))^{-1} f(x) $$
+Rewriting this as an iterative scheme:
+$$ x_{n&#43;1} = x_n - (\partial f(x_n))^{-1} f(x_n) $$
+In the context of finding minima with gradient descent (assuming f is twice differentiable), the Newton update is:
+$$ x_{n&#43;1} = x_n - (\partial^2 f(x_n))^{-1} \partial f(x_n) $$
+Note that for differentiable scalar-valued functions $f: \mathbb{R}^n \rightarrow \mathbb{R} \implies \partial f(x) = \nabla f(x)$ (the subdifferential equals the gradient) and for vector-valued functions $f: \mathbb{R}^n \rightarrow \mathbb{R}^m \implies \partial f(x) = J_f (x)$ (the subdifferential equals the Jacobian).
+Figure 1. Convergence of Newton&#39;s method vs gradient descent on different plots. Newton&#39;s method convergences more quickly and closely to the solution than gradient descent when the problem is poorly conditioned. Quasi-Newton method For multivariate, high-dimensional regimes, computing the Hessian, Jacobian, etc. can be expensive $\mathcal{O} (mn)$, which implies its an order higher to compute the inverse $\mathcal{O} (n^3)$. Quasi-Newton methods accelerate this procedure with iterative updates to an approximation of the inverse Hessian and one of the most renowned is the BFGS method &amp;ndash; named after Broyden, Fletcher, Goldfarb, and Shanno &amp;ndash; which is implemented in this example.
+How do we derive a good approximate of the Hessian?
+Similar to Newton&amp;rsquo;s method, we start from the second-order approximation of a convex function:
+$$ f(y) \leq f(x) &#43; \partial f(x)^T (y-x) &#43; \frac{1}{2} (y-x)^T B (y-x) $$
+If $y=x_k &#43; \Delta x$ and we take the gradient w.r.t. $\Delta x$, we get the secant equation:
+$$ \partial f(x_k &#43; \Delta x) \leq \partial f(x_k) &#43; B \Delta x $$
+If we set it to 0: $$ \Delta x = -B^{-1} \partial f(x_k) $$
+which implies the Newton step so this is consistent if B is the Hessian.
+The secant equation is a line in the function&amp;rsquo;s gradient space that can be used as a condition for each update of the Hessian. How this secant equation is solved is what sets different quasi-Newton methods apart. In BFGS, the quasi-Newton condition is:
+$$ B_{k&#43;1} (x_{k&#43;1} - x_k) = \nabla x_{k&#43;1} - \nabla x_k $$
+First, we set $B_0 = \beta I$ where $\beta &amp;gt; 0$ is hyperparameter ensuring that we start with a positive-definite matrix and choose step size $\alpha_k$ with an exact line search adhering to the Wolfe conditions which are:
+$$ \begin{align} f(x_k &#43; \alpha_k p_k) &amp;amp;\leq f(x_k) &#43; c_1 \alpha_k p_k^T \nabla f(x_k) \\ p_k^T \nabla f(x_k &#43; \alpha_k p_k) &amp;amp;\geq c_2 p_k^T \nabla f(x_k)
+\end{align} $$
+Then our update rule is:
+$$ x_{k&#43;1} = x_k - \alpha_k B^{-1}_k \partial f(x_k) $$
+Using only the known terms in the current update and the gradient at the new iterate $\partial f(x_{k&#43;1})$, we can update the Hessian $B_k$ with Broyden&amp;rsquo;s method or directly update the inverse Hessian $B_k^{-1}$ with the Sherman-Morrison formula.
+The algorithm steps are as follows:
+Obtain direction $p_k = -B^{-1}_k \nabla f(x_k)$ Perform a line search on $\alpha_k$ until the Wolfe conditions on the current iterates are satisfied Set $s_k = \alpha_k p_k$, $x_{k&#43;1} = x_k &#43; s_k$, and $y_k = \nabla f(x_{k&#43;1}) - \nabla f(x_k)$ Update inverse Hessian approximation with the SM formula. Let $H_k = B^{-1}_k, \rho = s_K^T y_k$, then: $$ H_{k&#43;1} = H_k &#43; \frac{(\rho &#43; y_k^T H_k y_k)(s_k s_k^T)}{\rho^2} - \frac{H_k y_k s_k^T &#43; s_k y_k^T H_k}{\rho} $$
+Note that an approximation of theoretic preconditioners does change the geometry of the problem so the true optimum is technically different. The idea is to ensure an good approximation that makes the change negligible.
+Figure 2. Convergence of Newton&#39;s method vs gradient descent on different plots. Newton&#39;s method convergences more quickly to the solution than gradient descent or BFGS but BFGS converges substantially better and faster than gradient descent when the problem is poorly conditioned. Conjugate Gradient Conjugate gradient (CG) minimizes the quadratic:
+$$ f(x) = b^T x - \frac{1}{2} x^T A x $$
+where $A$ is positive definite.
+Note that the residual norm $||b-Ax||$ is not necessarily monotonically decreasing since $||b-Ax||^2 = x^T A^T A x - 2 b^T Ax &#43; b^T b$ differs from the objective.
+If $x \in \mathbb{R}^n$ then CG takes at most $n$ iterations to converge by updating $x_k$ along directions $p_k$ which are conjugate w.r.t. $A$. That is:
+$$ x_{k&#43;1} = x_k &#43; \alpha_k p_k $$
+where $p_i^T A p_j = 0$ for $i \neq j$. This implies that $\{p_1, &amp;hellip;, p_n\}$ for a basis for $\mathbb{R}^n$ so we can express $ x^* $ as a linear combination of the conjugate directions, i.e., $x^* = \sum_{i=1}^n \alpha_i p_i$ which is equivalent to taking n steps along orthogonal conjugate directions. We can solve for the exact $\alpha_k$ assuming we have access to all $p_k$. However, for large $A$, finding n conjugate directions is intractable.
+An important result for iteratively computing $\alpha_k$ and $p_k$ for CG is that the Krylov sequence induced by $A$ implies that $span \{r_0,&amp;hellip;,r_k \} = span\{r_0,&amp;hellip;,A^k r_0\} = span\{p_0,&amp;hellip;,p_k\} \subset span\{p_0,&amp;hellip;,p_k,&amp;hellip;,p_n\}$ where $r_k = \nabla f(x_k) = b - Ax_k$. Therefore, $\alpha_k$ and $p_k$ can be written in terms of the residual $r_k$ at each iteration. Then the update rules are:
+$$ \begin{align} p_0 &amp;amp;= r_0 = b \\ \alpha_k &amp;amp;= \frac{r_k^T r_k}{p_k^T A p_k} \\ r_{k&#43;1} &amp;amp;= r_k - \alpha_k A p_k \\ p_{k&#43;1} &amp;amp;= r_k &#43; \frac{r_{k&#43;1}^T r_{k&#43;1}}{r_k^T r_k} p_k \end{align} $$
+Take a look at Boyd&amp;rsquo;s notes on CG for more explanation.
+Preconditioned CG The convergence of iterative methods depends on the spectral properties of the system matrix $A$. If $A$ is poorly conditioned, then method will take longer to converge. The condition number for any matrix $A$ is defined as:
+$$ \begin{align} \kappa(A) &amp;amp;= ||A|| \\ ||A^{-1}|| &amp;amp;= \frac{\sigma_{max}(A)}{\sigma_{min}(A)} \end{align} $$
+Therefore, $\kappa(A) \geq 1$ where $\kappa(A) = 1$ is the best conditioning. To precondition CG, we want to find a matrix $M$ s.t. $M^{-1} A \approx 1$ or at least $\kappa(M^{-1} A) &amp;lt; \kappa(A)$.
+Designing $M$ depends on $A$. If $A$ is diagonal or diagonally dominant, then a simple Jacobi preconditioner typically suffices. A more robust method is using incomplete Cholesky factorization to tractably design a matrix from lower trianglular matrices that improves the problem&amp;rsquo;s conditioning or using Chebyshev polynomials.
+With the preconditioner, we want to solve the equivalent system:
+$$ \hat{A} \hat{x} = \hat{b} \text{ where } M=LL^T, \hat{A} = L^{-1} A L^{-T}, \hat{x} = L^T x, \hat{b} = L^{-1} b $$
+This results in an extra step of finding $z_k$ s.t. $M z_k = r_k$, which adjusts the updates:
+$$ \begin{align} \alpha_k &amp;amp;= \frac{r_k^T z_k}{p_k^T A p_k} \\ p_{k&#43;1} &amp;amp;= r_k &#43; \frac{r_{k&#43;1}^T z_{k&#43;1}}{r_k^T z_k} p_k \end{align} $$
+Here are some good notes on preconditioning CG.
+Figure 3. Convergence of vanilla conjugate gradient vs preconditioned conjugate gradient. Preconditioning leads to iterates that are closer to the solution. For high-dimensional problems where $n$ is very large, preconditioning is necessary to approximate a close-enough solution in a reasonable amount of time. ]]></content:encoded>
+    </item>
     <item>
       <title>exploring compressed sensing fMRI time series</title>
       <link>/notes/csfmri-ts/</link>

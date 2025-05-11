@@ -13,24 +13,8 @@
     <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
     <language>en-US</language>
     <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 29 Jan 2025 18:40:22 UT</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 21:58:54 UT</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>spring</title>
-      <link>/tags/spring/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/spring/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>summer</title>
-      <link>/tags/summer/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/summer/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
     <item>
       <title>fall</title>
       <link>/tags/fall/</link>
@@ -48,18 +32,26 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>ai</title>
-      <link>/tags/ai/</link>
+      <title>spring</title>
+      <link>/tags/spring/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/ai/</guid>
+      <guid>/tags/spring/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>control</title>
-      <link>/tags/control/</link>
+      <title>summer</title>
+      <link>/tags/summer/</link>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/control/</guid>
+      <guid>/tags/summer/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>ml</title>
+      <link>/tags/ml/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/ml/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -88,6 +80,22 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
+      <title>ai</title>
+      <link>/tags/ai/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/ai/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>control</title>
+      <link>/tags/control/</link>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/tags/control/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
       <title>stats</title>
       <link>/tags/stats/</link>
       <dc:creator>Zach Stoebner</dc:creator>
@@ -100,14 +108,6 @@
       <link>/tags/cps/</link>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/cps/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>ml</title>
-      <link>/tags/ml/</link>
-      <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/tags/ml/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
