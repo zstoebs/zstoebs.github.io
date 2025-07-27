@@ -10,102 +10,114 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.148.2)</generator>
     <language>en-US</language>
-    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 05:25:20 UT</lastBuildDate>
+    <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Sun, 27 Jul 2025 21:45:31 UT</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>haiku</title>
+      <title>Haiku</title>
       <link>/categories/haiku/</link>
+      <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/haiku/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>senryu</title>
+      <title>Senryu</title>
       <link>/categories/senryu/</link>
+      <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/senryu/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>tanka</title>
+      <title>Tanka</title>
       <link>/categories/tanka/</link>
+      <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/tanka/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>course</title>
+      <title>Course</title>
       <link>/categories/course/</link>
+      <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/course/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>solo</title>
+      <title>Solo</title>
       <link>/categories/solo/</link>
+      <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/solo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>algo</title>
+      <title>Algo</title>
       <link>/categories/algo/</link>
+      <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/algo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>research</title>
+      <title>Research</title>
       <link>/categories/research/</link>
+      <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/research/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>create</title>
+      <title>Create</title>
       <link>/categories/create/</link>
+      <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/create/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>poetry</title>
+      <title>Poetry</title>
       <link>/categories/poetry/</link>
+      <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/poetry/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>personal</title>
+      <title>Personal</title>
       <link>/categories/personal/</link>
+      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/personal/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>team</title>
+      <title>Team</title>
       <link>/categories/team/</link>
+      <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/team/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>me</title>
+      <title>Me</title>
       <link>/categories/me/</link>
+      <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/categories/me/</guid>
       <description></description>

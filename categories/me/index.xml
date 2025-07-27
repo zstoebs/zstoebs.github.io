@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
-    <title>me on Zach Stoebner | ECE PhD @ UT Austin</title>
+    <title>Me on Zach Stoebner | ECE PhD @ UT Austin</title>
     <link>/categories/me/</link>
-    <description>Recent content in me on Zach Stoebner | ECE PhD @ UT Austin</description>
+    <description>Recent content in Me on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
-      <title>me on Zach Stoebner | ECE PhD @ UT Austin</title>
+      <title>Me on Zach Stoebner | ECE PhD @ UT Austin</title>
       <link>/categories/me/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.148.2)</generator>
     <language>en-US</language>
-    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 05:25:20 UT</lastBuildDate>
+    <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Sun, 27 Jul 2025 21:45:31 UT</lastBuildDate>
     <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -21,23 +21,23 @@
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/about/</guid>
-      <description> Hi, I&amp;rsquo;m Zach.
-I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-I&amp;rsquo;m working on provable learning methods for solving inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
-Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
-I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
+      <description> Hi, I&rsquo;m Zach.
+I&rsquo;m an Electrical &amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
+I&rsquo;m working on provable learning methods for solving inverse problems in computational imaging and sequence modeling. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
+Check out my notes to see what I&rsquo;m thinking about and kū to see what I&rsquo;m seeing!
+I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
-      <content:encoded><![CDATA[ Hi, I&amp;rsquo;m Zach.
-I&amp;rsquo;m an Electrical &amp;amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp;amp; Imaging Lab.
-I&amp;rsquo;m working on provable learning methods for solving inverse problems in computational imaging. Generally, I&amp;rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
-Check out my notes to see what I&amp;rsquo;m thinking about and kū to see what I&amp;rsquo;m seeing!
-I&amp;rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
+      <content:encoded><![CDATA[ Hi, I&rsquo;m Zach.
+I&rsquo;m an Electrical &amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
+I&rsquo;m working on provable learning methods for solving inverse problems in computational imaging and sequence modeling. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
+Check out my notes to see what I&rsquo;m thinking about and kū to see what I&rsquo;m seeing!
+I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC, David Lu, and Kilian Hett.
-I enjoy climbing, heavy weights, trail running, backpacking in the mountains, tennis, and kū &amp;amp; tanka poetry and photography.
-I am an Anglophone &amp;gt; Lusophone &amp;gt; Hispanophone &amp;gt; Francophone.
+I enjoy climbing, trail running, lifting, backpacking in the mountains, and kū &amp; tanka poetry and photography.
+I am an Anglophone &gt; Lusophone &gt; Hispanophone &gt; Francophone.
 My hometown is Austin, TX. I was born in Abilene, TX.
 ]]></content:encoded>
     </item>

@@ -3,29 +3,20 @@
   <head>
     
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-CLGDWRWCBJ', { 'anonymize_ip': false });
-}
-</script>
-
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-CLGDWRWCBJ', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CLGDWRWCBJ');
+        }
+      </script>
 
     
 
@@ -43,19 +34,26 @@ if (!doNotTrack) {
     
     
     
-    <meta property="og:title" content="on preconditioning for iterative optimization" />
-<meta property="og:description" content="overview, motivation, and examples of preconditioning iterative optimization" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/notes/precon/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/><meta property="article:section" content="notes" />
-<meta property="article:published_time" content="2024-08-03T15:49:00-05:00" />
-<meta property="article:modified_time" content="2024-08-03T15:49:00-05:00" />
+    <meta property="og:url" content="/notes/precon/">
+  <meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
+  <meta property="og:title" content="on preconditioning for iterative optimization">
+  <meta property="og:description" content="overview, motivation, and examples of preconditioning iterative optimization">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2024-08-03T15:49:00-05:00">
+    <meta property="article:modified_time" content="2024-08-03T15:49:00-05:00">
+    <meta property="article:tag" content="Ml">
+    <meta property="article:tag" content="Opt">
+    <meta property="article:tag" content="Sigproc">
+    <meta property="article:tag" content="Python">
+    <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
 
-
-    <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
-
-<meta name="twitter:title" content="on preconditioning for iterative optimization"/>
-<meta name="twitter:description" content="overview, motivation, and examples of preconditioning iterative optimization"/>
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322">
+  <meta name="twitter:title" content="on preconditioning for iterative optimization">
+  <meta name="twitter:description" content="overview, motivation, and examples of preconditioning iterative optimization">
 
     
 
@@ -286,11 +284,14 @@ ul.thumbnail.grid li a:hover figure::after {
     
   
   <article itemscope itemtype="https://schema.org/BlogPosting">
-    <meta itemprop="name" content="on preconditioning for iterative optimization">
-<meta itemprop="description" content="overview, motivation, and examples of preconditioning iterative optimization"><meta itemprop="datePublished" content="2024-08-03T15:49:00-05:00" />
-<meta itemprop="dateModified" content="2024-08-03T15:49:00-05:00" />
-<meta itemprop="wordCount" content="1272"><meta itemprop="image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
-<meta itemprop="keywords" content="ml,opt,sigproc,python," />
+    
+  <meta itemprop="name" content="on preconditioning for iterative optimization">
+  <meta itemprop="description" content="overview, motivation, and examples of preconditioning iterative optimization">
+  <meta itemprop="datePublished" content="2024-08-03T15:49:00-05:00">
+  <meta itemprop="dateModified" content="2024-08-03T15:49:00-05:00">
+  <meta itemprop="wordCount" content="1255">
+  <meta itemprop="image" content="https://source.unsplash.com/collection/983219/2000x1322">
+  <meta itemprop="keywords" content="Ml,Opt,Sigproc,Python">
     <header>
       <h1 itemprop="headline name">on preconditioning for iterative optimization</h1>
       <p class="muted">
@@ -324,11 +325,11 @@ ul.thumbnail.grid li a:hover figure::after {
   <ul>
     <li>
       <ul>
-        <li><a href="#newton-methodhttpsenwikipediaorgwikinewton27s_method"><a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton method</a></a></li>
-        <li><a href="#quasi-newton-methodhttpsenwikipediaorgwikiquasi-newton_method"><a href="https://en.wikipedia.org/wiki/Quasi-Newton_method">Quasi-Newton method</a></a></li>
-        <li><a href="#conjugate-gradienthttpsenwikipediaorgwikiconjugate_gradient_method"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#">Conjugate Gradient</a></a>
+        <li><a href="#newton-method"><a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton method</a></a></li>
+        <li><a href="#quasi-newton-method"><a href="https://en.wikipedia.org/wiki/Quasi-Newton_method">Quasi-Newton method</a></a></li>
+        <li><a href="#conjugate-gradient"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#">Conjugate Gradient</a></a>
           <ul>
-            <li><a href="#preconditioned-cghttpsenwikipediaorgwikiconjugate_gradient_methodthe_preconditioned_conjugate_gradient_method"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#The_preconditioned_conjugate_gradient_method">Preconditioned CG</a></a></li>
+            <li><a href="#preconditioned-cg"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#The_preconditioned_conjugate_gradient_method">Preconditioned CG</a></a></li>
           </ul>
         </li>
       </ul>
@@ -340,62 +341,53 @@ ul.thumbnail.grid li a:hover figure::after {
 
     <div itemprop="articleBody">
       <p>Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.</p>
-<h2 id="newton-methodhttpsenwikipediaorgwikinewton27s_method"><a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton method</a></h2>
+<h2 id="newton-method"><a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton method</a></h2>
 <p>This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):</p>
 <p>A function is convex if $\forall x,y \in D(f)$:</p>
-<p>$$
+$$
 f(y) \leq f(x) + \partial f(x)^T (y-x)
-$$</p>
-<p>which implies every tangent line of $f$ is below the function. Therefore, if the tangent line intercepts the domain at $y$ then:</p>
-<p>$$
+$$<p>which implies every tangent line of $f$ is below the function. Therefore, if the tangent line intercepts the domain at $y$ then:</p>
+$$
 \partial f(x) = \frac{f(x) - 0}{x - y} \implies y = x - (\partial f(x))^{-1} f(x)
-$$</p>
-<p>Rewriting this as an iterative scheme:</p>
-<p>$$
+$$<p>Rewriting this as an iterative scheme:</p>
+$$
 x_{n+1} = x_n - (\partial f(x_n))^{-1} f(x_n)
-$$</p>
-<p>In the context of finding minima with gradient descent (assuming f is twice differentiable), the Newton update is:</p>
-<p>$$
+$$<p>In the context of finding minima with gradient descent (assuming f is twice differentiable), the Newton update is:</p>
+$$
 x_{n+1} = x_n - (\partial^2 f(x_n))^{-1} \partial f(x_n)
-$$</p>
-<p>Note that for differentiable scalar-valued functions $f: \mathbb{R}^n \rightarrow \mathbb{R} \implies \partial f(x) = \nabla f(x)$ (the subdifferential equals the gradient) and for vector-valued functions $f: \mathbb{R}^n \rightarrow \mathbb{R}^m \implies \partial f(x) = J_f (x)$ (the subdifferential equals the Jacobian).</p>
+$$<p>Note that for differentiable scalar-valued functions $f: \mathbb{R}^n \rightarrow \mathbb{R} \implies \partial f(x) = \nabla f(x)$ (the subdifferential equals the gradient) and for vector-valued functions $f: \mathbb{R}^n \rightarrow \mathbb{R}^m \implies \partial f(x) = J_f (x)$ (the subdifferential equals the Jacobian).</p>
 <figure>
 <img src="image/newton_vs_gd_split.png" alt="convergence of Newton's method vs gradient descent on different plots"/>
 <figcaption>Figure 1. Convergence of Newton's method vs gradient descent on different plots. Newton's method convergences more quickly and closely to the solution than gradient descent when the problem is poorly conditioned.</figcaption>
 </figure>  
 <br />
-<h2 id="quasi-newton-methodhttpsenwikipediaorgwikiquasi-newton_method"><a href="https://en.wikipedia.org/wiki/Quasi-Newton_method">Quasi-Newton method</a></h2>
+<h2 id="quasi-newton-method"><a href="https://en.wikipedia.org/wiki/Quasi-Newton_method">Quasi-Newton method</a></h2>
 <p>For multivariate, high-dimensional regimes, computing the Hessian, Jacobian, etc. can be expensive $\mathcal{O} (mn)$, which implies its an order higher to compute the inverse $\mathcal{O} (n^3)$. Quasi-Newton methods accelerate this procedure with iterative updates to an <em>approximation</em> of the inverse Hessian and one of the most renowned is the <a href="https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm">BFGS</a> method &ndash; named after Broyden, Fletcher, Goldfarb, and Shanno &ndash; which is implemented in this example.</p>
 <p>How do we derive a good approximate of the Hessian?</p>
 <p>Similar to Newton&rsquo;s method, we start from the second-order approximation of a convex function:</p>
-<p>$$
+$$
 f(y) \leq f(x) + \partial f(x)^T (y-x) + \frac{1}{2} (y-x)^T B (y-x)
-$$</p>
-<p>If $y=x_k + \Delta x$ and we take the gradient w.r.t. $\Delta x$, we get the <a href="https://en.wikipedia.org/wiki/Secant_method">secant equation</a>:</p>
-<p>$$
+$$<p>If $y=x_k + \Delta x$ and we take the gradient w.r.t. $\Delta x$, we get the <a href="https://en.wikipedia.org/wiki/Secant_method">secant equation</a>:</p>
+$$
 \partial f(x_k + \Delta x) \leq \partial f(x_k) + B \Delta x
-$$</p>
-<p>If we set it to 0:
+$$<p>If we set it to 0:
+</p>
 $$
 \Delta x = -B^{-1} \partial f(x_k)
-$$</p>
-<p>which implies the Newton step so this is consistent if B is the Hessian.</p>
+$$<p>which implies the Newton step so this is consistent if B is the Hessian.</p>
 <p>The <a href="https://en.wikipedia.org/wiki/Secant_method">secant equation</a> is a line in the function&rsquo;s gradient space that can be used as a condition for each update of the Hessian. How this secant equation is solved is what sets different quasi-Newton methods apart. In BFGS, the quasi-Newton condition is:</p>
-<p>$$
+$$
 B_{k+1} (x_{k+1} - x_k) = \nabla x_{k+1} - \nabla x_k
-$$</p>
-<p>First, we set $B_0 = \beta I$ where $\beta &gt; 0$ is hyperparameter ensuring that we start with a positive-definite matrix and choose step size $\alpha_k$ with an exact line search adhering to the <a href="https://en.wikipedia.org/wiki/Wolfe_conditions">Wolfe conditions</a> which are:</p>
-<p>$$
+$$<p>First, we set $B_0 = \beta I$ where $\beta > 0$ is hyperparameter ensuring that we start with a positive-definite matrix and choose step size $\alpha_k$ with an exact line search adhering to the <a href="https://en.wikipedia.org/wiki/Wolfe_conditions">Wolfe conditions</a> which are:</p>
+$$
 \begin{align}
-f(x_k + \alpha_k p_k) &amp;\leq f(x_k) + c_1 \alpha_k p_k^T \nabla f(x_k) \\
-p_k^T \nabla f(x_k + \alpha_k p_k) &amp;\geq c_2 p_k^T \nabla f(x_k)<br>
+f(x_k + \alpha_k p_k) &\leq f(x_k) + c_1 \alpha_k p_k^T \nabla f(x_k) \\\
+p_k^T \nabla f(x_k + \alpha_k p_k) &\geq c_2 p_k^T \nabla f(x_k)  
 \end{align}
-$$</p>
-<p>Then our update rule is:</p>
-<p>$$
+$$<p>Then our update rule is:</p>
+$$
 x_{k+1} = x_k - \alpha_k B^{-1}_k \partial f(x_k)
-$$</p>
-<p>Using only the known terms in the current update and the gradient at the new iterate $\partial f(x_{k+1})$, we can update the Hessian $B_k$ with <a href="https://en.wikipedia.org/wiki/Broyden%27s_method">Broyden&rsquo;s method</a> or directly update the inverse Hessian $B_k^{-1}$ with the <a href="https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula">Sherman-Morrison formula</a>.</p>
+$$<p>Using only the known terms in the current update and the gradient at the new iterate $\partial f(x_{k+1})$, we can update the Hessian $B_k$ with <a href="https://en.wikipedia.org/wiki/Broyden%27s_method">Broyden&rsquo;s method</a> or directly update the inverse Hessian $B_k^{-1}$ with the <a href="https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula">Sherman-Morrison formula</a>.</p>
 <p>The algorithm steps are as follows:</p>
 <ol>
 <li>Obtain direction $p_k = -B^{-1}_k \nabla f(x_k)$</li>
@@ -403,59 +395,52 @@ $$</p>
 <li>Set $s_k = \alpha_k p_k$, $x_{k+1} = x_k + s_k$, and $y_k = \nabla f(x_{k+1}) - \nabla f(x_k)$</li>
 <li>Update inverse Hessian approximation with the SM formula. Let $H_k = B^{-1}_k, \rho = s_K^T y_k$, then:</li>
 </ol>
-<p>$$
+$$
 H_{k+1} = H_k + \frac{(\rho + y_k^T H_k y_k)(s_k s_k^T)}{\rho^2} - \frac{H_k y_k s_k^T + s_k y_k^T H_k}{\rho}
-$$</p>
-<p>Note that an approximation of theoretic preconditioners does change the geometry of the problem so the true optimum is technically different. The idea is to ensure an good approximation that makes the change negligible.</p>
+$$<p>Note that an approximation of theoretic preconditioners does change the geometry of the problem so the true optimum is technically different. The idea is to ensure an good approximation that makes the change negligible.</p>
 <figure>
 <img src="image/newton_vs_bfgs_vs_gd_split.png" alt="convergence of Newton's method vs BFGS vs gradient descent on different plots"/>
 <figcaption>Figure 2. Convergence of Newton's method vs gradient descent on different plots. Newton's method convergences more quickly to the solution than gradient descent or BFGS but BFGS converges substantially better and faster than gradient descent when the problem is poorly conditioned.</figcaption>
 </figure>  
 <br />
-<h2 id="conjugate-gradienthttpsenwikipediaorgwikiconjugate_gradient_method"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#">Conjugate Gradient</a></h2>
+<h2 id="conjugate-gradient"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#">Conjugate Gradient</a></h2>
 <p>Conjugate gradient (CG) minimizes the quadratic:</p>
-<p>$$
+$$
 f(x) = b^T x - \frac{1}{2} x^T A x
-$$</p>
-<p>where $A$ is positive definite.</p>
+$$<p>where $A$ is positive definite.</p>
 <p>Note that the residual norm $||b-Ax||$ is not necessarily monotonically decreasing since $||b-Ax||^2 = x^T A^T A x - 2 b^T Ax + b^T b$ differs from the objective.</p>
 <p>If $x \in \mathbb{R}^n$ then CG takes at most $n$ iterations to converge by updating $x_k$ along directions $p_k$ which are conjugate w.r.t. $A$. That is:</p>
-<p>$$
+$$
 x_{k+1} = x_k + \alpha_k p_k
-$$</p>
-<p>where $p_i^T A p_j = 0$ for $i \neq j$. This implies that $\{p_1, &hellip;, p_n\}$ for a basis for $\mathbb{R}^n$ so we can express $ x^* $ as a linear combination of the conjugate directions, i.e., $x^* = \sum_{i=1}^n \alpha_i p_i$ which is equivalent to taking n steps along orthogonal conjugate directions. We can solve for the exact $\alpha_k$ assuming we have access to all $p_k$. However, for large $A$, finding n conjugate directions is intractable.</p>
-<p>An important result for iteratively computing $\alpha_k$ and $p_k$ for CG is that the <a href="https://en.wikipedia.org/wiki/Krylov_subspace">Krylov sequence</a> induced by $A$ implies that $span \{r_0,&hellip;,r_k \} = span\{r_0,&hellip;,A^k r_0\} = span\{p_0,&hellip;,p_k\} \subset span\{p_0,&hellip;,p_k,&hellip;,p_n\}$ where $r_k = \nabla f(x_k) = b - Ax_k$. Therefore, $\alpha_k$ and $p_k$ can be written in terms of the residual $r_k$ at each iteration. Then the update rules are:</p>
-<p>$$
+$$<p>where $p_i^T A p_j = 0$ for $i \neq j$. This implies that $\\{p_1, ..., p_n\\}$ for a basis for $\mathbb{R}^n$ so we can express $ x^* $ as a linear combination of the conjugate directions, i.e., $x^* = \sum_{i=1}^n \alpha_i p_i$ which is equivalent to taking n steps along orthogonal conjugate directions. We can solve for the exact $\alpha_k$ assuming we have access to all $p_k$. However, for large $A$, finding n conjugate directions is intractable.</p>
+<p>An important result for iteratively computing $\alpha_k$ and $p_k$ for CG is that the <a href="https://en.wikipedia.org/wiki/Krylov_subspace">Krylov sequence</a> induced by $A$ implies that $span \\{r_0,...,r_k \\} = span\\{r_0,...,A^k r_0\\} = span\\{p_0,...,p_k\\} \subset span\\{p_0,...,p_k,...,p_n\\}$ where $r_k = \nabla f(x_k) = b - Ax_k$. Therefore, $\alpha_k$ and $p_k$ can be written in terms of the residual $r_k$ at each iteration. Then the update rules are:</p>
+$$
 \begin{align}
-p_0 &amp;= r_0 = b \\
-\alpha_k &amp;= \frac{r_k^T r_k}{p_k^T A p_k} \\
-r_{k+1} &amp;= r_k - \alpha_k A p_k \\
-p_{k+1} &amp;= r_k + \frac{r_{k+1}^T r_{k+1}}{r_k^T r_k} p_k
+p_0 &= r_0 = b \\\
+\alpha_k &= \frac{r_k^T r_k}{p_k^T A p_k} \\\
+r_{k+1} &= r_k - \alpha_k A p_k \\\
+p_{k+1} &= r_k + \frac{r_{k+1}^T r_{k+1}}{r_k^T r_k} p_k
 \end{align}
-$$</p>
-<p>Take a look at <a href="https://see.stanford.edu/materials/lsocoee364b/11-conj_grad_slides.pdf">Boyd&rsquo;s notes on CG</a> for more explanation.</p>
-<h3 id="preconditioned-cghttpsenwikipediaorgwikiconjugate_gradient_methodthe_preconditioned_conjugate_gradient_method"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#The_preconditioned_conjugate_gradient_method">Preconditioned CG</a></h3>
+$$<p>Take a look at <a href="https://see.stanford.edu/materials/lsocoee364b/11-conj_grad_slides.pdf">Boyd&rsquo;s notes on CG</a> for more explanation.</p>
+<h3 id="preconditioned-cg"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#The_preconditioned_conjugate_gradient_method">Preconditioned CG</a></h3>
 <p>The convergence of iterative methods depends on the spectral properties of the system matrix $A$. If $A$ is poorly conditioned, then method will take longer to converge. The condition number for any matrix $A$ is defined as:</p>
-<p>$$
+$$
 \begin{align}
-\kappa(A) &amp;= ||A|| \\
-||A^{-1}|| &amp;= \frac{\sigma_{max}(A)}{\sigma_{min}(A)}
+\kappa(A) &= ||A|| \\\
+||A^{-1}|| &= \frac{\sigma_{max}(A)}{\sigma_{min}(A)}
 \end{align}
-$$</p>
-<p>Therefore, $\kappa(A) \geq 1$ where $\kappa(A) = 1$ is the best conditioning. To precondition CG, we want to find a matrix $M$ s.t. $M^{-1} A \approx 1$ or at least $\kappa(M^{-1} A) &lt; \kappa(A)$.</p>
+$$<p>Therefore, $\kappa(A) \geq 1$ where $\kappa(A) = 1$ is the best conditioning. To precondition CG, we want to find a matrix $M$ s.t. $M^{-1} A \approx 1$ or at least $\kappa(M^{-1} A) < \kappa(A)$.</p>
 <p>Designing $M$ depends on $A$. If $A$ is diagonal or diagonally dominant, then a simple <a href="https://en.wikipedia.org/wiki/Preconditioner#Jacobi_(or_diagonal)_preconditioner">Jacobi preconditioner</a> typically suffices. A more robust method is using incomplete <a href="https://en.wikipedia.org/wiki/Cholesky_decomposition">Cholesky factorization</a> to tractably design a matrix from lower trianglular matrices that improves the problem&rsquo;s conditioning or using <a href="https://en.wikipedia.org/wiki/Chebyshev_polynomials">Chebyshev polynomials</a>.</p>
 <p>With the preconditioner, we want to solve the equivalent system:</p>
-<p>$$
+$$
 \hat{A} \hat{x} = \hat{b} \text{ where } M=LL^T, \hat{A} = L^{-1} A L^{-T}, \hat{x} = L^T x, \hat{b} = L^{-1} b
-$$</p>
-<p>This results in an extra step of finding $z_k$ s.t. $M z_k = r_k$, which adjusts the updates:</p>
-<p>$$
+$$<p>This results in an extra step of finding $z_k$ s.t. $M z_k = r_k$, which adjusts the updates:</p>
+$$
 \begin{align}
-\alpha_k &amp;= \frac{r_k^T z_k}{p_k^T A p_k} \\
-p_{k+1} &amp;= r_k + \frac{r_{k+1}^T z_{k+1}}{r_k^T z_k} p_k
+\alpha_k &= \frac{r_k^T z_k}{p_k^T A p_k} \\\
+p_{k+1} &= r_k + \frac{r_{k+1}^T z_{k+1}}{r_k^T z_k} p_k
 \end{align}
-$$</p>
-<p><a href="https://www.cse.psu.edu/~b58/cse456/lecture20.pdf">Here</a> are some good notes on preconditioning CG.</p>
+$$<p><a href="https://www.cse.psu.edu/~b58/cse456/lecture20.pdf">Here</a> are some good notes on preconditioning CG.</p>
 <figure>
 <img src="image/cg_vs_pcg.png" alt="convergence of vanilla conjugate gradient vs preconditioned conjugate gradient"/>
 <figcaption>Figure 3. Convergence of vanilla conjugate gradient vs preconditioned conjugate gradient. Preconditioning leads to iterates that are closer to the solution. For high-dimensional problems where $n$ is very large, preconditioning is necessary to approximate a close-enough solution in a reasonable amount of time.</figcaption>
@@ -477,9 +462,9 @@ $$</p>
   </time>
   
   
-    and tagged <a rel="tag" href="/tags/ml/">ml</a>, <a rel="tag" href="/tags/opt/">opt</a>, <a rel="tag" href="/tags/python/">python</a> and <a rel="tag" href="/tags/sigproc/">sigproc</a>
+    and tagged &lt;a rel=&#34;tag&#34; href=&#34;/tags/ml/&#34;&gt;ml&lt;/a&gt;, &lt;a rel=&#34;tag&#34; href=&#34;/tags/opt/&#34;&gt;opt&lt;/a&gt;, &lt;a rel=&#34;tag&#34; href=&#34;/tags/python/&#34;&gt;python&lt;/a&gt; and &lt;a rel=&#34;tag&#34; href=&#34;/tags/sigproc/&#34;&gt;sigproc&lt;/a&gt;
   
-  using <span itemprop="wordCount">1272</span> words.
+  using <span itemprop="wordCount">1255</span> words.
 </p>
 
       

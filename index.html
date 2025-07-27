@@ -3,29 +3,20 @@
   <head>
     
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-CLGDWRWCBJ', { 'anonymize_ip': false });
-}
-</script>
-
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-CLGDWRWCBJ', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CLGDWRWCBJ');
+        }
+      </script>
 
     
 
@@ -43,17 +34,19 @@ if (!doNotTrack) {
     
     
     
-    <meta property="og:title" content="Zach Stoebner" />
-<meta property="og:description" content="Zach Stoebner = engineer &#43; scientist. A personal website to share my work and thoughts on topics in computational imaging &#43; computer vision, optimization &#43; machine learning, haiku &#43; senryu, and other interests." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
+    <meta property="og:url" content="/">
+  <meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
+  <meta property="og:title" content="Zach Stoebner">
+  <meta property="og:description" content="Zach Stoebner = engineer &#43; scientist. A personal website to share my work and thoughts on topics in computational imaging &#43; computer vision, optimization &#43; machine learning, haiku &#43; senryu, and other interests.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
 
-
-    <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
-
-<meta name="twitter:title" content="Zach Stoebner"/>
-<meta name="twitter:description" content="Zach Stoebner = engineer &#43; scientist. A personal website to share my work and thoughts on topics in computational imaging &#43; computer vision, optimization &#43; machine learning, haiku &#43; senryu, and other interests."/>
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322">
+  <meta name="twitter:title" content="Zach Stoebner">
+  <meta name="twitter:description" content="Zach Stoebner = engineer &#43; scientist. A personal website to share my work and thoughts on topics in computational imaging &#43; computer vision, optimization &#43; machine learning, haiku &#43; senryu, and other interests.">
 
     
 
@@ -333,7 +326,7 @@ displayRandomImage();
 </script>
 <p>Hi, I&rsquo;m Zach.</p>
 <p>I&rsquo;m an <a href="https://www.ece.utexas.edu">Electrical &amp; Computer Engineering</a> PhD student at <a href="https://www.utexas.edu">UT Austin</a> working with <a href="https://users.ece.utexas.edu/~jtamir/">Prof. Jon Tamir</a> in the <a href="https://users.ece.utexas.edu/~jtamir/csilab.html">Computational Sensing &amp; Imaging Lab</a>.</p>
-<p>I&rsquo;m working on provable learning methods for solving inverse problems in computational imaging. Generally, I&rsquo;m curious about <a href="/tags/ai">AI</a>/<a href="/tags/ml">ML</a>, <a href="/tags/sigproc">signal processing</a>, <a href="/tags/opt">optimization</a>, <a href="/tags/prob">probability</a>, <a href="/tags/stats">statistics</a>, and <a href="/tags/control">control</a>.</p>
+<p>I&rsquo;m working on provable learning methods for solving inverse problems in computational imaging and sequence modeling. Generally, I&rsquo;m curious about <a href="/tags/ai">AI</a>/<a href="/tags/ml">ML</a>, <a href="/tags/sigproc">signal processing</a>, <a href="/tags/opt">optimization</a>, <a href="/tags/prob">probability</a>, <a href="/tags/stats">statistics</a>, and <a href="/tags/control">control</a>.</p>
 <p>Check out my <a href="/notes/">notes</a> to see what I&rsquo;m thinking about and <a href="/kus/">kū</a> to see what I&rsquo;m seeing!</p>
 <p>I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at <a href="mailto:zstoebner@austin.utexas.edu">zstoebner@austin.utexas.edu</a>.</p>
 <p><a href="/doc/CV.pdf">CV</a>
@@ -375,19 +368,26 @@ displayRandomImage();
     
   </header>
   <div itemprop=""><h2 id="in-progress">in progress</h2>
-<p>&ldquo;Generalized, interpretable system identification for joint parameter estimation and signal recovery&rdquo;, <strong>Zachary A. Stoebner</strong>, Jonathan I. Tamir.</p>
 <p>&ldquo;Preconditioning for monotone operator learning&rdquo;, <strong>Zachary A. Stoebner</strong>, Jonathan I. Tamir.</p>
 <h2 id="conference">conference</h2>
-<p>&ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&rdquo;, Yamin Arefeen, Brett Levac, <strong>Zach Stoebner</strong>, Jonathan I Tamir. <i>Asilomar</i> . (2024, accepted) <a href="https://arxiv.org/pdf/2406.13895">arXiv</a></p>
+<p>&ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&rdquo;, Yamin Arefeen, Brett Levac, <strong>Zach Stoebner</strong>, Jonathan I Tamir. <i>Asilomar</i>. (2024) <a href="https://arxiv.org/pdf/2406.13895">arXiv</a></p>
 <p>&ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, <strong>Zachary A. Stoebner</strong>, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, <i>Medical Imaging 2022: Image Processing</i> (2022). <a href="https://doi.org/10.1117/12.2613274">DOI</a> <a href="https://arxiv.org/abs/2204.14175">arXiv</a> <a href="/projects/stone-anno">note</a></p>
 <h2 id="journal">journal</h2>
-<p>&ldquo;Reducing malware analysis overhead with coverings&rdquo;, Michael Sandborn, <strong>Zach Stoebner</strong>, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. <i>IEEE‑TDSC (2023)</i>. <a href="https://doi.org/10.1109/TDSC.2023.3346328">DOI</a> <a href="https://github.com/sandbornm/MIMOSA/tree/main/ml">repo</a></p>
-<p>&ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&rdquo;, <strong>Zachary A. Stoebner</strong>, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, <i>Human Brain Mapping (2023)</i>. <a href="https://doi.org/10.1002/hbm.26125">DOI</a> <a href="https://github.com/MedICL-VU/Cortical-Shape-Analysis-in-HD">repo</a> <a href="/projects/cortical-surface-analysis/">note</a></p></div>
+<p>&ldquo;Reducing malware analysis overhead with coverings&rdquo;, Michael Sandborn, <strong>Zach Stoebner</strong>, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. <i>IEEE‑TDSC</i> (2023). <a href="https://doi.org/10.1109/TDSC.2023.3346328">DOI</a> <a href="https://github.com/sandbornm/MIMOSA/tree/main/ml">repo</a></p>
+<p>&ldquo;Comprehensive shape analysis of the cortex in Huntington’s disease&rdquo;, <strong>Zachary A. Stoebner</strong>, Kilian Hett, Ilwoo Lyu, Hans Johnson, Jane S. Paulsen, Jeffrey Long, Ipek Oguz, <i>Human Brain Mapping</i> (2023). <a href="https://doi.org/10.1002/hbm.26125">DOI</a> <a href="https://github.com/MedICL-VU/Cortical-Shape-Analysis-in-HD">repo</a> <a href="/projects/cortical-surface-analysis/">note</a></p>
+<h2 id="poster">poster</h2>
+<p>&ldquo;Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI&rdquo;, <strong>Zachary A. Stoebner</strong>, Jonathan I. Tamir. <i>{6G@UT, Oden SciML Workshop}</i> (2024).</p>
+<h2 id="patent">patent</h2>
+<p>&ldquo;Systems and Methods for Navigation and Identification during Endoscopic Surgery&rdquo;, Nicholas L. Kavoussi, Ipek Oguz, Jie Ying Wu, Zachary A. Stoebner, Daiwei Lu, Ayberk Acar. U.S. Patent Application No. 18/622,134.</p></div>
   <meta itemprop="inLanguage" content="en-US">
   <meta itemprop="datePublished" content="2023-06-09T17:04:52-05:00">
   <meta itemprop="dateModified" content="2023-06-09T17:04:52-05:00">
   
 </article>
+
+  <nav class="readmore">
+    <a itemprop="url" href="/research/">Read More&nbsp;&raquo;</a>
+  </nav>
 
 
         
@@ -419,7 +419,7 @@ displayRandomImage();
 ## Past:   -->
 <ul>
 <li>
-<p>May 27, 2025: I&rsquo;ve started working at Adobe in San Jose as an AI/ML research intern for Firefly.</p>
+<p>May 27, 2025: I&rsquo;ve started working at <a href="https://www.adobe.com">Adobe</a> in San Jose as an AI/ML research intern for <a href="https://firefly.adobe.com/?media=featured">Firefly</a>, working on structured state-space models for long-form text-to-image/video generation.</p>
 </li>
 <li>
 <p>November 15, 2024: I presented a poster at the <a href="https://wncg.org">6G@UT</a> Student Research Showcase on <a href="/doc/ZachStoebner_sysidINR_poster.pdf">Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI</a>.</p>
@@ -457,6 +457,10 @@ displayRandomImage();
   <meta itemprop="dateModified" content="2024-08-03T15:26:20-05:00">
   
 </article>
+
+  <nav class="readmore">
+    <a itemprop="url" href="/news/">Read More&nbsp;&raquo;</a>
+  </nav>
 
 
         

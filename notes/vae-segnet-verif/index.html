@@ -3,29 +3,20 @@
   <head>
     
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-CLGDWRWCBJ', { 'anonymize_ip': false });
-}
-</script>
-
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-CLGDWRWCBJ', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CLGDWRWCBJ');
+        }
+      </script>
 
     
 
@@ -43,18 +34,26 @@ if (!doNotTrack) {
     
     
     
-    <meta property="og:title" content="verification of a VAE &amp; SegNet using NNV" />
-<meta property="og:description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/notes/vae-segnet-verif/" /><meta property="og:image" content="/notes/vae-segnet-verif/image/header.png"/><meta property="article:section" content="notes" />
-<meta property="article:published_time" content="2021-07-09T13:51:01-05:00" />
-<meta property="article:modified_time" content="2021-07-09T13:51:01-05:00" />
+    <meta property="og:url" content="/notes/vae-segnet-verif/">
+  <meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
+  <meta property="og:title" content="verification of a VAE & SegNet using NNV">
+  <meta property="og:description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2021-07-09T13:51:01-05:00">
+    <meta property="article:modified_time" content="2021-07-09T13:51:01-05:00">
+    <meta property="article:tag" content="Ml">
+    <meta property="article:tag" content="Cps">
+    <meta property="article:tag" content="Matlab">
+    <meta property="article:tag" content="Ai">
+    <meta property="og:image" content="/notes/vae-segnet-verif/image/header.png">
 
-
-    <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/notes/vae-segnet-verif/image/header.png"/>
-<meta name="twitter:title" content="verification of a VAE &amp; SegNet using NNV"/>
-<meta name="twitter:description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh"/>
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/notes/vae-segnet-verif/image/header.png">
+  <meta name="twitter:title" content="verification of a VAE & SegNet using NNV">
+  <meta name="twitter:description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh">
 
     
 
@@ -285,11 +284,14 @@ ul.thumbnail.grid li a:hover figure::after {
     
   
   <article itemscope itemtype="https://schema.org/BlogPosting">
-    <meta itemprop="name" content="verification of a VAE &amp; SegNet using NNV">
-<meta itemprop="description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh"><meta itemprop="datePublished" content="2021-07-09T13:51:01-05:00" />
-<meta itemprop="dateModified" content="2021-07-09T13:51:01-05:00" />
-<meta itemprop="wordCount" content="1233"><meta itemprop="image" content="/notes/vae-segnet-verif/image/header.png">
-<meta itemprop="keywords" content="ml,cps,matlab,ai," />
+    
+  <meta itemprop="name" content="verification of a VAE & SegNet using NNV">
+  <meta itemprop="description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh">
+  <meta itemprop="datePublished" content="2021-07-09T13:51:01-05:00">
+  <meta itemprop="dateModified" content="2021-07-09T13:51:01-05:00">
+  <meta itemprop="wordCount" content="1233">
+  <meta itemprop="image" content="/notes/vae-segnet-verif/image/header.png">
+  <meta itemprop="keywords" content="Ml,Cps,Matlab,Ai">
     <header>
       <h1 itemprop="headline name">verification of a VAE &amp; SegNet using NNV</h1>
       <p class="muted">
@@ -406,10 +408,10 @@ ul.thumbnail.grid li a:hover figure::after {
     9 Jul, 2021
   </time>
   
-    in <span itemprop="articleSection"><a href="/categories/course/">course</a> and <a href="/categories/solo/">solo</a></span>
+    in <span itemprop="articleSection">&lt;a href=&#34;/categories/course/&#34;&gt;course&lt;/a&gt; and &lt;a href=&#34;/categories/solo/&#34;&gt;solo&lt;/a&gt;</span>
   
   
-    and tagged <a rel="tag" href="/tags/ai/">ai</a>, <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a> and <a rel="tag" href="/tags/ml/">ml</a>
+    and tagged &lt;a rel=&#34;tag&#34; href=&#34;/tags/ai/&#34;&gt;ai&lt;/a&gt;, &lt;a rel=&#34;tag&#34; href=&#34;/tags/cps/&#34;&gt;cps&lt;/a&gt;, &lt;a rel=&#34;tag&#34; href=&#34;/tags/matlab/&#34;&gt;matlab&lt;/a&gt; and &lt;a rel=&#34;tag&#34; href=&#34;/tags/ml/&#34;&gt;ml&lt;/a&gt;
   
   using <span itemprop="wordCount">1233</span> words.
 </p>

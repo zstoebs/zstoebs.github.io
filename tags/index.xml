@@ -10,110 +10,123 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.102.3)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.148.2)</generator>
     <language>en-US</language>
-    <copyright>Copyright &amp;copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 23 Jun 2025 05:25:20 UT</lastBuildDate>
+    <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
+    <lastBuildDate>Sun, 27 Jul 2025 21:45:31 UT</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fall</title>
+      <title>Fall</title>
       <link>/tags/fall/</link>
+      <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/fall/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>winter</title>
+      <title>Winter</title>
       <link>/tags/winter/</link>
+      <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/winter/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>spring</title>
+      <title>Spring</title>
       <link>/tags/spring/</link>
+      <pubDate>Sun, 11 May 2025 19:44:43 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/spring/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>summer</title>
+      <title>Summer</title>
       <link>/tags/summer/</link>
+      <pubDate>Sun, 11 May 2025 19:44:43 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/summer/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>ml</title>
+      <title>Ml</title>
       <link>/tags/ml/</link>
+      <pubDate>Sat, 03 Aug 2024 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/ml/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>opt</title>
+      <title>Opt</title>
       <link>/tags/opt/</link>
+      <pubDate>Sat, 03 Aug 2024 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/opt/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>/tags/python/</link>
+      <pubDate>Sat, 03 Aug 2024 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/python/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>sigproc</title>
+      <title>Sigproc</title>
       <link>/tags/sigproc/</link>
+      <pubDate>Sat, 03 Aug 2024 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/sigproc/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>ai</title>
+      <title>Ai</title>
       <link>/tags/ai/</link>
+      <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/ai/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>control</title>
+      <title>Control</title>
       <link>/tags/control/</link>
+      <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/control/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>stats</title>
+      <title>Stats</title>
       <link>/tags/stats/</link>
+      <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/stats/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>cps</title>
+      <title>Cps</title>
       <link>/tags/cps/</link>
+      <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/cps/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>robotics</title>
+      <title>Robotics</title>
       <link>/tags/robotics/</link>
+      <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/robotics/</guid>
       <description></description>
@@ -122,38 +135,43 @@
     <item>
       <title>C&#43;&#43;</title>
       <link>/tags/c&#43;&#43;/</link>
+      <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/c&#43;&#43;/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>neuro</title>
+      <title>Neuro</title>
       <link>/tags/neuro/</link>
+      <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/neuro/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>seg</title>
+      <title>Seg</title>
       <link>/tags/seg/</link>
+      <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/seg/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>vision</title>
+      <title>Vision</title>
       <link>/tags/vision/</link>
+      <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/vision/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>matlab</title>
+      <title>Matlab</title>
       <link>/tags/matlab/</link>
+      <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/matlab/</guid>
       <description></description>
@@ -162,126 +180,142 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
+      <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/r/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>hendiadys</title>
+      <title>Hendiadys</title>
       <link>/tags/hendiadys/</link>
+      <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/hendiadys/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>hendiatris</title>
+      <title>Hendiatris</title>
       <link>/tags/hendiatris/</link>
+      <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/hendiatris/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>literature</title>
+      <title>Literature</title>
       <link>/tags/literature/</link>
+      <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/literature/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>hack</title>
+      <title>Hack</title>
       <link>/tags/hack/</link>
+      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/hack/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>html</title>
+      <title>Html</title>
       <link>/tags/html/</link>
+      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/html/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>/tags/hugo/</link>
+      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/hugo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>js</title>
+      <title>Js</title>
       <link>/tags/js/</link>
+      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/js/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>webdev</title>
+      <title>Webdev</title>
       <link>/tags/webdev/</link>
+      <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/webdev/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>gnn</title>
+      <title>Gnn</title>
       <link>/tags/gnn/</link>
+      <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/gnn/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>viz</title>
+      <title>Viz</title>
       <link>/tags/viz/</link>
+      <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/viz/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>haiku</title>
+      <title>Haiku</title>
       <link>/tags/haiku/</link>
+      <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/haiku/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>renga</title>
+      <title>Renga</title>
       <link>/tags/renga/</link>
+      <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/renga/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>senryū</title>
+      <title>Senryū</title>
       <link>/tags/senry%C5%AB/</link>
+      <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/senry%C5%AB/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>tanka</title>
+      <title>Tanka</title>
       <link>/tags/tanka/</link>
+      <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/tanka/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>quads</title>
+      <title>Quads</title>
       <link>/tags/quads/</link>
+      <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/quads/</guid>
       <description></description>
@@ -290,14 +324,16 @@
     <item>
       <title>C</title>
       <link>/tags/c/</link>
+      <pubDate>Fri, 02 Jul 2021 03:46:27 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/c/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>portuguese</title>
+      <title>Portuguese</title>
       <link>/tags/portuguese/</link>
+      <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/tags/portuguese/</guid>
       <description></description>
