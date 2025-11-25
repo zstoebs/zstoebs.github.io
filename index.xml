@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 25 Nov 2025 22:53:27 UT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 22:58:56 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>news</title>
@@ -52,7 +52,8 @@ April 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in en
       <pubDate>Fri, 09 Jun 2023 22:04:52 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/research/</guid>
-      <description>in progress &ldquo;Preconditioned monotone operator learning&rdquo;, Zachary A. Stoebner, Jon Tamir.
+      <description>in progress &ldquo;Preconditioned monotone operator learning for high-dimensional, non-Cartesian inverse problems&rdquo;, Zachary A. Stoebner, Jon Tamir.
+&ldquo;Generative Koopman Method for Nonlinear System Identification and Signal Recovery in Computational Imaging&rdquo;, Zachary A. Stoebner, Jon Tamir.
 &ldquo;Double blind imaging with generative modeling&rdquo;, Brett Levac, Yamin Arefeen, Zachary A. Stoebner, Jon Tamir. In review for CVPR 2026.
 conference &ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&rdquo;, Yamin Arefeen, Brett Levac, Zach Stoebner, Jonathan I Tamir. Asilomar. (2024) arXiv
 &ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
@@ -61,7 +62,8 @@ journal &ldquo;Reducing malware analysis overhead with coverings&rdquo;, Michael
 poster &ldquo;Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI&rdquo;, Zachary A. Stoebner, Jonathan I. Tamir. {6G@UT, Oden SciML Workshop} (2024). note
 patent &ldquo;Systems and Methods for Navigation and Identification during Endoscopic Surgery&rdquo;, Nicholas L. Kavoussi, Ipek Oguz, Jie Ying Wu, Zachary A. Stoebner, Daiwei Lu, Ayberk Acar. U.S. Patent Application No. 18/622,134.
 </description>
-      <content:encoded><![CDATA[in progress &ldquo;Preconditioned monotone operator learning&rdquo;, Zachary A. Stoebner, Jon Tamir.
+      <content:encoded><![CDATA[in progress &ldquo;Preconditioned monotone operator learning for high-dimensional, non-Cartesian inverse problems&rdquo;, Zachary A. Stoebner, Jon Tamir.
+&ldquo;Generative Koopman Method for Nonlinear System Identification and Signal Recovery in Computational Imaging&rdquo;, Zachary A. Stoebner, Jon Tamir.
 &ldquo;Double blind imaging with generative modeling&rdquo;, Brett Levac, Yamin Arefeen, Zachary A. Stoebner, Jon Tamir. In review for CVPR 2026.
 conference &ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&rdquo;, Yamin Arefeen, Brett Levac, Zach Stoebner, Jonathan I Tamir. Asilomar. (2024) arXiv
 &ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
