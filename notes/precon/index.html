@@ -28,7 +28,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>on preconditioning for iterative optimization | Zach Stoebner | ECE PhD @ UT Austin</title>
-    <meta name="description" content="overview, motivation, and examples of preconditioning iterative optimization">
+    <meta name="description" content="Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.">
     <meta name="keywords" content="ml, opt, sigproc, python">
     
     
@@ -37,7 +37,7 @@
     <meta property="og:url" content="/notes/precon/">
   <meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
   <meta property="og:title" content="on preconditioning for iterative optimization">
-  <meta property="og:description" content="overview, motivation, and examples of preconditioning iterative optimization">
+  <meta property="og:description" content="Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="notes">
@@ -53,7 +53,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322">
   <meta name="twitter:title" content="on preconditioning for iterative optimization">
-  <meta name="twitter:description" content="overview, motivation, and examples of preconditioning iterative optimization">
+  <meta name="twitter:description" content="Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.">
 
     
 
@@ -148,7 +148,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 * GNU Affero General Public License for more details.
 *
 * You should have received a copy of the GNU Affero General Public License
-* along with this program. If not, see <https://www.gnu.org/licenses/>.*/:root{--screen-size-small:30em}@keyframes intro{0%{opacity:0}100%{opacity:1}}.blur-up.lazyloading{filter:blur(5px);opacity:1;transition:opacity 1s,filter 1.5s}.blur-up.lazyload{opacity:0;filter:blur(10px)}.blur-up.lazyloaded{filter:blur(0);transition:filter 1s}.hack .readmore{margin-bottom:2.2em}.responsive-iframe,.ratio-container{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.responsive-iframe iframe,.ratio-container>*:not([itemprop=caption]){position:absolute;top:0;left:0;width:100%;height:100%}iframe{border:0}main,footer{animation:intro .3s both;animation-delay:.15s}header:first-of-type+details{margin:20px 0}footer time[datetime$=M]:before{content:"\2013\0020"}body>footer p.muted{margin-bottom:0}@media only screen and (max-width:768px){footer time[datetime$=M]{display:none}}blockquote cite{display:block}blockquote cite::before{content:"\2014\00A0"}:target{filter:brightness(1.2)}:disabled{cursor:not-allowed}.hack li ul{margin:0}.hack ol li{padding-left:27px}.main{padding:20px 10px}input.form-control{border-radius:0;background-color:transparent;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}input.form-control,textarea.form-control,select.form-control,.help-block{font-size:initial}@media only screen and (max-width:768px){.help-block{font-size:unset}}html{font-size:13px}.hack .form input,.hack .form textarea,.hack .form button,.hack .form label{font-size:1rem}.hack .alert .highlight:first-of-type .chroma,.hack .card .highlight:first-of-type .chroma,.hack .alert pre:first-of-type,.hack .alert p:first-of-type,.hack .card pre:first-of-type,.hack .card p:first-of-type{margin-top:unset}.hack .alert .highlight:last-of-type .chroma,.hack .card .highlight:last-of-type .chroma,.hack .alert pre:last-of-type,.hack .alert p:last-of-type,.hack .card pre:last-of-type,.hack .card p:last-of-type{margin-bottom:unset}.hack blockquote,.hack blockquote:after{line-height:1.5}.hack figure,.standard figure{margin:unset}.hack figure a{border-bottom:none}.hack figure a:hover{background-color:inherit}article header img{width:100%;border-radius:3px}table td,table th{line-height:inherit}table a{border-bottom:unset}img{max-width:100%}@media only screen and (min-width:768px){html{font-size:16px}.container{max-width:50rem}}@media only screen and (min-width:768px),(-ms-high-contrast:active),(-ms-high-contrast:none){html{margin-left:calc(100vw - 100%)}}/*!
+* along with this program. If not, see <https://www.gnu.org/licenses/>.*/:root{--screen-size-small:30em}@keyframes intro{0%{opacity:0}100%{opacity:1}}.blur-up.lazyloading{filter:blur(5px);opacity:1;transition:opacity 1s,filter 1.5s}.blur-up.lazyload{opacity:0;filter:blur(10px)}.blur-up.lazyloaded{filter:blur(0);transition:filter 1s}.hack .readmore{margin-bottom:2.2em}.responsive-iframe,.ratio-container{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.responsive-iframe iframe,.ratio-container>*:not([itemprop=caption]){position:absolute;top:0;left:0;width:100%;height:100%}iframe{border:0}main,footer{animation:intro .3s both;animation-delay:.15s}header:first-of-type+details{margin:20px 0}footer time[datetime$=M]:before{content:"\2013\0020"}body>footer p.muted{margin-bottom:0}@media only screen and (max-width:768px){footer time[datetime$=M]{display:none}}blockquote cite{display:block}blockquote cite::before{content:"\2014\00A0"}:target{filter:brightness(1.2)}:disabled{cursor:not-allowed}.hack li ul{margin:0}.hack ol li{padding-left:27px}.main{padding:20px 10px}input.form-control{border-radius:0;background-color:initial;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}input.form-control,textarea.form-control,select.form-control,.help-block{font-size:initial}@media only screen and (max-width:768px){.help-block{font-size:unset}}html{font-size:13px}.hack .form input,.hack .form textarea,.hack .form button,.hack .form label{font-size:1rem}.hack .alert .highlight:first-of-type .chroma,.hack .card .highlight:first-of-type .chroma,.hack .alert pre:first-of-type,.hack .alert p:first-of-type,.hack .card pre:first-of-type,.hack .card p:first-of-type{margin-top:unset}.hack .alert .highlight:last-of-type .chroma,.hack .card .highlight:last-of-type .chroma,.hack .alert pre:last-of-type,.hack .alert p:last-of-type,.hack .card pre:last-of-type,.hack .card p:last-of-type{margin-bottom:unset}.hack blockquote,.hack blockquote:after{line-height:1.5}.hack figure,.standard figure{margin:unset}.hack figure a{border-bottom:none}.hack figure a:hover{background-color:inherit}article header img{width:100%;border-radius:3px}table td,table th{line-height:inherit}table a{border-bottom:unset}img{max-width:100%}@media only screen and (min-width:768px){html{font-size:16px}.container{max-width:50rem}}@media only screen and (min-width:768px),(-ms-high-contrast:active),(-ms-high-contrast:none){html{margin-left:calc(100vw - 100%)}}/*!
  * Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
  *
  * This file is part of After Dark.
@@ -264,11 +264,6 @@ ul.thumbnail.grid li a:hover figure::after {
         <a itemprop="url" href="/notes/">notes</a>
       
     
-      
-      
-        <a itemprop="url" href="/kus/">kū</a>
-      
-    
   </nav>
 
 
@@ -286,7 +281,7 @@ ul.thumbnail.grid li a:hover figure::after {
   <article itemscope itemtype="https://schema.org/BlogPosting">
     
   <meta itemprop="name" content="on preconditioning for iterative optimization">
-  <meta itemprop="description" content="overview, motivation, and examples of preconditioning iterative optimization">
+  <meta itemprop="description" content="Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.">
   <meta itemprop="datePublished" content="2024-08-03T15:49:00-05:00">
   <meta itemprop="dateModified" content="2024-08-03T15:49:00-05:00">
   <meta itemprop="wordCount" content="1255">
@@ -311,8 +306,6 @@ ul.thumbnail.grid li a:hover figure::after {
 
       </p>
       
-        <blockquote itemprop="description">overview, motivation, and examples of preconditioning iterative optimization</blockquote>
-      
       
 
 
@@ -325,11 +318,11 @@ ul.thumbnail.grid li a:hover figure::after {
   <ul>
     <li>
       <ul>
-        <li><a href="#newton-method"><a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton method</a></a></li>
-        <li><a href="#quasi-newton-method"><a href="https://en.wikipedia.org/wiki/Quasi-Newton_method">Quasi-Newton method</a></a></li>
-        <li><a href="#conjugate-gradient"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#">Conjugate Gradient</a></a>
+        <li><a href="#newton-method">Newton method</a></li>
+        <li><a href="#quasi-newton-method">Quasi-Newton method</a></li>
+        <li><a href="#conjugate-gradient">Conjugate Gradient</a>
           <ul>
-            <li><a href="#preconditioned-cg"><a href="https://en.wikipedia.org/wiki/Conjugate_gradient_method#The_preconditioned_conjugate_gradient_method">Preconditioned CG</a></a></li>
+            <li><a href="#preconditioned-cg">Preconditioned CG</a></li>
           </ul>
         </li>
       </ul>

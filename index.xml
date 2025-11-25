@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.148.2)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 13 Aug 2025 00:15:01 UT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 19:31:11 UT</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>news</title>
@@ -21,7 +21,7 @@
       <pubDate>Sat, 03 Aug 2024 20:26:20 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/news/</guid>
-      <description> May 27, 2025: I&rsquo;ve started working at Adobe in San Jose as an AI/ML research intern for Firefly, working on structured state-space models for long-form text-to-image/video generation.
+      <description> May - Sep 2025: I interned at Adobe in the Bay Area as an AI/ML research intern for Firefly, working on structured state-space models for long-form text-to-image/video generation.
 November 15, 2024: I presented a poster at the 6G@UT Student Research Showcase on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
 October 3, 2024: I presented a poster at the Oden SciML Workshop on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
 July 29, 2024: Asilomar 2024 accepted our paper INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction.
@@ -33,7 +33,7 @@ July 15, 2022: I successfully defended my thesis A deep-learning enabled automat
 May 13, 2022: I graduated from Vanderbilt University with a BS in CS &amp; Neuroscience, minoring in Applied Math.
 April 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in endoscopic video feeds.
 </description>
-      <content:encoded><![CDATA[ May 27, 2025: I&rsquo;ve started working at Adobe in San Jose as an AI/ML research intern for Firefly, working on structured state-space models for long-form text-to-image/video generation.
+      <content:encoded><![CDATA[ May - Sep 2025: I interned at Adobe in the Bay Area as an AI/ML research intern for Firefly, working on structured state-space models for long-form text-to-image/video generation.
 November 15, 2024: I presented a poster at the 6G@UT Student Research Showcase on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
 October 3, 2024: I presented a poster at the Oden SciML Workshop on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
 July 29, 2024: Asilomar 2024 accepted our paper INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction.
@@ -52,7 +52,8 @@ April 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in en
       <pubDate>Fri, 09 Jun 2023 22:04:52 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/research/</guid>
-      <description>in progress &ldquo;Preconditioning for monotone operator learning&rdquo;, Zachary A. Stoebner, Jonathan I. Tamir.
+      <description>in progress &ldquo;Preconditioned monotone operator learning&rdquo;, Zachary A. Stoebner, Jon Tamir.
+&ldquo;Double blind imaging with generative modeling&rdquo;, Brett Levac, Yamin Arefeen, Zachary A. Stoebner, Jon Tamir. In review for CVPR 2026.
 conference &ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&rdquo;, Yamin Arefeen, Brett Levac, Zach Stoebner, Jonathan I Tamir. Asilomar. (2024) arXiv
 &ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 journal &ldquo;Reducing malware analysis overhead with coverings&rdquo;, Michael Sandborn, Zach Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. IEEE‑TDSC (2023). DOI repo
@@ -60,7 +61,8 @@ journal &ldquo;Reducing malware analysis overhead with coverings&rdquo;, Michael
 poster &ldquo;Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI&rdquo;, Zachary A. Stoebner, Jonathan I. Tamir. {6G@UT, Oden SciML Workshop} (2024).
 patent &ldquo;Systems and Methods for Navigation and Identification during Endoscopic Surgery&rdquo;, Nicholas L. Kavoussi, Ipek Oguz, Jie Ying Wu, Zachary A. Stoebner, Daiwei Lu, Ayberk Acar. U.S. Patent Application No. 18/622,134.
 </description>
-      <content:encoded><![CDATA[in progress &ldquo;Preconditioning for monotone operator learning&rdquo;, Zachary A. Stoebner, Jonathan I. Tamir.
+      <content:encoded><![CDATA[in progress &ldquo;Preconditioned monotone operator learning&rdquo;, Zachary A. Stoebner, Jon Tamir.
+&ldquo;Double blind imaging with generative modeling&rdquo;, Brett Levac, Yamin Arefeen, Zachary A. Stoebner, Jon Tamir. In review for CVPR 2026.
 conference &ldquo;INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction&rdquo;, Yamin Arefeen, Brett Levac, Zach Stoebner, Jonathan I Tamir. Asilomar. (2024) arXiv
 &ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, Medical Imaging 2022: Image Processing (2022). DOI arXiv note
 journal &ldquo;Reducing malware analysis overhead with coverings&rdquo;, Michael Sandborn, Zach Stoebner, Westley Weimer, Stephanie Forrest, Ryan Dougherty, Jules White, Kevin Leach. IEEE‑TDSC (2023). DOI repo
@@ -95,19 +97,17 @@ patent &ldquo;Systems and Methods for Navigation and Identification during Endos
       <guid>/about/</guid>
       <description> Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
-I&rsquo;m working on provably efficient, scalable, and robust algorithms for computational imaging and sequence modeling. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
-Check out my notes to see what I&rsquo;m thinking about and kū to see what I&rsquo;m seeing!
+I&rsquo;m working on provably efficient, scalable, and robust algorithms related to inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
-I&rsquo;m working on provably efficient, scalable, and robust algorithms for computational imaging and sequence modeling. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
-Check out my notes to see what I&rsquo;m thinking about and kū to see what I&rsquo;m seeing!
+I&rsquo;m working on provably efficient, scalable, and robust algorithms related to inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
-I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC, David Lu, and Kilian Hett.
+I graduated from Vanderbilt University in 2021, double majoring in computer science and neuroscience, minoring in applied math. I stayed an extra year to earn my M.S. in computer science in 2022. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC, David Lu, and Kilian Hett.
 I enjoy climbing, trail running, lifting, backpacking in the mountains, and kū &amp; tanka poetry and photography.
 I am an Anglophone &gt; Lusophone &gt; Hispanophone &gt; Francophone.
 My hometown is Austin, TX. I was born in Abilene, TX.

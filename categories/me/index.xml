@@ -10,10 +10,10 @@
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
-    <generator>After Dark 9.2.3 (Hugo 0.148.2)</generator>
+    <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 13 Aug 2025 00:15:01 UT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 19:31:11 UT</lastBuildDate>
     <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
@@ -23,19 +23,17 @@
       <guid>/about/</guid>
       <description> Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
-I&rsquo;m working on provably efficient, scalable, and robust algorithms for computational imaging and sequence modeling. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
-Check out my notes to see what I&rsquo;m thinking about and kū to see what I&rsquo;m seeing!
+I&rsquo;m working on provably efficient, scalable, and robust algorithms related to inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
       <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD student at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
-I&rsquo;m working on provably efficient, scalable, and robust algorithms for computational imaging and sequence modeling. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
-Check out my notes to see what I&rsquo;m thinking about and kū to see what I&rsquo;m seeing!
+I&rsquo;m working on provably efficient, scalable, and robust algorithms related to inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
-I graduated from Vanderbilt University in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and again in 2022 with my M.S. in computer science. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC, David Lu, and Kilian Hett.
+I graduated from Vanderbilt University in 2021, double majoring in computer science and neuroscience, minoring in applied math. I stayed an extra year to earn my M.S. in computer science in 2022. I was a student researcher in VISE MedICL advised by Prof. Ipek Oguz where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were Dr. Nick Kavoussi at VUMC, David Lu, and Kilian Hett.
 I enjoy climbing, trail running, lifting, backpacking in the mountains, and kū &amp; tanka poetry and photography.
 I am an Anglophone &gt; Lusophone &gt; Hispanophone &gt; Francophone.
 My hometown is Austin, TX. I was born in Abilene, TX.

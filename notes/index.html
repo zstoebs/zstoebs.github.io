@@ -145,7 +145,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 * GNU Affero General Public License for more details.
 *
 * You should have received a copy of the GNU Affero General Public License
-* along with this program. If not, see <https://www.gnu.org/licenses/>.*/:root{--screen-size-small:30em}@keyframes intro{0%{opacity:0}100%{opacity:1}}.blur-up.lazyloading{filter:blur(5px);opacity:1;transition:opacity 1s,filter 1.5s}.blur-up.lazyload{opacity:0;filter:blur(10px)}.blur-up.lazyloaded{filter:blur(0);transition:filter 1s}.hack .readmore{margin-bottom:2.2em}.responsive-iframe,.ratio-container{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.responsive-iframe iframe,.ratio-container>*:not([itemprop=caption]){position:absolute;top:0;left:0;width:100%;height:100%}iframe{border:0}main,footer{animation:intro .3s both;animation-delay:.15s}header:first-of-type+details{margin:20px 0}footer time[datetime$=M]:before{content:"\2013\0020"}body>footer p.muted{margin-bottom:0}@media only screen and (max-width:768px){footer time[datetime$=M]{display:none}}blockquote cite{display:block}blockquote cite::before{content:"\2014\00A0"}:target{filter:brightness(1.2)}:disabled{cursor:not-allowed}.hack li ul{margin:0}.hack ol li{padding-left:27px}.main{padding:20px 10px}input.form-control{border-radius:0;background-color:transparent;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}input.form-control,textarea.form-control,select.form-control,.help-block{font-size:initial}@media only screen and (max-width:768px){.help-block{font-size:unset}}html{font-size:13px}.hack .form input,.hack .form textarea,.hack .form button,.hack .form label{font-size:1rem}.hack .alert .highlight:first-of-type .chroma,.hack .card .highlight:first-of-type .chroma,.hack .alert pre:first-of-type,.hack .alert p:first-of-type,.hack .card pre:first-of-type,.hack .card p:first-of-type{margin-top:unset}.hack .alert .highlight:last-of-type .chroma,.hack .card .highlight:last-of-type .chroma,.hack .alert pre:last-of-type,.hack .alert p:last-of-type,.hack .card pre:last-of-type,.hack .card p:last-of-type{margin-bottom:unset}.hack blockquote,.hack blockquote:after{line-height:1.5}.hack figure,.standard figure{margin:unset}.hack figure a{border-bottom:none}.hack figure a:hover{background-color:inherit}article header img{width:100%;border-radius:3px}table td,table th{line-height:inherit}table a{border-bottom:unset}img{max-width:100%}@media only screen and (min-width:768px){html{font-size:16px}.container{max-width:50rem}}@media only screen and (min-width:768px),(-ms-high-contrast:active),(-ms-high-contrast:none){html{margin-left:calc(100vw - 100%)}}/*!
+* along with this program. If not, see <https://www.gnu.org/licenses/>.*/:root{--screen-size-small:30em}@keyframes intro{0%{opacity:0}100%{opacity:1}}.blur-up.lazyloading{filter:blur(5px);opacity:1;transition:opacity 1s,filter 1.5s}.blur-up.lazyload{opacity:0;filter:blur(10px)}.blur-up.lazyloaded{filter:blur(0);transition:filter 1s}.hack .readmore{margin-bottom:2.2em}.responsive-iframe,.ratio-container{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.responsive-iframe iframe,.ratio-container>*:not([itemprop=caption]){position:absolute;top:0;left:0;width:100%;height:100%}iframe{border:0}main,footer{animation:intro .3s both;animation-delay:.15s}header:first-of-type+details{margin:20px 0}footer time[datetime$=M]:before{content:"\2013\0020"}body>footer p.muted{margin-bottom:0}@media only screen and (max-width:768px){footer time[datetime$=M]{display:none}}blockquote cite{display:block}blockquote cite::before{content:"\2014\00A0"}:target{filter:brightness(1.2)}:disabled{cursor:not-allowed}.hack li ul{margin:0}.hack ol li{padding-left:27px}.main{padding:20px 10px}input.form-control{border-radius:0;background-color:initial;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}input.form-control,textarea.form-control,select.form-control,.help-block{font-size:initial}@media only screen and (max-width:768px){.help-block{font-size:unset}}html{font-size:13px}.hack .form input,.hack .form textarea,.hack .form button,.hack .form label{font-size:1rem}.hack .alert .highlight:first-of-type .chroma,.hack .card .highlight:first-of-type .chroma,.hack .alert pre:first-of-type,.hack .alert p:first-of-type,.hack .card pre:first-of-type,.hack .card p:first-of-type{margin-top:unset}.hack .alert .highlight:last-of-type .chroma,.hack .card .highlight:last-of-type .chroma,.hack .alert pre:last-of-type,.hack .alert p:last-of-type,.hack .card pre:last-of-type,.hack .card p:last-of-type{margin-bottom:unset}.hack blockquote,.hack blockquote:after{line-height:1.5}.hack figure,.standard figure{margin:unset}.hack figure a{border-bottom:none}.hack figure a:hover{background-color:inherit}article header img{width:100%;border-radius:3px}table td,table th{line-height:inherit}table a{border-bottom:unset}img{max-width:100%}@media only screen and (min-width:768px){html{font-size:16px}.container{max-width:50rem}}@media only screen and (min-width:768px),(-ms-high-contrast:active),(-ms-high-contrast:none){html{margin-left:calc(100vw - 100%)}}/*!
  * Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
  *
  * This file is part of After Dark.
@@ -261,11 +261,6 @@ ul.thumbnail.grid li a:hover figure::after {
         <a itemprop="url" href="/notes/">notes</a>
       
     
-      
-      
-        <a itemprop="url" href="/kus/">kū</a>
-      
-    
   </nav>
 
 
@@ -307,8 +302,6 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </p>
     
-      <blockquote itemprop="headline">overview, motivation, and examples of preconditioning iterative optimization</blockquote>
-    
   </header>
   <div itemprop="">Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</div>
   <meta itemprop="inLanguage" content="en-US">
@@ -343,8 +336,6 @@ ul.thumbnail.grid li a:hover figure::after {
   
 
 </p>
-    
-      <blockquote itemprop="headline">we are once again solving systems of equations</blockquote>
     
   </header>
   <div itemprop="">An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</div>
@@ -381,8 +372,6 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </p>
     
-      <blockquote itemprop="headline">zoom zoom</blockquote>
-    
   </header>
   <div itemprop="">Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.</div>
   <meta itemprop="inLanguage" content="en-US">
@@ -417,8 +406,6 @@ ul.thumbnail.grid li a:hover figure::after {
   
 
 </p>
-    
-      <blockquote itemprop="headline">Solving systems of equations is the most important.</blockquote>
     
   </header>
   <div itemprop="">This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</div>
@@ -455,8 +442,6 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </p>
     
-      <blockquote itemprop="headline">Take a little swim through your brain canals!</blockquote>
-    
   </header>
   <div itemprop="">After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are <a href="https://www.slicer.org">3D Slicer</a>, <a href="https://itk.org">ITK</a> for C++, and <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-SNAP</a>.</div>
   <meta itemprop="inLanguage" content="en-US">
@@ -491,8 +476,6 @@ ul.thumbnail.grid li a:hover figure::after {
   
 
 </p>
-    
-      <blockquote itemprop="headline">Really good fast way to color inside the lines of a kidney stone.</blockquote>
     
   </header>
   <div itemprop="">StoneAnno is my first published first-authorship paper, <strong>presenting at SPIE 2022</strong>. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves <strong>&gt;0.9 Dice score</strong>, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an <strong>R21 grant</strong> in October 2021.</div>
@@ -529,8 +512,6 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </p>
     
-      <blockquote itemprop="headline">Noobs think linear regression is easy... enter LMMs.</blockquote>
-    
   </header>
   <div itemprop="">Although it will be published after <a href="/projects/stone-anno">StoneAnno</a>, this shape analysis is my first completed research project and technically my first first-authorship, <strong>submitted to <i>Brain</i></strong>. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, <strong>LGI uniquely detects changes in the insula.</strong></div>
   <meta itemprop="inLanguage" content="en-US">
@@ -546,10 +527,10 @@ ul.thumbnail.grid li a:hover figure::after {
 
 
 
-<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-hendiadys">
+<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-hendiadys--hendiatris">
   <header>
     <h1 itemprop="name">
-      :: <a href="/notes/hendiadys/">on hendiadys</a>
+      :: <a href="/notes/hendiadys/">on hendiadys &amp; hendiatris</a>
     </h1>
       <p class="muted">
   <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
@@ -566,10 +547,8 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </p>
     
-      <blockquote itemprop="headline">1 &#43; 1 ≠ 2, existential me circa 1600</blockquote>
-    
   </header>
-  <div itemprop="">I bet you have no idea what this is. You&rsquo;ve definitely seen one before&hellip; but you just didn&rsquo;t know it. Boo!</div>
+  <div itemprop="">subtle, pithy, and mighty</div>
   <meta itemprop="inLanguage" content="en-US">
   <meta itemprop="datePublished" content="2021-07-11T14:43:05-05:00">
   <meta itemprop="dateModified" content="2021-07-11T14:43:05-05:00">
@@ -602,8 +581,6 @@ ul.thumbnail.grid li a:hover figure::after {
   
 
 </p>
-    
-      <blockquote itemprop="headline">¡¡host fast, pretty website 4 free!!</blockquote>
     
   </header>
   <div itemprop="">From knowing very little about webdev to a very small amount more, all in one place! The <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo hosting docs</a> and <a href="https://vhs.codeberg.page/after-dark/">After Dark</a> tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</div>
@@ -639,8 +616,6 @@ ul.thumbnail.grid li a:hover figure::after {
   
 
 </p>
-    
-      <blockquote itemprop="headline">&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh</blockquote>
     
   </header>
   <div itemprop="">Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</div>
