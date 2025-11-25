@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 25 Nov 2025 19:31:11 UT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 22:49:30 UT</lastBuildDate>
     <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on preconditioning for iterative optimization</title>
@@ -35,7 +35,7 @@ Similar to Newton&rsquo;s method, we start from the second-order approximation o
 $$ f(y) \leq f(x) + \partial f(x)^T (y-x) + \frac{1}{2} (y-x)^T B (y-x) $$If $y=x_k + \Delta x$ and we take the gradient w.r.t. $\Delta x$, we get the secant equation:
 $$ \partial f(x_k + \Delta x) \leq \partial f(x_k) + B \Delta x $$If we set it to 0: $$ \Delta x = -B^{-1} \partial f(x_k) $$which implies the Newton step so this is consistent if B is the Hessian.
 The secant equation is a line in the function&rsquo;s gradient space that can be used as a condition for each update of the Hessian. How this secant equation is solved is what sets different quasi-Newton methods apart. In BFGS, the quasi-Newton condition is:
-$$ B_{k+1} (x_{k+1} - x_k) = \nabla x_{k+1} - \nabla x_k $$First, we set $B_0 = \beta I$ where $\beta > 0$ is hyperparameter ensuring that we start with a positive-definite matrix and choose step size $\alpha_k$ with an exact line search adhering to the Wolfe conditions which are:
+$$ B_{k+1} (x_{k+1} - x_k) = \nabla f(x_{k+1}) - \nabla f(x_k) $$First, we set $B_0 = \beta I$ where $\beta > 0$ is hyperparameter ensuring that we start with a positive-definite matrix and choose step size $\alpha_k$ with an exact line search adhering to the Wolfe conditions which are:
 $$ \begin{align} f(x_k + \alpha_k p_k) &\leq f(x_k) + c_1 \alpha_k p_k^T \nabla f(x_k) \\\ p_k^T \nabla f(x_k + \alpha_k p_k) &\geq c_2 p_k^T \nabla f(x_k) \end{align} $$Then our update rule is:
 $$ x_{k+1} = x_k - \alpha_k B^{-1}_k \partial f(x_k) $$Using only the known terms in the current update and the gradient at the new iterate $\partial f(x_{k+1})$, we can update the Hessian $B_k$ with Broyden&rsquo;s method or directly update the inverse Hessian $B_k^{-1}$ with the Sherman-Morrison formula.
 The algorithm steps are as follows:
