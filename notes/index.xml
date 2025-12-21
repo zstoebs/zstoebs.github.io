@@ -13,8 +13,18 @@
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 25 Nov 2025 22:58:56 UT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 13:31:32 UT</lastBuildDate>
     <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on univariate Chebyshev approximation</title>
+      <link>/notes/chebyshev-approx/</link>
+      <pubDate>Sun, 21 Dec 2025 13:13:58 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/notes/chebyshev-approx/</guid>
+      <description>Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, I collect some properties and theorems for approximating univariate functions, with an example.</description>
+      <content:encoded><![CDATA[ Open/download PDF
+]]></content:encoded>
+    </item>
     <item>
       <title>on preconditioning for iterative optimization</title>
       <link>/notes/precon/</link>

@@ -27,34 +27,35 @@
     <meta name="generator" content="After Dark Hugo">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>notes | Zach Stoebner | ECE PhD @ UT Austin</title>
-    <meta name="description" content="O que j&#39;aprendí avec el não-sei-quê.">
+    <title>on univariate Chebyshev approximation | Zach Stoebner | ECE PhD @ UT Austin</title>
+    <meta name="description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, I collect some properties and theorems for approximating univariate functions, with an example.">
     <meta name="keywords" content="algo, course, create, haiku, me, personal, poetry, research, senryu, solo, tanka, team, ">
     
     
     
     
-      <meta name="robots" content="noindex">
-    
-    <meta property="og:url" content="/notes/">
+    <meta property="og:url" content="/notes/chebyshev-approx/">
   <meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
-  <meta property="og:title" content="notes">
-  <meta property="og:description" content="O que j&#39;aprendí avec el não-sei-quê.">
+  <meta property="og:title" content="on univariate Chebyshev approximation">
+  <meta property="og:description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, I collect some properties and theorems for approximating univariate functions, with an example.">
   <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2025-12-21T22:13:58+09:00">
+    <meta property="article:modified_time" content="2025-12-21T22:13:58+09:00">
     <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
 
     
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322">
-  <meta name="twitter:title" content="notes">
-  <meta name="twitter:description" content="O que j&#39;aprendí avec el não-sei-quê.">
+  <meta name="twitter:title" content="on univariate Chebyshev approximation">
+  <meta name="twitter:description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, I collect some properties and theorems for approximating univariate functions, with an example.">
 
     
 
+
+
   <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
-
-
 
 
     
@@ -109,9 +110,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 
 
     
-      <link rel="alternate" type="application/rss+xml" href="/notes/index.xml" title="Zach Stoebner | ECE PhD @ UT Austin">
-    
-    <link rel="canonical" href="/notes/">
+    <link rel="canonical" href="/notes/chebyshev-approx/">
     
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -270,24 +269,23 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </header>
     <main>
-  <header>
-    <h1 itemprop="name">notes</h1>
-  </header>
-  
-  
-  
   
     
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/Thing" id="on-univariate-chebyshev-approximation">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/chebyshev-approx/">on univariate Chebyshev approximation</a>
-    </h1>
+      <style>{{ -}}.hack header figure[itemtype*=ImageObject]{position:relative}.hack header figure[itemtype*=ImageObject] figcaption{position:absolute;bottom:0;right:0;text-align:right;padding:15px;font-style:oblique;font-size:smaller;mix-blend-mode:soft-light}.hack header figure[itemtype*=ImageObject] [itemprop=headline]{font-weight:700}</style>
+    
+  
+  <article itemscope itemtype="https://schema.org/BlogPosting">
+    
+  <meta itemprop="name" content="on univariate Chebyshev approximation">
+  <meta itemprop="description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, I collect some properties and theorems for approximating univariate functions, with an example.">
+  <meta itemprop="datePublished" content="2025-12-21T22:13:58+09:00">
+  <meta itemprop="dateModified" content="2025-12-21T22:13:58+09:00">
+  <meta itemprop="wordCount" content="2">
+  <meta itemprop="image" content="https://source.unsplash.com/collection/983219/2000x1322">
+    <header>
+      <h1 itemprop="headline name">on univariate Chebyshev approximation</h1>
       <p class="muted">
+        
   <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
     <circle cx="16" cy="16" r="14" />
     <path d="M16 8 L16 16 20 20" />
@@ -300,350 +298,53 @@ ul.thumbnail.grid li a:hover figure::after {
   Published: <time datetime=" 2025-12-21T22:13:58&#43;09:00">21 Dec, 2025</time>
   
 
+
+      </p>
+      
+      
+
+
+
+    </header>
+    
+
+    <div itemprop="articleBody">
+      <iframe src="/notes/on_univariate_cheby_approx.pdf" width="100%" height="800" style="border:0;"></iframe>
+<!-- fallback link -->
+<p><a href="/notes/on_univariate_cheby_approx.pdf" target="_blank" rel="noopener">Open/download PDF</a></p>
+
+    </div>
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author">Zach Stoebner</span>
+    
+  
+  <time itemprop="datePublished" datetime="2025-12-21T22:13:58&#43;09:00">
+    21 Dec, 2025
+  </time>
+  
+  
+  using <span itemprop="wordCount">2</span> words.
 </p>
-    
-  </header>
-  <div itemprop="">Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, I collect some properties and theorems for approximating univariate functions, with an example.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2025-12-21T22:13:58&#43;09:00">
-  <meta itemprop="dateModified" content="2025-12-21T22:13:58&#43;09:00">
-  
-</article>
 
+      
 
-  
-    
 
 
 
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/Thing" id="on-preconditioning-for-iterative-optimization">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/precon/">on preconditioning for iterative optimization</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>6 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2024-08-03T15:49:00-05:00">3 Aug, 2024</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2024-08-03T15:49:00-05:00">
-  <meta itemprop="dateModified" content="2024-08-03T15:49:00-05:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="exploring-compressed-sensing-fmri-time-series">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/csfmri-ts/">exploring compressed sensing fMRI time series</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>4 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2022-05-31T13:26:14-05:00">31 May, 2022</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2022-05-31T13:26:14-05:00">
-  <meta itemprop="dateModified" content="2022-05-31T13:26:14-05:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="autonomous-motion-planning-for-an-nvidia-jetbot">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/jetbot-motion-planning/">autonomous motion planning for an NVIDIA JetBot</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>6 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2021-12-08T19:05:08-06:00">8 Dec, 2021</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-12-08T19:05:08-06:00">
-  <meta itemprop="dateModified" content="2021-12-08T19:05:08-06:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-linear-complementarity-problems">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/lcp/">on linear complementarity problems</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>6 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2021-11-24T11:06:11-06:00">24 Nov, 2021</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-11-24T11:06:11-06:00">
-  <meta itemprop="dateModified" content="2021-11-24T11:06:11-06:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-fiber-tracking">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/fiber-tracking/">on fiber tracking</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>5 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2021-11-16T13:50:49-06:00">16 Nov, 2021</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are <a href="https://www.slicer.org">3D Slicer</a>, <a href="https://itk.org">ITK</a> for C++, and <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-SNAP</a>.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-11-16T13:50:49-06:00">
-  <meta itemprop="dateModified" content="2021-11-16T13:50:49-06:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="segmentation-of-kidney-stones-in-endoscopic-video-feeds">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/stone-anno/">segmentation of kidney stones in endoscopic video feeds</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>8 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2021-11-07T20:39:01-06:00">7 Nov, 2021</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">StoneAnno is my first published first-authorship paper, <strong>presenting at SPIE 2022</strong>. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves <strong>&gt;0.9 Dice score</strong>, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an <strong>R21 grant</strong> in October 2021.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-11-07T20:39:01-06:00">
-  <meta itemprop="dateModified" content="2021-11-07T20:39:01-06:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="cortical-surface-analysis-in-huntingtons-disease-using-linear-mixed-models">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/cortical-surface-analysis/">cortical surface analysis in Huntington&#39;s disease using linear-mixed models</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>8 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2021-09-14T10:38:19-05:00">14 Sep, 2021</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">Although it will be published after <a href="/projects/stone-anno">StoneAnno</a>, this shape analysis is my first completed research project and technically my first first-authorship, <strong>submitted to <i>Brain</i></strong>. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, <strong>LGI uniquely detects changes in the insula.</strong></div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-09-14T10:38:19-05:00">
-  <meta itemprop="dateModified" content="2021-09-14T10:38:19-05:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-hendiadys--hendiatris">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/hendiadys/">on hendiadys &amp; hendiatris</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>4 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2021-07-11T14:43:05-05:00">11 Jul, 2021</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">subtle, pithy, and mighty</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-07-11T14:43:05-05:00">
-  <meta itemprop="dateModified" content="2021-07-11T14:43:05-05:00">
-  
-</article>
-
-
-  
-    
-
-
-
-
-<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="how-to-host-a-hugo-after-dark-site-on-github-pages-a-saga">
-  <header>
-    <h1 itemprop="name">
-      :: <a href="/notes/github-after-dark/">how to host a Hugo After Dark site on GitHub Pages: a saga</a>
-    </h1>
-      <p class="muted">
-  <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <circle cx="16" cy="16" r="14" />
-    <path d="M16 8 L16 16 20 20" />
-  </svg>
-  <span>5 minute read</span>
-  <svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-    <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-  </svg>
-  
-  Published: <time datetime=" 2021-07-09T23:36:07-05:00">9 Jul, 2021</time>
-  
-
-</p>
-    
-  </header>
-  <div itemprop="">From knowing very little about webdev to a very small amount more, all in one place! The <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo hosting docs</a> and <a href="https://vhs.codeberg.page/after-dark/">After Dark</a> tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</div>
-  <meta itemprop="inLanguage" content="en-US">
-  <meta itemprop="datePublished" content="2021-07-09T23:36:07-05:00">
-  <meta itemprop="dateModified" content="2021-07-09T23:36:07-05:00">
-  
-</article>
-
-
-  
+    </footer>
+  </article>
 </main>
     <footer>
-  <p><nav>
-  
-  
-    <span>Page 1 of 2</span>
-  
-  
-    | <a href="/notes/page/2/">Next&nbsp;&raquo;</a>
-  
-</nav>
-</p>
   <small class="muted">
     
   
     
-      Copyright &copy; 2021 Zach Stoebner.
+      Copyright &copy; 2025 Zach Stoebner.
       
         Licensed under <a  target="_blank" rel="external noopener license" href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
       
