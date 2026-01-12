@@ -2,28 +2,28 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Portuguese on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>/tags/portuguese/</link>
+    <link>//localhost:1313/tags/portuguese/</link>
     <description>Recent content in Portuguese on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Portuguese on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>/tags/portuguese/</link>
+      <link>//localhost:1313/tags/portuguese/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 21 Dec 2025 13:31:32 UT</lastBuildDate>
-    <atom:link href="/tags/portuguese/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/portuguese/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>kū português</title>
-      <link>/kus/portugues/</link>
+      <link>//localhost:1313/kus/portugues/</link>
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/kus/portugues/</guid>
+      <guid>//localhost:1313/kus/portugues/</guid>
       <description>seja alfacinha quem for</description>
-      <category domain="/categories/haiku">Haiku</category>
-      <category domain="/categories/senryu">Senryu</category>
+      <category domain="//localhost:1313/categories/haiku">Haiku</category>
+      <category domain="//localhost:1313/categories/senryu">Senryu</category>
       <content:encoded><![CDATA[
 dia quente, raro -- surpreedente em Cascais que não atrevem nadar rare, hot day -- surprising in Cascais that they don't dare swim champô aguado passo do pente pelo cabelo e chove bate a janela watery shampoo comb passes through hair and rain batters the window ondas do Tejo relaxam-me nas costas -- ventos até inverno waves of the Tejo relax me on my back -- winds to winter ventos frios acima : metais bem empregados atrás da faixa amarela cold winds above : well-employed metals behind the yellow line fumo aqui escrito no prédio : nuvens em tudo smoke here written on the building : clouds everywhere bebo do tinto enquanto olho ao branco -- Camões vacia I drink from red while looking at white -- empty Camões porém ao ver o pássaro procura na telha cinzas but upon seeing the bird search on grey tiles táxi busca gajo taxi pick up guy café tenho de o derrotar -- a primavera já coffee I have to defeat it -- spring now medusa azul nade à casa inverno vem blue jellyfish may swim home winter comes Press play below for the "medusa azul" gif! ]]></content:encoded>
     </item>

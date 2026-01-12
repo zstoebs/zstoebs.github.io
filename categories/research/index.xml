@@ -2,27 +2,27 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Research on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>/categories/research/</link>
+    <link>//localhost:1313/categories/research/</link>
     <description>Recent content in Research on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Research on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>/categories/research/</link>
+      <link>//localhost:1313/categories/research/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 21 Dec 2025 13:31:32 UT</lastBuildDate>
-    <atom:link href="/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>segmentation of kidney stones in endoscopic video feeds</title>
-      <link>/notes/stone-anno/</link>
+      <link>//localhost:1313/notes/stone-anno/</link>
       <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/stone-anno/</guid>
+      <guid>//localhost:1313/notes/stone-anno/</guid>
       <description>StoneAnno is my first published first-authorship paper, presenting at SPIE 2022. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves &gt;0.9 Dice score, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an R21 grant in October 2021.</description>
-      <category domain="/categories/research">Research</category>
+      <category domain="//localhost:1313/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr StoneAnno is my first published first-authorship paper, presenting at SPIE 2022. My advisor, Prof. Ipek Oguz, connected me and my friend, David Lu, with Dr. Nick Kavoussi at VUMC who wanted to bring surgical endoscopy out of the dark ages. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves &gt;0.9 Dice score, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an R21 grant in October 2021. In the early stages of the project, we were also accepted for a poster presentation at the 2021 Engineering &amp; Urology Society annual meeting.
 Citation Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz &ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, Proc. SPIE 12032, Medical Imaging 2022: Image Processing, 120323G (4 April 2022); https://doi.org/10.1117/12.2613274
 [SPIE] [arXiv]
@@ -56,12 +56,12 @@ References [1] Minaee, S., Boykov, Y. Y., Porikli, F., Plaza, A. J., Kehtarnavaz
     </item>
     <item>
       <title>cortical surface analysis in Huntington&#39;s disease using linear-mixed models</title>
-      <link>/notes/cortical-surface-analysis/</link>
+      <link>//localhost:1313/notes/cortical-surface-analysis/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/cortical-surface-analysis/</guid>
+      <guid>//localhost:1313/notes/cortical-surface-analysis/</guid>
       <description>Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, submitted to Brain. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</description>
-      <category domain="/categories/research">Research</category>
+      <category domain="//localhost:1313/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, published in Human Brain Mapping. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula. Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &ndash; let&rsquo;s make them more accessible!
 Citation Stoebner, Zachary A., et al. &ldquo;Comprehensive shape analysis of the cortex in Huntington&rsquo;s disease.&rdquo; Human Brain Mapping (2022).
 https://doi.org/10.1002/hbm.26125

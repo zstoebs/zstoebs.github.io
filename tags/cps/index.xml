@@ -2,28 +2,28 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Cps on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>/tags/cps/</link>
+    <link>//localhost:1313/tags/cps/</link>
     <description>Recent content in Cps on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Cps on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>/tags/cps/</link>
+      <link>//localhost:1313/tags/cps/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Sun, 21 Dec 2025 13:31:32 UT</lastBuildDate>
-    <atom:link href="/tags/cps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>autonomous motion planning for an NVIDIA JetBot</title>
-      <link>/notes/jetbot-motion-planning/</link>
+      <link>//localhost:1313/notes/jetbot-motion-planning/</link>
       <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/jetbot-motion-planning/</guid>
+      <guid>//localhost:1313/notes/jetbot-motion-planning/</guid>
       <description>Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ tl;dr Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.
 Links repo
 report
@@ -47,12 +47,12 @@ Dirkse, Steven &amp; Ferris, Michael. (1995). The path solver: a nommonotone sta
     </item>
     <item>
       <title>on linear complementarity problems</title>
-      <link>/notes/lcp/</link>
+      <link>//localhost:1313/notes/lcp/</link>
       <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/lcp/</guid>
+      <guid>//localhost:1313/notes/lcp/</guid>
       <description>This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</description>
-      <category domain="/categories/algo">Algo</category>
+      <category domain="//localhost:1313/categories/algo">Algo</category>
       <content:encoded><![CDATA[tl;dr This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.
 Background Programming A mathematical program is an optimization (min, max) over an objective function and constraints. A linear program (LP) is one where the objective function and the constraints are all linear.
 The general LP formulation. Aside: The terms &lsquo;argmin&rsquo; and &lsquo;argmax&rsquo; are special terminology for returning the optimizing value of the argument, instead of the optimal value of the function.
@@ -89,13 +89,13 @@ Ralph. &ldquo;Global Convergence of Damped Newton&rsquo;s Method for Nonsmooth E
     </item>
     <item>
       <title>verification of a VAE &amp; SegNet using NNV</title>
-      <link>/notes/vae-segnet-verif/</link>
+      <link>//localhost:1313/notes/vae-segnet-verif/</link>
       <pubDate>Fri, 09 Jul 2021 18:51:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/vae-segnet-verif/</guid>
+      <guid>//localhost:1313/notes/vae-segnet-verif/</guid>
       <description>Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Lower bound and upper bound attacks on a generated image from a VAE. tl;dr Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.
 Links repo
 report
@@ -122,13 +122,13 @@ H. D. Tran et al., â€œStar-based reachability analysis of deep neural networks,â
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>/notes/tello-slam/</link>
+      <link>//localhost:1313/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/tello-slam/</guid>
+      <guid>//localhost:1313/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
 Links repo
 report
@@ -150,12 +150,12 @@ TelloTV TelloPython ]]></content:encoded>
     </item>
     <item>
       <title>learning about quadcopters by building one</title>
-      <link>/notes/quad-build/</link>
+      <link>//localhost:1313/notes/quad-build/</link>
       <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/quad-build/</guid>
+      <guid>//localhost:1313/notes/quad-build/</guid>
       <description>My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!</description>
-      <category domain="/categories/personal">Personal</category>
+      <category domain="//localhost:1313/categories/personal">Personal</category>
       <content:encoded><![CDATA[ My fully built quadcopter on the ground, not flying... yet. tl;dr My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!
 Motivation As much as I like software, I also like hardware. I quickly realized that pure computer science wasn&rsquo;t going to expose me to much hardware so I took it upon myself in summer 2020 &ndash; mid-quarantine &ndash; to teach myself. At the time, I was stumbling down a rabbit hole and obsessing over quadcopters, yet I had never laid my hands on one. To me at the time, building a quad from parts was as good a place to start as any.
 Cost To make the journey as painless as possible, I followed a build from a $15 Udemy course that was apparently not a moneymaker because it is no longer listed. The build that I followed was not current; the drone industry moves fast and parts will shift in and out of compatibility. You can find potentially better, much cheaper, sufficiently thorough builds on YouTube. The community is dedicated so up-to-date build guides are very likely.
