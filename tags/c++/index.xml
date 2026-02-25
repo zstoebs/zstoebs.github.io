@@ -2,27 +2,27 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>C&#43;&#43; on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/c&#43;&#43;/</link>
+    <link>/tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>C&#43;&#43; on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/c&#43;&#43;/</link>
+      <link>/tags/c&#43;&#43;/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
+    <atom:link href="/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on fiber tracking</title>
-      <link>//localhost:1313/notes/fiber-tracking/</link>
+      <link>/notes/fiber-tracking/</link>
       <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/fiber-tracking/</guid>
+      <guid>/notes/fiber-tracking/</guid>
       <description>After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C++, and ITK-SNAP.</description>
-      <category domain="//localhost:1313/categories/algo">Algo</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[tl;dr After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. A stack of open-source softwares that can be used to implement diffusion tensor tractography are 3D Slicer, ITK for C++, and ITK-SNAP.
 The diffusion tensor image used to generate all figures is publically available as sample data, DTIBrain, via 3D Slicer.
 Diffusion Tensor Imaging In a diffusion tensor image (DTI), each voxel is represented by a symmetric tensor with 6 distinct values for the speed of water diffusion, corresponding to the directions from the center of the cubic voxel to each of its faces. Without obstruction, water diffusion is uniform on average in every direction; however, in spaces that alter diffusion, the values in each of these directions are anisotropic. Anisotropic diffusion gives rise to a principal axis of diffusion where some forward and backwards direction have greater values than the rest. Hence, the tensor at the voxel can be visualized as an ellipsoid – the elastic deformation of the cube along the principal axis.

@@ -2,27 +2,27 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Hack on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/hack/</link>
+    <link>/tags/hack/</link>
     <description>Recent content in Hack on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Hack on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/hack/</link>
+      <link>/tags/hack/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
+    <atom:link href="/tags/hack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
-      <link>//localhost:1313/notes/github-after-dark/</link>
+      <link>/notes/github-after-dark/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/github-after-dark/</guid>
+      <guid>/notes/github-after-dark/</guid>
       <description>From knowing very little about webdev to a very small amount more, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
-      <category domain="//localhost:1313/categories/personal">Personal</category>
+      <category domain="/categories/personal">Personal</category>
       <content:encoded><![CDATA[tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
 Links Site source
 Generated source
@@ -44,12 +44,12 @@ Mike Dane&rsquo;s Hugo tutorial vids
     </item>
     <item>
       <title>on fast inverse square root</title>
-      <link>//localhost:1313/notes/fast-inv-sqrt/</link>
+      <link>/notes/fast-inv-sqrt/</link>
       <pubDate>Fri, 02 Jul 2021 03:46:27 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/fast-inv-sqrt/</guid>
+      <guid>/notes/fast-inv-sqrt/</guid>
       <description>I found it on YouTube and, as my friend reminded me the other night, this algorithm is not new. The fast inverse square root shook the nerd world with its implementation in Quake III (1999).</description>
-      <category domain="//localhost:1313/categories/algo">Algo</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[float Q_rsqrt( float number ) { long i; float x2, y; const float threehalfs = 1.5F; x2 = number * 0.5F; y = number; i = * ( long * ) &amp;y; // part 1 i = 0x5f3759df - ( i &gt;&gt; 1 ); // part 2 y = * ( float * ) &amp;i; y = y * ( threehalfs - ( x2 * y * y ) ); // part 3 } I found it on YouTube and, as my friend Nolan reminded me the other night, this algorithm is not new. The fast inverse square root shook the nerd world with its implementation in Quake III (1999).
 Notice that it doesn’t use any division operator which is naturally slow on a digital computer; this algorithm speeds up computation of the inverse square root by 3x compared to conventional division and square root operations. The reason for writing it in C is evident in the first part, although these tricks also have analogs in often in other languages such as C++, Python, etc. and is thus implemented in those languages as well.
 Part 1 It uses tricks inherent in the language to cast the address of float (aka a float pointer) to a long pointer. The importance of using a long is evinced in the second part because it allows for quick division by 2. Since standard binary numbers, unlike floats, are not disjointed numbers in base 2, a single right bit shift performs floor halving.

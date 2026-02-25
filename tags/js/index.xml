@@ -2,27 +2,27 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Js on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/js/</link>
+    <link>/tags/js/</link>
     <description>Recent content in Js on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Js on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/js/</link>
+      <link>/tags/js/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
+    <atom:link href="/tags/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
-      <link>//localhost:1313/notes/github-after-dark/</link>
+      <link>/notes/github-after-dark/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/github-after-dark/</guid>
+      <guid>/notes/github-after-dark/</guid>
       <description>From knowing very little about webdev to a very small amount more, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
-      <category domain="//localhost:1313/categories/personal">Personal</category>
+      <category domain="/categories/personal">Personal</category>
       <content:encoded><![CDATA[tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
 Links Site source
 Generated source
@@ -44,13 +44,13 @@ Mike Dane&rsquo;s Hugo tutorial vids
     </item>
     <item>
       <title>visualizing temporal graph networks</title>
-      <link>//localhost:1313/notes/tgn-viz/</link>
+      <link>/notes/tgn-viz/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/tgn-viz/</guid>
+      <guid>/notes/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/team">Team</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/team">Team</category>
       <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.
 Usage Clone the repo. cd viz/ python server.py Open the project notebook in Chrome. Safari will likely not work with the server. Tips:
 If the view cells aren&rsquo;t rendered, run the server endpoint cells. It&rsquo;s a big, complex viz so it may take a while to compute the full graph to a point where you can interact with the views. Links Observable

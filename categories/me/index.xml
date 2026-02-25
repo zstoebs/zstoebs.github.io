@@ -2,32 +2,32 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Me on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/categories/me/</link>
+    <link>/categories/me/</link>
     <description>Recent content in Me on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Me on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/categories/me/</link>
+      <link>/categories/me/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
+    <atom:link href="/categories/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about me</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/about/</guid>
+      <guid>/about/</guid>
       <description> &#x21BB; Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD candidate at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
 I&rsquo;m working on provably efficient, scalable, and robust algorithms for inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
-      <category domain="//localhost:1313/categories/me">Me</category>
+      <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ &#x21BB; Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD candidate at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
 I&rsquo;m working on provably efficient, scalable, and robust algorithms for inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.

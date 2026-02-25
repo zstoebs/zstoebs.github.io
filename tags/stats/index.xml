@@ -2,28 +2,28 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Stats on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/stats/</link>
+    <link>/tags/stats/</link>
     <description>Recent content in Stats on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Stats on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/stats/</link>
+      <link>/tags/stats/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 21:24:32 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/stats/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
+    <atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>exploring compressed sensing fMRI time series</title>
-      <link>//localhost:1313/notes/csfmri-ts/</link>
+      <link>/notes/csfmri-ts/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/csfmri-ts/</guid>
+      <guid>/notes/csfmri-ts/</guid>
       <description>An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Signal sensing at 30% undersampling using the BSBL-BO algorithm. `$Y_i$` corresponds to time-domain signals whereas `$x_i$` corresponds to frequency-domain signals. tl;dr An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.
 Links repo
 report
@@ -45,12 +45,12 @@ Results Summary metrics of RMSE (left) and PSNR (right) voxel time series recove
     </item>
     <item>
       <title>cortical surface analysis in Huntington&#39;s disease using linear-mixed models</title>
-      <link>//localhost:1313/notes/cortical-surface-analysis/</link>
+      <link>/notes/cortical-surface-analysis/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/cortical-surface-analysis/</guid>
+      <guid>/notes/cortical-surface-analysis/</guid>
       <description>Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, submitted to Brain. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</description>
-      <category domain="//localhost:1313/categories/research">Research</category>
+      <category domain="/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, published in Human Brain Mapping. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula. Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &ndash; let&rsquo;s make them more accessible!
 Citation Stoebner, Zachary A., et al. &ldquo;Comprehensive shape analysis of the cortex in Huntington&rsquo;s disease.&rdquo; Human Brain Mapping (2022).
 https://doi.org/10.1002/hbm.26125
@@ -104,13 +104,13 @@ Brown K. Encyclopedia of Language and Linguistics. Vol 1. Elsevier; 2005.
     </item>
     <item>
       <title>dimensionality reduction on neural data</title>
-      <link>//localhost:1313/notes/neural-dim/</link>
+      <link>/notes/neural-dim/</link>
       <pubDate>Mon, 28 Jun 2021 01:58:15 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/neural-dim/</guid>
+      <guid>/notes/neural-dim/</guid>
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ A shallow autoencoder's projection of 53-dimensional vectors to 3 dimensions. tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
 Links repo
 report
