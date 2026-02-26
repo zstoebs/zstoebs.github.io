@@ -2,25 +2,25 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Zach Stoebner on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content in Zach Stoebner on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Zach Stoebner on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/</link>
+      <link>/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>news</title>
-      <link>//localhost:1313/news/</link>
+      <link>/news/</link>
       <pubDate>Sat, 03 Aug 2024 20:26:20 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/news/</guid>
+      <guid>/news/</guid>
       <description> Jan 2026: I&rsquo;ve advanced to candidacy!
 May - Sep 2025: I interned at Adobe in the Bay Area as an AI/ML research intern for Firefly, working on structured state-space models for long-form text-to-image/video generation.
 Nov 15, 2024: I presented a poster at the 6G@UT Student Research Showcase on Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI.
@@ -50,10 +50,10 @@ Apr 4, 2022: SPIE 2022 published our paper Segmentation of kidney stones in endo
     </item>
     <item>
       <title>research</title>
-      <link>//localhost:1313/research/</link>
+      <link>/research/</link>
       <pubDate>Fri, 09 Jun 2023 22:04:52 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/research/</guid>
+      <guid>/research/</guid>
       <description>in progress &ldquo;Preconditioned monotone operator learning for high-dimensional, non-Cartesian inverse problems&rdquo;, Zachary A. Stoebner, Jon Tamir.
 &ldquo;Generative Koopman Method for Nonlinear System Identification and Signal Recovery in Computational Imaging&rdquo;, Zachary A. Stoebner, Jon Tamir.
 &ldquo;Double blind imaging with generative modeling&rdquo;, Brett Levac, Yamin Arefeen, Zachary A. Stoebner, Jon Tamir. In review for CVPR 2026.
@@ -77,35 +77,35 @@ patent &ldquo;Systems and Methods for Navigation and Identification during Endos
     </item>
     <item>
       <title>kū</title>
-      <link>//localhost:1313/kus/</link>
+      <link>/kus/</link>
       <pubDate>Wed, 29 Sep 2021 22:16:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/kus/</guid>
+      <guid>/kus/</guid>
       <description> kū is hai(k)u + senry(ū) zooming into moments where I stopped to smell the flowers panning out because life is so much more than human things All photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera. </description>
       <content:encoded><![CDATA[ kū is hai(k)u + senry(ū) zooming into moments where I stopped to smell the flowers panning out because life is so much more than human things All photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera. ]]></content:encoded>
     </item>
     <item>
       <title>notes</title>
-      <link>//localhost:1313/notes/</link>
+      <link>/notes/</link>
       <pubDate>Mon, 28 Jun 2021 04:07:53 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/</guid>
+      <guid>/notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>about me</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/about/</guid>
+      <guid>/about/</guid>
       <description> &#x21BB; Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD candidate at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
 I&rsquo;m working on provably efficient, scalable, and robust algorithms for inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.
 I&rsquo;m always open to new opportunities and collaborations within my interests. You can contact me at zstoebner@austin.utexas.edu.
 CV GitHub LinkedIn Scholar
 </description>
-      <category domain="//localhost:1313/categories/me">Me</category>
+      <category domain="/categories/me">Me</category>
       <content:encoded><![CDATA[ &#x21BB; Hi, I&rsquo;m Zach.
 I&rsquo;m an Electrical &amp; Computer Engineering PhD candidate at UT Austin working with Prof. Jon Tamir in the Computational Sensing &amp; Imaging Lab.
 I&rsquo;m working on provably efficient, scalable, and robust algorithms for inverse problems. Generally, I&rsquo;m curious about AI/ML, signal processing, optimization, probability, statistics, and control.

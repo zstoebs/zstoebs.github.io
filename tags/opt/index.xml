@@ -2,45 +2,45 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Opt on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/opt/</link>
+    <link>/tags/opt/</link>
     <description>Recent content in Opt on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Opt on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/opt/</link>
+      <link>/tags/opt/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/opt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/tags/opt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on Lipschitzness, monotonicity, and cocoercivity</title>
-      <link>//localhost:1313/notes/lip-mon-coc/</link>
+      <link>/notes/lip-mon-coc/</link>
       <pubDate>Thu, 26 Feb 2026 22:17:45 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/lip-mon-coc/</guid>
+      <guid>/notes/lip-mon-coc/</guid>
       <description>Lipschitzness, monotonocity, and cocoercivity are prominent operator properties involved in an algorithm&rsquo;s behavior, but their relationship to each other and what they intuitively mean about an operator and its geometry is typically overlooked and complicated in the literature. To develop intuition, this note explores what they mean and how they connect.</description>
       <content:encoded><![CDATA[ Open PDF
 ]]></content:encoded>
     </item>
     <item>
       <title>on univariate Chebyshev approximation</title>
-      <link>//localhost:1313/notes/chebyshev-approx/</link>
+      <link>/notes/chebyshev-approx/</link>
       <pubDate>Sun, 21 Dec 2025 13:13:58 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/chebyshev-approx/</guid>
+      <guid>/notes/chebyshev-approx/</guid>
       <description>Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, this note collects some properties and theorems for approximating univariate functions, with an example.</description>
       <content:encoded><![CDATA[ Open PDF
 ]]></content:encoded>
     </item>
     <item>
       <title>on preconditioning for iterative optimization</title>
-      <link>//localhost:1313/notes/precon/</link>
+      <link>/notes/precon/</link>
       <pubDate>Sat, 03 May 2025 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/precon/</guid>
+      <guid>/notes/precon/</guid>
       <description>Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</description>
       <content:encoded><![CDATA[Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.
 Newton method This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):
@@ -77,13 +77,13 @@ Figure 3. Convergence of vanilla conjugate gradient vs preconditioned conjugate 
     </item>
     <item>
       <title>exploring compressed sensing fMRI time series</title>
-      <link>//localhost:1313/notes/csfmri-ts/</link>
+      <link>/notes/csfmri-ts/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/csfmri-ts/</guid>
+      <guid>/notes/csfmri-ts/</guid>
       <description>An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Signal sensing at 30% undersampling using the BSBL-BO algorithm. `$Y_i$` corresponds to time-domain signals whereas `$x_i$` corresponds to frequency-domain signals. tl;dr An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.
 Links repo
 report
@@ -105,13 +105,13 @@ Results Summary metrics of RMSE (left) and PSNR (right) voxel time series recove
     </item>
     <item>
       <title>autonomous motion planning for an NVIDIA JetBot</title>
-      <link>//localhost:1313/notes/jetbot-motion-planning/</link>
+      <link>/notes/jetbot-motion-planning/</link>
       <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/jetbot-motion-planning/</guid>
+      <guid>/notes/jetbot-motion-planning/</guid>
       <description>Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ tl;dr Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.
 Links repo
 report
@@ -135,12 +135,12 @@ Dirkse, Steven &amp; Ferris, Michael. (1995). The path solver: a nommonotone sta
     </item>
     <item>
       <title>on linear complementarity problems</title>
-      <link>//localhost:1313/notes/lcp/</link>
+      <link>/notes/lcp/</link>
       <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/lcp/</guid>
+      <guid>/notes/lcp/</guid>
       <description>This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</description>
-      <category domain="//localhost:1313/categories/algo">Algo</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[tl;dr This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.
 Background Programming A mathematical program is an optimization (min, max) over an objective function and constraints. A linear program (LP) is one where the objective function and the constraints are all linear.
 The general LP formulation. Aside: The terms &lsquo;argmin&rsquo; and &lsquo;argmax&rsquo; are special terminology for returning the optimizing value of the argument, instead of the optimal value of the function.

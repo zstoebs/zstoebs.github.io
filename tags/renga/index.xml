@@ -2,28 +2,28 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Renga on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/renga/</link>
+    <link>/tags/renga/</link>
     <description>Recent content in Renga on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Renga on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/renga/</link>
+      <link>/tags/renga/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/renga/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/tags/renga/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on haiku &amp; senryū</title>
-      <link>//localhost:1313/notes/haiku-senryu/</link>
+      <link>/notes/haiku-senryu/</link>
       <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/haiku-senryu/</guid>
+      <guid>/notes/haiku-senryu/</guid>
       <description>For most of my life, I&rsquo;ve been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku &amp; senryū, often composing sequences of 23 - 31 or more on a day out. Although they&rsquo;re usually reluctant to share, the more people that I&rsquo;ve met, the more I&rsquo;ve discovered that also have this practice in one way or another. People are like onions; they have layers. If you peel back enough, you&rsquo;ll reach the heart &ndash; haiku &amp; senryū are the key to mine.</description>
-      <category domain="//localhost:1313/categories/create">Create</category>
-      <category domain="//localhost:1313/categories/poetry">Poetry</category>
+      <category domain="/categories/create">Create</category>
+      <category domain="/categories/poetry">Poetry</category>
       <content:encoded><![CDATA[For most of my life, I&rsquo;ve been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku &amp; senryū, often composing sequences of 23 - 31 or more on a day out. Although they&rsquo;re usually reluctant to share, the more people that I&rsquo;ve met, the more I&rsquo;ve discovered that also have this practice in one way or another. People are like onions; they have layers. If you peel back enough, you&rsquo;ll reach the heart &ndash; haiku &amp; senryū are the key to mine.
 4 Facts 1.) Haiku &amp; senryū do not have to follow the 5-7-5 syllable pattern.
 In Japanese, the pattern is 5-7-5 onji but onji cannot be directly translated to “syllable” and even less so to English syllables, which are much longer. Nonetheless, many poets pay homage to 5-7-5. For example:

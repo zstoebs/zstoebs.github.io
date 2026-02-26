@@ -2,340 +2,340 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Tags on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Tags on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/</link>
+      <link>/tags/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opt</title>
-      <link>//localhost:1313/tags/opt/</link>
+      <link>/tags/opt/</link>
       <pubDate>Thu, 26 Feb 2026 22:17:45 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/opt/</guid>
+      <guid>/tags/opt/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Sigproc</title>
-      <link>//localhost:1313/tags/sigproc/</link>
+      <link>/tags/sigproc/</link>
       <pubDate>Thu, 26 Feb 2026 22:17:45 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/sigproc/</guid>
+      <guid>/tags/sigproc/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Fall</title>
-      <link>//localhost:1313/tags/fall/</link>
+      <link>/tags/fall/</link>
       <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/fall/</guid>
+      <guid>/tags/fall/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Winter</title>
-      <link>//localhost:1313/tags/winter/</link>
+      <link>/tags/winter/</link>
       <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/winter/</guid>
+      <guid>/tags/winter/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Spring</title>
-      <link>//localhost:1313/tags/spring/</link>
+      <link>/tags/spring/</link>
       <pubDate>Sun, 11 May 2025 19:44:43 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/spring/</guid>
+      <guid>/tags/spring/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Summer</title>
-      <link>//localhost:1313/tags/summer/</link>
+      <link>/tags/summer/</link>
       <pubDate>Sun, 11 May 2025 19:44:43 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/summer/</guid>
+      <guid>/tags/summer/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Ml</title>
-      <link>//localhost:1313/tags/ml/</link>
+      <link>/tags/ml/</link>
       <pubDate>Sat, 03 May 2025 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/ml/</guid>
+      <guid>/tags/ml/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Python</title>
-      <link>//localhost:1313/tags/python/</link>
+      <link>/tags/python/</link>
       <pubDate>Sat, 03 May 2025 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/python/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Ai</title>
-      <link>//localhost:1313/tags/ai/</link>
+      <link>/tags/ai/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/ai/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Control</title>
-      <link>//localhost:1313/tags/control/</link>
+      <link>/tags/control/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/control/</guid>
+      <guid>/tags/control/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Stats</title>
-      <link>//localhost:1313/tags/stats/</link>
+      <link>/tags/stats/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/stats/</guid>
+      <guid>/tags/stats/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Cps</title>
-      <link>//localhost:1313/tags/cps/</link>
+      <link>/tags/cps/</link>
       <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/cps/</guid>
+      <guid>/tags/cps/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Robotics</title>
-      <link>//localhost:1313/tags/robotics/</link>
+      <link>/tags/robotics/</link>
       <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/robotics/</guid>
+      <guid>/tags/robotics/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>//localhost:1313/tags/c&#43;&#43;/</link>
+      <link>/tags/c&#43;&#43;/</link>
       <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/c&#43;&#43;/</guid>
+      <guid>/tags/c&#43;&#43;/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Neuro</title>
-      <link>//localhost:1313/tags/neuro/</link>
+      <link>/tags/neuro/</link>
       <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/neuro/</guid>
+      <guid>/tags/neuro/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Seg</title>
-      <link>//localhost:1313/tags/seg/</link>
+      <link>/tags/seg/</link>
       <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/seg/</guid>
+      <guid>/tags/seg/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Vision</title>
-      <link>//localhost:1313/tags/vision/</link>
+      <link>/tags/vision/</link>
       <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/vision/</guid>
+      <guid>/tags/vision/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Matlab</title>
-      <link>//localhost:1313/tags/matlab/</link>
+      <link>/tags/matlab/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/matlab/</guid>
+      <guid>/tags/matlab/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>R</title>
-      <link>//localhost:1313/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Hendiadys</title>
-      <link>//localhost:1313/tags/hendiadys/</link>
+      <link>/tags/hendiadys/</link>
       <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/hendiadys/</guid>
+      <guid>/tags/hendiadys/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Hendiatris</title>
-      <link>//localhost:1313/tags/hendiatris/</link>
+      <link>/tags/hendiatris/</link>
       <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/hendiatris/</guid>
+      <guid>/tags/hendiatris/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Literature</title>
-      <link>//localhost:1313/tags/literature/</link>
+      <link>/tags/literature/</link>
       <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/literature/</guid>
+      <guid>/tags/literature/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Hack</title>
-      <link>//localhost:1313/tags/hack/</link>
+      <link>/tags/hack/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/hack/</guid>
+      <guid>/tags/hack/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Html</title>
-      <link>//localhost:1313/tags/html/</link>
+      <link>/tags/html/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/html/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Hugo</title>
-      <link>//localhost:1313/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/hugo/</guid>
+      <guid>/tags/hugo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Js</title>
-      <link>//localhost:1313/tags/js/</link>
+      <link>/tags/js/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/js/</guid>
+      <guid>/tags/js/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Webdev</title>
-      <link>//localhost:1313/tags/webdev/</link>
+      <link>/tags/webdev/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/webdev/</guid>
+      <guid>/tags/webdev/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Gnn</title>
-      <link>//localhost:1313/tags/gnn/</link>
+      <link>/tags/gnn/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/gnn/</guid>
+      <guid>/tags/gnn/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Viz</title>
-      <link>//localhost:1313/tags/viz/</link>
+      <link>/tags/viz/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/viz/</guid>
+      <guid>/tags/viz/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Haiku</title>
-      <link>//localhost:1313/tags/haiku/</link>
+      <link>/tags/haiku/</link>
       <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/haiku/</guid>
+      <guid>/tags/haiku/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Renga</title>
-      <link>//localhost:1313/tags/renga/</link>
+      <link>/tags/renga/</link>
       <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/renga/</guid>
+      <guid>/tags/renga/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Senryū</title>
-      <link>//localhost:1313/tags/senry%C5%AB/</link>
+      <link>/tags/senry%C5%AB/</link>
       <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/senry%C5%AB/</guid>
+      <guid>/tags/senry%C5%AB/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Tanka</title>
-      <link>//localhost:1313/tags/tanka/</link>
+      <link>/tags/tanka/</link>
       <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/tanka/</guid>
+      <guid>/tags/tanka/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Quads</title>
-      <link>//localhost:1313/tags/quads/</link>
+      <link>/tags/quads/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/quads/</guid>
+      <guid>/tags/quads/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>C</title>
-      <link>//localhost:1313/tags/c/</link>
+      <link>/tags/c/</link>
       <pubDate>Fri, 02 Jul 2021 03:46:27 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/c/</guid>
+      <guid>/tags/c/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Portuguese</title>
-      <link>//localhost:1313/tags/portuguese/</link>
+      <link>/tags/portuguese/</link>
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/tags/portuguese/</guid>
+      <guid>/tags/portuguese/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

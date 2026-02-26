@@ -2,124 +2,124 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Categories on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Categories on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/categories/</link>
+      <link>/categories/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Haiku</title>
-      <link>//localhost:1313/categories/haiku/</link>
+      <link>/categories/haiku/</link>
       <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/haiku/</guid>
+      <guid>/categories/haiku/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Senryu</title>
-      <link>//localhost:1313/categories/senryu/</link>
+      <link>/categories/senryu/</link>
       <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/senryu/</guid>
+      <guid>/categories/senryu/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Tanka</title>
-      <link>//localhost:1313/categories/tanka/</link>
+      <link>/categories/tanka/</link>
       <pubDate>Sun, 11 May 2025 21:37:12 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/tanka/</guid>
+      <guid>/categories/tanka/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Course</title>
-      <link>//localhost:1313/categories/course/</link>
+      <link>/categories/course/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/course/</guid>
+      <guid>/categories/course/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Solo</title>
-      <link>//localhost:1313/categories/solo/</link>
+      <link>/categories/solo/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/solo/</guid>
+      <guid>/categories/solo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Algo</title>
-      <link>//localhost:1313/categories/algo/</link>
+      <link>/categories/algo/</link>
       <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/algo/</guid>
+      <guid>/categories/algo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Research</title>
-      <link>//localhost:1313/categories/research/</link>
+      <link>/categories/research/</link>
       <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/research/</guid>
+      <guid>/categories/research/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Create</title>
-      <link>//localhost:1313/categories/create/</link>
+      <link>/categories/create/</link>
       <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/create/</guid>
+      <guid>/categories/create/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Poetry</title>
-      <link>//localhost:1313/categories/poetry/</link>
+      <link>/categories/poetry/</link>
       <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/poetry/</guid>
+      <guid>/categories/poetry/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Personal</title>
-      <link>//localhost:1313/categories/personal/</link>
+      <link>/categories/personal/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/personal/</guid>
+      <guid>/categories/personal/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Team</title>
-      <link>//localhost:1313/categories/team/</link>
+      <link>/categories/team/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/team/</guid>
+      <guid>/categories/team/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Me</title>
-      <link>//localhost:1313/categories/me/</link>
+      <link>/categories/me/</link>
       <pubDate>Mon, 28 Jun 2021 00:24:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/categories/me/</guid>
+      <guid>/categories/me/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

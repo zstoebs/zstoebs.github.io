@@ -2,27 +2,27 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Webdev on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/webdev/</link>
+    <link>/tags/webdev/</link>
     <description>Recent content in Webdev on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Webdev on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/webdev/</link>
+      <link>/tags/webdev/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
-      <link>//localhost:1313/notes/github-after-dark/</link>
+      <link>/notes/github-after-dark/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/github-after-dark/</guid>
+      <guid>/notes/github-after-dark/</guid>
       <description>From knowing very little about webdev to a very small amount more, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
-      <category domain="//localhost:1313/categories/personal">Personal</category>
+      <category domain="/categories/personal">Personal</category>
       <content:encoded><![CDATA[tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
 Links Site source
 Generated source

@@ -2,28 +2,28 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Team on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/categories/team/</link>
+    <link>/categories/team/</link>
     <description>Recent content in Team on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Team on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/categories/team/</link>
+      <link>/categories/team/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/team/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/categories/team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>visualizing temporal graph networks</title>
-      <link>//localhost:1313/notes/tgn-viz/</link>
+      <link>/notes/tgn-viz/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/tgn-viz/</guid>
+      <guid>/notes/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/team">Team</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/team">Team</category>
       <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.
 Usage Clone the repo. cd viz/ python server.py Open the project notebook in Chrome. Safari will likely not work with the server. Tips:
 If the view cells aren&rsquo;t rendered, run the server endpoint cells. It&rsquo;s a big, complex viz so it may take a while to compute the full graph to a point where you can interact with the views. Links Observable

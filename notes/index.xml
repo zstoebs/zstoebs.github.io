@@ -2,45 +2,45 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>notes on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/notes/</link>
+    <link>/notes/</link>
     <description>Recent content in notes on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>notes on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/notes/</link>
+      <link>/notes/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on Lipschitzness, monotonicity, and cocoercivity</title>
-      <link>//localhost:1313/notes/lip-mon-coc/</link>
+      <link>/notes/lip-mon-coc/</link>
       <pubDate>Thu, 26 Feb 2026 22:17:45 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/lip-mon-coc/</guid>
+      <guid>/notes/lip-mon-coc/</guid>
       <description>Lipschitzness, monotonocity, and cocoercivity are prominent operator properties involved in an algorithm&rsquo;s behavior, but their relationship to each other and what they intuitively mean about an operator and its geometry is typically overlooked and complicated in the literature. To develop intuition, this note explores what they mean and how they connect.</description>
       <content:encoded><![CDATA[ Open PDF
 ]]></content:encoded>
     </item>
     <item>
       <title>on univariate Chebyshev approximation</title>
-      <link>//localhost:1313/notes/chebyshev-approx/</link>
+      <link>/notes/chebyshev-approx/</link>
       <pubDate>Sun, 21 Dec 2025 13:13:58 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/chebyshev-approx/</guid>
+      <guid>/notes/chebyshev-approx/</guid>
       <description>Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, this note collects some properties and theorems for approximating univariate functions, with an example.</description>
       <content:encoded><![CDATA[ Open PDF
 ]]></content:encoded>
     </item>
     <item>
       <title>on preconditioning for iterative optimization</title>
-      <link>//localhost:1313/notes/precon/</link>
+      <link>/notes/precon/</link>
       <pubDate>Sat, 03 May 2025 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/precon/</guid>
+      <guid>/notes/precon/</guid>
       <description>Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</description>
       <content:encoded><![CDATA[Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.
 Newton method This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):
@@ -77,13 +77,13 @@ Figure 3. Convergence of vanilla conjugate gradient vs preconditioned conjugate 
     </item>
     <item>
       <title>exploring compressed sensing fMRI time series</title>
-      <link>//localhost:1313/notes/csfmri-ts/</link>
+      <link>/notes/csfmri-ts/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/csfmri-ts/</guid>
+      <guid>/notes/csfmri-ts/</guid>
       <description>An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Signal sensing at 30% undersampling using the BSBL-BO algorithm. `$Y_i$` corresponds to time-domain signals whereas `$x_i$` corresponds to frequency-domain signals. tl;dr An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.
 Links repo
 report
@@ -105,13 +105,13 @@ Results Summary metrics of RMSE (left) and PSNR (right) voxel time series recove
     </item>
     <item>
       <title>autonomous motion planning for an NVIDIA JetBot</title>
-      <link>//localhost:1313/notes/jetbot-motion-planning/</link>
+      <link>/notes/jetbot-motion-planning/</link>
       <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/jetbot-motion-planning/</guid>
+      <guid>/notes/jetbot-motion-planning/</guid>
       <description>Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ tl;dr Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.
 Links repo
 report
@@ -135,12 +135,12 @@ Dirkse, Steven &amp; Ferris, Michael. (1995). The path solver: a nommonotone sta
     </item>
     <item>
       <title>on linear complementarity problems</title>
-      <link>//localhost:1313/notes/lcp/</link>
+      <link>/notes/lcp/</link>
       <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/lcp/</guid>
+      <guid>/notes/lcp/</guid>
       <description>This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</description>
-      <category domain="//localhost:1313/categories/algo">Algo</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[tl;dr This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.
 Background Programming A mathematical program is an optimization (min, max) over an objective function and constraints. A linear program (LP) is one where the objective function and the constraints are all linear.
 The general LP formulation. Aside: The terms &lsquo;argmin&rsquo; and &lsquo;argmax&rsquo; are special terminology for returning the optimizing value of the argument, instead of the optimal value of the function.
@@ -177,12 +177,12 @@ Ralph. &ldquo;Global Convergence of Damped Newton&rsquo;s Method for Nonsmooth E
     </item>
     <item>
       <title>on fiber tracking</title>
-      <link>//localhost:1313/notes/fiber-tracking/</link>
+      <link>/notes/fiber-tracking/</link>
       <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/fiber-tracking/</guid>
+      <guid>/notes/fiber-tracking/</guid>
       <description>After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C++, and ITK-SNAP.</description>
-      <category domain="//localhost:1313/categories/algo">Algo</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[tl;dr After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. A stack of open-source softwares that can be used to implement diffusion tensor tractography are 3D Slicer, ITK for C++, and ITK-SNAP.
 The diffusion tensor image used to generate all figures is publically available as sample data, DTIBrain, via 3D Slicer.
 Diffusion Tensor Imaging In a diffusion tensor image (DTI), each voxel is represented by a symmetric tensor with 6 distinct values for the speed of water diffusion, corresponding to the directions from the center of the cubic voxel to each of its faces. Without obstruction, water diffusion is uniform on average in every direction; however, in spaces that alter diffusion, the values in each of these directions are anisotropic. Anisotropic diffusion gives rise to a principal axis of diffusion where some forward and backwards direction have greater values than the rest. Hence, the tensor at the voxel can be visualized as an ellipsoid – the elastic deformation of the cube along the principal axis.
@@ -200,12 +200,12 @@ Views of a tractography image generated by a single seed (top) and multiple seed
     </item>
     <item>
       <title>segmentation of kidney stones in endoscopic video feeds</title>
-      <link>//localhost:1313/notes/stone-anno/</link>
+      <link>/notes/stone-anno/</link>
       <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/stone-anno/</guid>
+      <guid>/notes/stone-anno/</guid>
       <description>StoneAnno is my first published first-authorship paper, presenting at SPIE 2022. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves &gt;0.9 Dice score, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an R21 grant in October 2021.</description>
-      <category domain="//localhost:1313/categories/research">Research</category>
+      <category domain="/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr StoneAnno is my first published first-authorship paper, presenting at SPIE 2022. My advisor, Prof. Ipek Oguz, connected me and my friend, David Lu, with Dr. Nick Kavoussi at VUMC who wanted to bring surgical endoscopy out of the dark ages. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves &gt;0.9 Dice score, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an R21 grant in October 2021. In the early stages of the project, we were also accepted for a poster presentation at the 2021 Engineering &amp; Urology Society annual meeting.
 Citation Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz &ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, Proc. SPIE 12032, Medical Imaging 2022: Image Processing, 120323G (4 April 2022); https://doi.org/10.1117/12.2613274
 [SPIE] [arXiv]
@@ -239,12 +239,12 @@ References [1] Minaee, S., Boykov, Y. Y., Porikli, F., Plaza, A. J., Kehtarnavaz
     </item>
     <item>
       <title>cortical surface analysis in Huntington&#39;s disease using linear-mixed models</title>
-      <link>//localhost:1313/notes/cortical-surface-analysis/</link>
+      <link>/notes/cortical-surface-analysis/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/cortical-surface-analysis/</guid>
+      <guid>/notes/cortical-surface-analysis/</guid>
       <description>Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, submitted to Brain. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</description>
-      <category domain="//localhost:1313/categories/research">Research</category>
+      <category domain="/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, published in Human Brain Mapping. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula. Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &ndash; let&rsquo;s make them more accessible!
 Citation Stoebner, Zachary A., et al. &ldquo;Comprehensive shape analysis of the cortex in Huntington&rsquo;s disease.&rdquo; Human Brain Mapping (2022).
 https://doi.org/10.1002/hbm.26125
@@ -298,13 +298,13 @@ Brown K. Encyclopedia of Language and Linguistics. Vol 1. Elsevier; 2005.
     </item>
     <item>
       <title>on hendiadys &amp; hendiatris</title>
-      <link>//localhost:1313/notes/hendiadys/</link>
+      <link>/notes/hendiadys/</link>
       <pubDate>Sun, 11 Jul 2021 19:43:05 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/hendiadys/</guid>
+      <guid>/notes/hendiadys/</guid>
       <description>subtle, pithy, and mighty</description>
-      <category domain="//localhost:1313/categories/create">Create</category>
-      <category domain="//localhost:1313/categories/poetry">Poetry</category>
+      <category domain="/categories/create">Create</category>
+      <category domain="/categories/poetry">Poetry</category>
       <content:encoded><![CDATA[tl;dr I bet you have no idea what this is. You&rsquo;ve definitely seen one before&hellip; but you just didn&rsquo;t know it. Boo!
 To help you understand, if these tail a structure in a sentence then it: ;) ---> is, or could be formed as, a hendiadys. :'( --> could be confused as a possible hendiadys. However, if you were aware of the hendiadys, then go you! I&rsquo;m impressed. I&rsquo;ll admit that I wasn&rsquo;t aware of this technique until a a couple of years ago when I was reading On Grand Strategy by John Lewis Gaddis. Gaddis covers humanity&rsquo;s great leaders ;) &ndash; from anitquity to modernity, in chronological order, where each chapter is devoted to one leader and their strategies ;). In the chapter on Queen Elizabeth, in many of her political letters, particularly those to King Philip of Spain, her hendiadys empowered her &ndash; a virgin queen who may both save her country and leave a legacy &ndash; and &ldquo;positioned a culture against paralysis in world that was to come.&rdquo; As noted in this chapter, other masters of hendiadys include Cranmer and Shakespeare.
 &ldquo;Hendiadys&rdquo; translates literally as &ldquo;one through two&rdquo; which is easy to explain but conceals the subliminal gestalt &ndash; greater than the sum of its parts. In simpler words, it is the expression of two words, such as but not limited to an adjective and its noun, :&rsquo;( separated by a conjunction; instead of the former only modifying the latter, they stand alone but also together, augmenting each other. One of the most classic examples is &ldquo;nice and warm&rdquo; ;) in lieu of &ldquo;nicely warm.&rdquo; The two words are separate but each contributes to the other&rsquo;s meaning in context, with a cup of morning coffee for example. For me at least, the latter phrasing is far less effective than the hendiadys. If you say the two versions aloud, you may notice as well that it&rsquo;s much easier to add more dramatic inflection to the hendiadys.
@@ -326,12 +326,12 @@ Ozymandias by Percy Bysshe Shelley
     </item>
     <item>
       <title>how to host a Hugo After Dark site on GitHub Pages: a saga</title>
-      <link>//localhost:1313/notes/github-after-dark/</link>
+      <link>/notes/github-after-dark/</link>
       <pubDate>Sat, 10 Jul 2021 04:36:07 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/github-after-dark/</guid>
+      <guid>/notes/github-after-dark/</guid>
       <description>From knowing very little about webdev to a very small amount more, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.</description>
-      <category domain="//localhost:1313/categories/personal">Personal</category>
+      <category domain="/categories/personal">Personal</category>
       <content:encoded><![CDATA[tl;dr From knowing very little about webdev to the bare minimum that you need to know, all in one place! The Hugo hosting docs and After Dark tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be.
 Links Site source
 Generated source
@@ -353,13 +353,13 @@ Mike Dane&rsquo;s Hugo tutorial vids
     </item>
     <item>
       <title>verification of a VAE &amp; SegNet using NNV</title>
-      <link>//localhost:1313/notes/vae-segnet-verif/</link>
+      <link>/notes/vae-segnet-verif/</link>
       <pubDate>Fri, 09 Jul 2021 18:51:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/vae-segnet-verif/</guid>
+      <guid>/notes/vae-segnet-verif/</guid>
       <description>Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Lower bound and upper bound attacks on a generated image from a VAE. tl;dr Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.
 Links repo
 report
@@ -386,13 +386,13 @@ H. D. Tran et al., “Star-based reachability analysis of deep neural networks,�
     </item>
     <item>
       <title>visualizing temporal graph networks</title>
-      <link>//localhost:1313/notes/tgn-viz/</link>
+      <link>/notes/tgn-viz/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/tgn-viz/</guid>
+      <guid>/notes/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/team">Team</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/team">Team</category>
       <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.
 Usage Clone the repo. cd viz/ python server.py Open the project notebook in Chrome. Safari will likely not work with the server. Tips:
 If the view cells aren&rsquo;t rendered, run the server endpoint cells. It&rsquo;s a big, complex viz so it may take a while to compute the full graph to a point where you can interact with the views. Links Observable
@@ -414,13 +414,13 @@ Scax&rsquo;s Force-Directed Graph with Zooming
     </item>
     <item>
       <title>on haiku &amp; senryū</title>
-      <link>//localhost:1313/notes/haiku-senryu/</link>
+      <link>/notes/haiku-senryu/</link>
       <pubDate>Mon, 05 Jul 2021 21:54:04 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/haiku-senryu/</guid>
+      <guid>/notes/haiku-senryu/</guid>
       <description>For most of my life, I&rsquo;ve been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku &amp; senryū, often composing sequences of 23 - 31 or more on a day out. Although they&rsquo;re usually reluctant to share, the more people that I&rsquo;ve met, the more I&rsquo;ve discovered that also have this practice in one way or another. People are like onions; they have layers. If you peel back enough, you&rsquo;ll reach the heart &ndash; haiku &amp; senryū are the key to mine.</description>
-      <category domain="//localhost:1313/categories/create">Create</category>
-      <category domain="//localhost:1313/categories/poetry">Poetry</category>
+      <category domain="/categories/create">Create</category>
+      <category domain="/categories/poetry">Poetry</category>
       <content:encoded><![CDATA[For most of my life, I&rsquo;ve been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku &amp; senryū, often composing sequences of 23 - 31 or more on a day out. Although they&rsquo;re usually reluctant to share, the more people that I&rsquo;ve met, the more I&rsquo;ve discovered that also have this practice in one way or another. People are like onions; they have layers. If you peel back enough, you&rsquo;ll reach the heart &ndash; haiku &amp; senryū are the key to mine.
 4 Facts 1.) Haiku &amp; senryū do not have to follow the 5-7-5 syllable pattern.
 In Japanese, the pattern is 5-7-5 onji but onji cannot be directly translated to “syllable” and even less so to English syllables, which are much longer. Nonetheless, many poets pay homage to 5-7-5. For example:
@@ -441,13 +441,13 @@ History Matsuo Basho is considered the first haiku master The term &ldquo;haiku&
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>//localhost:1313/notes/tello-slam/</link>
+      <link>/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/tello-slam/</guid>
+      <guid>/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
 Links repo
 report
@@ -469,12 +469,12 @@ TelloTV TelloPython ]]></content:encoded>
     </item>
     <item>
       <title>on fast inverse square root</title>
-      <link>//localhost:1313/notes/fast-inv-sqrt/</link>
+      <link>/notes/fast-inv-sqrt/</link>
       <pubDate>Fri, 02 Jul 2021 03:46:27 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/fast-inv-sqrt/</guid>
+      <guid>/notes/fast-inv-sqrt/</guid>
       <description>I found it on YouTube and, as my friend reminded me the other night, this algorithm is not new. The fast inverse square root shook the nerd world with its implementation in Quake III (1999).</description>
-      <category domain="//localhost:1313/categories/algo">Algo</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[float Q_rsqrt( float number ) { long i; float x2, y; const float threehalfs = 1.5F; x2 = number * 0.5F; y = number; i = * ( long * ) &amp;y; // part 1 i = 0x5f3759df - ( i &gt;&gt; 1 ); // part 2 y = * ( float * ) &amp;i; y = y * ( threehalfs - ( x2 * y * y ) ); // part 3 } I found it on YouTube and, as my friend Nolan reminded me the other night, this algorithm is not new. The fast inverse square root shook the nerd world with its implementation in Quake III (1999).
 Notice that it doesn’t use any division operator which is naturally slow on a digital computer; this algorithm speeds up computation of the inverse square root by 3x compared to conventional division and square root operations. The reason for writing it in C is evident in the first part, although these tricks also have analogs in often in other languages such as C++, Python, etc. and is thus implemented in those languages as well.
 Part 1 It uses tricks inherent in the language to cast the address of float (aka a float pointer) to a long pointer. The importance of using a long is evinced in the second part because it allows for quick division by 2. Since standard binary numbers, unlike floats, are not disjointed numbers in base 2, a single right bit shift performs floor halving.
@@ -487,12 +487,12 @@ A useful reference for a function derivative. Since the ratio of the shifts time
     </item>
     <item>
       <title>learning about quadcopters by building one</title>
-      <link>//localhost:1313/notes/quad-build/</link>
+      <link>/notes/quad-build/</link>
       <pubDate>Thu, 01 Jul 2021 21:57:10 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/quad-build/</guid>
+      <guid>/notes/quad-build/</guid>
       <description>My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!</description>
-      <category domain="//localhost:1313/categories/personal">Personal</category>
+      <category domain="/categories/personal">Personal</category>
       <content:encoded><![CDATA[ My fully built quadcopter on the ground, not flying... yet. tl;dr My introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and more recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my Tello face following and vSLAM project!
 Motivation As much as I like software, I also like hardware. I quickly realized that pure computer science wasn&rsquo;t going to expose me to much hardware so I took it upon myself in summer 2020 &ndash; mid-quarantine &ndash; to teach myself. At the time, I was stumbling down a rabbit hole and obsessing over quadcopters, yet I had never laid my hands on one. To me at the time, building a quad from parts was as good a place to start as any.
 Cost To make the journey as painless as possible, I followed a build from a $15 Udemy course that was apparently not a moneymaker because it is no longer listed. The build that I followed was not current; the drone industry moves fast and parts will shift in and out of compatibility. You can find potentially better, much cheaper, sufficiently thorough builds on YouTube. The community is dedicated so up-to-date build guides are very likely.
@@ -533,13 +533,13 @@ References Caleb Bergquist, instructor of the long lost Udemy course Joshua Bard
     </item>
     <item>
       <title>dimensionality reduction on neural data</title>
-      <link>//localhost:1313/notes/neural-dim/</link>
+      <link>/notes/neural-dim/</link>
       <pubDate>Mon, 28 Jun 2021 01:58:15 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/neural-dim/</guid>
+      <guid>/notes/neural-dim/</guid>
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ A shallow autoencoder's projection of 53-dimensional vectors to 3 dimensions. tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
 Links repo
 report

@@ -2,45 +2,45 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Sigproc on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>//localhost:1313/tags/sigproc/</link>
+    <link>/tags/sigproc/</link>
     <description>Recent content in Sigproc on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Sigproc on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>//localhost:1313/tags/sigproc/</link>
+      <link>/tags/sigproc/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/sigproc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 23:18:56 UT</lastBuildDate>
+    <atom:link href="/tags/sigproc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on Lipschitzness, monotonicity, and cocoercivity</title>
-      <link>//localhost:1313/notes/lip-mon-coc/</link>
+      <link>/notes/lip-mon-coc/</link>
       <pubDate>Thu, 26 Feb 2026 22:17:45 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/lip-mon-coc/</guid>
+      <guid>/notes/lip-mon-coc/</guid>
       <description>Lipschitzness, monotonocity, and cocoercivity are prominent operator properties involved in an algorithm&rsquo;s behavior, but their relationship to each other and what they intuitively mean about an operator and its geometry is typically overlooked and complicated in the literature. To develop intuition, this note explores what they mean and how they connect.</description>
       <content:encoded><![CDATA[ Open PDF
 ]]></content:encoded>
     </item>
     <item>
       <title>on univariate Chebyshev approximation</title>
-      <link>//localhost:1313/notes/chebyshev-approx/</link>
+      <link>/notes/chebyshev-approx/</link>
       <pubDate>Sun, 21 Dec 2025 13:13:58 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/chebyshev-approx/</guid>
+      <guid>/notes/chebyshev-approx/</guid>
       <description>Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, this note collects some properties and theorems for approximating univariate functions, with an example.</description>
       <content:encoded><![CDATA[ Open PDF
 ]]></content:encoded>
     </item>
     <item>
       <title>on preconditioning for iterative optimization</title>
-      <link>//localhost:1313/notes/precon/</link>
+      <link>/notes/precon/</link>
       <pubDate>Sat, 03 May 2025 20:49:00 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/precon/</guid>
+      <guid>/notes/precon/</guid>
       <description>Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</description>
       <content:encoded><![CDATA[Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.
 Newton method This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):
@@ -77,13 +77,13 @@ Figure 3. Convergence of vanilla conjugate gradient vs preconditioned conjugate 
     </item>
     <item>
       <title>exploring compressed sensing fMRI time series</title>
-      <link>//localhost:1313/notes/csfmri-ts/</link>
+      <link>/notes/csfmri-ts/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/csfmri-ts/</guid>
+      <guid>/notes/csfmri-ts/</guid>
       <description>An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Signal sensing at 30% undersampling using the BSBL-BO algorithm. `$Y_i$` corresponds to time-domain signals whereas `$x_i$` corresponds to frequency-domain signals. tl;dr An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.
 Links repo
 report
@@ -105,12 +105,12 @@ Results Summary metrics of RMSE (left) and PSNR (right) voxel time series recove
     </item>
     <item>
       <title>on fiber tracking</title>
-      <link>//localhost:1313/notes/fiber-tracking/</link>
+      <link>/notes/fiber-tracking/</link>
       <pubDate>Tue, 16 Nov 2021 19:50:49 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/fiber-tracking/</guid>
+      <guid>/notes/fiber-tracking/</guid>
       <description>After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C++, and ITK-SNAP.</description>
-      <category domain="//localhost:1313/categories/algo">Algo</category>
+      <category domain="/categories/algo">Algo</category>
       <content:encoded><![CDATA[tl;dr After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. A stack of open-source softwares that can be used to implement diffusion tensor tractography are 3D Slicer, ITK for C++, and ITK-SNAP.
 The diffusion tensor image used to generate all figures is publically available as sample data, DTIBrain, via 3D Slicer.
 Diffusion Tensor Imaging In a diffusion tensor image (DTI), each voxel is represented by a symmetric tensor with 6 distinct values for the speed of water diffusion, corresponding to the directions from the center of the cubic voxel to each of its faces. Without obstruction, water diffusion is uniform on average in every direction; however, in spaces that alter diffusion, the values in each of these directions are anisotropic. Anisotropic diffusion gives rise to a principal axis of diffusion where some forward and backwards direction have greater values than the rest. Hence, the tensor at the voxel can be visualized as an ellipsoid – the elastic deformation of the cube along the principal axis.
@@ -128,12 +128,12 @@ Views of a tractography image generated by a single seed (top) and multiple seed
     </item>
     <item>
       <title>segmentation of kidney stones in endoscopic video feeds</title>
-      <link>//localhost:1313/notes/stone-anno/</link>
+      <link>/notes/stone-anno/</link>
       <pubDate>Mon, 08 Nov 2021 02:39:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/stone-anno/</guid>
+      <guid>/notes/stone-anno/</guid>
       <description>StoneAnno is my first published first-authorship paper, presenting at SPIE 2022. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves &gt;0.9 Dice score, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an R21 grant in October 2021.</description>
-      <category domain="//localhost:1313/categories/research">Research</category>
+      <category domain="/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr StoneAnno is my first published first-authorship paper, presenting at SPIE 2022. My advisor, Prof. Ipek Oguz, connected me and my friend, David Lu, with Dr. Nick Kavoussi at VUMC who wanted to bring surgical endoscopy out of the dark ages. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves &gt;0.9 Dice score, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an R21 grant in October 2021. In the early stages of the project, we were also accepted for a poster presentation at the 2021 Engineering &amp; Urology Society annual meeting.
 Citation Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz &ldquo;Segmentation of kidney stones in endoscopic video feeds&rdquo;, Proc. SPIE 12032, Medical Imaging 2022: Image Processing, 120323G (4 April 2022); https://doi.org/10.1117/12.2613274
 [SPIE] [arXiv]
@@ -167,13 +167,13 @@ References [1] Minaee, S., Boykov, Y. Y., Porikli, F., Plaza, A. J., Kehtarnavaz
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>//localhost:1313/notes/tello-slam/</link>
+      <link>/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/tello-slam/</guid>
+      <guid>/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
 Links repo
 report
@@ -195,13 +195,13 @@ TelloTV TelloPython ]]></content:encoded>
     </item>
     <item>
       <title>dimensionality reduction on neural data</title>
-      <link>//localhost:1313/notes/neural-dim/</link>
+      <link>/notes/neural-dim/</link>
       <pubDate>Mon, 28 Jun 2021 01:58:15 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>//localhost:1313/notes/neural-dim/</guid>
+      <guid>/notes/neural-dim/</guid>
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
-      <category domain="//localhost:1313/categories/course">Course</category>
-      <category domain="//localhost:1313/categories/solo">Solo</category>
+      <category domain="/categories/course">Course</category>
+      <category domain="/categories/solo">Solo</category>
       <content:encoded><![CDATA[ A shallow autoencoder's projection of 53-dimensional vectors to 3 dimensions. tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
 Links repo
 report
