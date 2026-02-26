@@ -2,28 +2,28 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Course on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>/categories/course/</link>
+    <link>//localhost:1313/categories/course/</link>
     <description>Recent content in Course on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Course on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>/categories/course/</link>
+      <link>//localhost:1313/categories/course/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
-    <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/course/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>exploring compressed sensing fMRI time series</title>
-      <link>/notes/csfmri-ts/</link>
+      <link>//localhost:1313/notes/csfmri-ts/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/csfmri-ts/</guid>
+      <guid>//localhost:1313/notes/csfmri-ts/</guid>
       <description>An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Signal sensing at 30% undersampling using the BSBL-BO algorithm. `$Y_i$` corresponds to time-domain signals whereas `$x_i$` corresponds to frequency-domain signals. tl;dr An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.
 Links repo
 report
@@ -45,13 +45,13 @@ Results Summary metrics of RMSE (left) and PSNR (right) voxel time series recove
     </item>
     <item>
       <title>autonomous motion planning for an NVIDIA JetBot</title>
-      <link>/notes/jetbot-motion-planning/</link>
+      <link>//localhost:1313/notes/jetbot-motion-planning/</link>
       <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/jetbot-motion-planning/</guid>
+      <guid>//localhost:1313/notes/jetbot-motion-planning/</guid>
       <description>Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ tl;dr Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.
 Links repo
 report
@@ -75,13 +75,13 @@ Dirkse, Steven &amp; Ferris, Michael. (1995). The path solver: a nommonotone sta
     </item>
     <item>
       <title>verification of a VAE &amp; SegNet using NNV</title>
-      <link>/notes/vae-segnet-verif/</link>
+      <link>//localhost:1313/notes/vae-segnet-verif/</link>
       <pubDate>Fri, 09 Jul 2021 18:51:01 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/vae-segnet-verif/</guid>
+      <guid>//localhost:1313/notes/vae-segnet-verif/</guid>
       <description>Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Lower bound and upper bound attacks on a generated image from a VAE. tl;dr Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.
 Links repo
 report
@@ -108,13 +108,13 @@ H. D. Tran et al., â€œStar-based reachability analysis of deep neural networks,â
     </item>
     <item>
       <title>visualizing temporal graph networks</title>
-      <link>/notes/tgn-viz/</link>
+      <link>//localhost:1313/notes/tgn-viz/</link>
       <pubDate>Fri, 09 Jul 2021 18:28:40 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/tgn-viz/</guid>
+      <guid>//localhost:1313/notes/tgn-viz/</guid>
       <description>Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/team">Team</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/team">Team</category>
       <content:encoded><![CDATA[tl;dr Visualizing the resulting link prediction graph from a temporal graph network on a Wikipedia dataset using Observable and d3.js.
 Usage Clone the repo. cd viz/ python server.py Open the project notebook in Chrome. Safari will likely not work with the server. Tips:
 If the view cells aren&rsquo;t rendered, run the server endpoint cells. It&rsquo;s a big, complex viz so it may take a while to compute the full graph to a point where you can interact with the views. Links Observable
@@ -136,13 +136,13 @@ Scax&rsquo;s Force-Directed Graph with Zooming
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>/notes/tello-slam/</link>
+      <link>//localhost:1313/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/tello-slam/</guid>
+      <guid>//localhost:1313/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
 Links repo
 report
@@ -164,13 +164,13 @@ TelloTV TelloPython ]]></content:encoded>
     </item>
     <item>
       <title>dimensionality reduction on neural data</title>
-      <link>/notes/neural-dim/</link>
+      <link>//localhost:1313/notes/neural-dim/</link>
       <pubDate>Mon, 28 Jun 2021 01:58:15 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/neural-dim/</guid>
+      <guid>//localhost:1313/notes/neural-dim/</guid>
       <description>I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ A shallow autoencoder's projection of 53-dimensional vectors to 3 dimensions. tl;dr I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.
 Links repo
 report

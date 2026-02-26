@@ -2,28 +2,28 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Control on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>/tags/control/</link>
+    <link>//localhost:1313/tags/control/</link>
     <description>Recent content in Control on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>Control on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>/tags/control/</link>
+      <link>//localhost:1313/tags/control/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
-    <atom:link href="/tags/control/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>exploring compressed sensing fMRI time series</title>
-      <link>/notes/csfmri-ts/</link>
+      <link>//localhost:1313/notes/csfmri-ts/</link>
       <pubDate>Tue, 31 May 2022 18:26:14 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/csfmri-ts/</guid>
+      <guid>//localhost:1313/notes/csfmri-ts/</guid>
       <description>An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ Signal sensing at 30% undersampling using the BSBL-BO algorithm. `$Y_i$` corresponds to time-domain signals whereas `$x_i$` corresponds to frequency-domain signals. tl;dr An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling.
 Links repo
 report
@@ -45,13 +45,13 @@ Results Summary metrics of RMSE (left) and PSNR (right) voxel time series recove
     </item>
     <item>
       <title>autonomous motion planning for an NVIDIA JetBot</title>
-      <link>/notes/jetbot-motion-planning/</link>
+      <link>//localhost:1313/notes/jetbot-motion-planning/</link>
       <pubDate>Thu, 09 Dec 2021 01:05:08 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/jetbot-motion-planning/</guid>
+      <guid>//localhost:1313/notes/jetbot-motion-planning/</guid>
       <description>Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[ tl;dr Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain&rsquo;t exquisite but it was heading in the right direction.
 Links repo
 report
@@ -75,12 +75,12 @@ Dirkse, Steven &amp; Ferris, Michael. (1995). The path solver: a nommonotone sta
     </item>
     <item>
       <title>on linear complementarity problems</title>
-      <link>/notes/lcp/</link>
+      <link>//localhost:1313/notes/lcp/</link>
       <pubDate>Wed, 24 Nov 2021 17:06:11 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/lcp/</guid>
+      <guid>//localhost:1313/notes/lcp/</guid>
       <description>This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</description>
-      <category domain="/categories/algo">Algo</category>
+      <category domain="//localhost:1313/categories/algo">Algo</category>
       <content:encoded><![CDATA[tl;dr This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.
 Background Programming A mathematical program is an optimization (min, max) over an objective function and constraints. A linear program (LP) is one where the objective function and the constraints are all linear.
 The general LP formulation. Aside: The terms &lsquo;argmin&rsquo; and &lsquo;argmax&rsquo; are special terminology for returning the optimizing value of the argument, instead of the optimal value of the function.
@@ -117,13 +117,13 @@ Ralph. &ldquo;Global Convergence of Damped Newton&rsquo;s Method for Nonsmooth E
     </item>
     <item>
       <title>face following and vSLAM for a Tello quadcopter</title>
-      <link>/notes/tello-slam/</link>
+      <link>//localhost:1313/notes/tello-slam/</link>
       <pubDate>Fri, 02 Jul 2021 16:46:28 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/tello-slam/</guid>
+      <guid>//localhost:1313/notes/tello-slam/</guid>
       <description>Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.</description>
-      <category domain="/categories/course">Course</category>
-      <category domain="/categories/solo">Solo</category>
+      <category domain="//localhost:1313/categories/course">Course</category>
+      <category domain="//localhost:1313/categories/solo">Solo</category>
       <content:encoded><![CDATA[tl;dr Implementation of face detection / following and vSLAM on a Ryze Tello using its MATLAB toolkit.
 Links repo
 report

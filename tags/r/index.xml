@@ -2,27 +2,27 @@
   <channel>
     <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>R on Zach Stoebner | ECE PhD @ UT Austin</title>
-    <link>/tags/r/</link>
+    <link>//localhost:1313/tags/r/</link>
     <description>Recent content in R on Zach Stoebner | ECE PhD @ UT Austin</description>
     <image>
       <title>R on Zach Stoebner | ECE PhD @ UT Austin</title>
-      <link>/tags/r/</link>
+      <link>//localhost:1313/tags/r/</link>
       <url>https://source.unsplash.com/collection/983219/2000x1322</url>
     </image>
     <ttl>1440</ttl>
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 00:07:03 UT</lastBuildDate>
-    <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Feb 2026 22:40:42 UT</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cortical surface analysis in Huntington&#39;s disease using linear-mixed models</title>
-      <link>/notes/cortical-surface-analysis/</link>
+      <link>//localhost:1313/notes/cortical-surface-analysis/</link>
       <pubDate>Tue, 14 Sep 2021 15:38:19 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
-      <guid>/notes/cortical-surface-analysis/</guid>
+      <guid>//localhost:1313/notes/cortical-surface-analysis/</guid>
       <description>Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, submitted to Brain. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</description>
-      <category domain="/categories/research">Research</category>
+      <category domain="//localhost:1313/categories/research">Research</category>
       <content:encoded><![CDATA[tl;dr Although it will be published after StoneAnno, this shape analysis is my first completed research project and technically my first first-authorship, published in Human Brain Mapping. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula. Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day &ndash; let&rsquo;s make them more accessible!
 Citation Stoebner, Zachary A., et al. &ldquo;Comprehensive shape analysis of the cortex in Huntington&rsquo;s disease.&rdquo; Human Brain Mapping (2022).
 https://doi.org/10.1002/hbm.26125

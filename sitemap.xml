@@ -2,274 +2,277 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/notes/chebyshev-approx/</loc>
+    <loc>//localhost:1313/notes/lip-mon-coc/</loc>
+    <lastmod>2026-02-26T16:17:45-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/opt/</loc>
+    <lastmod>2026-02-26T16:17:45-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/sigproc/</loc>
+    <lastmod>2026-02-26T16:17:45-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2026-02-26T16:17:45-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/notes/chebyshev-approx/</loc>
     <lastmod>2025-12-21T22:13:58+09:00</lastmod>
   </url><url>
-    <loc>/tags/opt/</loc>
-    <lastmod>2025-12-21T22:13:58+09:00</lastmod>
-  </url><url>
-    <loc>/tags/sigproc/</loc>
-    <lastmod>2025-12-21T22:13:58+09:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-12-21T22:13:58+09:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2025-05-11T16:37:12-05:00</lastmod>
   </url><url>
-    <loc>/tags/fall/</loc>
+    <loc>//localhost:1313/tags/fall/</loc>
     <lastmod>2025-05-11T16:37:12-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-winter-2024-2025/</loc>
+    <loc>//localhost:1313/kus/fall-winter-2024-2025/</loc>
     <lastmod>2025-05-11T16:37:12-05:00</lastmod>
   </url><url>
-    <loc>/categories/haiku/</loc>
+    <loc>//localhost:1313/categories/haiku/</loc>
     <lastmod>2025-05-11T16:37:12-05:00</lastmod>
   </url><url>
-    <loc>/categories/senryu/</loc>
+    <loc>//localhost:1313/categories/senryu/</loc>
     <lastmod>2025-05-11T16:37:12-05:00</lastmod>
   </url><url>
-    <loc>/categories/tanka/</loc>
+    <loc>//localhost:1313/categories/tanka/</loc>
     <lastmod>2025-05-11T16:37:12-05:00</lastmod>
   </url><url>
-    <loc>/tags/winter/</loc>
+    <loc>//localhost:1313/tags/winter/</loc>
     <lastmod>2025-05-11T16:37:12-05:00</lastmod>
   </url><url>
-    <loc>/tags/spring/</loc>
+    <loc>//localhost:1313/tags/spring/</loc>
     <lastmod>2025-05-11T14:44:43-05:00</lastmod>
   </url><url>
-    <loc>/kus/spring-summer-2024/</loc>
+    <loc>//localhost:1313/kus/spring-summer-2024/</loc>
     <lastmod>2025-05-11T14:44:43-05:00</lastmod>
   </url><url>
-    <loc>/tags/summer/</loc>
+    <loc>//localhost:1313/tags/summer/</loc>
     <lastmod>2025-05-11T14:44:43-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-winter-2023-2024/</loc>
+    <loc>//localhost:1313/kus/fall-winter-2023-2024/</loc>
     <lastmod>2025-05-11T14:25:22-05:00</lastmod>
   </url><url>
-    <loc>/tags/ml/</loc>
+    <loc>//localhost:1313/tags/ml/</loc>
     <lastmod>2025-05-03T15:49:00-05:00</lastmod>
   </url><url>
-    <loc>/notes/precon/</loc>
+    <loc>//localhost:1313/notes/precon/</loc>
     <lastmod>2025-05-03T15:49:00-05:00</lastmod>
   </url><url>
-    <loc>/tags/python/</loc>
+    <loc>//localhost:1313/tags/python/</loc>
     <lastmod>2025-05-03T15:49:00-05:00</lastmod>
   </url><url>
-    <loc>/news/</loc>
+    <loc>//localhost:1313/news/</loc>
     <lastmod>2024-08-03T15:26:20-05:00</lastmod>
   </url><url>
-    <loc>/kus/spring-summer-2023/</loc>
+    <loc>//localhost:1313/kus/spring-summer-2023/</loc>
     <lastmod>2024-03-09T22:58:46-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-winter-2022-2023/</loc>
+    <loc>//localhost:1313/kus/fall-winter-2022-2023/</loc>
     <lastmod>2024-01-14T10:38:19-05:00</lastmod>
   </url><url>
-    <loc>/research/</loc>
+    <loc>//localhost:1313/research/</loc>
     <lastmod>2023-06-09T17:04:52-05:00</lastmod>
   </url><url>
-    <loc>/kus/spring-summer-2022/</loc>
+    <loc>//localhost:1313/kus/spring-summer-2022/</loc>
     <lastmod>2022-09-20T22:58:46-05:00</lastmod>
   </url><url>
-    <loc>/tags/ai/</loc>
+    <loc>//localhost:1313/tags/ai/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/tags/control/</loc>
+    <loc>//localhost:1313/tags/control/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/categories/course/</loc>
+    <loc>//localhost:1313/categories/course/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/notes/csfmri-ts/</loc>
+    <loc>//localhost:1313/notes/csfmri-ts/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/categories/solo/</loc>
+    <loc>//localhost:1313/categories/solo/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/tags/stats/</loc>
+    <loc>//localhost:1313/tags/stats/</loc>
     <lastmod>2022-05-31T13:26:14-05:00</lastmod>
   </url><url>
-    <loc>/kus/winter-2021-2022/</loc>
+    <loc>//localhost:1313/kus/winter-2021-2022/</loc>
     <lastmod>2022-03-19T23:36:13-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-2021/</loc>
+    <loc>//localhost:1313/kus/fall-2021/</loc>
     <lastmod>2022-02-23T12:17:56-06:00</lastmod>
   </url><url>
-    <loc>/notes/jetbot-motion-planning/</loc>
+    <loc>//localhost:1313/notes/jetbot-motion-planning/</loc>
     <lastmod>2021-12-08T19:05:08-06:00</lastmod>
   </url><url>
-    <loc>/tags/cps/</loc>
+    <loc>//localhost:1313/tags/cps/</loc>
     <lastmod>2021-12-08T19:05:08-06:00</lastmod>
   </url><url>
-    <loc>/tags/robotics/</loc>
+    <loc>//localhost:1313/tags/robotics/</loc>
     <lastmod>2021-12-08T19:05:08-06:00</lastmod>
   </url><url>
-    <loc>/categories/algo/</loc>
+    <loc>//localhost:1313/categories/algo/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
-    <loc>/notes/lcp/</loc>
+    <loc>//localhost:1313/notes/lcp/</loc>
     <lastmod>2021-11-24T11:06:11-06:00</lastmod>
   </url><url>
-    <loc>/tags/c&#43;&#43;/</loc>
+    <loc>//localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2021-11-16T13:50:49-06:00</lastmod>
   </url><url>
-    <loc>/tags/neuro/</loc>
+    <loc>//localhost:1313/tags/neuro/</loc>
     <lastmod>2021-11-16T13:50:49-06:00</lastmod>
   </url><url>
-    <loc>/notes/fiber-tracking/</loc>
+    <loc>//localhost:1313/notes/fiber-tracking/</loc>
     <lastmod>2021-11-16T13:50:49-06:00</lastmod>
   </url><url>
-    <loc>/categories/research/</loc>
+    <loc>//localhost:1313/categories/research/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
-    <loc>/tags/seg/</loc>
+    <loc>//localhost:1313/tags/seg/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
-    <loc>/notes/stone-anno/</loc>
+    <loc>//localhost:1313/notes/stone-anno/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
-    <loc>/tags/vision/</loc>
+    <loc>//localhost:1313/tags/vision/</loc>
     <lastmod>2021-11-07T20:39:01-06:00</lastmod>
   </url><url>
-    <loc>/kus/spring-summer-2021/</loc>
+    <loc>//localhost:1313/kus/spring-summer-2021/</loc>
     <lastmod>2021-10-13T23:07:42-05:00</lastmod>
   </url><url>
-    <loc>/kus/winter-2020-2021/</loc>
+    <loc>//localhost:1313/kus/winter-2020-2021/</loc>
     <lastmod>2021-10-13T22:49:45-05:00</lastmod>
   </url><url>
-    <loc>/kus/</loc>
+    <loc>//localhost:1313/kus/</loc>
     <lastmod>2021-09-29T17:16:11-05:00</lastmod>
   </url><url>
-    <loc>/notes/cortical-surface-analysis/</loc>
+    <loc>//localhost:1313/notes/cortical-surface-analysis/</loc>
     <lastmod>2021-09-14T10:38:19-05:00</lastmod>
   </url><url>
-    <loc>/tags/matlab/</loc>
+    <loc>//localhost:1313/tags/matlab/</loc>
     <lastmod>2021-09-14T10:38:19-05:00</lastmod>
   </url><url>
-    <loc>/tags/r/</loc>
+    <loc>//localhost:1313/tags/r/</loc>
     <lastmod>2021-09-14T10:38:19-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-2020/</loc>
+    <loc>//localhost:1313/kus/fall-2020/</loc>
     <lastmod>2021-08-14T22:24:00-05:00</lastmod>
   </url><url>
-    <loc>/kus/spring-summer-2020/</loc>
+    <loc>//localhost:1313/kus/spring-summer-2020/</loc>
     <lastmod>2021-08-13T19:05:50-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-winter-2019-2020/</loc>
+    <loc>//localhost:1313/kus/fall-winter-2019-2020/</loc>
     <lastmod>2021-07-14T10:38:19-05:00</lastmod>
   </url><url>
-    <loc>/categories/create/</loc>
+    <loc>//localhost:1313/categories/create/</loc>
     <lastmod>2021-07-11T14:43:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/hendiadys/</loc>
+    <loc>//localhost:1313/tags/hendiadys/</loc>
     <lastmod>2021-07-11T14:43:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/hendiatris/</loc>
+    <loc>//localhost:1313/tags/hendiatris/</loc>
     <lastmod>2021-07-11T14:43:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/literature/</loc>
+    <loc>//localhost:1313/tags/literature/</loc>
     <lastmod>2021-07-11T14:43:05-05:00</lastmod>
   </url><url>
-    <loc>/notes/hendiadys/</loc>
+    <loc>//localhost:1313/notes/hendiadys/</loc>
     <lastmod>2021-07-11T14:43:05-05:00</lastmod>
   </url><url>
-    <loc>/categories/poetry/</loc>
+    <loc>//localhost:1313/categories/poetry/</loc>
     <lastmod>2021-07-11T14:43:05-05:00</lastmod>
   </url><url>
-    <loc>/tags/hack/</loc>
+    <loc>//localhost:1313/tags/hack/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/notes/github-after-dark/</loc>
+    <loc>//localhost:1313/notes/github-after-dark/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/tags/html/</loc>
+    <loc>//localhost:1313/tags/html/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
+    <loc>//localhost:1313/tags/hugo/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/tags/js/</loc>
+    <loc>//localhost:1313/tags/js/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/categories/personal/</loc>
+    <loc>//localhost:1313/categories/personal/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/tags/webdev/</loc>
+    <loc>//localhost:1313/tags/webdev/</loc>
     <lastmod>2021-07-09T23:36:07-05:00</lastmod>
   </url><url>
-    <loc>/notes/vae-segnet-verif/</loc>
+    <loc>//localhost:1313/notes/vae-segnet-verif/</loc>
     <lastmod>2021-07-09T13:51:01-05:00</lastmod>
   </url><url>
-    <loc>/tags/gnn/</loc>
+    <loc>//localhost:1313/tags/gnn/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
-    <loc>/kus/spring-summer-2019/</loc>
+    <loc>//localhost:1313/kus/spring-summer-2019/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
-    <loc>/categories/team/</loc>
+    <loc>//localhost:1313/categories/team/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
-    <loc>/notes/tgn-viz/</loc>
+    <loc>//localhost:1313/notes/tgn-viz/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
-    <loc>/tags/viz/</loc>
+    <loc>//localhost:1313/tags/viz/</loc>
     <lastmod>2021-07-09T13:28:40-05:00</lastmod>
   </url><url>
-    <loc>/tags/haiku/</loc>
+    <loc>//localhost:1313/tags/haiku/</loc>
     <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/notes/haiku-senryu/</loc>
+    <loc>//localhost:1313/notes/haiku-senryu/</loc>
     <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/tags/renga/</loc>
+    <loc>//localhost:1313/tags/renga/</loc>
     <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/tags/senry%C5%AB/</loc>
+    <loc>//localhost:1313/tags/senry%C5%AB/</loc>
     <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/tags/tanka/</loc>
+    <loc>//localhost:1313/tags/tanka/</loc>
     <lastmod>2021-07-05T16:54:04-05:00</lastmod>
   </url><url>
-    <loc>/notes/tello-slam/</loc>
+    <loc>//localhost:1313/notes/tello-slam/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
-    <loc>/kus/fall-winter-2018-2019/</loc>
+    <loc>//localhost:1313/kus/fall-winter-2018-2019/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
-    <loc>/tags/quads/</loc>
+    <loc>//localhost:1313/tags/quads/</loc>
     <lastmod>2021-07-02T11:46:28-05:00</lastmod>
   </url><url>
-    <loc>/tags/c/</loc>
+    <loc>//localhost:1313/tags/c/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
-    <loc>/notes/fast-inv-sqrt/</loc>
+    <loc>//localhost:1313/notes/fast-inv-sqrt/</loc>
     <lastmod>2021-07-01T22:46:27-05:00</lastmod>
   </url><url>
-    <loc>/notes/quad-build/</loc>
+    <loc>//localhost:1313/notes/quad-build/</loc>
     <lastmod>2021-07-01T16:57:10-05:00</lastmod>
   </url><url>
-    <loc>/kus/spring-summer-2018/</loc>
+    <loc>//localhost:1313/kus/spring-summer-2018/</loc>
     <lastmod>2021-07-01T16:57:10-05:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2021-06-28T01:57:32-05:00</lastmod>
   </url><url>
-    <loc>/notes/</loc>
+    <loc>//localhost:1313/notes/</loc>
     <lastmod>2021-06-27T23:07:53-05:00</lastmod>
   </url><url>
-    <loc>/notes/neural-dim/</loc>
+    <loc>//localhost:1313/notes/neural-dim/</loc>
     <lastmod>2021-06-27T20:58:15-05:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
-    <loc>/kus/portugues/</loc>
+    <loc>//localhost:1313/kus/portugues/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
-    <loc>/categories/me/</loc>
+    <loc>//localhost:1313/categories/me/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url><url>
-    <loc>/tags/portuguese/</loc>
+    <loc>//localhost:1313/tags/portuguese/</loc>
     <lastmod>2021-06-27T19:24:19-05:00</lastmod>
   </url>
 </urlset>
