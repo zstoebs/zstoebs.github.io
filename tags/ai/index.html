@@ -117,6 +117,72 @@ fetchInject(["/js/lazysizes.min.js"]);
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
+<script>
+    (function () {
+        const canvas = document.createElement('canvas');
+        const size = 64;
+        canvas.width = size;
+        canvas.height = size;
+
+        const ctx = canvas.getContext('2d');
+        const scale = size / 400;
+        ctx.scale(scale, scale);
+
+        const centerX = 200;
+        const centerY = 200;
+        const rOrange = 160;
+        const rBlack = 91;
+        const rWhite = 35;
+
+        const now = new Date();
+        const seconds = now.getSeconds() + now.getMilliseconds() / 1000;
+        const minutes = now.getMinutes() + seconds / 60;
+
+        const angleMinutes = (minutes / 60) * 2 * Math.PI - Math.PI / 2;
+        const angleSeconds = (seconds / 60) * 2 * Math.PI - Math.PI / 2;
+
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, rOrange, 0, 2 * Math.PI);
+        ctx.fillStyle = '#BF5700';
+        ctx.fill();
+
+        const maxBlackOffset = rOrange - rBlack - 5;
+        const blackX = centerX + maxBlackOffset * Math.cos(angleMinutes);
+        const blackY = centerY + maxBlackOffset * Math.sin(angleMinutes);
+
+        ctx.beginPath();
+        ctx.arc(blackX, blackY, rBlack, 0, 2 * Math.PI);
+        ctx.fillStyle = '#000000';
+        ctx.fill();
+
+        const maxWhiteOffset = rBlack - rWhite - 5;
+        const whiteX = blackX + maxWhiteOffset * Math.cos(angleSeconds);
+        const whiteY = blackY + maxWhiteOffset * Math.sin(angleSeconds);
+
+        const goldGradient = ctx.createLinearGradient(
+            whiteX - rWhite, whiteY - rWhite,
+            whiteX + rWhite, whiteY + rWhite
+        );
+        goldGradient.addColorStop(0, '#FEEEB6');
+        goldGradient.addColorStop(0.5, '#CFAE70');
+        goldGradient.addColorStop(1, '#B49248');
+
+        ctx.beginPath();
+        ctx.arc(whiteX, whiteY, rWhite, 0, 2 * Math.PI);
+        ctx.fillStyle = goldGradient;
+        ctx.fill();
+
+        let favicon = document.querySelector('link[rel="icon"]');
+        if (!favicon) {
+            favicon = document.createElement('link');
+            favicon.rel = 'icon';
+            favicon.type = 'image/png';
+            document.head.appendChild(favicon);
+        }
+
+        favicon.href = canvas.toDataURL('image/png');
+    })();
+</script>
     
 
   
@@ -623,6 +689,86 @@ ul.thumbnail.grid li a:hover figure::after {
 
   
 </main>
+    <div class="corner-clock" aria-hidden="true">
+    <canvas id="cornerClockCanvas" width="400" height="400"></canvas>
+</div>
+
+<style>
+    .corner-clock {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        width: 72px;
+        height: 72px;
+        z-index: 1000;
+        pointer-events: none;
+    }
+
+    .corner-clock canvas {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+</style>
+
+<script>
+    (function () {
+        const canvas = document.getElementById('cornerClockCanvas');
+        if (!canvas) return;
+
+        const ctx = canvas.getContext('2d');
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+
+        const rOrange = 160;
+        const rBlack = 91;
+        const rWhite = 35;
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const now = new Date();
+            const seconds = now.getSeconds() + now.getMilliseconds() / 1000;
+            const minutes = now.getMinutes() + seconds / 60;
+
+            const angleMinutes = (minutes / 60) * 2 * Math.PI - Math.PI / 2;
+            const angleSeconds = (seconds / 60) * 2 * Math.PI - Math.PI / 2;
+
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, rOrange, 0, 2 * Math.PI);
+            ctx.fillStyle = '#BF5700';
+            ctx.fill();
+
+            const blackX = centerX + (rOrange - rBlack - 5) * Math.cos(angleMinutes);
+            const blackY = centerY + (rOrange - rBlack - 5) * Math.sin(angleMinutes);
+
+            ctx.beginPath();
+            ctx.arc(blackX, blackY, rBlack, 0, 2 * Math.PI);
+            ctx.fillStyle = '#000000';
+            ctx.fill();
+
+            const whiteX = blackX + (rBlack - rWhite - 5) * Math.cos(angleSeconds);
+            const whiteY = blackY + (rBlack - rWhite - 5) * Math.sin(angleSeconds);
+
+            const goldGradient = ctx.createLinearGradient(
+                whiteX - rWhite, whiteY - rWhite,
+                whiteX + rWhite, whiteY + rWhite
+            );
+            goldGradient.addColorStop(0, '#FEEEB6');
+            goldGradient.addColorStop(0.5, '#CFAE70');
+            goldGradient.addColorStop(1, '#B49248');
+
+            ctx.beginPath();
+            ctx.arc(whiteX, whiteY, rWhite, 0, 2 * Math.PI);
+            ctx.fillStyle = goldGradient;
+            ctx.fill();
+
+            requestAnimationFrame(draw);
+        }
+
+        requestAnimationFrame(draw);
+    })();
+</script>
     <footer>
   <p><nav>
   
