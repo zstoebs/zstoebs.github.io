@@ -360,11 +360,20 @@ ul.thumbnail.grid li a:hover figure::after {
     }
 
     @media (max-width: 600px) {
-        article > header, 
-        main > header {
-            padding-right: 88px;
+        .corner-clock {
+            position: static;
+            float: right;
+            width: 72px;
+            height: 72px;
+            margin: 0.25rem 0 0.75rem 1rem;
+            z-index: auto;
         }
-         
+
+        article > header h1,
+        main > header h1 {
+            overflow-wrap: anywhere;
+            hyphens: auto;
+        }
     }
 </style>
 
