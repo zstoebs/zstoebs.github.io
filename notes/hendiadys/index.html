@@ -369,12 +369,10 @@ ul.thumbnail.grid li a:hover figure::after {
             margin: 0;
             z-index: 1000;
         }
-
         .hack article > header h1,
         .hack main > header h1 {
-            display: block;
-            width: 100%;
-            padding-right: 88px;
+            display: inline-block;
+            max-width: calc(100% - 88px);
             white-space: normal;
             overflow-wrap: break-word;
             hyphens: auto;
@@ -382,7 +380,6 @@ ul.thumbnail.grid li a:hover figure::after {
 
         .hack article > header h1::after,
         .hack main > header h1::after {
-            right: 88px;
             overflow: hidden;
             white-space: nowrap;
         }
