@@ -360,18 +360,31 @@ ul.thumbnail.grid li a:hover figure::after {
 
     @media (max-width: 600px) {
         .corner-clock {
-            position: static;
-            float: right;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            float: none;
             width: 72px;
             height: 72px;
-            margin: 0.25rem 0 0.75rem 1rem;
-            z-index: auto;
+            margin: 0;
+            z-index: 1000;
         }
 
-        article > header h1,
-        main > header h1 {
-            overflow-wrap: anywhere;
+        .hack article > header h1,
+        .hack main > header h1 {
+            display: block;
+            width: 100%;
+            padding-right: 88px;
+            white-space: normal;
+            overflow-wrap: break-word;
             hyphens: auto;
+        }
+
+        .hack article > header h1::after,
+        .hack main > header h1::after {
+            right: 88px;
+            overflow: hidden;
+            white-space: nowrap;
         }
     }
 </style>
