@@ -13,7 +13,7 @@
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 07 Jul 2026 18:45:07 UT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 18:24:46 UT</lastBuildDate>
     <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>on preconditioning for iterative optimization</title>
@@ -23,6 +23,7 @@
       <guid>/notes/precon/</guid>
       <description>Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</description>
       <content:encoded><![CDATA[Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.
+Code can be found here.
 Newton method This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):
 A function is convex if $\forall x,y \in D(f)$:
 $$ f(y) \leq f(x) + \partial f(x)^T (y-x) $$which implies every tangent line of $f$ is below the function. Therefore, if the tangent line intercepts the domain at $y$ then:

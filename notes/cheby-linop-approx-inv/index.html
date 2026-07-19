@@ -27,22 +27,22 @@
     <meta name="generator" content="After Dark Hugo">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>on univariate Chebyshev approximation | Zach Stoebner | ECE PhD @ UT Austin</title>
-    <meta name="description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. This note collects some properties and theorems for approximating univariate functions, with an example.">
+    <title>on approximating the inverse of a linear operator with Chebyshev polynomials | Zach Stoebner | ECE PhD @ UT Austin</title>
+    <meta name="description" content="These notes outline the steps and analysis to approximating the inverse of a linear operator with Chebyshev polynomials, with an example on Tikhonov-regularized image reconstruction.">
     <meta name="keywords" content="opt, sigproc">
     
     
     
     
-    <meta property="og:url" content="/notes/chebyshev-approx/">
+    <meta property="og:url" content="/notes/cheby-linop-approx-inv/">
   <meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
-  <meta property="og:title" content="on univariate Chebyshev approximation">
-  <meta property="og:description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. This note collects some properties and theorems for approximating univariate functions, with an example.">
+  <meta property="og:title" content="on approximating the inverse of a linear operator with Chebyshev polynomials">
+  <meta property="og:description" content="These notes outline the steps and analysis to approximating the inverse of a linear operator with Chebyshev polynomials, with an example on Tikhonov-regularized image reconstruction.">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="notes">
-    <meta property="article:published_time" content="2025-12-21T22:13:58+09:00">
-    <meta property="article:modified_time" content="2025-12-21T22:13:58+09:00">
+    <meta property="article:published_time" content="2026-07-19T13:18:51-05:00">
+    <meta property="article:modified_time" content="2026-07-19T13:18:51-05:00">
     <meta property="article:tag" content="Opt">
     <meta property="article:tag" content="Sigproc">
     <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
@@ -50,8 +50,8 @@
     
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322">
-  <meta name="twitter:title" content="on univariate Chebyshev approximation">
-  <meta name="twitter:description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. This note collects some properties and theorems for approximating univariate functions, with an example.">
+  <meta name="twitter:title" content="on approximating the inverse of a linear operator with Chebyshev polynomials">
+  <meta name="twitter:description" content="These notes outline the steps and analysis to approximating the inverse of a linear operator with Chebyshev polynomials, with an example on Tikhonov-regularized image reconstruction.">
 
     
 
@@ -112,7 +112,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 
 
     
-    <link rel="canonical" href="/notes/chebyshev-approx/">
+    <link rel="canonical" href="/notes/cheby-linop-approx-inv/">
     
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -451,15 +451,15 @@ ul.thumbnail.grid li a:hover figure::after {
   
   <article itemscope itemtype="https://schema.org/BlogPosting">
     
-  <meta itemprop="name" content="on univariate Chebyshev approximation">
-  <meta itemprop="description" content="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. This note collects some properties and theorems for approximating univariate functions, with an example.">
-  <meta itemprop="datePublished" content="2025-12-21T22:13:58+09:00">
-  <meta itemprop="dateModified" content="2025-12-21T22:13:58+09:00">
+  <meta itemprop="name" content="on approximating the inverse of a linear operator with Chebyshev polynomials">
+  <meta itemprop="description" content="These notes outline the steps and analysis to approximating the inverse of a linear operator with Chebyshev polynomials, with an example on Tikhonov-regularized image reconstruction.">
+  <meta itemprop="datePublished" content="2026-07-19T13:18:51-05:00">
+  <meta itemprop="dateModified" content="2026-07-19T13:18:51-05:00">
   <meta itemprop="wordCount" content="2">
   <meta itemprop="image" content="https://source.unsplash.com/collection/983219/2000x1322">
   <meta itemprop="keywords" content="Opt,Sigproc">
     <header>
-      <h1 itemprop="headline name">on univariate Chebyshev approximation</h1>
+      <h1 itemprop="headline name">on approximating the inverse of a linear operator with Chebyshev polynomials</h1>
       <p class="muted">
         
   <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
@@ -471,7 +471,7 @@ ul.thumbnail.grid li a:hover figure::after {
     <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
   </svg>
   
-  Published: <time datetime=" 2025-12-21T22:13:58&#43;09:00">21 Dec, 2025</time>
+  Published: <time datetime=" 2026-07-19T13:18:51-05:00">19 Jul, 2026</time>
   
 
 
@@ -485,10 +485,9 @@ ul.thumbnail.grid li a:hover figure::after {
     
 
     <div itemprop="articleBody">
-      <iframe src="/doc/on_univariate_cheby_approx.pdf" width="100%" height="800" style="border:0;"></iframe>
+      <iframe src="/doc/on_cheby_approx_inv_linop.pdf" width="100%" height="800" style="border:0;"></iframe>
 <!-- fallback link -->
-<p><a href="/doc/on_univariate_cheby_approx.pdf" target="_blank" rel="noopener">Open PDF</a></p>
-
+<p><a href="/doc/on_cheby_approx_inv_linop.pdf" target="_blank" rel="noopener">Open PDF</a></p>
     </div>
     <footer>
       <hr>
@@ -499,8 +498,8 @@ ul.thumbnail.grid li a:hover figure::after {
       by <span itemprop="author">Zach Stoebner</span>
     
   
-  <time itemprop="datePublished" datetime="2025-12-21T22:13:58&#43;09:00">
-    21 Dec, 2025
+  <time itemprop="datePublished" datetime="2026-07-19T13:18:51-05:00">
+    19 Jul, 2026
   </time>
   
   
@@ -519,6 +518,12 @@ ul.thumbnail.grid li a:hover figure::after {
       
         <ul>
           
+            <li><a href="/notes/lip-mon-coc/">on Lipschitzness, monotonicity, and cocoercivity</a>
+            <time class="muted" datetime="1M">1 minutes</time>
+          
+            <li><a href="/notes/chebyshev-approx/">on univariate Chebyshev approximation</a>
+            <time class="muted" datetime="1M">1 minutes</time>
+          
             <li><a href="/notes/precon/">on preconditioning for iterative optimization</a>
             <time class="muted" datetime="6M">6 minutes</time>
           
@@ -527,12 +532,6 @@ ul.thumbnail.grid li a:hover figure::after {
           
             <li><a href="/notes/jetbot-motion-planning/">autonomous motion planning for an NVIDIA JetBot</a>
             <time class="muted" datetime="6M">6 minutes</time>
-          
-            <li><a href="/notes/lcp/">on linear complementarity problems</a>
-            <time class="muted" datetime="6M">6 minutes</time>
-          
-            <li><a href="/notes/fiber-tracking/">on fiber tracking</a>
-            <time class="muted" datetime="5M">5 minutes</time>
           
         </ul>
       
@@ -548,7 +547,7 @@ ul.thumbnail.grid li a:hover figure::after {
     
   
     
-      Copyright &copy; 2025 Zach Stoebner.
+      Copyright &copy; 2026 Zach Stoebner.
       
         Licensed under <a  target="_blank" rel="external noopener license" href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
       

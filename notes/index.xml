@@ -13,8 +13,18 @@
     <generator>After Dark 9.2.3 (Hugo 0.152.2)</generator>
     <language>en-US</language>
     <copyright>Copyright &copy; Zachary Stoebner. Licensed under CC-BY-ND-4.0.</copyright>
-    <lastBuildDate>Tue, 07 Jul 2026 18:45:07 UT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 18:24:46 UT</lastBuildDate>
     <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on approximating the inverse of a linear operator with Chebyshev polynomials</title>
+      <link>/notes/cheby-linop-approx-inv/</link>
+      <pubDate>Sun, 19 Jul 2026 18:18:51 UT</pubDate>
+      <dc:creator>Zach Stoebner</dc:creator>
+      <guid>/notes/cheby-linop-approx-inv/</guid>
+      <description>These notes outline the steps and analysis to approximating the inverse of a linear operator with Chebyshev polynomials, with an example on Tikhonov-regularized image reconstruction.</description>
+      <content:encoded><![CDATA[ Open PDF
+]]></content:encoded>
+    </item>
     <item>
       <title>on Lipschitzness, monotonicity, and cocoercivity</title>
       <link>/notes/lip-mon-coc/</link>
@@ -31,7 +41,7 @@
       <pubDate>Sun, 21 Dec 2025 13:13:58 UT</pubDate>
       <dc:creator>Zach Stoebner</dc:creator>
       <guid>/notes/chebyshev-approx/</guid>
-      <description>Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, this note collects some properties and theorems for approximating univariate functions, with an example.</description>
+      <description>Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. This note collects some properties and theorems for approximating univariate functions, with an example.</description>
       <content:encoded><![CDATA[ Open PDF
 ]]></content:encoded>
     </item>
@@ -43,6 +53,7 @@
       <guid>/notes/precon/</guid>
       <description>Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence.</description>
       <content:encoded><![CDATA[Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.
+Code can be found here.
 Newton method This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):
 A function is convex if $\forall x,y \in D(f)$:
 $$ f(y) \leq f(x) + \partial f(x)^T (y-x) $$which implies every tangent line of $f$ is below the function. Therefore, if the tangent line intercepts the domain at $y$ then:
