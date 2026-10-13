@@ -6,7 +6,7 @@
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLGDWRWCBJ"></script>
       <script>
         var doNotTrack = false;
-        if ( false ) {
+        if ( true ) {
           var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
           var doNotTrack = (dnt == "1" || dnt == "yes");
         }
@@ -35,25 +35,25 @@
     
     
     <meta property="og:url" content="/notes/fiber-tracking/">
-  <meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
-  <meta property="og:title" content="on fiber tracking">
-  <meta property="og:description" content="After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="notes">
-    <meta property="article:published_time" content="2021-11-16T13:50:49-06:00">
-    <meta property="article:modified_time" content="2021-11-16T13:50:49-06:00">
-    <meta property="article:tag" content="Neuro">
-    <meta property="article:tag" content="C&#43;&#43;">
-    <meta property="article:tag" content="Ai">
-    <meta property="article:tag" content="Sigproc">
-    <meta property="og:image" content="/notes/fiber-tracking/image/dti_axial.png">
+	<meta property="og:site_name" content="Zach Stoebner | ECE PhD @ UT Austin">
+	<meta property="og:title" content="on fiber tracking">
+	<meta property="og:description" content="After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="notes">
+		<meta property="article:published_time" content="2021-11-16T13:50:49-06:00">
+		<meta property="article:modified_time" content="2021-11-16T13:50:49-06:00">
+		<meta property="article:tag" content="Neuro">
+		<meta property="article:tag" content="C&#43;&#43;">
+		<meta property="article:tag" content="Ai">
+		<meta property="article:tag" content="Sigproc">
+		<meta property="og:image" content="/notes/fiber-tracking/image/dti_axial.png">
 
     
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="/notes/fiber-tracking/image/dti_axial.png">
-  <meta name="twitter:title" content="on fiber tracking">
-  <meta name="twitter:description" content="After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="/notes/fiber-tracking/image/dti_axial.png">
+	<meta name="twitter:title" content="on fiber tracking">
+	<meta name="twitter:description" content="After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.">
 
     
 
@@ -214,7 +214,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 * GNU Affero General Public License for more details.
 *
 * You should have received a copy of the GNU Affero General Public License
-* along with this program. If not, see <https://www.gnu.org/licenses/>.*/:root{--screen-size-small:30em}@keyframes intro{0%{opacity:0}100%{opacity:1}}.blur-up.lazyloading{filter:blur(5px);opacity:1;transition:opacity 1s,filter 1.5s}.blur-up.lazyload{opacity:0;filter:blur(10px)}.blur-up.lazyloaded{filter:blur(0);transition:filter 1s}.hack .readmore{margin-bottom:2.2em}.responsive-iframe,.ratio-container{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.responsive-iframe iframe,.ratio-container>*:not([itemprop=caption]){position:absolute;top:0;left:0;width:100%;height:100%}iframe{border:0}main,footer{animation:intro .3s both;animation-delay:.15s}header:first-of-type+details{margin:20px 0}footer time[datetime$=M]:before{content:"\2013\0020"}body>footer p.muted{margin-bottom:0}@media only screen and (max-width:768px){footer time[datetime$=M]{display:none}}blockquote cite{display:block}blockquote cite::before{content:"\2014\00A0"}:target{filter:brightness(1.2)}:disabled{cursor:not-allowed}.hack li ul{margin:0}.hack ol li{padding-left:27px}.main{padding:20px 10px}input.form-control{border-radius:0;background-color:initial;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}input.form-control,textarea.form-control,select.form-control,.help-block{font-size:initial}@media only screen and (max-width:768px){.help-block{font-size:unset}}html{font-size:13px}.hack .form input,.hack .form textarea,.hack .form button,.hack .form label{font-size:1rem}.hack .alert .highlight:first-of-type .chroma,.hack .card .highlight:first-of-type .chroma,.hack .alert pre:first-of-type,.hack .alert p:first-of-type,.hack .card pre:first-of-type,.hack .card p:first-of-type{margin-top:unset}.hack .alert .highlight:last-of-type .chroma,.hack .card .highlight:last-of-type .chroma,.hack .alert pre:last-of-type,.hack .alert p:last-of-type,.hack .card pre:last-of-type,.hack .card p:last-of-type{margin-bottom:unset}.hack blockquote,.hack blockquote:after{line-height:1.5}.hack figure,.standard figure{margin:unset}.hack figure a{border-bottom:none}.hack figure a:hover{background-color:inherit}article header img{width:100%;border-radius:3px}table td,table th{line-height:inherit}table a{border-bottom:unset}img{max-width:100%}@media only screen and (min-width:768px){html{font-size:16px}.container{max-width:50rem}}@media only screen and (min-width:768px),(-ms-high-contrast:active),(-ms-high-contrast:none){html{margin-left:calc(100vw - 100%)}}.refresh-btn{background-color:#000;border:1px solid #ff2e88;color:#ff2e88;padding:10px 20px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer;border-radius:8px;transition:background-color .3s ease}.refresh-btn:hover{background-color:#ff9800}.refresh-btn:active{background-color:#004085}/*!
+* along with this program. If not, see <https://www.gnu.org/licenses/>.*/:root{--screen-size-small:30em}@keyframes intro{0%{opacity:0}100%{opacity:1}}.blur-up.lazyloading{filter:blur(5px);opacity:1;transition:opacity 1s,filter 1.5s}.blur-up.lazyload{opacity:0;filter:blur(10px)}.blur-up.lazyloaded{filter:blur(0);transition:filter 1s}.hack .readmore{margin-bottom:2.2em}.responsive-iframe,.ratio-container{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}.responsive-iframe iframe,.ratio-container>*:not([itemprop=caption]){position:absolute;top:0;left:0;width:100%;height:100%}iframe{border:0}main,footer{animation:intro .3s both;animation-delay:.15s}header:first-of-type+details{margin:20px 0}footer time[datetime$=M]:before{content:"\2013\0020"}body>footer p.muted{margin-bottom:0}@media only screen and (max-width:768px){footer time[datetime$=M]{display:none}}blockquote cite{display:block}blockquote cite::before{content:"\2014\00A0"}:target{filter:brightness(1.2)}:disabled{cursor:not-allowed}.hack li ul{margin:0}.hack ol li{padding-left:27px}.main{padding:20px 10px}input.form-control{border-radius:0;background-color:transparent;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none}input.form-control,textarea.form-control,select.form-control,.help-block{font-size:initial}@media only screen and (max-width:768px){.help-block{font-size:unset}}html{font-size:13px}.hack .form input,.hack .form textarea,.hack .form button,.hack .form label{font-size:1rem}.hack .alert .highlight:first-of-type .chroma,.hack .card .highlight:first-of-type .chroma,.hack .alert pre:first-of-type,.hack .alert p:first-of-type,.hack .card pre:first-of-type,.hack .card p:first-of-type{margin-top:unset}.hack .alert .highlight:last-of-type .chroma,.hack .card .highlight:last-of-type .chroma,.hack .alert pre:last-of-type,.hack .alert p:last-of-type,.hack .card pre:last-of-type,.hack .card p:last-of-type{margin-bottom:unset}.hack blockquote,.hack blockquote:after{line-height:1.5}.hack figure,.standard figure{margin:unset}.hack figure a{border-bottom:none}.hack figure a:hover{background-color:inherit}article header img{width:100%;border-radius:3px}table td,table th{line-height:inherit}table a{border-bottom:unset}img{max-width:100%}@media only screen and (min-width:768px){html{font-size:16px}.container{max-width:50rem}}@media only screen and (min-width:768px),(-ms-high-contrast:active),(-ms-high-contrast:none){html{margin-left:calc(100vw - 100%)}}.refresh-btn{background-color:#000;border:1px solid #ff2e88;color:#ff2e88;padding:10px 20px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer;border-radius:8px;transition:background-color .3s ease}.refresh-btn:hover{background-color:#ff9800}.refresh-btn:active{background-color:#004085}/*!
  * Copyright (C) 2019  Josh Habdas <jhabdas@protonmail.com>
  *
  * This file is part of After Dark.
@@ -453,13 +453,13 @@ ul.thumbnail.grid li a:hover figure::after {
   
   <article itemscope itemtype="https://schema.org/BlogPosting">
     
-  <meta itemprop="name" content="on fiber tracking">
-  <meta itemprop="description" content="After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.">
-  <meta itemprop="datePublished" content="2021-11-16T13:50:49-06:00">
-  <meta itemprop="dateModified" content="2021-11-16T13:50:49-06:00">
-  <meta itemprop="wordCount" content="958">
-  <meta itemprop="image" content="/notes/fiber-tracking/image/dti_axial.png">
-  <meta itemprop="keywords" content="Neuro,C&#43;&#43;,Ai,Sigproc">
+	<meta itemprop="name" content="on fiber tracking">
+	<meta itemprop="description" content="After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are 3D Slicer, ITK for C&#43;&#43;, and ITK-SNAP.">
+	<meta itemprop="datePublished" content="2021-11-16T13:50:49-06:00">
+	<meta itemprop="dateModified" content="2021-11-16T13:50:49-06:00">
+	<meta itemprop="wordCount" content="958">
+	<meta itemprop="image" content="/notes/fiber-tracking/image/dti_axial.png">
+	<meta itemprop="keywords" content="Neuro,C&#43;&#43;,Ai,Sigproc">
     <header>
       <h1 itemprop="headline name">on fiber tracking</h1>
       <p class="muted">
@@ -508,9 +508,9 @@ ul.thumbnail.grid li a:hover figure::after {
       itemprop="thumbnailUrl"
       alt="axial slice of a diffusion tensor image"
       class="lazyload blur-up"
-      src="/notes/fiber-tracking/image/dti_axial_hu_ce505554eaaec172.png"
-      srcset="/notes/fiber-tracking/image/dti_axial_hu_b52dc22c0b7916db.png"
-      data-srcset="/notes/fiber-tracking/image/dti_axial_hu_b52dc22c0b7916db.png 300w, /notes/fiber-tracking/image/dti_axial_hu_ce505554eaaec172.png 600w, /notes/fiber-tracking/image/dti_axial_hu_7d487db25a06c0bc.png 900w, /notes/fiber-tracking/image/dti_axial_hu_ca0d274603d94873.png 1200w, /notes/fiber-tracking/image/dti_axial_hu_6fd6ac16e828eac0.png 1600w"
+      src="/notes/fiber-tracking/image/dti_axial_hu_b58316acd3130a51.png"
+      srcset="/notes/fiber-tracking/image/dti_axial_hu_3667d2bb4a504347.png"
+      data-srcset="/notes/fiber-tracking/image/dti_axial_hu_3667d2bb4a504347.png 300w, /notes/fiber-tracking/image/dti_axial_hu_b58316acd3130a51.png 600w, /notes/fiber-tracking/image/dti_axial_hu_2a0c8c755653f307.png 900w, /notes/fiber-tracking/image/dti_axial_hu_8db07eff40083604.png 1200w, /notes/fiber-tracking/image/dti_axial_hu_5de8cd060ad83d46.png 1600w"
       data-sizes="auto"
     >
     
